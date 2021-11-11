@@ -1,3 +1,5 @@
+const { TYPEKIT } = require("../../shared/config.json")
+
 function script(source) {
   return `<script src=${source} type=module crossorigin></script>`
 }
@@ -14,8 +16,6 @@ function getBaseUrl() {
 }
 
 module.exports = function Head ({title, socialUrl = 'https://2022.cascadiajs.com/images/cjs19-family.jpg', excerpt = null, scripts = []}) {
-  // load tracking/kits from env
-  const TYPEKIT = process.env.TYPEKIT
   // expand title
   title = `CascadiaJS 2022${ title ? ' - ' + title : '' }`
 

@@ -1,10 +1,10 @@
+const { GOOGLE_SITE_ID, FONTAWESOME } = require("../../shared/config.json")
+
 function script(source) {
   return `<script src=${source} async></script>`
 }
 
 module.exports = function Scripts ({ scripts = [] }) {
-  // load tracking/kits from env
-  const { GOOGLE_SITE_ID, FONTAWESOME } = process.env
   return /*html*/`
       <!-- Global site tag (gtag.js) - Google Analytics -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
