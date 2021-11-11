@@ -1,0 +1,56 @@
+[
+  {
+    "table": "speakers",
+    "key": "feross-aboukhadijeh",
+    "name": "Feross Aboukhadijeh",
+    "location": "San Francisco, CA, USA",
+    "title": "It's a Jungle Out There! – Open Source Supply Chain Attacks",
+    "abstract": "Software supply chain attacks have exploded in the past year, and open source components are increasingly used as a vector. Come hear some of the wilder stories and what you can do to protect your apps.",
+    "reveal": "2021-08-18T10:00-07:00",
+    "pixelated": "92d3b433fc6e0cf5be2f959db703f390882a4444",
+    "topics": [
+      "Security",
+      "Privacy and Trust",
+      "Developer Tools",
+      "NPM",
+      "Open Source"
+    ],
+    "pronouns": "He/Him",
+    "twitter": "feross",
+    "company": "Socket"
+  },
+  {
+    "table": "speakers",
+    "key": "brooklyn-zelenka",
+    "name": "Brooklyn Zelenka",
+    "location": "Vancouver, Canada",
+    "title": "Web3 for Fun and Profit",
+    "abstract": "Web3, blockchains, edge computing, and commons networks. They all conjure up images of Elon Musk shilling cryptocurrencies. Is that all these technologies are good for? Is there more to the hype than economics?\n\nIt can be daunting to know what to even look for, let alone get started. In this talk, Brooklyn will take you through the broad landscape of web3, the problems that they solve, and show how some of these techniques can open up new ways of solving Web 2.0 problems today.",
+    "reveal": "2022-08-18T15:00-07:00",
+    "pixelated": "f8f8edaa3423cba4701e0a962f64912c8049467e",
+    "topics": ["DWeb"],
+    "pronouns": "she/her",
+    "twitter": "expede",
+    "company": "Fission"
+  },
+  {
+    "table": "speakers",
+    "key": "otto-1",
+    "placeholder": true
+  },
+  {
+    "table": "speakers",
+    "key": "otto-2",
+    "placeholder": true
+  },
+  {
+    "table": "speakers",
+    "key": "otto-3",
+    "placeholder": true
+  },
+  {
+    "table": "speakers",
+    "key": "otto-4",
+    "placeholder": true
+  }
+]

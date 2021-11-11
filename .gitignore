@@ -1,0 +1,11 @@
+node_modules
+
+# App
+data/staging
+data/production
+public/static.json
+src/shared/static.json
+.arc-env
+.env
+.DS_Store
+prefs.arc

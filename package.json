@@ -1,11 +1,19 @@
 {
-  "name": "begin-app",
+  "name": "cascadiajs-2022",
   "version": "0.0.0",
-  "description": "A simple Begin app with the minimum necessary file structure",
+  "description": "The web app for the CascadiaJS 2022 conference",
   "scripts": {
     "start": "npx sandbox"
   },
   "devDependencies": {
-    "@architect/sandbox": "^4.0"
+    "@architect/sandbox": "^4.0",
+    "node-fetch": "^2.6.5"
+  },
+  "dependencies": {
+    "@architect/functions": "^4.0.0",
+    "@begin/data": "^3.0.0",
+    "esm": "^3.2.25",
+    "front-matter": "^4.0.2",
+    "marked": "^3.0.4"
   }
 }
