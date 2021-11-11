@@ -3,7 +3,7 @@ module.exports = function Footer () {
       <footer>
         <div class="wide">
           <section id="when-where">
-            <h2>CascadiaJS<br/>Aug 31 - Sep 1, 2022<br/>Sunriver Resort, OR</h2>
+            <h2>CascadiaJS<br/>Aug 30 - Sep 2, 2022<br/>Sunriver Resort, OR</h2>
             <a href="http://carrie.rabasa.com"><img src="/images/logo-carrie-rabasa.svg" width="150" height="48" alt="Visual Identity by Carrie Rabasa" /></a>
           </section>
           <section id="stay-connected" class="push">

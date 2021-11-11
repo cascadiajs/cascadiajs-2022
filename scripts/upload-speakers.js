@@ -8,7 +8,7 @@ async function uploadSpeakers(env, data, password) {
         url = 'http://localhost:3333'
     }
     else  {
-        url = `https://${ env === 'staging' ? 'staging.' : '' }2021.cascadiajs.com`
+        url = `https://${ env === 'staging' ? 'staging.' : '' }2022.cascadiajs.com`
     }
 
     // read the proper file
