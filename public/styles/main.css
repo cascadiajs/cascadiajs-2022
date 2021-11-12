@@ -449,7 +449,7 @@ section .cta {
     display: none;
 }
 
-#hero-video {
+#hero {
     position: relative;
 }
 
@@ -467,11 +467,11 @@ section .cta {
     -webkit-text-stroke-color: #112378;
 }
 
-#hero-video {
+#hero {
     background: linear-gradient(to bottom left, #112378 50%, #0033ff 100%);
 }
 
-#hero-video video {
+#hero video {
     width: 100%;
     height: 100%;
     mix-blend-mode: screen;

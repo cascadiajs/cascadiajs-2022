@@ -1,7 +1,7 @@
 const { GOOGLE_SITE_ID, FONTAWESOME } = require("../../shared/config.json")
 
 function script(source) {
-  return `<script src=${source} async></script>`
+  return `<script src=${source}></script>`
 }
 
 module.exports = function Scripts ({ scripts = [] }) {

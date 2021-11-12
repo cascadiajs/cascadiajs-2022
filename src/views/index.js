@@ -7,9 +7,9 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
     let content = /*html*/`
     <div id="landing">
         <section id="hero">
-            <div id="hero-video">
+            <div id="hero">
                 <div id="hero-copy">Join us Summer 2022 at Sunriver Resort in Oregon for the 10th Anniversary of CascadiaJS!</div>
-                <video autoplay loop muted><source src="https://www.sunriverresort.com/site/assets/files/1/srr_summer_60sec_v3-720.mp4" type="video/mp4"></video>
+                <video id="hero-video" preload="none" loop muted><source src="https://www.sunriverresort.com/site/assets/files/1/srr_summer_60sec_v3-720.mp4" type="video/mp4"></video>
             </div>
         </section>
         <section id="speakers" class="landing">
@@ -45,6 +45,6 @@ module.exports = async function IndexView ({ speakers }) {
     let organizersContainer = OrganizersContainer()
     let directoryContainer = DirectoryContainer({ directory })
     let content = Template({ speakersContainer, organizersContainer, directoryContainer })
-    let html = Layout({ content, title: 'Home' })
+    let html = Layout({ content, title: 'Home', scripts: ['/js/autoplay-hero.js'] })
     return { html }
 }
