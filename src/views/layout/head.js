@@ -15,7 +15,7 @@ function getBaseUrl() {
   return url
 }
 
-module.exports = function Head ({title, socialUrl = 'https://2022.cascadiajs.com/images/cjs19-family.jpg', excerpt = null, scripts = []}) {
+module.exports = function Head ({title, socialUrl = '/images/sunriver/canoes.jpg', excerpt = null, scripts = []}) {
   // expand title
   title = `CascadiaJS 2022${ title ? ' - ' + title : '' }`
 
