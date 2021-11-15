@@ -1,6 +1,6 @@
 {
   "name": "cascadiajs-2022",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The web app for the CascadiaJS 2022 conference",
   "scripts": {
     "start": "npx sandbox"
