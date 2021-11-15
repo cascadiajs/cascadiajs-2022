@@ -37,8 +37,8 @@ Tickets are released in batches. Each batch is limited in quantity, so please ma
         <tr><th>Release</th><th>Dates</th><th>Price</th></tr>
     </thead>
     <tbody>
-        <tr><td>Super Early Bird</td><td>Nov 4 - Nov 15</td><td>$500</td></tr>
-        <tr><td>Early Bird</td><td>Nov 15 - Apr 11</td><td>$600</td></tr>
+        <tr><td>Super Early Bird</td><td>Nov 4 - Dec 6</td><td>$500</td></tr>
+        <tr><td>Early Bird</td><td>Dec 6 - Apr 11</td><td>$600</td></tr>
         <tr><td>Regular Bird</td><td>Apr 11 - July 4</td><td>$750</td></tr>
         <tr><td>Late Bird *</td><td>July 4 - Aug 30</td><td>$900</td></tr>
     </tbody>
