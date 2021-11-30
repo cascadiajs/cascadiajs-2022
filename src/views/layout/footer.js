@@ -9,7 +9,7 @@ module.exports = function Footer () {
           <section id="stay-connected" class="push">
             <h2>Stay Connected</h2>
             <ul>
-              <li><a target="_blank" href="https://join.slack.com/t/cascadiajs/shared_invite/zt-rdebpq77-bBqGufxZsn24kSCyrY3ipQ">Join our Slack</a></li>
+              <li><a target="_blank" href="https://discord.gg/cascadiajs">Join our Discord</a></li>
               <li><a target="_blank" href="https://twitter.com/cascadiajs">Follow us on Twitter</a></li>
               <li><a target="_blank" href="https://github.com/cascadiajs/cascadiajs-2022/">Send us a PR on Github</a></li>
               <li><a target="_blank" href="https://www.youtube.com/user/cascadiajs">Listen to our Past Talks</a></li>
