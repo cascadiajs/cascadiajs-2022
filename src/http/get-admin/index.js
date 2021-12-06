@@ -48,16 +48,14 @@ async function authenticated(req) {
 
 function ticket(t) {
   return `<details>
-      <summary>${ t.key } ${ t.ticket } ${ t.fullName } ${ t.conference === 'Y' ? '[Conf]' : '' } ${ t.hoodie === 'Y' ? '[Hoodie]' : '' }</summary>
+      <summary>${ t.key } ${ t.release_title } ${ t.full_name }</summary>
       <form action=/ticket method=post>
         <input type=hidden name=key value="${ t.key }">
         <input type=text name=number placeholder="Number" value="${ t.number || '' }">
-        <input type=text name=ticket placeholder="Ticket Type" value="${ t.ticket || '' }">
-        <input type=text name=fullName placeholder="Full Name" value="${ t.fullName || '' }">
-        <input type=text name=conference placeholder="Conference (Y/N)" value="${ t.conference || '' }">
-        <input type=text name=hoodie placeholder="Hoodie (Y/N)" value="${ t.hoodie || '' }">
-        <input type=text name=late_hoodie placeholder="Late Hoodie (Y/N)" value="${ t.late_hoodie || '' }">
-        <input type=text name=code placeholder="Redemption Code" value="${ t.code || '' }">
+        <input type=text name=release_title placeholder="Release Title" value="${ t.release_title || '' }">
+        <input type=text name=release_slug placeholder="Release Slug" value="${ t.release_slug || '' }">
+        <input type=text name=full_name placeholder="Full Name" value="${ t.full_name || '' }">
+        <input type=text name=email placeholder="Email" value="${ t.email || '' }">
         <input type=text name=github placeholder="Github username" value="${ t.github || '' }">
         <input type=text name=avatar placeholder="Github avatar URL" value="${ t.avatar || '' }">
         <button>Save</button>
