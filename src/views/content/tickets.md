@@ -22,7 +22,7 @@ The CascadiaJS 2022 conference is taking place August 30 - September 2, 2022 at 
 
 We strongly encourage attendees to consider bringing their family and significant others. In order to make sure everyone feels as welcome as possible, we will arrange for:
 
-<i class="fas fa-horse-saddle"></i> Significant Other Track activites (Aug 31 & Sept 1)
+<i class="fas fa-horse-saddle"></i> Significant Other Track activities (Aug 31 & Sept 1)
 
 <i class="fas fa-baby"></i> Child Care (day & evening) (Aug 31 & Sept 1)
 
@@ -52,7 +52,7 @@ Conference attendees receive discounted room rates at Sunriver Resort and the 17
 
 <span class="warning highlight">NOTE: you'll see the resort fee during online checkout, but it will be waived when you check-in at the resort.</span>
 
-After your purchase your conference ticket, you'll recieve an email with a special link to access these rates.
+After your purchase your conference ticket, you'll receive an email with a special link to access these rates.
 
 <table id="ticket-info">
     <thead>
