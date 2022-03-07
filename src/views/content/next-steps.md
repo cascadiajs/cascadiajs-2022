@@ -10,4 +10,4 @@ Thanks for buying a ticket to CascadiaJS 2022. We're so excited that you're goin
 
 Note: there are only ~200 total rooms at Sunriver Resort and we expect them to get booked out very quickly.
 
-![CascadiaJS 2019 family photo](/images/cjs19-family.jpg)
+![CascadiaJS 2019 family photo](/images/past/cjs19-family.jpg)

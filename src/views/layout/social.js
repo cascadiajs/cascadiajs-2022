@@ -1,4 +1,4 @@
-module.exports = function SocialLayout ({ header, image = '/images/cjs19-family.jpg', excerpt = '' }) {
+module.exports = function SocialLayout ({ header, image = '/images/past/cjs19-family.jpg', excerpt = '' }) {
   return /*html*/`
 <!doctype html>
 <html lang=en>

@@ -16,7 +16,8 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
             <div class="wide">
               <div id="logo"><a href="/"><img src="/images/logo-green.svg" alt="logo"/></a></div>
               <div><span><a href="/">CascadiaJS 2022</a></span></div>
-              <div class="push"><a href="/tickets" class="buy">Early Bird Tickets</a></div>
+              <div class="push"><a href="/cfp">Call for Presenters</a></div>
+              <div class="spacer"><a href="/tickets" class="buy">Early Bird Tickets</a></div>
             </div>
           </nav>
         </header>

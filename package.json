@@ -3,7 +3,7 @@
   "version": "0.0.13",
   "description": "The web app for the CascadiaJS 2022 conference",
   "scripts": {
-    "start": "npx sandbox"
+    "start": "ARC_TABLES_PORT=5001 npx sandbox"
   },
   "devDependencies": {
     "@architect/sandbox": "^4.0",
