@@ -25,7 +25,7 @@ module.exports = function SocialLayout ({ header, image = '/images/past/cjs19-fa
                     </div>
                     <div id="social-event">
                           CascadiaJS<br/>
-                          Aug 31 - Sep 1, 2022<br/>
+                          Aug 30 - Sep 2, 2022<br/>
                           Sunriver Resort, OR
                     </div>
                   </div>
