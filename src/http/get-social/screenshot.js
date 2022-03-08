@@ -8,7 +8,7 @@ function getBaseUrl() {
       url = 'http://localhost:3333'
   }
   else  {
-      url = `https://${ process.env.NODE_ENV === 'staging' ? 'staging.' : '' }2021.cascadiajs.com`
+      url = `https://${ process.env.NODE_ENV === 'staging' ? 'staging.' : '' }2022.cascadiajs.com`
   }
   return url
 }
