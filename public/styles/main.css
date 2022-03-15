@@ -9,21 +9,24 @@ html, body {
 
 body {
     font-family: canada-type-gibson, sans-serif;
-    font-size: 1.125em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: ibm-plex-mono, sans-serif;
-    margin: 32px 0 16px 0;
+    font-size: 18px;
+    line-height: 1.125em;
+    background-color: #fff5cc;
     color: #112378;
 }
 
 h1 {
-    font-weight: 800
+    font-family: alkaline-caps, sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
-    font-weight: 600
+    font-family: alkaline, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 32px 0 16px 0;
+    color: #112378;
+    font-weight: 700;
 }
 
 h1 { font-size: 40px; }
@@ -59,6 +62,10 @@ i.fas {
 
 /* header styles */
 
+header #logo img {
+    height: 56px;
+}
+
 header nav {
     padding: 8px 0;
     text-align: center;
@@ -68,7 +75,7 @@ header nav {
 header>section.alert {
     background-color: #FFD007;
     padding: 8px;
-    font-family: mono45-headline, monospace;
+    font-family: alkaline-caps, monospace;
     font-weight: 500;
     color: #112378;
     text-align: center;
@@ -79,22 +86,22 @@ header>section.alert a, header>section.alert a:visited {
     color: #112378;
 }
 
-nav a, a.buy {
+nav a {
     display: inline-block;
     margin: 4px;
-    font-family: mono45-headline, monospace;
+    font-family: alkaline-caps, monospace;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     padding-right: 5px;
 }
 
 nav a, nav a:visited  {
-    color: #17C37B;
+    color: #fff5cc;
 }
 
 nav a:hover  {
-    color: #fff;
+    color: #ffcf07;
 }
 
 a.buy, a.buy:visited {
@@ -110,23 +117,24 @@ a.buy:hover {
 
 /* footer styles */
 
+
 footer {
-    color: #fff;
+    background-color: #112378;
     font-size: 14px;
     text-align: center;
     padding: 32px;
 }
 
 #when-where h2 {
-    color: #17C37B;
+    color: #ff9866;
     font-size: 32px;
+    line-height: 1.125em;
 }
 
 footer h2 {
     font-size: 16px;
-    font-family: mono45-headline, monospace;
-    font-weight: 500;
-    color: #fff;
+    font-family: alkaline-caps, sans-serif;
+    font-weight: 600;
 }
 
 footer ul {
@@ -138,8 +146,11 @@ footer li {
     margin-bottom: 8px;
 }
 
+footer, footer h2, footer a, footer a:visited {
+    color: #fff5cc;
+}
+
 footer a, footer a:visited {
-    color: #fff;
     text-decoration: none;
 }
 
@@ -169,22 +180,11 @@ footer a, footer a:visited {
 
 /* layout styles */
 
-#root {
-
-}
-
-#content {
-    background-color: #fff;
-}
-
-footer {
-   
-}
 
 /* page/content styles */
 
 #not-found {
-    font-family: ibm-plex-mono, sans-serif;
+    font-family: sans-serif;
     color: #17C37B;
     font-size: 5em;
     font-weight: 700;
@@ -192,7 +192,7 @@ footer {
 }
 
 #page .page-title {
-    background-color: #17C37B;
+    background-color: #ff9866;
 }
 
 #page .page-title div {
@@ -200,9 +200,7 @@ footer {
 }
 
 #page .page-title div h1 {
-    font-family: mono45-headline, monospace;
-    font-weight: 500;
-    color: #fff;
+    color: #112378;
     margin: 8px 0;
 }
 
@@ -227,7 +225,7 @@ th, td {
 }
 
 .cta {
-    font-family: mono45-headline, monospace;
+    font-family: alkaline-caps, sans-serif;
     background-color: #0033FF;
     border: 4px solid #0033FF;
     font-weight: 500;
@@ -246,7 +244,7 @@ span.cta {
 }
 
 .cta a, .cta a:visited {
-    color: #e6e8f5;
+    color: #fff5cc;
   	text-decoration: none;
 }
 
@@ -297,7 +295,7 @@ div.highlight {
 }
 
 .warning {
-    background-color: rgb(255, 228, 160);
+    background-color: #ffcf07;
 }
 
 .error {
@@ -316,7 +314,7 @@ div.highlight {
 }
 
 .changelog-card-date, .changelog-card-title {
-    font-family: mono45-headline, monospace;
+    font-family: alkaline-caps, sans-serif;
     line-height: 1em;
     font-size: 24px;
     margin: 0;
@@ -420,8 +418,6 @@ tr.on-sale {
 }
 
 .landing h1 {
-    font-family: mono45-headline, monospace;
-    font-weight: 500;
     font-size: 48px;
     margin: 0 0 32px 0;
 }
@@ -459,7 +455,8 @@ section .cta {
     left: 0;
     z-index: 10;
     padding: 16px;
-    font-family: mono45-headline, monospace;
+    font-family: alkaline-caps, sans-serif;
+    line-height: 1.125em;
     font-weight: 700;
     font-size: 8vw;
     color: #fff;
@@ -478,7 +475,7 @@ section .cta {
 }
 
 #sponsors, #highlights, #organizers {
-    background-color: #d1f3e5;
+    background-color: #fff;
     color: #112378;
 }
 
@@ -497,7 +494,7 @@ section .cta {
 }
 
 .day h2, .what .title, .what .title a:link, .what .title a:visited {
-    font-family: mono45-headline, monospace;
+    font-family: alkaline-caps, sans-serif;
     font-weight: 300;
     font-style: normal;
     text-decoration: none;
@@ -523,7 +520,7 @@ aside.day-timezone {
 }
 
 .day .track h3 {
-    font-family: ibm-plex-mono, sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     margin: 0 0 24px 0;
     color: #112378;
@@ -541,7 +538,7 @@ aside.day-timezone {
 }
 
 .day .track h4, .day .track h5 {
-    font-family: ibm-plex-mono, sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     color: #112378;
 }
@@ -634,11 +631,6 @@ aside.day-timezone {
 }
 
 /* end schedule */
-
-footer {
-    color:  #fff;
-    background-color: #112378;
-}
 
 #preview-carousel {
     height: 300px;
@@ -738,7 +730,7 @@ footer {
 }
 
 .person-list .person-name {
-    font-family: mono45-headline, monospace;
+    font-family: alkaline-caps, sans-serif;
     font-weight: 500;
     line-height: 1em;
     font-size: 28px;
@@ -798,7 +790,7 @@ footer {
   
 .person-photo .overlay .text {
     color: white;
-    font-family: ibm-plex-mono, sans-serif;
+    font-family: sans-serif;
     font-weight: 600;
     font-style: italic;
     font-size: 20px;
@@ -920,9 +912,7 @@ a.js-topic:hover {
 }
 
 #social-header {
-    font-family: mono45-headline, monospace;
-    text-transform: uppercase;
-    font-weight: 500;
+    font-family: alkaline-caps, sans-serif;
     font-size: 80px;
     line-height: 80px;
     color: #112378;
@@ -930,7 +920,7 @@ a.js-topic:hover {
 }
 
 #social-excerpt {
-    font-family: ibm-plex-mono, sans-serif;
+    font-family: sans-serif;
     font-size: 40px;
     font-weight: 400;
     color: #112378;
@@ -945,7 +935,7 @@ a.js-topic:hover {
 
 #social-event {
     flex: 1;
-    font-family: mono45-headline, monospace;
+    font-family: alkaline-caps, sans-serif;
     font-size: 32px;
     text-transform: uppercase;
     color: #112378;
@@ -1030,8 +1020,6 @@ a.js-topic:hover {
 #live h2 {
     font-size: 24px;
     margin: 0;
-    font-family: mono45-headline, monospace;
-    font-weight: 500;
 }
 
 #live-more {
@@ -1178,9 +1166,6 @@ a[target="_blank"]:after {
 }
 
 .hybrid-event h2 {
-    font-family: mono45-headline, monospace;
-    font-style: normal;
-    font-weight: 500;
     line-height: 1em;
     font-size: 28px;
     color: #112378;
