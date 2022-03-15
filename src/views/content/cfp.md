@@ -52,7 +52,7 @@ If we accept your proposal to speak, the following items are taken care of by us
 
 <i class="fas fa-ticket-alt"></i> Full access to all aspects of the conference & activities.
 
-<i class="fas fa-globe"></i> Speakers will be provided transporation and lodging at Sunriver Resort for 3 nights.
+<i class="fas fa-globe"></i> Speakers will be provided transportation and lodging at Sunriver Resort for 3 nights.
 
 <i class="fas fa-gifts"></i> A few surprises!
 

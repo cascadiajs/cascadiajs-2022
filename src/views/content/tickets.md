@@ -83,4 +83,4 @@ The Opportunity Scholarship Program is open to anyone who meets the following re
 
 The Scholarship will cover lodging and a ticket to the conference. Please make sure you that you fill the form our completely and are clear about what you hope to accomplish at the conference. Due to the cost and limited availability of hotel rooms, scholarship will be very limited this year.
 
-<div class="cta"><a href="http://eepurl.com/dPmCkT">Get Notified When Applications Open</a></div>
+<div class="cta"><a target="_blank" href="http://eepurl.com/dPmCkT">Get Notified When Applications Open</a></div>
