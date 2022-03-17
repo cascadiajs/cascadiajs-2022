@@ -24,6 +24,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    line-height: 1.125em;
     margin: 32px 0 16px 0;
     color: #112378;
     font-weight: 700;
@@ -913,6 +914,7 @@ a.js-topic:hover {
 
 #social-header {
     font-family: alkaline-caps, sans-serif;
+    line-height: 1.125em;
     font-size: 80px;
     line-height: 80px;
     color: #112378;
@@ -920,8 +922,8 @@ a.js-topic:hover {
 }
 
 #social-excerpt {
-    font-family: sans-serif;
     font-size: 40px;
+    line-height: 1.125em;
     font-weight: 400;
     color: #112378;
     flex: 1;
@@ -936,6 +938,7 @@ a.js-topic:hover {
 #social-event {
     flex: 1;
     font-family: alkaline-caps, sans-serif;
+    line-height: 1.125em;
     font-size: 32px;
     text-transform: uppercase;
     color: #112378;
