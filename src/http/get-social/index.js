@@ -11,6 +11,7 @@ async function Social (req) {
     return {
       type: 'image/png',
       length: file.length,
+      'Cache-Control': 'max-age=86400',
       body: file
     }
   }
