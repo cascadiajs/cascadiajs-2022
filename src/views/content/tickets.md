@@ -50,7 +50,7 @@ Tickets are released in batches. Each batch is limited in quantity, so please ma
 
 Conference attendees receive discounted room rates at Sunriver Resort and the 17.5% resort fee is waived. 
 
-<span class="warning highlight">NOTE: you'll see the resort fee during online checkout, but it will be waived when you check-in at the resort.</span>
+<div class="warning highlight">NOTE: you'll see the resort fee during online checkout, but it will be waived when you check-in at the resort.</div>
 
 After your purchase your conference ticket, you'll receive an email with a special link to access these rates.
 
