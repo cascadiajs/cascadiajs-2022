@@ -142,7 +142,7 @@ We will work with you to design a workshop that our community would be excited t
 
 ### Opening Dinner & Party
 
-![Sunriver pool](/images/sunrivewr/sunriver-pool.jpg)
+![Sunriver pool](/images/sunriver/sunriver-pool.jpg)
 
 The opening dinner and party will run from 6pm - 10pm on August 31. 
 
