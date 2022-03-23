@@ -1,6 +1,6 @@
 ---
 title: Tickets to CascadiaJS 2022
-excerpt: Join us for our 10th anniversary!
+excerpt: Join us for our 10th anniversary event, full of amazing talks, outdoor activities and more!
 ---
 ![canoes](/images/sunriver/canoes.jpg)
 

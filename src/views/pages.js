@@ -46,13 +46,14 @@ module.exports = async function Page(req) {
   else {
     let title = attributes.title || 'The JavaScript Conference for the Pacific Northwest'
     let excerpt = attributes.excerpt
+    let caption = attributes.caption
     let html
     let content
 
     if (social !== undefined) {
       let image = attributes.image
       let header = title
-      html = SocialLayout({ image, header, excerpt })
+      html = SocialLayout({ image, header, excerpt, caption })
     }
     else {
       if (type === 'markdown') {

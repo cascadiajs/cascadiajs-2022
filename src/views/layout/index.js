@@ -16,7 +16,7 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
             <div class="wide">
               <div id="logo"><a href="/"><img src="/images/logo_lockup-horizontal.svg" alt="logo"/></a></div>
               <div class="push"><a href="/cfp">Call for Presenters</a></div>
-              <div class="spacer"><a href="/sponsorships">Sponsorhips</a></div>
+              <div class="spacer"><a href="/sponsorships">Sponsorships</a></div>
               <div class="spacer"><a href="/tickets" class="buy">Tickets</a></div>
             </div>
           </nav>

@@ -34,9 +34,9 @@ let Template = function(organizer) {
 module.exports = async function Organizer({organizer, social}) {
     let html
     if (social !== undefined) {
-        const { key, name: header, role: excerpt } = organizer
+        const { key, name: caption, role: header, bio: excerpt } = organizer
         const image = `/images/organizers/${ key }.jpg`
-        html = SocialLayout({ image, header, excerpt })
+        html = SocialLayout({ image, header, excerpt, caption })
     }
     else {
         let content = Template(organizer)
