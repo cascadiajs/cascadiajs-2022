@@ -1,6 +1,5 @@
 ---
 title: CascadiaJS is the Pacific Northwest’s JavaScript conference
-excerpt: Help us put on the biggest and best CascadiaJS yet!
 ---
 ![CascadiaJS 2019 family photo](/images/past/cjs19-family.jpg)
 
