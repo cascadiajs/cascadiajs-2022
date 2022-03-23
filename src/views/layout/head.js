@@ -1,4 +1,5 @@
 const { TYPEKIT } = require("../../shared/config.json")
+const social = require("./social")
 
 function script(source) {
   return `<script src=${source} type=module crossorigin></script>`
@@ -15,9 +16,14 @@ function getBaseUrl() {
   return url
 }
 
-module.exports = function Head ({title, socialUrl = '/images/sunriver/canoes.jpg', excerpt = null, scripts = []}) {
+module.exports = function Head ({title, socialUrl, excerpt = null, scripts = []}) {
   // expand title
   title = `CascadiaJS 2022${ title ? ' - ' + title : '' }`
+
+  // set a default social sharing image
+  if (socialUrl === undefined || socialUrl === "") {
+    socialUrl = getBaseUrl() + "/social?path=/conf"
+  }
 
   // convert relative a socialURL to absolute, if necessary
   if (socialUrl.startsWith("/")) {

@@ -2,7 +2,7 @@ let head = require('./head')
 let footer = require('./footer')
 let bodyScripts = require('./scripts')
 
-module.exports = function Layout ({title, content, socialUrl = 'https://2022.cascadiajs.com/images/past/cjs19-family.jpg' }) {
+module.exports = function Layout ({title, content, socialUrl }) {
   // expand title
   title = `CascadiaJS 2020${ title ? ' - ' + title : '' }`
   let scripts = ['https://slackview.app/slackview.js', '/js/slackview.js', '/js/live.js', 'https://cascadiajs-emote-server.herokuapp.com/emote.js']
