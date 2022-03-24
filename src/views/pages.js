@@ -23,7 +23,8 @@ function MarkdownTemplate({ title, body }) {
  * Page view: catchall for all other pages, authored either in markdown or HTML
  */
 module.exports = async function Page(req) {
-  let page = req.path.substr(1)
+  let { path } = req
+  let page = path.substr(1)
   let { social } = req.queryStringParameters
   let type = 'markdown'
   let doc = join(__dirname, 'content', `${page}.md`)
@@ -67,7 +68,7 @@ module.exports = async function Page(req) {
       if (page === 'tickets') {
         scripts.push('https://js.tito.io/v2/with/gtag')
       }
-      html = Layout({ title, content, socialUrl, excerpt, scripts })
+      html = Layout({ path, title, content, socialUrl, excerpt, scripts })
     }
 
     return { html }

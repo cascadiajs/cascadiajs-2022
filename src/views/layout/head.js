@@ -16,7 +16,7 @@ function getBaseUrl() {
   return url
 }
 
-module.exports = function Head ({title, socialUrl, excerpt = null, scripts = []}) {
+module.exports = function Head ({path, title, socialUrl, excerpt = null, scripts = []}) {
   // expand title
   title = `CascadiaJS 2022${ title ? ' - ' + title : '' }`
 
@@ -30,6 +30,8 @@ module.exports = function Head ({title, socialUrl, excerpt = null, scripts = []}
     socialUrl = getBaseUrl() + socialUrl
   }
 
+  let url = getBaseUrl() + path
+
   return /*html*/`
   <head>
     <meta charset=utf-8>
@@ -40,6 +42,9 @@ module.exports = function Head ({title, socialUrl, excerpt = null, scripts = []}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     ${ excerpt ? `<meta property="og:description" content="${ excerpt }" />` : ``}
     <meta property="og:image" content="${ socialUrl }" />
+    <meta property="og:url" content="${ url }" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="${ title }" />
     <meta name="twitter:image" content="${ socialUrl }">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@cascadiajs">
