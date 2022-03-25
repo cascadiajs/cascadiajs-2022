@@ -3,14 +3,39 @@ title: Traveling to Sunriver Resort
 ---
 For those of you who do not live in Bend, OR, we have you covered! Please check out this travel guide for more information about how to get to Sunriver Resort and where to stay while you are here.
 
-## Schedule
+## Getting To Bend, OR
 
-In order to best plan your stay, here is a rough schedule of events. We will continue adding more and more fun activities, but these are the core parts of CascadiaJS:
+There are three ways we expect most folks from out of town to arrive in Bend, OR: car, shuttle bus or flight. The folks in Bend have published a handy [Getting to Bend](https://www.visitbend.com/plan-a-trip/getting-here/) guide that covers all of this.
 
-* Tue, Aug 30: Welcome Reception
-* Wed, Aug 31: Day One Talks / Activities / Opening Party
-* Thu, Sep 1: Day Two Talks / Activities / Closing Party
-* Fri, Sep 2: Farewell Brunch
+### Shuttle Buses from Portland, OR
+
+We are going to charter one or more shuttle buses from Portland, OR to bring people to Sunriver on August 30 and to return them to Portland, OR on September 2. The buses will depart Portland, OR on August 30 around 2:30pm for an arrival into Sunriver of roughly 6pm. If you'd like a ride on this shuttle, please fill-out [this form](https://airtable.com/shrEUDtosdLy7IenQ) and we'll let you know when tickets go on sale.
+
+### Hacker Train from Seattle, WA
+
+In conjunction with our plan to charter shuttle buses, we highly recommend folks traveling down from Seattle consider taking the Amtrak Cascades train. It's a truly beautiful trip, the trains have Wi-Fi, and you can get up and move around during the journey.
+
+We recommend the 11 Coast Starlight train, it departs Seattle, WA at 9:50am, arrives Portland, OR at 1:50pm. If you end up purchasing a ticket on this train, don't forget to fill-out [this form](https://airtable.com/shrEUDtosdLy7IenQ) so we know you'd like a seat on a shuttle bus.
+
+### Car Pools
+
+We are also interested in helping people organize car pools departing from and return to Portland. If you are interested in catching a ride in a car pool or offering some seats in your car, please fill-out [this form](https://airtable.com/shrEUDtosdLy7IenQ) so we can start to figure this out.
+
+### Flying in to RDM
+
+If you plan on flying, the closest airport to Sunriver with is RDM.  Sunriver Resort is roughly 40 minutes from the airport, so we will organize shuttle buses to pick folks up from RDM on August 30th and bring them to Sunriver Resort and return folks to RDM following the Farewell Brunch on Sept 2.
+
+NOTE: Alaska Airlines cancelled the only direct flight between PDX and RDM. There are plans to restore this service, but probably not in time for the conference. So if your plan was to fly from Portland, please consider the shuttle option or plan to drive.
+
+### Traveling from Vancouver, BC
+
+If you are travelling from Vancouver, BC we recommend the following options:
+
+- Flights to/from Seattle ($200 USD) + Hacker Trains ($200 USD) + Shuttles ($50 USD)
+- Flights to/from Portland ($250 USD) + Shuttles ($50 USD)
+- Flights to/from RDM ($300 - $500 USD)
+
+It mostly depends on your budget for travel and how fast you want to get here!
 
 ## Crossing the Border to the United States
 
@@ -19,13 +44,3 @@ If you are traveling to the United States from another country, **PLEASE** ensur
 * [US Department of State](https://travel.state.gov/content/travel/en/us-visas/business.html)
 * [US Via Waiver Program](https://www.dhs.gov/visa-waiver-program)
 * [Canadian Requiring Visas](https://ca.usembassy.gov/visas/do-i-need-a-visa/)
-
-## Getting to Sunriver Resort
-
-https://www.sunriverresort.com/about/directions/
-
-## Flying to Bend, OR
-
-If you plan on flying, the closest airport to Sunriver with is RDM.
-
-We will organize a shuttle bus that will pick folks up from RDM on August 30th and bring them to Sunriver Resort and return folks to RDM following the Farewell Brunch on Sept 2. 

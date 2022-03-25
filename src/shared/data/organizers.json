@@ -1,4 +1,40 @@
 [
-    {"key": "carter-rabasa", "name": "Carter Rabasa", "pronouns": "he/him", "role": "Lead Organizer", "location": "Seattle, WA", "twitter": "crtr0", "bio": "Carter is the Founder of CascadiaJS. He loves to write code, play with his daughters and take his labradoodle Otto on walks."},
-    {"key": "carrie-rabasa", "name": "Carrie Rabasa", "pronouns": "she/her",  "role": "Design Lead", "location": "Seattle, WA", "twitter": "carrie_k", "bio": "Logo and brand identity designer. Mom to two amazing girls, one dog, many plants, and a sourdough starter."}
+    {
+        "key": "carter-rabasa",
+        "name": "Carter Rabasa",
+        "pronouns": "he/him",
+        "role": "Lead Organizer",
+        "location": "Seattle, WA",
+        "twitter": "crtr0",
+        "bio": "Carter is the Founder of CascadiaJS. He loves to write code, play with his daughters and take his labradoodle Otto on walks."
+    },
+    {
+        "key": "carrie-rabasa",
+        "name": "Carrie Rabasa",
+        "pronouns": "she/her",
+        "role": "Design Lead",
+        "location": "Seattle, WA",
+        "twitter": "carrie_k",
+        "bio": "Logo and brand identity designer. Mom to two amazing girls, one dog, many plants, and a sourdough starter."
+    },
+    {
+        "key": "aaron-turner",
+        "name": "Aaron Turner",
+        "pronouns": "he/him",
+        "role": "Emcee",
+        "location": "Long Beach, CA",
+        "twitter": "torch2424",
+        "bio": "Aaron Turner is a senior engineer at Fastly. They were previously doing rad stuff at Google and various startups and agencies. In their spare time, they are hacking on various WebAssembly projects on the web, cooking up some dope beats, and shredding local skateparks.",
+        "short": "Aaron Turner loves hacking on WebAssembly projects, cooking up dope beats, and shredding local skateparks."
+    },
+    {
+        "key": "kate-pond",
+        "name": "Kate Pond",
+        "pronouns": "she/her",
+        "role": "Community Lead",
+        "location": "Seattle, WA",
+        "twitter": "OhKPond",
+        "bio": "Kate Pond is best known for her love of seeing things come together. As a three time coordinator/volunteer for CascadiaJS she has developed a collection of badass hoodies, and karaoke songs. She's excited to be giving back to the CascadiaJS community this year as well.",
+        "short": "Kate Pond is a long-time CascadiaJS volunteer who loves her collection of hoodies and karaoke songs."
+    }
 ]

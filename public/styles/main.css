@@ -91,7 +91,7 @@ nav a {
     display: inline-block;
     margin: 4px;
     font-family: alkaline-caps, monospace;
-    font-size: 24px;
+    font-size: 1.125em;
     font-weight: 600;
     text-decoration: none;
     padding-right: 5px;
@@ -467,13 +467,12 @@ section .cta {
 }
 
 #hero {
-    background: linear-gradient(to bottom left, #112378 50%, #0033ff 100%);
+
 }
 
 #hero video {
     width: 100%;
     height: 100%;
-    mix-blend-mode: screen;
 }
 
 #sponsors, #highlights, #organizers {
@@ -887,10 +886,6 @@ a.js-topic:hover {
     border-radius: 30px 0 0 30px;
 }
 
-#social-image, .person-photo {
-    background: linear-gradient(to bottom left, #112378 50%, #0033ff 100%);
-}
-
 #social-image img {
     border-radius: 30px 0 0 30px;
     height: 588px;
@@ -898,8 +893,6 @@ a.js-topic:hover {
 }
 
 #social-image img, .person-photo img {
-    mix-blend-mode: screen; 
-    filter:grayscale(100%);
     object-fit: cover;
 }
 
@@ -1223,6 +1216,12 @@ a[target="_blank"]:after {
 
     #page {
         margin-bottom: 64px;
+    }
+
+    header {
+        z-index: 100;
+        position: sticky; 
+        top: 0;
     }
 
     nav>div {
