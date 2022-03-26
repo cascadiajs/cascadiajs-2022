@@ -13,9 +13,14 @@ We are going to charter one or more shuttle buses from Portland, OR to bring peo
 
 ### Hacker Train from Seattle, WA
 
-In conjunction with our plan to charter shuttle buses, we highly recommend folks traveling down from Seattle consider taking the Amtrak Cascades train. It's a truly beautiful trip, the trains have Wi-Fi, and you can get up and move around during the journey.
+In conjunction with our plan to charter shuttle buses, we highly recommend folks traveling down from Seattle consider taking the train. It's a truly beautiful trip, the trains have Wi-Fi, and you can get up and move around during the journey.
 
-We recommend the 11 Coast Starlight train, it departs Seattle, WA at 9:50am, arrives Portland, OR at 1:50pm. If you end up purchasing a ticket on this train, don't forget to fill-out [this form](https://airtable.com/shrEUDtosdLy7IenQ) so we know you'd like a seat on a shuttle bus.
+We recommend the following trains:
+
+- Aug 30 // 11 Coast Starlight train - departs Seattle, WA at 9:50am, arrives Portland, OR at 1:50pm
+- Sep 02 // 14 Coast Starlight train - depart Portland, OR at 3:56pm, arrives Seattle, WA at 7:51pm
+
+If you end up purchasing tickets on these trains, don't forget to fill-out [this form](https://airtable.com/shrEUDtosdLy7IenQ) so we know you'd like a seat on a shuttle bus.
 
 ### Car Pools
 
