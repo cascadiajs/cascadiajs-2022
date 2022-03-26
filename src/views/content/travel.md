@@ -1,5 +1,8 @@
 ---
 title: Traveling to Sunriver Resort
+excerpt: Everything you need to know about getting to Sunriver Resort, including info on flights, trains and carpools.
+image: /images/bend/road-to-bend.jpg
+caption: The drive to Bend is beautiful
 ---
 For those of you who do not live in Bend, OR, we have you covered! Please check out this travel guide for more information about how to get to Sunriver Resort and where to stay while you are here.
 
