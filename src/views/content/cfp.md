@@ -95,6 +95,12 @@ If you are a new speaker, once your talk has been accepted we will commit to wor
 
 <div class="cta"><a target="_blank" href="https://airtable.com/shrAOg4Qj9W9hxWbo">View CFP</a></div>
 
+## Past Talks
+
+Sometimes it helps to see what kind of talks we've selected in the past! Check out this list of talk from the 2019, 2020 and 2021 conferences.
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrQaslVBXwQgHHpu?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
 ## CFP FAQ
 
 ### Q: Are there any specific topics I should consider?
