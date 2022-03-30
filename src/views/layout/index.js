@@ -25,11 +25,11 @@ module.exports = function Layout ({path, title, content, socialUrl, excerpt, scr
         </header>
         <main id="content">
           ${ content }
-          <!--section id="sponsors" class="landing">
+          <section id="sponsors" class="landing">
             <h1>Our Sponsors</h1>
             ${ SponsorsContainer() }
             <div class="cta"><a href="/sponsorships">Sponsor Our Event</a></div>
-          </section-->
+          </section>
         </main>
         ${ footer() }
       </div>

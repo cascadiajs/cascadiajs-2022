@@ -101,6 +101,8 @@ Sponsorships are broken down into tiers. No matter what your budget is, we have 
 
 ## Platinum Sponsorships ($25k)
 
+Choose from one of three options: Day One Talk Track, Day Two Talk Track and Livestream.
+
 ### Talk Track (Day One or Day Two)
 
 ![Homestead conference venue](/images/sunriver/sunriver-homestead.jpg)
@@ -169,7 +171,9 @@ The Welcome Reception takes place the day before the conference, as folks are ar
 
 Each morning (Aug 31 + Sept 1), breakfast will be served in the Great Hall, which is on the way to the conference center where talks will take place. You will have an opportunity to set-up banners and place items on tables. This covers breakfast on both days.
 
-### Lunch (Aug 31 + Sept 1)
+### Lunch (Aug 31 + Sept 1) <span class="highlight warning" style="padding:16px;">SOLD OUT</span>
+
+
 
 ![CascadiaJS 2015 lunch](/images/past/cjs15-lunch-sponsor.jpg)
 
