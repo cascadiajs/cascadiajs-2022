@@ -13,7 +13,7 @@ module.exports = function Layout ({path, title, content, socialUrl, excerpt, scr
       <div id="root">
         <header>
           <nav>
-            <div class="wide">
+           <div class="wide">
               <div id="logo"><a href="/"><img src="/images/logo_lockup-horizontal.svg" alt="logo"/></a></div>
               <div class="push"><a href="/schedule">Schedule</a></div>
               <div class="spacer"><a href="/travel">Travel</a></div>
