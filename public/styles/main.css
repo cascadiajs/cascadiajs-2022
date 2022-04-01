@@ -11,7 +11,6 @@ body {
     font-family: canada-type-gibson, sans-serif;
     font-size: 18px;
     line-height: 1.125em;
-    background-color: #fff5cc;
     color: #112378;
 }
 
@@ -59,6 +58,10 @@ blockquote {
 
 i.fas {
     width: 30px;
+}
+
+#root {
+    background-color: #fff5cc;
 }
 
 /* header styles */
@@ -415,6 +418,22 @@ tr.on-sale {
 
 /* Landing page */
 
+#hero {
+    position: relative;
+}
+
+#event-title {
+    position: absolute;
+    z-index: 20;
+    margin: auto;
+    top: 30px; left: 0; right: 0;
+    text-align: center;
+}
+
+#hero #classic-photos {
+    display: none;
+}
+
 .landing  {
     padding: 32px 32px;
 }
@@ -447,35 +466,7 @@ section .cta {
     display: none;
 }
 
-#hero {
-    position: relative;
-}
-
-#hero-copy  {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    padding: 16px;
-    font-family: alkaline-caps, sans-serif;
-    line-height: 1.125em;
-    font-weight: 700;
-    font-size: 8vw;
-    color: #fff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #112378;
-}
-
-#hero {
-
-}
-
-#hero video {
-    width: 100%;
-    height: 100%;
-}
-
-#sponsors, #highlights, #organizers {
+#organizers {
     background-color: #fff;
     color: #112378;
 }
@@ -874,69 +865,46 @@ a.js-topic:hover {
 /* Social sharing styles */
 
 #social-share {
-    display: flex;
+    background-image: url('/images/social-sharing-card.png'); 
+    height: 628px; 
     width: 1200px;
-    background-color: #17C37B;
 }
 
 #social-image {
-    height: 588px;
-	width: 600px;
-	margin: 20px;
-    border-radius: 30px 0 0 30px;
+    position:absolute;
+    top:200px;
+    left:160px;
+    transform: rotate(-15deg);
+    object-fit: cover;
+    height: 268px;
+	width: 268px;
 }
 
-#social-image img {
-    border-radius: 30px 0 0 30px;
-    height: 588px;
-	width: 600px;
-}
-
-#social-image img, .person-photo img {
+.person-photo img {
     object-fit: cover;
 }
 
 #social-info {
-    width: 574px;
-    background-color: #fff;
-    padding: 24px;
-    margin: 20px 20px 20px 0;
-    border-radius: 0 30px 30px 0;
-    display: flex;
-    flex-direction: column;
+    position:absolute;
+    top:24px;
+    left:600px;
+    width:576px
 }
 
 #social-header {
-    font-family: alkaline-caps, sans-serif;
-    line-height: 1.125em;
-    font-size: 80px;
-    line-height: 80px;
-    color: #112378;
-    margin-bottom: 16px;
+    font-family:alkaline-caps,sans-serif;
+    color:#112378;
+    font-size:80px;
+    line-height:80px;
+    font-weight:700;
+    margin-bottom:24px;
 }
 
 #social-excerpt {
-    font-size: 40px;
-    line-height: 1.125em;
-    font-weight: 400;
-    color: #112378;
-    flex: 1;
-}
-
-#social-footer {
-    display: flex;
-    align-items: flex-end;
-    font-weight: 500;
-}
-
-#social-event {
-    flex: 1;
-    font-family: alkaline-caps, sans-serif;
-    line-height: 1.125em;
-    font-size: 32px;
-    text-transform: uppercase;
-    color: #112378;
-    margin-left: 16px;
+    font-family:canada-type-gibson,sans-serif;
+    color:#112378;
+    font-size:50px;
+    line-height:1.125em
 }
 
 #attendee-list {
@@ -1185,6 +1153,24 @@ a[target="_blank"]:after {
         grid-template-rows: auto 1fr auto;
     }
 
+    #hero #classic-photos {
+        position: absolute;
+        z-index: 10;
+        bottom: 60px;
+        left: 0;
+        margin: 0;
+        height: 25vw;
+        width: 100%;
+        display: flex;
+    }
+
+    #hero #classic-photos div {
+        flex: 1;
+        text-align: center;
+    }
+    #hero #classic-photos div img {
+        box-shadow: 5px 5px 3px rgba(17, 34, 120, 0.5); 
+    }
     .narrow {
         margin: 0 auto;
         width: 40%;
@@ -1199,10 +1185,6 @@ a[target="_blank"]:after {
         height: 450px;
         width: 600px;
         margin: 16px auto;
-    }
-
-    img#hero-badge {
-        width: 392px;
     }
 
     #page .page-body, #page .page-title div {

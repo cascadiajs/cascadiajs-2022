@@ -3,13 +3,24 @@ let getDirectoryData = require('../shared/get-directory-data')
 let SpeakersContainer = require('./components/speakers')
 let OrganizersContainer = require('./components/organizers')
 
+let randomIntFromInterval = function(min, max) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+let randomAngle = function() {
+    return randomIntFromInterval(5, 15) * (Math.random() > 0.5 ? 1 : -1)
+}
+
 let Template = function ({ speakersContainer, organizersContainer, directoryContainer }) {
     let content = /*html*/`
     <div id="landing">
         <section id="hero">
-            <div id="hero">
-                <div id="hero-copy">Join us Summer 2022 at Sunriver Resort in Oregon for the 10th Anniversary of CascadiaJS!</div>
-                <video id="hero-video" preload="none" loop muted><source src="https://www.sunriverresort.com/site/assets/files/1/srr_summer_60sec_v3-720.mp4" type="video/mp4"></video>
+            <img src="/images/bend/hero-photo.jpg" alt="Beautiful Bend, OR"/>
+            <div id="event-title"><img src="/images/event-logo.svg"/></div>
+            <div id="classic-photos">
+                <div id="classic-photo-1"><img src="/images/past/photo-2014.png" style="transform: rotate(${ randomAngle() }deg);"/></div>
+                <div id="classic-photo-2"><img src="/images/past/photo-2015.png" style="transform: rotate(${ randomAngle() }deg);"/></div>
+                <div id="classic-photo-3"><img src="/images/past/photo-2019.png" style="transform: rotate(${ randomAngle() }deg);"/></div>
             </div>
         </section>
         <section id="speakers" class="landing">
