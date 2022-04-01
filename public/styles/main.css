@@ -1004,40 +1004,6 @@ a.js-topic:hover {
     margin-bottom: 8px;
 }
 
-/* Slackview styles */
-
-.sv-message {
-    margin-bottom: 4px;
-    background-color: #fff;
-    padding: 4px;
-    border-radius: 4px;
-}
-
-.sv-img-wrapper {
-
-}
-
-.sv-name {
-
-}
-
-.sv-timestamp {
-
-}
-
-.sv-body {
-
-}
-
-.sv-powered-wrap {
-    padding: 0px 5px 0px 10px; 
-    font-size: 42%; 
-    position: absolute; 
-    top: 0px; 
-    right: 0px;
-    height: 25px;
-}
-
 table.profiles {
     width: auto;
 }

@@ -28,9 +28,9 @@ let Template = function(sponsor) {
 module.exports = async function Sponsor({sponsor, social}) {
     let html
     if (social !== undefined) {
-        const { logo, png, name: header, description, short, tier } = sponsor
+        const { logo, square, name: header, description, short, tier } = sponsor
         const excerpt = short || description
-        const image = `/images/sponsors/${ png || logo }`
+        const image = `/images/sponsors/${ square || logo }`
         const caption = `${ tier.charAt(0).toUpperCase() + tier.slice(1) } Sponsor`
         html = SocialLayout({ image, header, excerpt, caption })
     }

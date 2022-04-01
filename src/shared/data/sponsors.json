@@ -1,11 +1,20 @@
 [
   {
+    "key": "cloudinary",
+    "tier": "gold",
+    "name": "Cloudinary",
+    "url": "https://cloudinary.com",
+    "logo": "cloudinary.png",
+    "square": "cloudinary-square.png",
+    "description": "Developers use Cloudinary to quickly and easily create, manage and deliver their digital experiences across any browser, device and bandwidth."
+  },
+  {
     "key": "codingscape",
     "tier": "silver",
     "name": "Codingscape",
     "url": "https://codingscape.com",
     "logo": "codingscape.svg",
-    "png": "codingscape.png",
+    "square": "codingscape.png",
     "jobs": "https://codingscape.com/jobs/",
     "description": "Codingscape is a custom software development company specializing in high-quality development projects.  Our team of Senior Software Engineers are all based in North America and are experts at contributing to your projects quickly.",
     "short": "Codingscape is a custom software development company specializing in high-quality development projects."

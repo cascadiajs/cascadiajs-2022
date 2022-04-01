@@ -56,6 +56,6 @@ module.exports = async function IndexView ({ speakers }) {
     let organizersContainer = OrganizersContainer()
     let directoryContainer = DirectoryContainer({ directory })
     let content = Template({ speakersContainer, organizersContainer, directoryContainer })
-    let html = Layout({ path: "/", content, title: 'Home', scripts: ['/js/autoplay-hero.js'] })
+    let html = Layout({ path: '/', title: 'Home', content })
     return { html }
 }
