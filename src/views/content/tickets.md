@@ -4,7 +4,7 @@ excerpt: Join us for our 10th anniversary event, full of amazing talks, outdoor 
 ---
 ![canoes](/images/sunriver/canoes.jpg)
 
-The CascadiaJS 2022 conference is taking place August 30 - September 2, 2022 at Sunriver Resort, OR. When you purchase a ticket to the conference, it is *fully loaded* and includes:
+When you purchase a ticket to the conference, it is *fully loaded* and includes:
 
 <i class="fas fa-glass-cheers"></i> Day Zero Activities & Welcome Reception (Aug 30)
 
@@ -65,9 +65,18 @@ After your purchase your conference ticket, you'll receive an email with a speci
     </tbody>
 </table>
 
-## Buy a Conference Ticket
+## Group Sales and Registration
 
-<div class="cta"><a href="http://eepurl.com/dPmCkT">Get Notified When Tickets Go on Sale</a></div>
+We ask people to register for their ticket themselves (and not on behalf of someone else) because during the registration process we ask folks to agree to our Code of Conduct and we collect important personal information, such as hoodie sizes and dietary restrictions.
+
+For group/team purchases, please email us at tickets@cascadiajs.com. We can separate the payment process from the registration process. We can also provide group discounts for groups of 5 or more. Thank you!
+
+## Indie Discount
+
+If you are self-employed, work at a non-profit or work at a company with less than 10 employees, please use the discount code INDIE for 25% off your ticket. 
+
+
+## Buy a Conference Ticket
 
 <div style="width:600px">
     <tito-widget event="event-loop/cascadiajs-2022"></tito-widget>
