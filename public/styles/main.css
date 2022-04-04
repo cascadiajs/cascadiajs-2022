@@ -429,7 +429,7 @@ tr.on-sale {
 #event-title {
     position: absolute;
     z-index: 20;
-    margin: auto;
+    margin: 0 16px 0 16px;
     top: 30px; left: 0; right: 0;
     text-align: center;
 }
