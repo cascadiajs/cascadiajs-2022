@@ -8,7 +8,7 @@ title: CascadiaJS is the Pacific Northwest’s JavaScript conference
 - Our 10 year anniversary event
 - In-person conference being held at Sunriver Resort outside of Bend, OR.
 - August 30 - Sept 2, 2022
-- 300+ in-person attendees expected
+- 400+ in-person attendees expected
 - 18 talks from experts in the JavaScript and web community
 - Pre-conference reception, evening events on both days and a farewell brunch
 
@@ -88,12 +88,14 @@ Sponsorships are broken down into tiers. No matter what your budget is, we have 
 <table>
     <tr><th>Tier</th><th>Community</th><th>Bronze</th><th>Silver</th><th>Gold</th><th>Platinum</th></tr>
     <tr><td>Included Passes</td><td>1<br/>($800 value)</td><td>2<br/>($1600 value)</td><td>4<br/>($3200 value)</td><td>8<br/>($6400 value)</td><td>12<br/>($9600 value)</td></tr>
-    <tr><td>25% Discount</td><td><i class="fa-solid fa-circle-check"></i></td><td><i class="fa-solid fa-circle-check"></i></td><td><i class="fa-solid fa-circle-check"></i></td><td><i class="fa-solid fa-circle-check"></i></td></tr>
-    <tr><td>50% Discount</td><td></td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></i></td></tr>
+    <tr><td>50% Discount on additional passes</td><td></td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></i></td></tr>
+    <tr><td>25% Discount on additional passes</td><td><i class="fa-solid fa-circle-check"></i></td><td><i class="fa-solid fa-circle-check"></i></td><td><i class="fa-solid fa-circle-check"></i></td><td><i class="fa-solid fa-circle-check"></i></td></tr>    
+    <tr><td>Invited On Stage</td><td></td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Open/Close thanks</td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
-    <tr><td>Email copy</td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
+    <tr><td>Copy in email to all attendees</td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Dedicated tweet</td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Grouped tweet</td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td></td><td></td></tr>
+    <tr><td>Job Fair table</td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Logo on website</td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Dedicated website page</td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
 </table>
@@ -109,7 +111,7 @@ Choose from one of three options: Day One Talk Track, Day Two Talk Track and Liv
 
 Each day of the conference will feature a different Platinum Sponsor. In addition to the benefits listed above, Platinum sponsors will receive:
 
-- A premium booth
+- A premium Expo Hall booth
 - An invitation to the stage to address our audience
 - An opportunity to place a banner on stage
 

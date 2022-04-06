@@ -93,7 +93,7 @@ If you are a new speaker, once your talk has been accepted we will commit to wor
 * 4/24 - Review complete
 * 4/29 - Final decisions made, emails sent out
 
-<div class="cta"><a target="_blank" href="https://airtable.com/shrAOg4Qj9W9hxWbo">View CFP</a></div>
+<div class="cta"><a target="_blank" href="https://airtable.com/shrAOg4Qj9W9hxWbo">Submit Proposal</a></div>
 
 ## Past Talks
 

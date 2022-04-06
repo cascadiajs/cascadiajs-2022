@@ -36,5 +36,15 @@
         "twitter": "OhKPond",
         "bio": "Kate Pond is best known for her love of seeing things come together. As a three time coordinator/volunteer for CascadiaJS she has developed a collection of badass hoodies, and karaoke songs. She's excited to be giving back to the CascadiaJS community this year as well.",
         "short": "Kate Pond is a long-time CascadiaJS volunteer who loves her collection of hoodies and karaoke songs."
+    },
+    {
+        "key": "jim-liu",
+        "name": "Jim Liu",
+        "pronouns": "he/him",
+        "role": "Startup & Job Fair",
+        "location": "Seattle, WA",
+        "twitter": "0xitsjim",
+        "bio": "Work: engineering manager @ StockX\n\nInvest: pre/seed startup @ New Stack Venture\n\nVolunteer: CascadiaJS conference, DWebSeattle Meetup\nBorn and Raise in Taiwan; Live in Seattle",
+        "short": "EM @ StockX // Investor @ New Stack Ventures // Volunteer @ CascadiaJS + DWebSeattle // Born and raised in Taiwan"
     }
 ]
