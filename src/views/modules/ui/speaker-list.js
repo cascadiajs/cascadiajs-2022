@@ -5,8 +5,8 @@ export default function Speakers(props) {
   props = props || {}
   let selectedTopics = props.selectedTopics || []
   let sorted = (props.speakers || [])
-    .sort((a,b) => new Date(a.reveal) - new Date(b.reveal))
-  console.log(sorted)
+    // HACK!!!! This fixes an issue where the speakers don't sort propertly becauses placeholder records have no reveal date
+    .sort((a,b) => new Date(a.reveal || '2023-01-01T10:00-07:00') - new Date(b.reveal || '2023-01-01T10:00-07:00'))
   let speakers = sorted
     .map(speaker => Speaker({ speaker, selectedTopics })).join('')
   let topics = (props.topics || [])
