@@ -4,8 +4,10 @@ import Topic from './item-topic.js'
 export default function Speakers(props) {
   props = props || {}
   let selectedTopics = props.selectedTopics || []
-  let speakers = (props.speakers || [])
+  let sorted = (props.speakers || [])
     .sort((a,b) => new Date(a.reveal) - new Date(b.reveal))
+  console.log(sorted)
+  let speakers = sorted
     .map(speaker => Speaker({ speaker, selectedTopics })).join('')
   let topics = (props.topics || [])
     .map(topic => Topic({
