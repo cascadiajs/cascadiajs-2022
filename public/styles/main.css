@@ -777,7 +777,7 @@ aside.day-timezone {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #0033FF;
+    background-color: #ee3e4a;
   }
   
 .person-photo:hover .overlay {

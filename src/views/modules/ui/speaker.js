@@ -9,14 +9,14 @@ export default function Speaker(props) {
     .map(topic => SpeakerTopic({ topic, selected: selectedTopics.includes(topic), selectedTopics }))
       .join('')*/
 
-  //let key
+  let key
   let photoUrl
   let name
-  //let talk
+  let talk
   let revealed = (new Date(speaker.reveal)).getTime() <= Date.now()
 
   // if placeholder, show display placeholder name and image
-  console.log(speaker)
+  //console.log(speaker)
   if (speaker.placeholder) {
     name = ''
     photoUrl = `/images/speakers/${ speaker.key }.jpg`
@@ -27,15 +27,18 @@ export default function Speaker(props) {
     photoUrl = `https://create-4jr.begin.app/_static/2022-pixelated/${ speaker.pixelated }.png`
   }
   else {
-    // key = speaker.key
+    key = speaker.key
     name = speaker.name
-    // talk = speaker.title
+    talk = speaker.title
     photoUrl = `https://create-4jr.begin.app/_static/2022/${ speaker.key }.jpg`
   }
 
   return `
     <div class="person">
-      <div class="person-photo"><img src="${ photoUrl }" alt="photo of ${ name }"/></div>
+    ${ revealed
+      ? `<a href="/speakers/${ key }"><div class="person-photo"><img src="${ photoUrl }" alt="photo of ${ name }"/><div class="overlay">
+      <div class="text">${ talk }</div></div></div></a>`
+      : `<div class="person-photo"><img src="${ photoUrl }" alt="photo of ${ name }"/></div>` }
       <div class="person-info">
         <div class="person-name">${ name }</div>
         <div class="person-misc">
