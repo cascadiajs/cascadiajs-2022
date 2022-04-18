@@ -53,16 +53,16 @@ let Template = function(speaker) {
 module.exports = async function Speaker({speaker, social}) {
     let html
     if (social !== undefined) {
-        const { key, name: header, title: excerpt } = speaker
+        const { key, name: caption, title: header  } = speaker
         const image = `${ assetPath }/${ key }.jpg`
-        html = SocialLayout({ image, header, excerpt })
+        html = SocialLayout({ image, header, caption })
     }
     else {
         let content = Template(speaker)
-        //let socialUrl = `/social?path=/speakers/${ speaker.key }`
-        let socialUrl = `https://static.cascadiajs.com/2021/graphic-recordings/${ speaker.key }.jpg`
+        let socialUrl = `/social?path=/speakers/${ speaker.key }`
+        //let socialUrl = `https://static.cascadiajs.com/2021/graphic-recordings/${ speaker.key }.jpg`
         let title = `${ speaker.name } | ${ speaker.title }`
-        html = Layout({ content, title, socialUrl })
+        html = Layout({ path: `/speakers/${ speaker.key }`, content, title, socialUrl })
     }
 
     return { html }

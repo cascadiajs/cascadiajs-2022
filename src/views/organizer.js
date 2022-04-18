@@ -43,7 +43,7 @@ module.exports = async function Organizer({organizer, social}) {
         let content = Template(organizer)
         let socialUrl = `/social?path=/organizers/${ organizer.key }`
         let title = `${ organizer.name } | ${ organizer.role }`
-        html = Layout({ content, title, socialUrl })
+        html = Layout({ path: `/organizer/${ key }`, content, title, socialUrl })
     }
 
     return { html }

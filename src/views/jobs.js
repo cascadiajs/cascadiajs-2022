@@ -40,7 +40,7 @@ module.exports = async function Jobs({ sponsors, social }) {
         let content = Template(sponsors)
         let socialUrl = '/social?path=/sponsors/jobs'
         let title = 'Companies Hiring at CascadiaJS'
-        html = Layout({ content, title, socialUrl })
+        html = Layout({ path: '/jobs', content, title, socialUrl })
     }
 
     return { html }

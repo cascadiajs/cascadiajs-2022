@@ -38,7 +38,7 @@ module.exports = async function Sponsor({sponsor, social}) {
         let content = Template(sponsor)
         let socialUrl = `/social?path=/sponsors/${ sponsor.key }`
         let title = `Sponsor | ${ sponsor.name }`
-        html = Layout({ content, title, socialUrl })
+        html = Layout({ path: `/sponsors/${ sponsor.key }`, content, title, socialUrl })
     }
 
     return { html }

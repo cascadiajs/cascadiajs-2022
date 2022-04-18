@@ -3,7 +3,7 @@ let footer = require('./footer')
 let bodyScripts = require('./scripts')
 let SponsorsContainer = require('../components/sponsors')
 
-module.exports = function Layout ({path, title, content, socialUrl, excerpt, scripts = []}) {
+module.exports = function Layout ({ path, title, content, socialUrl, excerpt, scripts = [] }) {
   return /*html*/`
   <!doctype html>
   <!-- this conference is built by devs for devs -->
