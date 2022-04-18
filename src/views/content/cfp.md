@@ -6,15 +6,11 @@ caption: Aaron Turner speaking at CascadiaJS 2019
 ---
 ![Aaron Turner CascadiaJS 2019 speaker](/images/past/cjs19-speaker-aaron.jpg)
 
-<!--
 ## UPDATE: the CFP is Closed
 
-We have closed the Call for Presenters for CascadiaJS 2021. However, if you're interested in speaking at one of the many awesome JS meetups in the Pacific Northwest, please consider submitting a proposal to the new [Pan-Cascadia JS Meetup CFP](https://airtable.com/shrGGbCkeuJkesM2p)! 
+We have closed the Call for Presenters for CascadiaJS 2022. If you submitted prior to the deadline, we'll be in touch no later than April 29th.
 
-This is a single form that folks can fill-out and we will share your proposal with meetup organizers up and down the Pacific Northwest.
-
-<div class="cta"><a target="_blank" href="https://airtable.com/shrGGbCkeuJkesM2p">Pan-Cascadia JS Meetup CFP</a></div>
---> 
+However, since you're here, how about speaking at an upcoming SeattleJS meetup? Please consider submitting a proposal to the new [Seattle JS Meetup CFP](https://airtable.com/shrkvVTP37PnIqgoN)! 
 
 ## tl;dr
 
@@ -93,7 +89,7 @@ If you are a new speaker, once your talk has been accepted we will commit to wor
 * 4/24 - Review complete
 * 4/29 - Final decisions made, emails sent out
 
-<div class="cta"><a target="_blank" href="https://airtable.com/shrAOg4Qj9W9hxWbo">Submit Proposal</a></div>
+<div class="cta nope"><a href="#update-the-cfp-is-closed">Submit Proposal</a></div>
 
 ## Past Talks
 
