@@ -9,6 +9,37 @@
     "description": "Developers use Cloudinary to quickly and easily create, manage and deliver their digital experiences across any browser, device and bandwidth."
   },
   {
+    "key": "courier",
+    "tier": "gold",
+    "name": "Courier",
+    "url": "https://www.courier.com/",
+    "logo": "courier.png",
+    "square": "courier-square.png",
+    "description": "Notifications are hard. They require infrastructure that is reliable, scalable and observable as well as an end user experience that is helpful and respectful. That's why we built Courier. Courier is a complete notification system that allows you to design and send notifications across all channels, orchestrate your workflow, and collect real-time insights.",
+    "short": "Notifications are hard, that's why we built Courier."
+  },
+  {
+    "key": "circle-ci",
+    "tier": "gold",
+    "name": "CircleCI",
+    "url": "https://circleci.com",
+    "logo": "circleci.svg",
+    "square": "circleci-square.png",
+    "description": "The world's best software teams use CircleCI to deliver quality code with confidence. As the largest continuous integration and delivery (CI/CD) platform, CircleCI empowers engineers to seamlessly take ideas to execution, at scale. Our platform is optimized for developer productivity, speed, and confidence.We understand how engineering teams work and how their code runs. Companies like Intuit, Apple, and Spotify use CircleCI to improve productivity, release better products, and get to market faster. We've been named a leader in cloud-native continuous integration by Forrester in 2019 and 2017, and rank #242 on Deloitte's Technology Fast 500™.",
+    "short": "The world's best software teams use CircleCI to deliver quality code with confidence."
+  
+  },
+  {
+    "key": "lacework",
+    "tier": "gold",
+    "name": "Lacework",
+    "url": "https://lacework.com",
+    "logo": "lacework.webp",
+    "square": "lacework-square.jpg",
+    "description": "Cloud security at the speed of light. Use data and automation to protect your multicloud environment, prioritize risks with pinpoint accuracy, and innovate with confidence.",
+    "short": "Cloud security at the speed of light."
+  },
+  {
     "key": "codingscape",
     "tier": "silver",
     "name": "Codingscape",
