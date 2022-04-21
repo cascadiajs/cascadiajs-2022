@@ -4,7 +4,15 @@ title: Sponsor Next Steps
 <!-- Sponsors are directed to this page after they fill-out the Onboarding Airtable form -->
 Thank you SO MUCH for supporting CascadiaJS this year. Your support is the only reason we can make this magic happen.
 
-Now that we have your logo and marketing copy, we can update our website and let folks know you're joining us this year. Reach out to us at any time if you want to change the copy, update the logo, link to a different website, etc.
+## Your representation on our website
+
+Now that we have your logo and marketing copy, we will update our website and let folks know you're joining us this year. You should see 3 things shortly:
+
+- Your logo on our [main landing page](/)
+- A personalized internal landing page ([example](/sponsors/200ok))
+- A personalized social sharing image whenever this link is shared on Twitter/LinkedIn/Facebook/etc ([example](/sponsors/200ok?social))
+
+If anything looks off or you'd like to change something, just let us know!
 
 ## Register using your free Sponsor tickets
 
