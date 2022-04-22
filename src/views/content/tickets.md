@@ -82,14 +82,8 @@ If you are self-employed, work at a non-profit or work at a company with less th
     <tito-widget event="event-loop/cascadiajs-2022"></tito-widget>
 </div>
 
-## Apply for a Scholarship
+## Apply for an Opportunity Scholarship
 
-The Opportunity Scholarship Program is open to anyone who meets the following requirements:
+We have opened applications for Opportunity Scholarships! If you are a member of an under-represented minority in tech or have financial constraints that make purchasing a ticket difficult, please consider learning more and applying.
 
-- Is a resident of British Columbia, Washington, or Oregon (i.e. Cascadia)
-- Can attend both days of the conference in-person at Sunriver Resort (Aug 31 & Sept 1, 2022)
-- Is a member of an under-represented minority (URM) in tech -OR- has financial constraints that
-
-The Scholarship will cover lodging and a ticket to the conference. Please make sure you that you fill the form our completely and are clear about what you hope to accomplish at the conference. Due to the cost and limited availability of hotel rooms, scholarship will be very limited this year.
-
-<div class="cta"><a target="_blank" href="https://cascadiajs.com/mailing-list">Get Notified When Applications Open</a></div>
+<div class="cta secondary"><a href="/scholarships">Learn More</a></div>
