@@ -51,6 +51,15 @@
     "short": "Codingscape is a custom software development company specializing in high-quality development projects."
   },
   {
+    "key": "begin",
+    "tier": "silver",
+    "name": "Begin",
+    "url": "https://begin.com",
+    "logo": "begin.svg",
+    "square": "begin-square.png",
+    "description": "Begin is a ridiculously quick platform for building modern web apps, sites, and APIs. Get started for free."
+  },
+  {
     "key": "200ok",
     "tier": "bronze",
     "name": "200 OK",
