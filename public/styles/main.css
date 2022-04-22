@@ -351,21 +351,7 @@ div.highlight {
     color: #0033FF;
 }
 
-.sponsor-includes {
-    background-color: #ddd;
-}
-
-.sponsor-marketing, .info {
-    background-color: #b1ecb5;
-}
-
-.sponsor-hiring, .info2 {
-    background-color: #e1bae1
-}
-
-.sponsors-grid img {
-    object-fit: fill;
-}
+/* Sponsors component */
 
 .tier-wrap {
     text-align: center;
@@ -391,7 +377,7 @@ div.highlight {
     opacity: 0.2;
 }
 
-.tier {
+.tier-label {
     height: 20px;
     padding: 8px;
     background: #d1f3e5;
@@ -399,10 +385,12 @@ div.highlight {
     display:inline-block;
 }
 
-.platinum div, .gold div, .silver div, .bronze div {
-    height: 100px;
-    margin: 32px;
+.tier div img {
+    display: block;
+    margin: 64px auto;
 }
+
+/* end sponsors component */
 
 table {
     width: 100%;
@@ -1287,30 +1275,34 @@ a[target="_blank"]:after {
         display: flex;
     }
 
-    .platinum, .gold, .silver, .bronze {
+    .tier {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }    
 
-    .platinum img, .gold img, .silver img, .bronze img {
+    .tier img {
         height: 100%;
     }
 
     .platinum div {
-        height: 200px;
+        height: 150px;
     }
     
     .gold div {
-        height: 100px;
+        height: 120px;
     }
     
     .silver div {
-        height: 100px;
+        height: 90px;
     }
     
     .bronze div {
-        height: 80px;
+        height: 70px;
+    }
+
+    .community div {
+        height: 50px;
     }
 
     #live {

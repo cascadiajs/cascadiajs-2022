@@ -60,8 +60,17 @@
     "description": "Begin is a ridiculously quick platform for building modern web apps, sites, and APIs. Get started for free."
   },
   {
+    "key": "fission",
+    "tier": "community",
+    "name": "Fission",
+    "url": "https://fission.codes",
+    "logo": "fission.png",
+    "square": "fission-square.jpg",
+    "description": "Building protocols for the future of the Internet"
+  },
+  {
     "key": "200ok",
-    "tier": "bronze",
+    "tier": "community",
     "name": "200 OK",
     "url": "https://200ok.vc",
     "logo": "200ok.png",
