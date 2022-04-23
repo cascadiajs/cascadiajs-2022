@@ -40,6 +40,8 @@ Take a moment to share this Scholarship Application with relevant people or orga
 
 ## Support our Scholarship Program
 
-If you or your company would like to support our Scholarship Program, please contact us!
+If you would like to make an individual donation, you can add-on a donation when you [buy a ticket](/tickets) or [make a direct donation](https://ti.to/event-loop/cascadiajs-2022/with/scholarship-donation).
+
+If your company would like to support our Scholarship Program, please contact us!
 
 <div class="cta secondary"><a href="/sponsorships#scholarships">Sponsor a Scholarship</a></div>
