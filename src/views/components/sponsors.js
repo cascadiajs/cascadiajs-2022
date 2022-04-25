@@ -9,8 +9,8 @@ module.exports = function SponsorsContainer () {
                 <div class="${ tier } tier">
                 ${ sponsors.filter(s => s.tier === tier).map(s => /*html*/`
                     ${ ['platinum', 'gold', 'silver'].indexOf(tier) >= 0
-                        ? /*html*/`<div class="shake-slow"><a href="/sponsors/${ s.key }"><img src="/images/sponsors/${ s.logo }" alt="${ s.name } logo"/></a></div>`  
-                        : /*html*/`<div class="shake-slow"><img src="/images/sponsors/${ s.logo }" alt="${ s.name } logo"/></div>`
+                        ? /*html*/`<div><a href="/sponsors/${ s.key }"><img src="/images/sponsors/${ s.logo }" alt="${ s.name } logo"/></a></div>`  
+                        : /*html*/`<div><a href="${ s.url }"><img src="/images/sponsors/${ s.logo }" alt="${ s.name } logo"/></a></div>`
                     }
                 `).join('') }
                 </div>

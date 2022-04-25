@@ -1281,8 +1281,14 @@ a[target="_blank"]:after {
         justify-content: center;
     }    
 
-    .tier img {
+    .tier div img {
         height: 100%;
+        display: inline;
+        margin: 0;
+    }
+
+    .tier div {
+        margin: 32px;
     }
 
     .platinum div {
