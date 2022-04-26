@@ -32,19 +32,7 @@ We will ensure that these options are affordable and available to everyone at-co
 
 Tickets are released in batches. Each batch is limited in quantity, so please make sure you act fast to secure your ticket.
 
-<table id="ticket-info">
-    <thead>
-        <tr><th>Release</th><th>Dates</th><th>Price</th></tr>
-    </thead>
-    <tbody>
-        <tr class="sold-out"><td>Super Early Bird (SOLD OUT)</td><td>Nov 4 - Dec 6</td><td>$500</td></tr>
-        <tr class="sold-out"><td>Early Bird</td><td>Dec 6 - Apr 11</td><td>$600</td></tr>
-        <tr class="on-sale"><td>Regular Bird</td><td>Apr 11 - July 4</td><td>$700</td></tr>
-        <tr><td>Late Bird *</td><td>July 4 - Aug 30</td><td>$800</td></tr>
-    </tbody>
-</table>
-
-*\* Late Bird tickets will miss the option to personalize their conference hoodies (sizing, message on sleeve, etc)*
+*Late Bird tickets will miss the option to personalize their conference hoodies (sizing, message on sleeve, etc)*
 
 ## Lodging at Sunriver Resort
 
