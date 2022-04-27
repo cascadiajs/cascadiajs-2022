@@ -1,21 +1,12 @@
 // eslint-disable-next-line no-global-assign
 require = require('esm')(module)
-let exists = require('fs').existsSync
-let join = require('path').join
 let arc = require('@architect/functions')
 let IndexView = require('@architect/views/index')
 let PageView = require('@architect/views/pages')
 let NotFoundView = require('@architect/views/404')
+let { pageExists } = require('@architect/shared/utils/pages')
 let manifest = require('@architect/shared/static.json')
 let getSpeakerData = require('@architect/shared/get-speaker-data')
-
-// return true if the markdown file exists, false otherwise
-function pageExists(path) {
-  let page = path.substr(1)
-  let md = join(process.cwd(), 'node_modules', '@architect', 'views', 'content', `${ page }.md`)
-  let html = join(process.cwd(), 'node_modules', '@architect', 'views', 'content', `${ page }.html`)
-  return exists(md) || exists(html)
-}
 
 // return truthy if the asset requested is in our static manifest JSON, falsy otherwise
 function staticExists(path) {

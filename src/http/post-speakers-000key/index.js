@@ -1,7 +1,7 @@
 let arc = require('@architect/functions')
 let data = require('@begin/data')
 
-exports.handler = arc.http.async(auth, upsert_or_delete)
+exports.handler = arc.http.async(auth, upsert_or_delete, upload)
 
 /** ensure session */
 async function auth(req) {
@@ -14,7 +14,7 @@ async function upsert_or_delete(req) {
   if (req.body.__delete) {
     await data.destroy({table: 'speakers', key: req.params.key })
   }
-  else {
+  else if (req.params.key !== 'upload') {
     if (!req.body.key)
       req.body.key = req.body.name.toLowerCase().replace(/ /, '-')
 
@@ -27,9 +27,9 @@ async function upsert_or_delete(req) {
       table: 'speakers',
       ...req.body
     })
-  }
 
-  return { location: '/admin' }
+    return { location: '/admin' }
+  }
 }
 
 /** write to begin/data */
