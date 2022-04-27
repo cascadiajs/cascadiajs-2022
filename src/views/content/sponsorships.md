@@ -103,13 +103,13 @@ Sponsorships are broken down into tiers. No matter what your budget is, we have 
 
 ## Platinum Sponsorships ($25k)
 
-Choose from one of three options: Day One Talk Track, Day Two Talk Track and Livestream.
+Choose from one of two options: **Venue** or **Livestream**
 
-### Talk Track (Day One or Day Two)
+### Venue
 
 ![Homestead conference venue](/images/sunriver/sunriver-homestead.jpg)
 
-Each day of the conference will feature a different Platinum Sponsor. In addition to the benefits listed above, Platinum sponsors will receive:
+Your company is making it possible for the event to be at Sunriver Resort this year. In addition to the benefits listed above, Platinum sponsors will receive:
 
 - A premium Expo Hall booth
 - An invitation to the stage to address our audience
@@ -119,7 +119,7 @@ Each day of the conference will feature a different Platinum Sponsor. In additio
 
 ![CascadiaJS 2021 livestream](/images/past/cjs21-livestream.jpg)
 
-We are setting a target of 5,000 attendees for the live stream of this conference. As the Livestream sponsor, you will receive:
+Your company is making it possible for us to live stream this event. We are setting a target of 5,000 attendees for the live stream of this conference. As the Livestream sponsor, you will receive:
 
 - Premium branding throughout the Livestream (opening, breaks, closing).
 - A premium booth in our virtual conference space.
