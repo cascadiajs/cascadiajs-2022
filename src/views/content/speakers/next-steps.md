@@ -13,7 +13,11 @@ Make sure to register for your Speaker Ticket, the link should have been provide
 
 ## Travel
 
-Check out our [Travel Guide](/travel) for ideas on how to get to Sunriver Resort for the conference. We are budgeting to cover travel expenses to to <span class="highlight warning">$500 USD</span> for folks inside the USA and <span class="highlight warning">$1000 USD</span> for folks outside the USA. When you book, please try to stay within these limits, and contact us if you have an issue here.
+Check out our [Travel Guide](/travel) for ideas on how to get to Sunriver Resort for the conference. 
+
+We are budgeting <span class="highlight warning">$1000 USD</span> to cover travel expenses for each speaker, so please try to stay within this limit. 
+
+Once you are booked, please email us your confirmation and a receipt so that we can reimburse you.
 
 ## Lodging
 
