@@ -23,7 +23,7 @@ async function uploadSpeakers(env, data, password) {
     let cookie = login.headers.get('set-cookie')
 
     // upload the speakers
-    let speakers = await fetch(`${url}/speakers/upload`, {
+    let speakers = await fetch(`${url}/speakers`, {
         method: 'POST',
         headers: {cookie, 'Content-Type': 'application/json'},
         body:    JSON.stringify(speakerData),

@@ -23,6 +23,7 @@ get  /organizers/:key
 get  /social
 get  /speakers
 get  /speakers/:key
+post /speakers
 post /speakers/:key
 get  /sponsors/:key
 get  /tickets/:number
