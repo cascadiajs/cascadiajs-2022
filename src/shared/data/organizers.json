@@ -41,10 +41,20 @@
         "key": "jim-liu",
         "name": "Jim Liu",
         "pronouns": "he/him",
-        "role": "Startup & Job Fair",
+        "role": "Startup & Job Fair Lead",
         "location": "Seattle, WA",
         "twitter": "0xitsjim",
         "bio": "Work: engineering manager @ StockX\n\nInvest: pre/seed startup @ New Stack Venture\n\nVolunteer: CascadiaJS conference, DWebSeattle Meetup\nBorn and Raise in Taiwan; Live in Seattle",
         "short": "EM @ StockX // Investor @ New Stack Ventures // Volunteer @ CascadiaJS + DWebSeattle // Born and raised in Taiwan"
+    },
+    {
+        "key": "kelsey-breseman",
+        "name": "Kelsey Breseman",
+        "pronouns": "she/her",
+        "role": "Activity Track Lead",
+        "location": "Seattle, WA",
+        "twitter": "ifoundtheme",
+        "bio": "Tlingit, forest person, engineer, activist. Environment, policy, & accountability @EnviroDGI. Tech/ethics/DWeb @ Starling Lab & @Data_Together. Traveler, adventurer, writer @ http://medium.com/@ifoundtheme",
+        "short": "Tlingit, forest person, engineer, activist, traveler, adventurer & writer"
     }
 ]
