@@ -1,13 +1,13 @@
-//import SpeakerTopic from './speaker-topic.js'
+import SpeakerTopic from './speaker-topic.js'
 
 export default function Speaker(props) {
   props = props || {}
   let speaker = props.speaker || {}
-  /*let selectedTopics = props.selectedTopics || []
+  let selectedTopics = props.selectedTopics || []
   //let pixelated = speaker.pixelated || ''
   let topics = (speaker.topics || [])
     .map(topic => SpeakerTopic({ topic, selected: selectedTopics.includes(topic), selectedTopics }))
-      .join('')*/
+      .join('')
 
   let key
   let photoUrl
@@ -15,14 +15,7 @@ export default function Speaker(props) {
   let talk
   let revealed = (new Date(speaker.reveal)).getTime() <= Date.now()
 
-  // if placeholder, show display placeholder name and image
-  //console.log(speaker)
-  if (speaker.placeholder) {
-    name = ''
-    photoUrl = `/images/speakers/${ speaker.key }.jpg`
-  }
-  // don't reveal the speaker yet!
-  else if (!revealed) {
+  if (!revealed) {
     name = 'Secret Speaker'
     photoUrl = `https://create-4jr.begin.app/_static/2022-pixelated/${ speaker.pixelated }.png`
   }
