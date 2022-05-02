@@ -70,9 +70,15 @@ i.fas {
 
 /* header styles */
 
-header #logo img {
+header #logo svg {
     height: 56px;
+    width: auto;
 }
+
+header #logo svg:hover path, header #logo svg:hover polygon {
+    fill: #ffcf07;
+}
+
 
 header nav {
     padding: 8px 0;
@@ -710,7 +716,7 @@ aside.day-timezone {
 }
 
 .person-list .person:hover .person-info, .person-list .person:hover .person-name, .person-list .person:hover .person-name a, .person-list .person:hover .person-misc {
-	color: #0033FF;
+	color: #ee3e4a;
 }
 
 .person-list .person-name {
@@ -774,10 +780,11 @@ aside.day-timezone {
   
 .person-photo .overlay .text {
     color: white;
-    font-family: sans-serif;
-    font-weight: 600;
+    font-family: alkaline-caps, sans-serif;
+    font-weight: 500;
     font-style: italic;
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 1.125em;
     margin: 16px;
     text-align: left;
 }
