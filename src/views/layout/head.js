@@ -41,9 +41,10 @@ module.exports = function Head ({path, title, socialUrl, excerpt = null, scripts
     <link rel="stylesheet" href="/styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     ${ excerpt ? `<meta property="og:description" content="${ excerpt }" />` : ``}
-    <meta property="og:image" content="${ socialUrl }" />
-    <meta property="og:url" content="${ url }" />
-    <meta property="og:type" content="website" />
+    <meta name="image" property="og:image" content="${ socialUrl }" />
+    <meta name="url" property="og:url" content="${ url }" />
+    <meta name="type" property="og:type" content="website" />
+    <meta name="author" content="Carter Rabasa">
     <meta property="og:title" content="${ title }" />
     <meta name="twitter:image" content="${ socialUrl }">
     <meta name="twitter:card" content="summary_large_image">
