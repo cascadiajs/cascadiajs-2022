@@ -27,7 +27,7 @@ async function unauthenticated(req) {
 
 /** render the speaker list/form */
 async function authenticated(req) {
-  let speakerData = await data.get({ table: 'speakers', limit: 20 })
+  let speakerData = await data.get({ table: 'speakers', limit: 100 })
   if (req.query.export === 'speakers') {
     return { json: speakerData }
   }
