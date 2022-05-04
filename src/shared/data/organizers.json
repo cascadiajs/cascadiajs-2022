@@ -56,5 +56,15 @@
         "twitter": "ifoundtheme",
         "bio": "Tlingit, forest person, engineer, activist. Environment, policy, & accountability @EnviroDGI. Tech/ethics/DWeb @ Starling Lab & @Data_Together. Traveler, adventurer, writer @ http://medium.com/@ifoundtheme",
         "short": "Tlingit, forest person, engineer, activist, traveler, adventurer & writer"
+    },
+    {
+        "key": "greg-bulmash",
+        "name": "Greg Bulmash",
+        "pronouns": "he/him",
+        "role": "Speaker Wrangler",
+        "location": "Bothell, WA",
+        "twitter": "LetMyPeopleCode",
+        "bio": "Greg Bulmash is a novelist, coder, teacher, and speaker. A habitual volunteer, he's also organized over 150 STEM education events for kids with Seattle CoderDojo. He's Director of Developer Advocacy at Webscale Networks (as of this writing) and this is his 8th CascadiaJS.",
+        "short": "Novelist, coder, teacher, and speaker and habitual volunteer who's organized over 150 STEM education events for kids with Seattle CoderDojo."
     }
 ]
