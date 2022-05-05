@@ -13,6 +13,7 @@
   "dependencies": {
     "@architect/functions": "^4.0.0",
     "@begin/data": "^3.0.0",
+    "crypto": "^1.0.1",
     "esm": "^3.2.25",
     "front-matter": "^4.0.2",
     "marked": "^3.0.4"
