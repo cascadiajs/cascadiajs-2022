@@ -1,5 +1,5 @@
-let AWS = require('aws-sdk')
 let crypto = require('crypto')
+let data = require('@begin/data')
 let arc = require('@architect/functions')
 let screenshot = require('./screenshot')
 
@@ -8,23 +8,15 @@ let screenshot = require('./screenshot')
  */
 async function Social (req) {
   const { path } = req.queryStringParameters
-  const s3 = new AWS.S3()
   try {
+    let table = 'social'
+    let key = crypto
+      .createHash('sha1')
+      .update(path)
+      .digest('base64')
     let file = await screenshot({ path })
-    let urlhash = crypto
-    .createHash('sha1')
-    .update(path)
-    .digest('base64')
-    let Key = urlhash + '.png'
-    await s3
-      .putObject({
-        Bucket: process.env.ARC_STATIC_BUCKET,
-        Key,
-        Body: file,
-        ACL: 'public-read',
-      })
-      .promise()
-    console.log(`${ process.env.BEGIN_STATIC_ORIGIN}/${ Key }`)
+    data.set({ table, key, file })
+    console.log(table, key)
     return {
       type: 'image/png',
       length: file.length,
