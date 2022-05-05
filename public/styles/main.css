@@ -863,12 +863,6 @@ a.js-topic:hover {
 
 /* Social sharing styles */
 
-#social-share {
-    background-image: url('/images/social-sharing-card.png'); 
-    height: 628px; 
-    width: 1200px;
-}
-
 #social-image {
     position:absolute;
     top:200px;
