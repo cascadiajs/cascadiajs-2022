@@ -15,8 +15,8 @@ async function Social (req) {
       .update(path)
       .digest('base64')
     let file = await screenshot({ path })
-    data.set({ table, key, file })
-    console.log(table, key)
+    //data.set({ table, key, file })
+    console.log(table, key, file.length)
     return {
       type: 'image/png',
       length: file.length,
