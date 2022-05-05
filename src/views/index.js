@@ -23,6 +23,10 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 <div id="classic-photo-3"><img src="/images/past/photo-2019.png" style="transform: rotate(${ randomAngle() }deg);"/></div>
             </div>
         </section>
+        <section id="about-us">
+            <div><img src="/images/home-illo-1.png" alt="Over the course of 2 days, you'll hear amazing talks, connect with other developers, have the opportunity to attend hands-on workshops, and spend the afternoons choosing from indoor and outdoor activities (pickleball, anyone?)."/></div>
+            <div><img src="/images/home-illo-2.png" alt="talks, workshops, karaoke, job fair, pool"/></div>
+        </section>
         <section id="speakers" class="landing">
             <h1>Speakers</h1>
             ${ speakersContainer }

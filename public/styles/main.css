@@ -1125,6 +1125,16 @@ a[target="_blank"]:after {
     #hero #classic-photos div img {
         box-shadow: 5px 5px 3px rgba(17, 34, 120, 0.5); 
     }
+
+    #about-us {
+        display:flex;
+    }
+
+    #about-us div {
+        flex: 1;
+    }
+    
+
     .narrow {
         margin: 0 auto;
         width: 40%;
