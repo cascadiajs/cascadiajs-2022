@@ -1,7 +1,7 @@
 const data = require('@begin/data')
 
 module.exports = async function GetSpeakerData (req) {
-  let speakerList = await data.get({ table: 'speakers', limit: 20 })
+  let speakerList = await data.get({ table: 'speakers', limit: 100 })
   // scrub info for non-revealed speakers (only include reveal & pixelated props)
   let speakers = speakerList.map(s => ((new Date(s.reveal)).getTime() <= Date.now() ? s : { reveal: s.reveal, pixelated: s.pixelated, topics: s.topics }))
   // Collect all the speakers topics into an array with no duplicate topics
