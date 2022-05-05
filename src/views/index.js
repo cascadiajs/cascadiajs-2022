@@ -56,6 +56,7 @@ module.exports = async function IndexView ({ speakers }) {
     let organizersContainer = OrganizersContainer()
     let directoryContainer = DirectoryContainer({ directory })
     let content = Template({ speakersContainer, organizersContainer, directoryContainer })
-    let html = Layout({ path: '/', title: 'Home', content })
+    let rawHead = '<link rel="preload" href="/images/social-sharing-card.png" as="image">'
+    let html = Layout({ path: '/', title: 'Home', content, rawHead })
     return { html }
 }

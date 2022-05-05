@@ -16,7 +16,7 @@ function getBaseUrl() {
   return url
 }
 
-module.exports = function Head ({path, title, socialUrl, excerpt = null, scripts = []}) {
+module.exports = function Head ({path, title, socialUrl, excerpt = null, scripts = [], rawHead = ''}) {
   // expand title
   title = `CascadiaJS 2022${ title ? ' - ' + title : '' }`
 
@@ -53,6 +53,7 @@ module.exports = function Head ({path, title, socialUrl, excerpt = null, scripts
     <link id="light-scheme-icon" rel="icon" href="/images/logo-blue.svg">
     <link id="dark-scheme-icon" rel="icon" href="/images/logo-green.svg">
     ${ scripts.map(s => script(s)) }
+    ${ rawHead }
   </head>
 `
 }

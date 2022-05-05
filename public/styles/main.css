@@ -464,11 +464,6 @@ section .cta {
     display: none;
 }
 
-#organizers {
-    background-color: #fff;
-    color: #112378;
-}
-
 #ticket-info thead {
     background-color: #ccc;
 }
