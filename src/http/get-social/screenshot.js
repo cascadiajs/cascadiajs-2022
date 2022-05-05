@@ -33,7 +33,7 @@ module.exports = async function screencap({ path }) {
 
       let page = await browser.newPage()
       await page.goto(`${ baseUrl }${ path }?social`, { waitUntil: "networkidle0" })
-      const file = await page.screenshot()
+      const file = await page.screenshot({ type: 'jpeg' })
       await browser.close()
       return file
     } finally {
