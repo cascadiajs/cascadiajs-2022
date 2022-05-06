@@ -60,6 +60,10 @@ strong {
     font-weight: 500;
 }
 
+ul>li {
+    line-height: 1.5em;
+}
+
 i.fas {
     width: 30px;
 }
