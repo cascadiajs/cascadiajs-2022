@@ -1134,6 +1134,9 @@ a[target="_blank"]:after {
         flex: 1;
     }
     
+    #about-us div:first-child {
+        text-align: right;
+    }
 
     .narrow {
         margin: 0 auto;
@@ -1162,6 +1165,28 @@ a[target="_blank"]:after {
 
     #page {
         margin-bottom: 64px;
+    }
+
+    .page-body a, .page-body a:visited {
+        color: #0033FF;
+    }
+
+    .page-body .toc a, .page-body .toc a:visited {
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .page-body .toc a:hover {
+        text-decoration: underline;
+    }
+
+    .page-body .toc ul {
+        padding-inline-start: 0;
+    }
+
+    .page-body .toc li {
+        list-style: none;
+        margin: 0;
     }
 
     header {

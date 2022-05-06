@@ -22,7 +22,7 @@ module.exports = function Head ({path, title, socialUrl, excerpt = null, scripts
 
   // set a default social sharing image
   if (socialUrl === undefined || socialUrl === "") {
-    socialUrl = getBaseUrl() + "/social?path=/about"
+    socialUrl = getBaseUrl() + "/social?path=/conference"
   }
 
   // convert relative a socialURL to absolute, if necessary

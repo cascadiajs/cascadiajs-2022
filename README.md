@@ -6,3 +6,11 @@ Install eslint globally, we don't want it as a dep for this application otherwis
 
 `npm i eslint -g`
 
+Install deps
+
+`npm i`
+
+## Run local server
+
+`npm start`
+
