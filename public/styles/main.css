@@ -1143,6 +1143,17 @@ a[target="_blank"]:after {
         width: 40%;
     }
 
+    #testimonials div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #testimonials div div {
+        width: 300px;
+        margin-right: 16px;
+    }
+
     .wide {
         margin: 0 auto;
         width: 70%;
