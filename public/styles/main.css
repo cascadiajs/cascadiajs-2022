@@ -64,6 +64,10 @@ ul>li {
     line-height: 1.5em;
 }
 
+a, a:visited {
+    color: #0033FF;
+}
+
 i.fas {
     width: 30px;
 }
@@ -304,13 +308,17 @@ span.cta {
 }
 
 span.highlight {
-    padding: 2px;
+    padding: 2px 8px;
     line-height: 2em;
 }
 
 div.highlight {
     padding: 8px;
     margin: 4px 0 4px 0;
+}
+
+.success {
+    background-color: #17C37B;
 }
 
 .warning {
@@ -1180,10 +1188,6 @@ a[target="_blank"]:after {
 
     #page {
         margin-bottom: 64px;
-    }
-
-    .page-body a, .page-body a:visited {
-        color: #0033FF;
     }
 
     .page-body .toc a, .page-body .toc a:visited {

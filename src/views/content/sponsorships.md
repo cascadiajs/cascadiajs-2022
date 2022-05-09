@@ -105,7 +105,7 @@ Sponsorships are broken down into tiers. No matter what your budget is, we have 
 
 Choose from one of two options: **Venue** or **Livestream**
 
-### Venue
+### Venue <span class="highlight success">1 AVAILABLE</span>
 
 ![Homestead conference venue](/images/sunriver/sunriver-homestead.jpg)
 
@@ -115,7 +115,7 @@ Your company is making it possible for the event to be at Sunriver Resort this y
 - An invitation to the stage to address our audience
 - An opportunity to place a banner on stage
 
-### Livestream
+### Livestream <span class="highlight success">1 AVAILABLE</span>
 
 ![CascadiaJS 2021 livestream](/images/past/cjs21-livestream.jpg)
 
@@ -127,7 +127,7 @@ Your company is making it possible for us to live stream this event. We are sett
 
 ## Gold Sponsorships ($15k)
 
-### Expo Hall Booth
+### Expo Hall Booth <span class="highlight warning">3 / 6 SOLD</span>
 
 ![CascadiaJS 2019 booth](/images/past/cjs19-sauce-booth.jpg)
 
@@ -135,7 +135,7 @@ The Expo Hall will be located directly outside of the room where talks are takin
 
 Each Booth will come equipped with a 2x8 ft table and power. You are free to set-up a banner and will have plenty of room for swag and product demos.
 
-### Workshop Track
+### Workshop Track <span class="highlight warning">2 / 4 SOLD</span>
 
 ![CascadiaJS 2016 workshop](/images/past/cjs16-workshop.jpg)
 
@@ -143,7 +143,7 @@ Each day of the conference (8/31 & 9/1) will feature 2 sponsored workshops, one 
 
 We will work with you to design a workshop that our community would be excited to sign-up for and handle the promotion and registration process. The workshop will be free for attendees to participate in.
 
-### Opening Dinner & Party
+### Opening Dinner & Party <span class="highlight success">1 AVAILABLE</span>
 
 ![Sunriver pool](/images/sunriver/sunriver-pool.jpg)
 
@@ -151,7 +151,7 @@ The opening dinner and party will run from 6pm - 10pm on August 31.
 
 We will work with you to plan a very fun event (possibly taking place at Sunriver’s pool) and include your brand in fun and surprising ways. You can be involved as much or as little as you like!
 
-### Closing Dinner & Party
+### Closing Dinner & Party <span class="highlight success">1 AVAILABLE</span>
 
 ![CascadiaJS 2019 photo booth](/images/past/cjs19-photo-booth.jpg)
 
@@ -161,27 +161,25 @@ We will work with you to plan a very fun event that will take place indoors and 
 
 ## Silver Sponsorships ($10k)
 
-### Welcome Reception (Aug 30)
+### Welcome Reception (Aug 30) <span class="highlight success">1 AVAILABLE</span>
 
 ![Sunriver Mt. Bachelor lawn](/images/sunriver/sunriver-mt-bachelor.jpg)
 
 The Welcome Reception takes place the day before the conference, as folks are arriving and checking-in to Sunriver. It will take place outside on the Mt. Bachelor lawn and will feature drinks and light appetizers. 
 
-### Breakfast (Aug 31 + Sept 1)
+### Breakfast (Aug 31 + Sept 1) <span class="highlight success">1 AVAILABLE</span>
 
 ![Sunriver Great Hall](/images/sunriver/sunriver-great-hall.jpg)
 
 Each morning (Aug 31 + Sept 1), breakfast will be served in the Great Hall, which is on the way to the conference center where talks will take place. You will have an opportunity to set-up banners and place items on tables. This covers breakfast on both days.
 
-### Lunch (Aug 31 + Sept 1) <span class="highlight warning" style="padding:16px;">SOLD OUT</span>
-
-
+### Lunch (Aug 31 + Sept 1) <span class="highlight warning">SOLD OUT</span>
 
 ![CascadiaJS 2015 lunch](/images/past/cjs15-lunch-sponsor.jpg)
 
 After the morning talks (Aug 31 + Sept 1), lunch will be served immediately outside the conference center on the Bessom Commons. You will have an opportunity to set-up banners and place items on tables. This covers lunch on both days.
 
-### Activity Track (Aug 31 or Sept 1)
+### Activity Track (Aug 31 or Sept 1) <span class="highlight warning">1 / 4 SOLD</span>
 
 ![Sunriver canoes](/images/sunriver/canoes.jpg)
 
@@ -189,7 +187,7 @@ Each day (Aug 31 and Sept 1) the Talk Track and Workshop Track will run from 9am
 
 Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
 
-### Farewell Brunch (Sept 2)
+### Farewell Brunch (Sept 2) <span class="highlight success">1 AVAILABLE</span>
 
 ![CascadiaJS 2016 lunch](/images/past/cjs16-lunch-outside.jpg)
 
@@ -203,19 +201,19 @@ On the morning of Sept 2, we will host a farewell brunch. You will have an oppor
 
 Include a link to your job postings on the conference website, with your logo, 200 word company blurb, and 100 word job description per job. Job postings will be emailed to all attendees.
 
-### Child Care
+### Child Care <span class="highlight warning">SOLD OUT</span>
 
 ![CascadiaJS 2015 child care](/images/past/cjs15-child-care.jpg)
 
 Help us make CascadiaJS friendly to families! We will work with a local Bend-area child care company to provide a safe and fun environment for children while their parents are enjoying the Conference or the Significant Others Track. 
 
-### Captions
+### Captions <span class="highlight success">1 AVAILABLE</span>
 
 ![CascadiaJS 2019 closed captioning](/images/past/cjs19-captions.jpg)
 
 Help us make CascadiaJS accessible to the deaf and hard of hearing! We work with White Coat Captioning to provide a human-powered captioning experience for both attendees in the audience and those watching online. 
 
-### Graphic Recordings
+### Graphic Recordings <span class="highlight success">1 AVAILABLE</span>
 
 ![CascadiaJS 2021 graphic recording](/images/past/cjs21-graphic-recording.jpg)
 
