@@ -8,7 +8,7 @@ title: CascadiaJS is the Pacific Northwest’s JavaScript conference
 - Our 10 year anniversary event
 - In-person conference being held at Sunriver Resort outside of Bend, OR.
 - August 30 - Sept 2, 2022
-- 400+ in-person attendees expected
+- 300+ in-person attendees expected
 - 18 talks from experts in the JavaScript and web community
 - Pre-conference reception, evening events on both days and a farewell brunch
 
@@ -127,7 +127,7 @@ Your company is making it possible for us to live stream this event. We are sett
 
 ## Gold Sponsorships ($15k)
 
-### Expo Hall Booth <span class="highlight warning">3 / 6 SOLD</span>
+### Expo Hall Booth <span class="highlight warning">3 / 7 SOLD</span>
 
 ![CascadiaJS 2019 booth](/images/past/cjs19-sauce-booth.jpg)
 
@@ -143,27 +143,17 @@ Each day of the conference (8/31 & 9/1) will feature 2 sponsored workshops, one 
 
 We will work with you to design a workshop that our community would be excited to sign-up for and handle the promotion and registration process. The workshop will be free for attendees to participate in.
 
-### Opening Dinner & Party <span class="highlight success">1 AVAILABLE</span>
+### Dinner & Drinks (Aug 31 + Sept 1) <span class="highlight success">1 AVAILABLE</span>
 
-![Sunriver pool](/images/sunriver/sunriver-pool.jpg)
+![Sunriver Mt. Bachelor lawn](/images/sunriver/sunriver-mt-bachelor.jpg)
 
-The opening dinner and party will run from 6pm - 10pm on August 31. 
-
-We will work with you to plan a very fun event (possibly taking place at Sunriver’s pool) and include your brand in fun and surprising ways. You can be involved as much or as little as you like!
-
-### Closing Dinner & Party <span class="highlight success">1 AVAILABLE</span>
-
-![CascadiaJS 2019 photo booth](/images/past/cjs19-photo-booth.jpg)
-
-The closing dinner and party will run from 6pm - 10pm on September 1. 
-
-We will work with you to plan a very fun event that will take place indoors and will almost certainly include karaoke, a longtime CascadiaJS tradition. 
+Help us create an amazing end to each day by catering a delicious meal and setting-up a bar. We will work with you to include your brand in fun and surprising ways. You can be involved as much or as little as you like!
 
 ## Silver Sponsorships ($10k)
 
 ### Welcome Reception (Aug 30) <span class="highlight success">1 AVAILABLE</span>
 
-![Sunriver Mt. Bachelor lawn](/images/sunriver/sunriver-mt-bachelor.jpg)
+![Sunriver fire pits](/images/sunriver/sunriver-firepit.jpg)
 
 The Welcome Reception takes place the day before the conference, as folks are arriving and checking-in to Sunriver. It will take place outside on the Mt. Bachelor lawn and will feature drinks and light appetizers. 
 
@@ -186,6 +176,15 @@ After the morning talks (Aug 31 + Sept 1), lunch will be served immediately outs
 Each day (Aug 31 and Sept 1) the Talk Track and Workshop Track will run from 9am - 4pm. Following this, we are going to organize an Activity Track where attendees will get to choose from a basket of activities (kayaking, biking, nature walks, etc). 
 
 Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
+
+### Startup Fair (Sept 1) <span class="highlight success">3 AVAILABLE</span>
+
+![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
+
+After dinner on Sept 1, we are putting on our first ever Startup Fair! We have opened applications for startups who are building the next generation of developer tools to [apply](/conference/startup-fair). We will invite the top-5 startups to set-up a booth during the Startup Fair and showcase their products to our community, free of charge.
+
+You can support this event (and these startups) by being a sponsor for this event. We will connect you to these early stage startups and acknowledge your support during the event. It will be a great opportunity to connect to some high-potential founders and a larger group of developers, some of whom may become founders.
+
 
 ### Farewell Brunch (Sept 2) <span class="highlight success">1 AVAILABLE</span>
 
