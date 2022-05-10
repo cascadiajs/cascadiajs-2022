@@ -1,4 +1,4 @@
-let md = require('marked')
+let { marked } = require('marked')
 let Layout = require('./layout')
 let SocialLayout = require('./layout/social')
 
@@ -24,7 +24,7 @@ let Template = function(organizer) {
                         ${ twitter ? `<h3>Social</h3><p><i class="fab fa-twitter"></i> <a target="_blank" href="https://twitter.com/${ twitter }">@${ twitter }</a></p>` : '' }
                     </div>
                 </div>
-                <p>${ md(bio) }</p>
+                <p>${ marked.parse(bio) }</p>
             </section>
         </div>
     </div>

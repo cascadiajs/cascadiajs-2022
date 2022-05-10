@@ -1,7 +1,7 @@
 let fs = require('fs')
 let exists = fs.existsSync
 let read = fs.readFileSync
-let md = require('marked')
+let { marked } = require('marked')
 let fm = require('front-matter')
 let join = require('path').join
 let Layout = require('./layout')
@@ -14,7 +14,7 @@ function MarkdownTemplate({ title, body }) {
         <div><h1>${title}</h1></div>
       </div>
       <div class="page-body">
-        ${md(body)}
+        ${marked.parse(body)}
       </div>
     </div>`
 }

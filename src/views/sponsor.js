@@ -1,4 +1,4 @@
-let md = require('marked')
+let { marked } = require('marked')
 let Layout = require('./layout')
 let SocialLayout = require('./layout/social')
 
@@ -15,7 +15,7 @@ let Template = function(sponsor) {
         <div class="page-body">
             <section class="sponsor">
                 <p><img src="/images/sponsors/${ logo }" alt="logo of ${ name }"/></p>
-                <p>${ md(description) }</p>
+                <p>${ marked.parse(description) }</p>
                 <p><a target="_blank" href="${ url }">Learn More</a></p>
                 ${ jobs ? /*html*/`<h2>${ name } is Hiring!</h2>
                 <p><a target="_blank" href="${ jobs }">Open Jobs</a></p>` : '' }

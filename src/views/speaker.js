@@ -1,5 +1,5 @@
 
-let md = require('marked')
+let { marked } = require('marked')
 let Layout = require('./layout')
 let SocialLayout = require('./layout/social')
 let assetPath = 'https://create-4jr.begin.app/_static/2022'
@@ -18,7 +18,7 @@ let Template = function(speaker) {
             <section class="person">
                 <h2>${ title }</h2>
                 <div class="topics">${ topics.map(t => `<div class=js-topic>${ t }</div>`).join('') }</div>
-                <div class="abstract">${ md(abstract) }</div>
+                <div class="abstract">${ marked.parse(abstract) }</div>
                 <!--div class="illustration">
                     <img src="https://static.cascadiajs.com/2021/graphic-recordings/${ key }.jpg" alt="talk illustration"/><br/>
                     <p><small><i>Illustrations made possible by our friends at <a href="https://trynewrelic.com/cascadiajs">NewRelic</a> ❤️</i></small></p>

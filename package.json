@@ -13,9 +13,11 @@
   "dependencies": {
     "@architect/functions": "^4.0.0",
     "@begin/data": "^3.0.0",
+    "chrome-aws-lambda": "^10.1.0",
     "crypto": "^1.0.1",
     "esm": "^3.2.25",
     "front-matter": "^4.0.2",
-    "marked": "^3.0.4"
+    "marked": "^4.0.15",
+    "puppeteer-core": "^14.0.0"
   }
 }
