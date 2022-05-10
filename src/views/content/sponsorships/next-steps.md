@@ -22,7 +22,7 @@ Thank you SO MUCH for supporting CascadiaJS this year. Your support is the only 
 Now that we have your logo and marketing copy, we will update our website and let folks know you're joining us this year. You should see 3 things shortly:
 
 - Your logo on our [main landing page](/)
-- A personalized internal landing page ([example](/sponsors/200ok))
+- A personalized internal landing page for Silver/Gold/Platinum ([example](/sponsors/200ok))
 - A personalized social sharing image whenever this link is shared on Twitter/LinkedIn/Facebook/etc ([example](/sponsors/200ok?social))
 
 If anything looks off or you'd like to change something, just let us know!
@@ -49,14 +49,11 @@ Our Discord Community is an important place where we engage attendees leading up
 
 <div class="cta"><a target="_blank" href="https://discord.gg/cascadiajs">Join</a></div>
 
-
 ## Social Media Guidance
 
 Keep your eyes peeled for tweets from [@CascadiaJS](https://twitter.com/CascadiaJS). The official hashtags for this year's event are #CascadiaJS and #FamilyReunion.
 
 We have also created a nascent [Twitter Community](https://twitter.com/i/communities/1496715959104466947), feel free to join and participate in the discussions there!
-
-![CascadiaJS 2019 family photo](/images/past/cjs19-family.jpg)
 
 ## COVID and Safety
 
@@ -66,7 +63,7 @@ We have published guidance on how we plan on [handling the safety of our attende
 
 ![Expo Hall layout](/images/sunriver/homestead-expo-hall.png)
 
-Expo Hall tables are 6 feet by 1 foot (6' x 1') and will be set-up in the entrance hall located directly outside of the Talk Track room. 
+Expo Hall tables are 6 feet by 1 foot (6' x 1') and will be set-up in the entrance hall located directly outside of the Talk Track room. Unlike the diagram above, we will only set-up a maximum of 9 booths, so there will be space in between all of the booths to minimize crowding while inside. 
 
 We will run power to each booth. Sponsors will be responsible for setting-up pop-up banners, tablecloths and staffing their booths.
 
