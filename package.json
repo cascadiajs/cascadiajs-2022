@@ -18,6 +18,6 @@
     "esm": "^3.2.25",
     "front-matter": "^4.0.2",
     "marked": "^4.0.15",
-    "puppeteer-core": "^14.0.0"
+    "puppeteer-core": "^10.1.0"
   }
 }
