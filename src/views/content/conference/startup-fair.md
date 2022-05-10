@@ -6,7 +6,7 @@ caption: Moovweb at CascadiaJS 2019
 ---
 ![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
 
-This year, we are inviting early stage startups to apply for a booth at our first ever Startup Fair! This event will take place after dinner on the evening of August 31st and run from 7pm - 10pm. The purpose of this event is to showcase early stage startup building the next generation of developer tools to our community.
+This year, we are inviting early stage startups to apply for a booth at our first ever Startup Fair! This event will take place after dinner on the evening of September 1st and run from 7pm - 10pm. The purpose of this event is to showcase early stage startup building the next generation of developer tools to our community.
 
 The application process is easy, just tell us a little bit about what you're building. Applications will be accepted on a rolling basis and will either close on <span class="highlight warning">Friday, July 1</span> or once we hit our cap of 5 startups, so please don't delay. Startups who are invited to participate in the Startup Fair will recieve:
 
