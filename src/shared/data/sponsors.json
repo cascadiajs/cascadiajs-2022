@@ -40,6 +40,16 @@
     "short": "Cloud security at the speed of light."
   },
   {
+    "key": "vonage",
+    "tier": "gold",
+    "name": "Vonage",
+    "url": "https://vonage.dev/cascadiajs",
+    "logo": "vonage.png",
+    "square": "vonage-square.png",
+    "description": "Vonage has everything you need to build connected applications with their APIs for SMS, Voice, Video, Verify and more. Whether you want to make and receive phone calls with code, reach users by the messaging platforms they prefer or ensure that users provide the correct contact details, they’ve got you covered. Easily integrate with social chat apps such as Facebook Messenger, WhatsApp and Viber, or build in-app voice and messaging experience on mobile and web. Vonage has quick solutions made easy for you.",
+    "short": "Everything you need to build connected applications with APIs for SMS, Voice, Video, Verify & more."
+  },
+  {
     "key": "codingscape",
     "tier": "silver",
     "name": "Codingscape",
