@@ -14,6 +14,7 @@ Thank you SO MUCH for supporting CascadiaJS this year. Your support is the only 
         <li><a href="#social-media-guidance">Social Media Guidance</a></li>
         <li><a href="#covid-and-safety">COVID and Safety</a></li>
         <li><a href="#expo-hall-and-booths">Expo Hall and Booths</a></li>
+        <li><a href="#shipping-to-sunriver-resort">Shipping to Sunriver Resort</a></li>
     </ul>
 </div>
 
@@ -68,3 +69,7 @@ Expo Hall tables are 6 feet by 1 foot (6' x 1') and will be set-up in the entran
 We will run power to each booth. Sponsors will be responsible for setting-up pop-up banners, tablecloths and staffing their booths.
 
 Expo Halls hours will run from 8am - 3pm on August 31 and 8am - 5pm on September 1.
+
+## Shipping to Sunriver Resort
+
+If you need to ship banners, swag or other equipment to Sunriver for the conference, please review this <a target="_blank" href="/files/sunriver-shipping.pdf">Sunriver Shipping Instructions</a> PDF document.
