@@ -151,7 +151,7 @@ Help us create an amazing end to each day by catering a delicious meal and setti
 
 ## Silver Sponsorships ($10k)
 
-### Welcome Reception (Aug 30) <span class="highlight success">1 AVAILABLE</span>
+### Welcome Reception (Aug 30) <span class="highlight warning">SOLD OUT</span>
 
 ![Sunriver fire pits](/images/sunriver/sunriver-firepit.jpg)
 
