@@ -24,8 +24,38 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
             </div>
         </section>
         <section id="about-us">
-            <div><img src="/images/home-illo-1.png" alt="Over the course of 2 days, you'll hear amazing talks, connect with other developers, have the opportunity to attend hands-on workshops, and spend the afternoons choosing from indoor and outdoor activities (pickleball, anyone?)."/></div>
-            <div><img src="/images/home-illo-2.png" alt="talks, workshops, karaoke, job fair, pool"/></div>
+            <div><img src="/images/illustrations/home-1.png" alt="Over the course of 2 days, you'll hear amazing talks, connect with other developers, have the opportunity to attend hands-on workshops, and spend the afternoons choosing from indoor and outdoor activities (pickleball, anyone?)."/></div>
+            <div><img src="/images/illustrations/home-2.png" alt="talks, workshops, karaoke, job fair, pool"/></div>
+        </section>
+        <section id="features" class="landing">
+            <h1>Features</h1>
+            <div id="features-container">
+                <div class="feature">
+                    <div><img src="/images/illustrations/feature-venue.gif" alt="illustration of Sunriver Resort"/></div>
+                    <h2>Sunriver Resort</h2>
+                    <p>Located just outside of Bend, this is one of the most beautiful resorts in the PacNW and is the perfect place to bring us all back together for an in-person event.</p>
+                </div>
+                <div class="feature">
+                    <div><img src="/images/illustrations/feature-family.gif" alt="illustration of an icecream cone"/></div>
+                    <h2>Family Friendly</h2>
+                    <p>In addition to the fun at the resort (pool, bikes, etc) we will be providing FREE child care so that you can bring the whole family without missing any of the fun.</p>
+                </div>
+                <div class="feature">
+                    <div><img src="/images/illustrations/feature-talks.gif" alt="illustration of a microphone"/></div>
+                    <h2>22 Awesome Speakers</h2>
+                    <p>We are being joined by a wonderful line-up of speakers covering everything from the latest in the web and Node.js to building a more inclusive tech industry.</p>
+                </div>
+                <div class="feature">
+                    <div><img src="/images/illustrations/feature-workshops.gif" alt="illustration of merit badge"/></div>
+                    <h2>Hands-on Workshops</h2>
+                    <p>Running parallel to the talks, there will be hands-on workshops to choose from if you care to roll-up your sleeves and do some coding.</p>
+                </div>
+                <div class="feature">
+                    <div><img src="/images/illustrations/feature-activities.gif" alt="illustration of a pickleball racquet"/></div>
+                    <h2>Outdoor Activities</h2>
+                    <p>On the afternoon of the first day, we will cut talks and workshops short and spend an afternoon outside having fun!</p>
+                </div>
+            </div>
         </section>
         <section id="speakers" class="landing">
             <h1>Speakers</h1>
