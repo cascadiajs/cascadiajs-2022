@@ -169,14 +169,6 @@ Each morning (Aug 31 + Sept 1), breakfast will be served in the Great Hall, whic
 
 After the morning talks (Aug 31 + Sept 1), lunch will be served immediately outside the conference center on the Bessom Commons. You will have an opportunity to set-up banners and place items on tables. This covers lunch on both days.
 
-### Activity Track (Aug 31 or Sept 1) <span class="highlight warning">1 / 4 SOLD</span>
-
-![Sunriver canoes](/images/sunriver/canoes.jpg)
-
-Each day (Aug 31 and Sept 1) the Talk Track and Workshop Track will run from 9am - 4pm. Following this, we are going to organize an Activity Track where attendees will get to choose from a basket of activities (kayaking, biking, nature walks, etc). 
-
-Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
-
 ### Startup Fair (Sept 1) <span class="highlight success">3 AVAILABLE</span>
 
 ![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
@@ -185,7 +177,6 @@ After dinner on Sept 1, we are putting on our first ever Startup Fair! We have o
 
 You can support this event (and these startups) by being a sponsor for this event. We will connect you to these early stage startups and acknowledge your support during the event. It will be a great opportunity to connect to some high-potential founders and a larger group of developers, some of whom may become founders.
 
-
 ### Farewell Brunch (Sept 2) <span class="highlight success">1 AVAILABLE</span>
 
 ![CascadiaJS 2016 lunch](/images/past/cjs16-lunch-outside.jpg)
@@ -193,6 +184,14 @@ You can support this event (and these startups) by being a sponsor for this even
 On the morning of Sept 2, we will host a farewell brunch. You will have an opportunity to set-up banners and place items on tables. This will be the last event that takes place before people leave the conference. 
 
 ## Bronze Sponsorships ($5k)
+
+### Activity Track (Aug 31 or Sept 1) <span class="highlight warning">1 / 4 SOLD</span>
+
+![Sunriver canoes](/images/sunriver/canoes.jpg)
+
+Each day (Aug 31 and Sept 1) the Talk Track and Workshop Track will run from 9am - 4pm. Following this, we are going to organize an Activity Track where attendees will get to choose from a basket of activities (scavenger hunt, yoga, nature walks, etc). 
+
+Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
 
 ### Job Posting
 
