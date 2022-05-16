@@ -55,6 +55,16 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                     <h2>Outdoor Activities</h2>
                     <p>On the afternoon of the first day, we will cut talks and workshops short and spend an afternoon outside having fun!</p>
                 </div>
+                <div class="feature">
+                    <div><img src="/images/illustrations/feature-jobfair.gif" alt="illustration of a Help Wanted sign"/></div>
+                    <h2>Job Fair</h2>
+                    <p>After dinner on Day One, we are hosting a Job Fair to connect folks to great companies that are hiring!</p>
+                </div>
+                <div class="feature">
+                    <div><img src="/images/illustrations/feature-startup.gif" alt="illustration of a unicorn"/></div>
+                    <h2>Startup Fair</h2>
+                    <p>After dinner on Day Two, we are hosting a Startup Fair to showcase exciting, new developer APIs and tools!</p>
+                </div>
             </div>
         </section>
         <section id="speakers" class="landing">
