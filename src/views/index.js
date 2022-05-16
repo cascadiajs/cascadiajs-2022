@@ -51,6 +51,11 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                     <p>Running parallel to the talks, there will be hands-on workshops to choose from if you care to roll-up your sleeves and do some coding.</p>
                 </div>
                 <div class="feature">
+                    <div><img src="/images/illustrations/feature-allinclusive.png" alt="illustration of a meal"/></div>
+                    <h2>All Inclusive</h2>
+                    <p>Your ticket includes a Welcome Reception, 3 meals a day for 2 days, 2 awesome parties and a Farewell Brunch!</p>
+                </div>
+                <div class="feature">
                     <div><img src="/images/illustrations/feature-activities.gif" alt="illustration of a pickleball racquet"/></div>
                     <h2>Outdoor Activities</h2>
                     <p>On the afternoon of the first day, we will cut talks and workshops short and spend an afternoon outside having fun!</p>
