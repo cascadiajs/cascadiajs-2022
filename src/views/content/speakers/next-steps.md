@@ -17,6 +17,8 @@ Check out our [Travel Guide](/travel) for ideas on how to get to Sunriver Resort
 
 We are budgeting <span class="highlight warning">$1000 USD</span> to cover travel expenses for each speaker, so please try to stay within this limit. 
 
+As you plan your travel, please try to be at Sunriver Resort no later than 5pm on August 30. Our current plan is to host our Speaker and Organizer Dinner on August 30, the evening before the first day of the conference.
+
 Once you are booked, please email us your confirmation and a receipt so that we can reimburse you.
 
 ## Lodging
