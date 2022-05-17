@@ -126,6 +126,29 @@ nav a:hover  {
     color: #ffcf07;
 }
 
+#banner {
+    background: #ee3e4a;
+    padding: 16px;
+}
+
+.banner-item {
+    padding: 8px;
+    margin-bottom: 16px;
+    background: #FFF5CC;
+    border: 3px solid #112378;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.banner-item-metric {
+    font-family: alkaline-caps, serif;
+    font-weight: 700;
+}
+
+.banner-item .cta {
+    margin:0;
+}
+
 a.buy, a.buy:visited {
     background: #FFD007 0% 0% no-repeat padding-box;
     color: #112378;
@@ -1161,6 +1184,31 @@ a[target="_blank"]:after {
     #about-us div:first-child {
         text-align: right;
     }
+
+    #banner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .banner-item {
+        width: 18vw;
+        margin: 0;
+    }
+    
+    .banner-item-metric {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    
+    
+    .banner-item-metric {
+        font-family: alkaline-caps, serif;
+        font-weight: 700;
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    
 
     .narrow {
         margin: 0 auto;

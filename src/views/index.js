@@ -27,6 +27,23 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
             <div><img src="/images/illustrations/home-1.png" alt="Over the course of 2 days, you'll hear amazing talks, connect with other developers, have the opportunity to attend hands-on workshops, and spend the afternoons choosing from indoor and outdoor activities (pickleball, anyone?)."/></div>
             <div><img src="/images/illustrations/home-2.png" alt="talks, workshops, karaoke, job fair, pool"/></div>
         </section>
+        <section id="banner">
+            <div class="banner-item">
+                <div class="banner-item-metric">June 5</div>
+                <p>Deadline to register and secure your preferred hoodie.</p>
+                <div class="cta secondary"><a href="/tickets">Register</a></div>
+            </div>
+            <div class="banner-item">
+                <div class="banner-item-metric">36%</div>
+                <p>of Sunriver Resort rooms have been booked.</p>
+                <div class="cta secondary"><a href="/conference/next-steps">Book</a></div>
+            </div>
+            <div class="banner-item">
+                <div class="banner-item-metric">20</div>
+                <p>free child care slots left for kids aged 12 and under.</p>
+                <div class="cta secondary"><a href="/conference/child-care">Reserve</a></div>
+            </div>
+        </section>
         <section id="features" class="landing">
             <h1>Features</h1>
             <div id="features-container">

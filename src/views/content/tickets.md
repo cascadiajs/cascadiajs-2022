@@ -34,25 +34,6 @@ Tickets are released in batches. Each batch is limited in quantity, so please ma
 
 *Late Bird tickets will miss the option to personalize their conference hoodies (sizing, message on sleeve, etc)*
 
-## Lodging at Sunriver Resort
-
-Conference attendees receive discounted room rates at Sunriver Resort and the 17.5% resort fee is waived. 
-
-<div class="warning highlight">NOTE: you'll see the resort fee during online checkout, but it will be waived when you check-in at the resort.</div>
-
-After your purchase your conference ticket, you'll receive an email with a special link to access these rates.
-
-<table id="ticket-info">
-    <thead>
-        <tr><th>Room Type</th><th>Rate</th></tr>
-    </thead>
-    <tbody>
-        <tr><td>Lodge Village Guest Room</td><td>$239/night</td></tr>
-        <tr><td>Lodge Village Suite</td><td>$339/night</td></tr>
-        <tr><td>River Lodge Guest Room</td><td>$309/night</td></tr>
-    </tbody>
-</table>
-
 ## Group Sales and Registration
 
 We ask people to register for their ticket themselves (and not on behalf of someone else) because during the registration process we ask folks to agree to our Code of Conduct and we collect important personal information, such as hoodie sizes and dietary restrictions.
