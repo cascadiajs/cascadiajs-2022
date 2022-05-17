@@ -37,6 +37,8 @@ Conference attendees receive discounted room rates at Sunriver Resort and the 17
     </tbody>
 </table>
 
+<div class="cta"><a target="_blank" href="https://www.sunriverresort.com/group-stays/cascadia-js-2022">Book at Sunriver</a></div>
+
 ### Other Lodging Options
 
 If staying at Sunriver Resort doesn't fit into your budget, don't worry because Bend has TONS of lodging options, everything from RVs to camping! Please check-out the [Visit Bend Guide to Lodging](https://www.visitbend.com/where-to-stay/) for ideas on where you could stay. 
