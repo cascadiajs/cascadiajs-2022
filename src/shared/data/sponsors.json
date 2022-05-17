@@ -67,7 +67,17 @@
     "url": "https://begin.com",
     "logo": "begin.svg",
     "square": "begin-square.png",
-    "description": "Begin is a ridiculously quick platform for building modern web apps, sites, and APIs. Get started for free."
+    "description": "Begin is a ridiculously quick platform for building modern web apps, sites, and APIs. Get started for free."  
+  },
+  {
+    "key": "turning",
+    "tier": "silver",
+    "name": "Turing School of Software and Design",
+    "url": "https://terminal.turing.edu/",
+    "logo": "turing.png",
+    "square": "turing-square.png",
+    "description": "Turing School of Software & Design is a seven month, federally accredited, immersive training program. Our students specialize through the Front-End Engineering program focusing on JavaScript and React or our Back-End Engineering program with Ruby and Rails. Because they build a foundation in problem-solving, collaboration, and fast-learning, we find that about a quarter of graduates go to work in technologies we didn't teach them like Python, Java, Salesforce, Angular, TypeScript, etc.\n\nSeparate programs with a longer time frame allow students to get a deeper understanding of their chosen specialty in addition to the basic skills needed to work in a modern web development team. When Turing students graduate, they're ready to hit the ground running. Let us help you find the one that's right for you.",
+    "short": "A seven month, federally accredited, immersive training program."
   },
   {
     "key": "fission",
@@ -77,6 +87,14 @@
     "logo": "fission.png",
     "square": "fission-square.jpg",
     "description": "Building protocols for the future of the Internet"
+  },
+  {
+    "key": "seattlejs",
+    "tier": "community",
+    "name": "SeattleJS",
+    "url": "https://seattlejs.com",
+    "logo": "seattlejs.png",
+    "description": "The longest running web and JS meetup in Seattle. All are welcome!"
   },
   {
     "key": "200ok",
