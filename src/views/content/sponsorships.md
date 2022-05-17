@@ -236,3 +236,15 @@ Finally, please consider helping us fund our Scholarship Program. Over the years
 3. As soon as the invoice is paid, we will get you onboarded and get your team set-up with tickets and lodging information.
 
 <div class="cta"><a target="_blank" href="https://calendly.com/carter-rabasa">Book Call</a></div>
+
+## Help Sponsor Local Meetups!
+
+Like CascadiaJS, local meetup communities need the support of sponsors to pay for things like venue space, food/drink, live streaming equipment and more. Here is a list of local meetups in the Pacific Northwest that are currently operating virtual or in-person meetups and could use your support:
+
+### SeattleJS
+
+<img src="/images/sponsors/seattlejs.png" alt="SeattleJS logo" height="200" width="200"/>
+
+SeattleJS is the largest JavaScript meet up in Seattle. We hold our meet ups on the second Wednesday of every month. SeattleJS exisits to inform, inspire, and encourage members of the JavaScript community. Our goal is for you to leave inspired and ready to innovate.
+
+[seattlejs.com](https://seattlejs.com)
