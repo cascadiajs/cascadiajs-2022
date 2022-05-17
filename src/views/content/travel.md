@@ -12,7 +12,9 @@ There are three ways we expect most folks from out of town to arrive in Bend, OR
 
 ### Shuttle Buses from Portland, OR
 
-We are going to charter one or more shuttle buses from Portland, OR to bring people to Sunriver on August 30 and to return them to Portland, OR on September 2. The buses will depart Portland, OR on August 30 around 2:30pm for an arrival into Sunriver of roughly 6pm. If you'd like a ride on this shuttle, please fill-out [this form](https://airtable.com/shrEUDtosdLy7IenQ) and we'll let you know when tickets go on sale.
+We are going to charter shuttle buses from Portland, OR to bring people to Sunriver on August 30 and to return them to Portland, OR on September 2. The buses will depart Portland, OR on August 30 around 2:30pm for an arrival into Sunriver of roughly 6pm. 
+
+If you'd like a ride on this shuttle, hang tight, tickets will go on sale soon!
 
 ### Hacker Train from Seattle, WA
 
@@ -23,7 +25,7 @@ We recommend the following trains:
 - Aug 30 // 11 Coast Starlight train - departs Seattle, WA at 9:50am, arrives Portland, OR at 1:50pm
 - Sep 02 // 14 Coast Starlight train - depart Portland, OR at 3:56pm, arrives Seattle, WA at 7:51pm
 
-If you end up purchasing tickets on these trains, don't forget to fill-out [this form](https://airtable.com/shrEUDtosdLy7IenQ) so we know you'd like a seat on a shuttle bus.
+If you end up purchasing tickets on these trains PLEASE make sure to secure a ticket on the Portland-Bend shuttle bus. The shuttles will have limited capacity, so don't delay.
 
 ### Car Pools
 
@@ -31,7 +33,7 @@ We are also interested in helping people organize car pools departing from and r
 
 ### Flying in to RDM
 
-If you plan on flying, the closest airport to Sunriver with is RDM.  Sunriver Resort is roughly 40 minutes from the airport, so we will organize shuttle buses to pick folks up from RDM on August 30th and bring them to Sunriver Resort and return folks to RDM following the Farewell Brunch on Sept 2.
+If you plan on flying, the closest airport to Sunriver with is RDM.  Sunriver Resort is roughly 40 minutes from the airport, so we will organize a FREE shuttle bus to pick folks up from RDM on August 30th and bring them to Sunriver Resort and return folks to RDM following the Farewell Brunch on Sept 2.
 
 NOTE: Alaska Airlines cancelled the only direct flight between PDX and RDM. There are plans to restore this service, but probably not in time for the conference. So if your plan was to fly from Portland, please consider the shuttle option or plan to drive.
 
