@@ -89,6 +89,15 @@
     "description": "Building protocols for the future of the Internet"
   },
   {
+    "key": "postman",
+    "tier": "community",
+    "name": "Postman",
+    "url": "https://www.postman.com",
+    "logo": "postman.svg",
+    "square": "postman-square.png",
+    "description": "Browse the largest network of APIs and share what you build with 20 million developers across the planet."
+  },
+  {
     "key": "seattlejs",
     "tier": "community",
     "name": "SeattleJS",
