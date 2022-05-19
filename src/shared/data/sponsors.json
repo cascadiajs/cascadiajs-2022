@@ -50,6 +50,15 @@
     "short": "Everything you need to build connected applications with APIs for SMS, Voice, Video, Verify & more."
   },
   {
+    "key": "formidable",
+    "tier": "gold",
+    "name": "Formidable",
+    "url": "https://formidable.com",
+    "logo": "formidable.svg",
+    "square": "formidable-square.png",
+    "description": "We build the modern web."
+  },
+  {
     "key": "codingscape",
     "tier": "silver",
     "name": "Codingscape",
@@ -78,6 +87,16 @@
     "square": "turing-square.png",
     "description": "Turing School of Software & Design is a seven month, federally accredited, immersive training program. Our students specialize through the Front-End Engineering program focusing on JavaScript and React or our Back-End Engineering program with Ruby and Rails. Because they build a foundation in problem-solving, collaboration, and fast-learning, we find that about a quarter of graduates go to work in technologies we didn't teach them like Python, Java, Salesforce, Angular, TypeScript, etc.\n\nSeparate programs with a longer time frame allow students to get a deeper understanding of their chosen specialty in addition to the basic skills needed to work in a modern web development team. When Turing students graduate, they're ready to hit the ground running. Let us help you find the one that's right for you.",
     "short": "A seven month, federally accredited, immersive training program."
+  },
+  {
+    "key": "fictiv",
+    "tier": "silver",
+    "name": "Fictiv",
+    "url": "https://www.fictiv.com",
+    "logo": "fictiv.png",
+    "square": "fictiv-square.png",
+    "description": "Build the future of manufacturing.",
+    "jobs": "https://www.fictiv.com/careers"
   },
   {
     "key": "fission",
