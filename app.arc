@@ -27,6 +27,7 @@ post /speakers
 post /speakers/:key
 get  /sponsors/:key
 get  /tickets/:number
+post /tickets
 post /tickets/:key
 get /*
 

@@ -6,7 +6,7 @@
     "start": "ARC_TABLES_PORT=5001 npx sandbox"
   },
   "devDependencies": {
-    "@architect/architect": "^10.3.0",
+    "@architect/architect": "^10.3.3",
     "@architect/sandbox": "^4.0",
     "node-fetch": "^2.6.5"
   },

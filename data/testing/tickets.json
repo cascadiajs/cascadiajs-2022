@@ -1,0 +1,34 @@
+[
+    {
+      "number": 1,
+      "release_title": "Scholarship Donation",
+      "key": "AAAA-2"
+    },
+    {
+      "number": 2,
+      "release_title": "Extra Hoodie",
+      "key": "BBBB-4",
+      "hoodie": "Y",
+      "code": "aaa"
+    },
+    {
+      "number": 3,
+      "release_title": "Conference Early Bird",
+      "full_name": "Foo Bar",
+      "key": "CCCC-1",
+      "conference": "Y",
+      "hoodie": "Y",
+      "code": "bbb"
+    },
+    {
+      "number": 4,
+      "release_title": "Conference Speaker",
+      "full_name": "Biz Baz",
+      "key": "DDDD-1",
+      "conference": "Y",
+      "hoodie": "Y",
+      "code": "ccc",
+      "github": "crtr0",
+      "avatar": "https://avatars.githubusercontent.com/u/118628?v=4"
+    }
+]
