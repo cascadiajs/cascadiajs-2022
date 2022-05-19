@@ -183,15 +183,15 @@ You can support this event (and these startups) by being a sponsor for this even
 
 On the morning of Sept 2, we will host a farewell brunch. You will have an opportunity to set-up banners and place items on tables. This will be the last event that takes place before people leave the conference. 
 
-## Bronze Sponsorships ($5k)
-
-### Activity Track (Aug 31 or Sept 1) <span class="highlight warning">1 / 4 SOLD</span>
+### Activity Track (Aug 31 or Sept 1) <span class="highlight warning">2 / 4 SOLD</span>
 
 ![Sunriver canoes](/images/sunriver/canoes.jpg)
 
 Each day (Aug 31 and Sept 1) the Talk Track and Workshop Track will run from 9am - 4pm. Following this, we are going to organize an Activity Track where attendees will get to choose from a basket of activities (scavenger hunt, yoga, nature walks, etc). 
 
 Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
+
+## Bronze Sponsorships ($5k)
 
 ### Job Posting
 
