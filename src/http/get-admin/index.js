@@ -37,45 +37,36 @@ async function authenticated(req) {
     let linksSection = `<h2>Private Links</h2>${ linkData.map(link).join('') + newLink }`
     let newSpeaker = speaker()
     let speakersSection = `<h2>Speakers</h2>${ newSpeaker + speakerData.map(speaker).join('') }`
-    let ticketData = await data.get( {table: 'tickets', limit: 1000 })
-    let ticketsSection = `<h2>Tickets</h2>${ ticketData.map(ticket).join('') }`
-    let codeData = await data.get( {table: 'codes', limit: 1000 })
-    let codesSection = `<h2>Redemption Codes</h2>${ codeData.map(code).join('') }`
-    let html = layout(linksSection + speakersSection + ticketsSection + codesSection)
+    let ticketData = await data.get( {table: 'tickets', limit: 5000 })
+    let newTicket = ticket()
+    let ticketsSection = `<h2>Tickets</h2>${ newTicket + ticketData.map(ticket).join('') }`
+    let html = layout(linksSection + speakersSection + ticketsSection)
     return { html }
   }
 }
 
 function ticket(t) {
   return `<details>
-      <summary>${ t.key } ${ t.release_title } ${ t.full_name }</summary>
-      <form action=/ticket method=post>
-        <input type=hidden name=key value="${ t.key }">
-        <input type=text name=number placeholder="Number" value="${ t.number || '' }">
-        <input type=text name=release_title placeholder="Release Title" value="${ t.release_title || '' }">
-        <input type=text name=release_slug placeholder="Release Slug" value="${ t.release_slug || '' }">
-        <input type=text name=full_name placeholder="Full Name" value="${ t.full_name || '' }">
-        <input type=text name=email placeholder="Email" value="${ t.email || '' }">
-        <input type=text name=github placeholder="Github username" value="${ t.github || '' }">
-        <input type=text name=avatar placeholder="Github avatar URL" value="${ t.avatar || '' }">
+      <summary>${ t ? `${ t.key } ${ t.release_title } ${ t.full_name }` : 'new ticket' }</summary>
+      <form action=/tickets/${ t ? t.key : 'new' } method=post>
+        <input type=${ t ? 'hidden' : 'text' } ${ t ? '' : 'placeholder=key' } name=key value="${ t ? t.key : '' }">
+        <input type=text name=number placeholder="Number" value="${ t?.number || '' }">
+        <input type=text name=release_title placeholder="Release Title" value="${ t?.release_title || '' }">
+        <input type=text name=release_slug placeholder="Release Slug" value="${ t?.release_slug || '' }">
+        <input type=text name=full_name placeholder="Full Name" value="${ t?.full_name || '' }">
+        <input type=text name=email placeholder="Email" value="${ t?.email || '' }">
+        <input type=text name=github placeholder="Github username" value="${ t?.github || '' }">
+        <input type=text name=avatar placeholder="Github avatar URL" value="${ t?.avatar || '' }">
         <button>Save</button>
       </form>
-      <form action=/ticket method=post>
+      ${ t 
+        ? `
+      <form action=/tickets/${ t.key } method=post>
         <input type=hidden name=key value="${ t.key }">
         <input type=hidden name=__delete value="true">
         <button>Delete</button>
-      </form>
-    </details>`
-}
-
-function code(c) {
-  return `<details>
-      <summary>${ c.key } ${ c.ticketRef }</summary>
-      <form action=/code method=post>
-        <input type=hidden name=key value="${ c.key }">
-        <input type=text name=ticketRef placeholder="Ticket Reference" value="${ c.ticketRef || '' }">
-        <button>Save</button>
-      </form>
+      </form>`
+        : '' }
     </details>`
 }
 
