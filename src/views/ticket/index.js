@@ -6,7 +6,7 @@ module.exports = async function Index({ ticket, socialUrl }) {
         <div id="landing">
             <section id="promo" class="landing" style="background:#ff9966">
                 <h1>Join ${ full_name || "us" } at CascadiaJS 2022!</h1>
-                <div style="text-align: center;margin:32px 0 8px 0;"><img src="/images/ticket-example.png" width="500"/></div>
+                <div style="text-align: center;margin:32px 0 8px 0;"><img src="${ socialUrl }" width="500"/></div>
                 <h2>Use promo code FAMILY_REUNION for 10% off a ticket!</h2>   
                 <div class="cta"><a href="/tickets?discount=FAMILY_REUNION">Buy Ticket</a></div>
             </section>

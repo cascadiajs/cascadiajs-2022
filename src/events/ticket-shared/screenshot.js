@@ -4,7 +4,6 @@ require('puppeteer-core')
 
 module.exports = async function screencap({ url }) {
     let browser
-    let baseUrl = getBaseUrl()
     // set-up headless browser
     let height = 628
     let width = 1200
