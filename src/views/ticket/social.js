@@ -36,7 +36,7 @@ module.exports = async function Social({ ticket }) {
                 color:#112378;
                 position:absolute;
                 top:130px;
-                right:370px;
+                left:1000px;
                 transform: rotate(90deg);
             }
         </style>

@@ -55,6 +55,6 @@ module.exports = async function Index({ ticket, socialUrl }) {
                 </div>       
             </section>
         </div>`
-    let html = Layout({ content, title: `Join ${ ticket.full_name } at CascadiaJS 2022`, socialUrl, path: `/tickets/${ ticket.number }` })
+    let html = Layout({ content, title: `Join ${ ticket.full_name } and get 10% off!`, socialUrl, path: `/tickets/${ ticket.number }` })
     return { html }
 }
