@@ -20,7 +20,7 @@ module.exports = async function screencap({ url }) {
       })
       let page = await browser.newPage()
       await page.goto(url, { waitUntil: "networkidle2" })
-      const file = await page.screenshot()
+      const file = await page.screenshot({ omitBackground: true })
       await browser.close()
       return file
     } finally {

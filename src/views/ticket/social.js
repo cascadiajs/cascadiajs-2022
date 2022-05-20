@@ -42,7 +42,7 @@ module.exports = async function Social({ ticket }) {
         </style>
       </head>
       <body>
-        <div style="background-image: url('/images/virtual-ticket.png'); height: 628px; width: 1200px;">
+        <div style="background-image: url('/images/virtual-ticket-transparent.png'); height: 628px; width: 1200px;">
             <div id="ticket-name">
                 ${ full_name }
                 <br/>
