@@ -25,28 +25,8 @@ async function unauthenticated(req) {
       return { session, location }
     }
     else {
-      return LoginView('Log-in failed. Try again?')      
+      return { location: `/home/login?message=${ encodeURIComponent("Log-in verification failed, try again?") }`} 
     }
-  }
-  else if (req.session.ticketRef) {
-    return // pass to authenticated view handler
-  } 
-  else {
-    let message
-    if (req.query.notfound !== undefined) {
-      message = 'We could not find that Ticket Reference. Please email info@cascadiajs.com for assistance'
-    }
-    return LoginView(message)
-  }
-}
-
-// display the ticket information
-async function authenticated(req) {
-  const { view } = req.params
-  let { ticketRef } = req.session
-  if (view === 'dashboard') {
-    let ticket = await data.get( { table: 'tickets', key: ticketRef })
-    return HomeView({ ticket })
   }
   else if (view === 'oauth') {
     let info = await github(req)
@@ -59,6 +39,16 @@ async function authenticated(req) {
     return {
       location: '/home/dashboard'
     }
+  }
+}
+
+// display the ticket information
+async function authenticated(req) {
+  const { view } = req.params
+  let { ticketRef } = req.session
+  if (view === 'dashboard') {
+    let ticket = await data.get( { table: 'tickets', key: ticketRef })
+    return HomeView({ ticket })
   }
 }
 
