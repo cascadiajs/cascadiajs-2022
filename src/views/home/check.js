@@ -1,6 +1,6 @@
 let Layout = require('../layout')
 
-module.exports = async function({ email }) {
+module.exports = async function(email) {
     let content = /*html*/`
         <div id=page>
             <div class=page-title><div><h1>Check Your Email</h1></div></div>

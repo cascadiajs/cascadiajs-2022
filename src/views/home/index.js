@@ -1,6 +1,6 @@
 let Layout = require('../layout')
 
-module.exports = async function Index({ ticket }) {
+module.exports = async function Index(ticket) {
     let clientID = process.env.GITHUB_CLIENT_ID
     let { full_name } = ticket
     let content = /*html*/`
@@ -15,7 +15,7 @@ module.exports = async function Index({ ticket }) {
                     <div class="cta secondary"><a href="https://github.com/login/oauth/authorize?client_id=${ clientID }">Get Added to Directory</a></div>`
                 }
                 <h2>Need Help?</h2>
-                <p>Please contact us in the <a target="_discord" href="https://discord.gg/cascadiajs">Discord</a> at #help-questions.</p>
+                <p>Please contact us in the <a target="_blank" href="https://discord.gg/cascadiajs">Discord</a> at #help-questions.</p>
                 <form action=/home method=post>
                     <input type=hidden name=reset value=reset/>
                     <button>Log Out</button>

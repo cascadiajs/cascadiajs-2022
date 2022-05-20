@@ -10,12 +10,14 @@ const github = require('./github')
 async function unauthenticated(req) {
   const { view } = req.params
   let { ticketRef } = req.session
+  let { message, email } = req.queryStringParameters
   // non-authenticated views
   if (view === 'login') {
-    return LoginView()
+    return LoginView(message)
   }
   else if (view === 'check') {
-    return CheckView({ email: req.queryStringParameters.email })
+    let { email } = req.queryStringParameters
+    return CheckView(email)
   }
   else if (view === 'verify') {
     let { ticketRef, token } = req.queryStringParameters
@@ -40,7 +42,7 @@ async function authenticated(req) {
   let { ticketRef } = req.session
   let ticket = await data.get( { table: 'tickets', key: ticketRef })
   if (view === 'dashboard') {
-    return HomeView({ ticket })
+    return HomeView(ticket)
   }
   else if (view === 'oauth') {
     let info = await github(req)
