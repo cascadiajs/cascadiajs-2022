@@ -57,6 +57,10 @@ module.exports = async function Page(req) {
       html = SocialLayout({ image, header, excerpt, caption })
     }
     else {
+      // HACK - to enable some dynamic/runtime content in Markdown/HTML pages
+      if (req.queryStringParameters.discount) {
+        body = body.replace(/\$\{\sDISCOUNT_CODE\s\}/g, `discount-code="${ req.queryStringParameters.discount }"`)
+      }
       if (type === 'markdown') {
         content = MarkdownTemplate({ title, body })
       } else {

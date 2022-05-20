@@ -48,7 +48,7 @@ If you are self-employed, work at a non-profit or work at a company with less th
 ## Buy a Conference Ticket
 
 <div>
-    <tito-widget event="event-loop/cascadiajs-2022"></tito-widget>
+    <tito-widget event="event-loop/cascadiajs-2022" ${ DISCOUNT_CODE }></tito-widget>
 </div>
 
 ## Apply for an Opportunity Scholarship
