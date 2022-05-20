@@ -1,33 +1,31 @@
 [
     {
+      "key": "AAAA-2",
       "number": 1,
-      "release_title": "Scholarship Donation",
-      "key": "AAAA-2"
+      "release_slug": "slug-1",
+      "release_title": "Scholarship Donation"
     },
     {
-      "number": 2,
-      "release_title": "Extra Hoodie",
       "key": "BBBB-4",
-      "hoodie": "Y",
-      "code": "aaa"
+      "number": 2,
+      "release_slug": "slug-4",
+      "release_title": "Extra Hoodie"
     },
     {
+      "key": "DDDD-1",
       "number": 3,
+      "release_slug": "slug-2",
       "release_title": "Conference Early Bird",
       "full_name": "Foo Bar",
-      "key": "CCCC-1",
-      "conference": "Y",
-      "hoodie": "Y",
-      "code": "bbb"
+      "email": "foo@bar.com"
     },
     {
+      "key": "CCCC-1",
       "number": 4,
+      "release_slug": "slug-5",
       "release_title": "Conference Speaker",
       "full_name": "Biz Baz",
-      "key": "DDDD-1",
-      "conference": "Y",
-      "hoodie": "Y",
-      "code": "ccc",
+      "email": "carter.rabasa@gmail.com",
       "github": "crtr0",
       "avatar": "https://avatars.githubusercontent.com/u/118628?v=4"
     }

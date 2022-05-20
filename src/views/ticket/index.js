@@ -8,7 +8,7 @@ module.exports = async function Index({ ticket, socialUrl }) {
                 <h1>Join ${ full_name || "us" } at CascadiaJS 2022!</h1>
                 <div style="text-align: center;margin:32px 0 8px 0;"><img src="/images/ticket-example.png" width="500"/></div>
                 <h2>Use promo code FAMILY_REUNION for 10% off a ticket!</h2>   
-                <div class="cta"><a href="/tickets">Buy Ticket</a></div>
+                <div class="cta"><a href="/tickets?discount=FAMILY_REUNION">Buy Ticket</a></div>
             </section>
             <section id="features" class="landing">
                 <div id="features-container">
@@ -55,6 +55,6 @@ module.exports = async function Index({ ticket, socialUrl }) {
                 </div>       
             </section>
         </div>`
-    let html = Layout({ content, title: `Join ${ ticket.fullName } at CascadiaJS 2021`, socialUrl })
+    let html = Layout({ content, title: `Join ${ ticket.full_name } at CascadiaJS 2022`, socialUrl, path: `/tickets/${ ticket.number }` })
     return { html }
 }

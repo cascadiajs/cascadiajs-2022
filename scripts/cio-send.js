@@ -2,7 +2,7 @@ const fetch = require('node-fetch')
 
 async function main() {
     let payload = {
-        "to": "carter@cascadiajs.com",
+        "to": "carter.rabasa+foo@gmail.com",
         "transactional_message_id": "2",
         "message_data": {
         "customer": {
@@ -11,7 +11,7 @@ async function main() {
         "greeting": "Hello, Cascadian!"
         },
         "identifiers": {
-        "email": "carter@cascadiajs.com"
+            "email": "carter@cascadiajs.com"
         }
     }
 
