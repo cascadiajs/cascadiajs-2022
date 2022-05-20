@@ -3,15 +3,13 @@ const fetch = require('node-fetch')
 module.exports = async function github(req) {
   try {
     let payload = {
-      code: req.query.code,
+      code: req.queryStringParameters.code,
       client_id: process.env.GITHUB_CLIENT_ID,
       client_secret: process.env.GITHUB_CLIENT_SECRET
     }
     let response = await fetch(`https://github.com/login/oauth/access_token`, {
         method: 'POST',
-        headers: {
-            Accept: 'application/json'
-        },
+        headers: { Accept: 'application/json' },
         body: JSON.stringify(payload),
     })
     let result = await response.json()
