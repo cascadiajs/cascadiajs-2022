@@ -9,6 +9,7 @@ const github = require('./github')
 // render the form
 async function unauthenticated(req) {
   const { view } = req.params
+  let { ticketRef } = req.session
   // non-authenticated views
   if (view === 'login') {
     return LoginView()
@@ -28,9 +29,22 @@ async function unauthenticated(req) {
       return { location: `/home/login?message=${ encodeURIComponent("Log-in verification failed, try again?") }`} 
     }
   }
+  else if (!ticketRef) {
+    return { location: `/home/login?message=${ encodeURIComponent("Please log-in") }`} 
+  }
+}
+
+// display the ticket information
+async function authenticated(req) {
+  const { view } = req.params
+  let { ticketRef } = req.session
+  let ticket = await data.get( { table: 'tickets', key: ticketRef })
+  if (view === 'dashboard') {
+    return HomeView({ ticket })
+  }
   else if (view === 'oauth') {
     let info = await github(req)
-    console.log(info)
+    //console.log(info)
     await data.set({ table: 'tickets', ...ticket, github: info.login, avatar: info.avatar })
     // fire event to build ticket image and place in s3
     const name = 'ticket-shared'
@@ -39,16 +53,6 @@ async function unauthenticated(req) {
     return {
       location: '/home/dashboard'
     }
-  }
-}
-
-// display the ticket information
-async function authenticated(req) {
-  const { view } = req.params
-  let { ticketRef } = req.session
-  if (view === 'dashboard') {
-    let ticket = await data.get( { table: 'tickets', key: ticketRef })
-    return HomeView({ ticket })
   }
 }
 

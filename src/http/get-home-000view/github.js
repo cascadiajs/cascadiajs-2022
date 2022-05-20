@@ -7,13 +7,14 @@ module.exports = async function github(req) {
       client_id: process.env.GITHUB_CLIENT_ID,
       client_secret: process.env.GITHUB_CLIENT_SECRET
     }
+    //console.log(payload)
     let response = await fetch(`https://github.com/login/oauth/access_token`, {
         method: 'POST',
-        headers: { Accept: 'application/json' },
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(payload),
     })
     let result = await response.json()
-    console.log(result)
+    //console.log(result)
     let token = result.access_token
     response = await fetch('https://api.github.com/user', {
       method: 'GET',
@@ -23,13 +24,14 @@ module.exports = async function github(req) {
       }
     })
     let user = await response.json()
+    //console.log(user)
     return {
       token,
-      name: user.body.name,
-      login: user.body.login,
-      id: user.body.id,
-      url: user.body.url,
-      avatar: user.body.avatar_url
+      name: user.name,
+      login: user.login,
+      id: user.id,
+      url: user.url,
+      avatar: user.avatar_url
     }
   } catch (err) {
     return {
