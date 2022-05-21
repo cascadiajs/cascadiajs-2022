@@ -3,6 +3,7 @@ const data = require('@begin/data')
 const HomeView = require('@architect/views/home')
 const LoginView = require('@architect/views/home/login')
 const CheckView = require('@architect/views/home/check')
+const WaitView = require('@architect/views/home/wait')
 const NotFoundView = require('@architect/views/404')
 const github = require('./github')
 
@@ -44,6 +45,9 @@ async function authenticated(req) {
   if (view === 'dashboard') {
     return HomeView(ticket)
   }
+  else if (view === 'wait'){
+    return WaitView()
+  }
   else if (view === 'oauth') {
     let info = await github(req)
     //console.log(info)
@@ -53,7 +57,7 @@ async function authenticated(req) {
     const payload = { number: ticket.number }
     await arc.events.publish({ name, payload })
     return {
-      location: '/home/dashboard'
+      location: '/home/wait'
     }
   }
 }
