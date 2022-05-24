@@ -131,5 +131,14 @@
     "url": "https://200ok.vc",
     "logo": "200ok.png",
     "description": "200 OK invests in startups building the next-generation of dev tools."
+  },
+  {
+    "key": "xata",
+    "tier": "community",
+    "name": "Xata",
+    "url": "https://xata.io",
+    "logo": "xata.svg",
+    "square": "xata-square.jpg",
+    "description": ""
   }
 ]
