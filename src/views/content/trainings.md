@@ -4,7 +4,7 @@ excerpt: Level up your skills with hands-on training from industry experts!
 ---
 Level up your skills with hands-on training from industry experts! 
 
-These training workshop **_do not_** come with a conference tickets, so please make sure to purchase a separate ticket to any training workshop that you'd like to attend after the conference.
+These training workshops **_are not** included in your conference ticket, so please make sure to purchase a separate ticket to any training workshop that you'd like to attend after the conference.
 
 ### Build a TypeScript Project From Scratch
 
