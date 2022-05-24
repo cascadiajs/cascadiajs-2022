@@ -6,7 +6,7 @@ caption: Child Care at CascadiaJS 2015
 ---
 ![Child care at CascadiaJS 2015](/images/past/cjs15-child-care.jpg)
 
-We are offering professional, on-site child care for kids 12 and under through [Snappy Sitters](https://snappysitters.com). Child care will be available from 8:30am to 5pm and 6pm to 10pm on August 31 and September 1, and is located onsite at Sunriver Resort in close proximity to the talks. All sitters will be fully vaccinated against Covid. A limited number of spots are available and must be reserved by <span class="highlight warning">July 25th</span>. 
+We are offering FREE, professional, on-site child care for kids 12 and under through [Snappy Sitters](https://snappysitters.com). Child care will be available from 8:30am to 5pm and 6pm to 10pm on August 31 and September 1, and located onsite at Sunriver Resort in close proximity to the talks. All sitters will be fully vaccinated against Covid. A limited number of spots are available and must be reserved by <span class="highlight warning">July 25th</span>. 
 
 ## On-site drop-off
 
@@ -14,7 +14,7 @@ We’ll have you complete a registration form for each child during the initial 
 
 ## Food
 
-Snacks will be provided. If you purchase a Guest Pass for your child, we will coordinate getting those meals to your kid for you. If you want to pack meals for your child, please label them with your child’s name. 
+Snacks will be provided. If you purchase a [Guest Pass](/conference/attend#bringing-guests) for your child, we will coordinate getting those meals to your kid for you. If you want to pack meals for your child, please label them with your child’s name. 
 
 ## Child-to-Nanny Ratios
 
