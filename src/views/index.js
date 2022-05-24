@@ -112,11 +112,10 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
             <h1>Organizers</h1>
             ${ organizersContainer }
         </section>
-        <!--section id="directory" class="landing">
+        <section id="directory" class="landing">
             <h1>Conference Directory</h1>
             ${ directoryContainer }
-            <div style="margin-top:32px"><i>Learn more about <a href="/directory">how we built this Conference Directory</a> and then <a href="/home/dashboard">get yourself added</a>!</i></div>
-        </section-->
+        </section>
     </div>
     `
     return content
