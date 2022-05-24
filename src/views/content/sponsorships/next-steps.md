@@ -64,7 +64,7 @@ We have published guidance on how we plan on [handling the safety of our attende
 
 ![Expo Hall layout](/images/sunriver/homestead-expo-hall.png)
 
-Expo Hall tables are 6 feet by 1 foot (6' x 1') and will be set-up in the entrance hall located directly outside of the Talk Track room. Unlike the diagram above, we will only set-up a maximum of 9 booths, so there will be space in between all of the booths to minimize crowding while inside. 
+Expo Hall tables are 6 feet long and will be set-up in the entrance hall located directly outside of the Talk Track room. Unlike the diagram above, we will only set-up a maximum of 9 booths, so there will be space in between all of the booths to minimize crowding while inside. 
 
 We will run power to each booth. Sponsors will be responsible for setting-up pop-up banners, tablecloths and staffing their booths.
 
