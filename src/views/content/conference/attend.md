@@ -10,6 +10,7 @@ excerpt: Lodging, Travel, Child Care info and more!
         <li><a href="#lodging">Lodging</a></li>
         <li><a href="#travel">Travel</a></li>
         <li><a href="#child-care">Child Care</a></li>
+        <li><a href="#bringing-guests">Bringing Guests</a></li>
         <li><a href="#pets">Pets</a></li>
     </ul>
 </div>
@@ -52,6 +53,13 @@ Unless you live in Bend, you'll need to travel to Sunriver Resort. There are man
 ## Child Care
 
 We are offering professional, on-site child care for kids 12 and under. Please check out our [Child Care Guide](/conference/child-care) for more information on what we are providing and how you can reserve your spot.
+
+## Bringing Guests
+
+Guests, including family, friends and significant others, are welcome! If you would like your guest to join you for meals and activities, they will need a [Guest Pass](/tickets). A Guest Pass includes breakfast, lunch and dinner on August 31 and September 1, the Farewell Brunch and planned activies. For guests 18 years and older, it also includes access to the Welcome Reception and two evening events.
+
+Alternatively, in place of purchasing a Guest Pass, your guests are free to dine at several different [on-site restaurants](https://www.sunriverresort.com/dining-eat-drink/food-and-drinks-overview). 
+
 
 ## Pets
 
