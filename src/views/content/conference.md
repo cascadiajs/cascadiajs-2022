@@ -29,7 +29,7 @@ This year is our 10-year anniversary event and we are celebrating by returning t
 Sunriver Resort is the perfect place to bring your significant others and family. There are tons of fun things to do at the resort, including just hanging out at the pool and enjoying the late summer sun. In addition to all that Sunriver Resort has to offer, we will be offering:
 
 * A Significant Other track of activities
-* An affordable "Meal Ticket" for adults & kids
+* An affordable "Guest Pass" for adults & kids
 * Free Child Care, courtesy of our friends at [Formidable](https://formidable.com).
 
 ### Amazing Talks

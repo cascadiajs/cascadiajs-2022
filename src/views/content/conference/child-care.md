@@ -14,7 +14,7 @@ We’ll have you complete a registration form for each child during the initial 
 
 ## Food
 
-Snacks will be provided. If you purchase a Child Meal Ticket, we will coordinate getting those meals to your kid for you. If you want to pack meals for your kid yourself, please label them with your child’s name. 
+Snacks will be provided. If you purchase a Guest Pass for your child, we will coordinate getting those meals to your kid for you. If you want to pack meals for your child, please label them with your child’s name. 
 
 ## Child-to-Nanny Ratios
 
