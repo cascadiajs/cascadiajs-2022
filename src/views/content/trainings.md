@@ -12,3 +12,10 @@ These training workshop **_do not_** come with a conference tickets, so please m
 * Instructor: Joe Previte
 
 <span class="cta secondary"><a href="/trainings/typescript" aria-label="More info about Build a TypeScript Project From Scratch">More Info</a></span>
+
+### Demystifying Data Structures
+
+* When: Friday, Sept 2 (9am - 4pm)
+* Instructor: Brook Riggio
+
+<span class="cta secondary"><a href="/trainings/data-structures" aria-label="More info about Demystifying Data Structures">More Info</a></span>
