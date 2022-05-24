@@ -20,6 +20,7 @@ module.exports = function Layout ({ path, title, content, socialUrl, excerpt, sc
               <div class="push"><a href="/conference">About Us</a></div>
               <div class="spacer"><a href="/conference/attend">Attend</a></div>
               <div class="spacer"><a href="/schedule">Schedule</a></div>
+              <div class="spacer"><a href="/trainings">Training</a></div>
               <div class="spacer"><a href="/sponsors/jobs">Job Board</a></div>
               <div class="spacer"><a href="/sponsorships">Sponsorships</a></div>
               <div class="spacer"><a href="/faq">FAQ</a></div>
