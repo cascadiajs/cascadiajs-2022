@@ -10,7 +10,7 @@ module.exports = function SponsorsContainer () {
                 ${ sponsors.filter(s => s.tier === tier).map(s => /*html*/`
                     ${ ['platinum', 'gold', 'silver'].indexOf(tier) >= 0
                         ? /*html*/`<div><a href="/sponsors/${ s.key }"><img src="/images/sponsors/${ s.logo }" alt="${ s.name } logo"/></a></div>`  
-                        : /*html*/`<div><a href="${ s.url }"><img src="/images/sponsors/${ s.logo }" alt="${ s.name } logo"/></a></div>`
+                        : /*html*/`<div><a target="_sponsor" href="${ s.url }"><img src="/images/sponsors/${ s.logo }" alt="${ s.name } logo"/></a></div>`
                     }
                 `).join('') }
                 </div>
