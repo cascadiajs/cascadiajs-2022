@@ -14,9 +14,9 @@ let Template = function(sponsors) {
             <div class="job-listings">
             ${ sponsors.sort(()=> Math.random() - 0.5).map(s => /*html*/`
                 <div class="job-listing">
-                    <div><img src="/images/sponsors/${ s.logo }" alt=""/></div>
+                    <div style="margin-bottom:24px"><img src="/images/sponsors/${ s.logo }" alt="logo for ${ s.name }"/></div>
                     <p>${ s.description }</p>
-                    <div><div class="cta secondary"><a target="_blank" href="${ s.jobs }">View Jobs</a></div></div>
+                    <div class="cta secondary"><a target="_blank" href="${ s.jobs }">View Jobs</a></div>
                 </div>
             `
             ).join("")}

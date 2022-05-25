@@ -56,7 +56,8 @@
     "url": "https://formidable.com",
     "logo": "formidable.svg",
     "square": "formidable-square.png",
-    "description": "We build the modern web."
+    "description": "We build the modern web.",
+    "jobs": "https://boards.greenhouse.io/formidable"
   },
   {
     "key": "codingscape",
