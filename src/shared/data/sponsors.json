@@ -141,5 +141,13 @@
     "logo": "xata.svg",
     "square": "xata-square.jpg",
     "description": ""
+  },
+  {
+    "key": "techtonica",
+    "tier": "community",
+    "name": "Techtonica.org",
+    "url": "https://techtonica.org",
+    "logo": "techtonica.png",
+    "description": ""
   }
 ]
