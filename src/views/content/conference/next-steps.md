@@ -5,11 +5,7 @@ Thanks for buying a ticket to CascadiaJS 2022. We're so excited that you're goin
 
 ## Get Ready for the Conference
 
-Now that you've registered for the conference, you'll want to do one or more of the following:
-
-- Book lodging at Sunriver Resort (rooms are going fast!)
-- Figure out yoru travel plan
-- Reserve a spot in our Child Care
+Now that you've registered for the conference, you'll want to book lodging at Sunriver Resort (rooms are going fast!), figure out your travel plans, reserve a spot in our Child Care and much more. Please review out handy guide to attending CascadiaJS 2022!
 
 <div class="cta"><a href="/conference/attend">Attending CascadiaJS Guide</a></div>
 
