@@ -3,12 +3,40 @@ let getDirectoryData = require('../shared/get-directory-data')
 let SpeakersContainer = require('./components/speakers')
 let OrganizersContainer = require('./components/organizers')
 
+const CLASSIC_PHOTOS = [
+    {
+        image: 'cjs14-karaoke.jpg',
+        caption: 'Voicebox Karaoke, 2014'
+    },
+    {
+        image: 'cjs15-by-the-water.jpg',
+        caption: 'Semiahmoo Resort, 2015'
+    },
+    {
+        image: 'cjs19-photo-booth-2.jpg',
+        caption: 'Closing Party, 2019'
+    },
+    {
+        image: 'cjs12-kids.jpg',
+        caption: 'Carter & Family, 2012'
+    },
+    {
+        image: 'cjs13-hacker-olympics.jpg',
+        caption: 'Hacker Olympics, 2013'
+    }
+]
+
+
 let randomIntFromInterval = function(min, max) { // min and max included 
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
 let randomAngle = function() {
     return randomIntFromInterval(5, 15) * (Math.random() > 0.5 ? 1 : -1)
+}
+
+let randomThreePhotos = function() {
+    return CLASSIC_PHOTOS.sort(()=> Math.random() - 0.5).slice(0, 3)
 }
 
 let Template = function ({ speakersContainer, organizersContainer, directoryContainer }) {
@@ -18,9 +46,14 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
             <img src="/images/bend/hero-photo.jpg" alt="Beautiful Bend, OR"/>
             <div id="event-title"><img src="/images/event-logo.svg"/></div>
             <div id="classic-photos">
-                <div id="classic-photo-1"><img src="/images/past/photo-2014.png" style="transform: rotate(${ randomAngle() }deg);"/></div>
-                <div id="classic-photo-2"><img src="/images/past/photo-2015.png" style="transform: rotate(${ randomAngle() }deg);"/></div>
-                <div id="classic-photo-3"><img src="/images/past/photo-2019.png" style="transform: rotate(${ randomAngle() }deg);"/></div>
+            ${ randomThreePhotos().map(p => { return /*html*/`
+                <div class="classic-photo-container">
+                    <div class="classic-photo" style="transform: rotate(${ randomAngle() }deg)">
+                        <div class="classic-photo-image"><img src="/images/classics/${ p.image }"/></div>
+                        <div class="classic-photo-caption">${ p.caption }</div>
+                    </div>
+                </div>    
+            `}).join('')}
             </div>
         </section>
         <section id="about-us">

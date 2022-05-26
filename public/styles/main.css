@@ -487,6 +487,35 @@ tr.on-sale {
     display: none;
 }
 
+.classic-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classic-photo {
+    border: 3px solid #112378;
+    padding:0.8vw;
+    background:#fff5cc
+}
+
+.classic-photo-image {
+    height:18vw;
+    width:18vw
+}
+
+.classic-photo-image img {
+    object-fit:cover;
+    height:100%;
+    width:100%
+}
+
+.classic-photo-caption {
+    margin:1vw 0 2vw 0;
+    font-family:alkaline;
+    font-size:1.8vw;
+}
+
 .landing  {
     padding: 32px 32px;
 }
@@ -1171,12 +1200,9 @@ a[target="_blank"]:after {
         display: flex;
     }
 
-    #hero #classic-photos div {
+    #hero #classic-photos>div {
         flex: 1;
         text-align: center;
-    }
-    #hero #classic-photos div img {
-        box-shadow: 5px 5px 3px rgba(17, 34, 120, 0.5); 
     }
 
     #about-us {
