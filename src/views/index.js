@@ -23,6 +23,10 @@ const CLASSIC_PHOTOS = [
     {
         image: 'cjs13-hacker-olympics.jpg',
         caption: 'Hacker Olympics, 2013'
+    },
+    {
+        image: 'cjs16-dog.jpg',
+        caption: 'Happy Dog, 2016'
     }
 ]
 

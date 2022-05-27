@@ -127,7 +127,9 @@ Your company is making it possible for us to live stream this event. We are sett
 
 ## Gold Sponsorships ($15k)
 
-### Expo Hall Booth <span class="highlight warning">3 / 7 SOLD</span>
+Choose from one of three options: **Booth** or **Workshop** or **Dinner**
+
+### Expo Hall Booth <span class="highlight warning">5 / 7 SOLD</span>
 
 ![CascadiaJS 2019 booth](/images/past/cjs19-sauce-booth.jpg)
 
@@ -135,7 +137,7 @@ The Expo Hall will be located directly outside of the room where talks are takin
 
 Each Booth will come equipped with a 2x8 ft table and power. You are free to set-up a banner and will have plenty of room for swag and product demos.
 
-### Workshop Track <span class="highlight warning">2 / 4 SOLD</span>
+### Workshop Track <span class="highlight warning">1 / 4 SOLD</span>
 
 ![CascadiaJS 2016 workshop](/images/past/cjs16-workshop.jpg)
 
@@ -143,11 +145,19 @@ Each day of the conference (8/31 & 9/1) will feature 2 sponsored workshops, one 
 
 We will work with you to design a workshop that our community would be excited to sign-up for and handle the promotion and registration process. The workshop will be free for attendees to participate in.
 
-### Dinner & Drinks (Aug 31 + Sept 1) <span class="highlight success">1 AVAILABLE</span>
+### Dinner (Aug 31 + Sept 1) <span class="highlight success">1 AVAILABLE</span>
 
 ![Sunriver Mt. Bachelor lawn](/images/sunriver/sunriver-mt-bachelor.jpg)
 
 Help us create an amazing end to each day by catering a delicious meal and setting-up a bar. We will work with you to include your brand in fun and surprising ways. You can be involved as much or as little as you like!
+
+### Startup Fair (Sept 1) <span class="highlight success">1 AVAILABLE</span>
+
+![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
+
+After dinner on Sept 1, we are putting on our first ever Startup Fair! We have opened applications for startups who are building the next generation of developer tools to [apply](/conference/startup-fair). We will invite the top-5 startups to set-up a booth during the Startup Fair and showcase their products to our community, free of charge.
+
+You can support this event (and these startups) by being a sponsor for this event. We will connect you to these early stage startups and acknowledge your support during the event. It will be a great opportunity to connect to some high-potential founders and a larger group of developers, some of whom may become founders.
 
 ## Silver Sponsorships ($10k)
 
@@ -168,14 +178,6 @@ Each morning (Aug 31 + Sept 1), breakfast will be served in the Great Hall, whic
 ![CascadiaJS 2015 lunch](/images/past/cjs15-lunch-sponsor.jpg)
 
 After the morning talks (Aug 31 + Sept 1), lunch will be served immediately outside the conference center on the Bessom Commons. You will have an opportunity to set-up banners and place items on tables. This covers lunch on both days.
-
-### Startup Fair (Sept 1) <span class="highlight success">3 AVAILABLE</span>
-
-![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
-
-After dinner on Sept 1, we are putting on our first ever Startup Fair! We have opened applications for startups who are building the next generation of developer tools to [apply](/conference/startup-fair). We will invite the top-5 startups to set-up a booth during the Startup Fair and showcase their products to our community, free of charge.
-
-You can support this event (and these startups) by being a sponsor for this event. We will connect you to these early stage startups and acknowledge your support during the event. It will be a great opportunity to connect to some high-potential founders and a larger group of developers, some of whom may become founders.
 
 ### Farewell Brunch (Sept 2) <span class="highlight success">1 AVAILABLE</span>
 
