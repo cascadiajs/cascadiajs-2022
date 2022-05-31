@@ -134,6 +134,14 @@
     "description": "200 OK invests in startups building the next-generation of dev tools."
   },
   {
+    "key": "appwrite",
+    "tier": "community",
+    "name": "Appwrite",
+    "url": "https://appwrite.io",
+    "logo": "appwrite.png",
+    "description": ""
+  },
+  {
     "key": "xata",
     "tier": "community",
     "name": "Xata",
