@@ -12,7 +12,7 @@ tito('on:registration:started', function(data){
 
 tito('on:registration:finished', function(data){
     if (window.firstparty) {
-        firstparty.track('Registration Started', data);
+        firstparty.track('Registration Finished', data);
     }
 })
 
