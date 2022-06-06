@@ -66,9 +66,9 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
         </section>
         <section id="banner">
             <div class="banner-item">
-                <div class="banner-item-metric">June 5</div>
-                <p>Deadline to register and secure your preferred hoodie.</p>
-                <div class="cta secondary"><a href="/tickets">Register</a></div>
+                <div class="banner-item-metric">July 3</div>
+                <p>Deadline to apply for a Scholarship.</p>
+                <div class="cta secondary"><a href="/scholarships">Learn More</a></div>
             </div>
             <div class="banner-item">
                 <div class="banner-item-metric">53%</div>

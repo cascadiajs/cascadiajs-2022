@@ -26,7 +26,7 @@ The Opportunity Scholarship Program is open to anyone who:
 
 ## How it works
 
-<i class="fas fa-pen-field"></i> Apply for a Scholarship
+<i class="fas fa-pen-field"></i> Apply for a Scholarship by <span class="highlight warning">July 3</span>
 
 <i class="fas fa-ticket-alt"></i> You will be offered a Scholarship Ticket at a discounted rate
 
