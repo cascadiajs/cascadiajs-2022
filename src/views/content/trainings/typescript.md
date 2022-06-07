@@ -5,7 +5,7 @@ caption: Joe Previte
 ---
 <div class="person"><div class="person-photo"><img src="/images/training/joe-previte.jpg" alt="Photo of Joe"/></div></div>
 
-* When: Friday, Sept 2 (9am - 5pm)
+* When: Friday, Sept 2 (9am - 4pm)
 * Where: Sunriver Resort
 * Instructor: [Joe Previte](https://www.typescriptcourse.com)
 
@@ -23,7 +23,7 @@ We'll dive into the code head-first by using TDD to build a streak counter libra
 
 12:30-1:30pm: Lunch
 
-1:30-5:00pm: Interactive sessions with breaks in between
+1:30-4:00pm: Interactive sessions with breaks in between
 
 Blocks range from 45-75mins and breaks are 15mins each. This workshop will be fully hands-on with some short lectures, group discussions and lots of coding. By the end, you'll have a library on npm.
 

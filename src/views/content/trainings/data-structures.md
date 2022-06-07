@@ -5,7 +5,7 @@ caption: Brook Riggio
 ---
 <div class="person"><div class="person-photo"><img src="/images/training/brook-riggio.jpg" alt="Photo of Brook"/></div></div>
 
-* When: Friday, Sept 2 (9am - 5pm)
+* When: Friday, Sept 2 (9am - 4pm)
 * Where: Sunriver Resort
 * Instructor: [Brook Riggio](https://www.linkedin.com/in/brookr/)
 

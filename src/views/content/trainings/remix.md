@@ -5,7 +5,7 @@ caption: Joe Previte
 ---
 <div class="person"><div class="person-photo"><img src="/images/training/chance-strickland.jpg" alt="Photo of Chance"/></div></div>
 
-* When: Friday, Sept 2 (9am - 5pm)
+* When: Friday, Sept 2 (9am - 4pm)
 * Where: Sunriver Resort
 * Instructor: [Chance Strickland](https://chance.dev)
 
