@@ -60,3 +60,21 @@ These training workshops **are not** included in your conference ticket, so plea
 </section>
 
 <div class="cta secondary"><a href="/trainings/remix" aria-label="More info about Building Better Web Apps with Remix">More Info</a></div>
+
+<section class="person">
+    <h2>Full-Stack Next.js Monorepo for Production Ready React+TypeScript Apps</h2>
+    <p>Next.js is a practical and performant choice for building web applications with React and TypeScript. Take it a step further and include Turborepo for code reuse and excellent multi-player team capabilities with minimal technical overhead.</p>
+    <!--div class="topics"><div class=js-topic>TypeScript</div></div-->
+    <div class="person-info"> 
+        <div class="person-photo"><img src="/images/training/joel-hooks.jpg" alt="photo of Joel Hooks"/></div>
+        <div class="person-more">
+            <h3>When</h3>
+            <p>Friday, Sept 2 (9am - 4pm)</p>
+            <h3>Instructor</h3>
+            <p>Joel Hooks</p>
+            <p><i class="fa fa-globe"></i> <a target="_blank" href="https://joelhooks.com">joelhooks.com</a></p>
+        </div>
+    </div>
+</section>
+
+<div class="cta secondary"><a href="/trainings/nextjs" aria-label="More info about Full-Stack Next.js Monorepo for Production Ready React+TypeScript Apps">More Info</a></div>
