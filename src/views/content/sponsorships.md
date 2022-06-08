@@ -127,11 +127,19 @@ Your company is making it possible for us to live stream this event. We are sett
 
 ## Gold Sponsorships ($15k)
 
-Choose from one of three options: **Booth** or **Workshop** or **Dinner**
+Choose from one of three options: **Booth** or **Workshop**.
 
 ### Expo Hall Booth <span class="highlight warning">5 / 7 SOLD</span>
 
-![CascadiaJS 2019 booth](/images/past/cjs19-sauce-booth.jpg)
+<div class="sponsors-grid">
+    <div class="sponsored tier">
+        <div><img src="/images/sponsors/cloudinary.png" alt="Cloudinary logo"/></div>
+        <div><img src="/images/sponsors/vonage.png" alt="Vonage logo"/></div>
+        <div><img src="/images/sponsors/circleci.svg" alt="Circle CI logo"/></div>
+        <div><img src="/images/sponsors/formidable.svg" alt="Formidable logo"/></div>
+        <div><img src="/images/sponsors/dolby.svg" alt="Dolby logo"/></div>
+    </div>
+</div>
 
 The Expo Hall will be located directly outside of the room where talks are taking place. The hours for the Expo Hall will run from 8am - 5pm. The schedule of events will include numerous breaks and opportunities to engage with attendees.
 
@@ -139,31 +147,25 @@ Each Booth will come equipped with a 2x8 ft table and power. You are free to set
 
 ### Workshop Track <span class="highlight warning">1 / 4 SOLD</span>
 
-![CascadiaJS 2016 workshop](/images/past/cjs16-workshop.jpg)
+<div class="sponsors-grid">
+    <div class="sponsored tier">
+        <div><img src="/images/sponsors/courier.png" alt="Courier logo"/></div>
+    </div>
+</div>
 
 Each day of the conference (8/31 & 9/1) will feature 2 sponsored workshops, one in the morning and one after lunch. It’s an excellent opportunity to give attendees something fun to learn if they’re not interested in the talks taking place at that time.
 
 We will work with you to design a workshop that our community would be excited to sign-up for and handle the promotion and registration process. The workshop will be free for attendees to participate in.
 
-### Dinner (Aug 31 + Sept 1) <span class="highlight success">1 AVAILABLE</span>
-
-![Sunriver Mt. Bachelor lawn](/images/sunriver/sunriver-mt-bachelor.jpg)
-
-Help us create an amazing end to each day by catering a delicious meal and setting-up a bar. We will work with you to include your brand in fun and surprising ways. You can be involved as much or as little as you like!
-
-### Startup Fair (Sept 1) <span class="highlight success">1 AVAILABLE</span>
-
-![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
-
-After dinner on Sept 1, we are putting on our first ever Startup Fair! We have opened applications for startups who are building the next generation of developer tools to [apply](/conference/startup-fair). We will invite the top-5 startups to set-up a booth during the Startup Fair and showcase their products to our community, free of charge.
-
-You can support this event (and these startups) by being a sponsor for this event. We will connect you to these early stage startups and acknowledge your support during the event. It will be a great opportunity to connect to some high-potential founders and a larger group of developers, some of whom may become founders.
-
 ## Silver Sponsorships ($10k)
 
 ### Welcome Reception (Aug 30) <span class="highlight warning">SOLD OUT</span>
 
-![Sunriver fire pits](/images/sunriver/sunriver-firepit.jpg)
+<div class="sponsors-grid">
+    <div class="sponsored tier">
+        <div><img src="/images/sponsors/fictiv.png" alt="Fictiv logo"/></div>
+    </div>
+</div>
 
 The Welcome Reception takes place the day before the conference, as folks are arriving and checking-in to Sunriver. It will take place outside on the Mt. Bachelor lawn and will feature drinks and light appetizers. 
 
@@ -175,9 +177,19 @@ Each morning (Aug 31 + Sept 1), breakfast will be served in the Great Hall, whic
 
 ### Lunch (Aug 31 + Sept 1) <span class="highlight warning">SOLD OUT</span>
 
-![CascadiaJS 2015 lunch](/images/past/cjs15-lunch-sponsor.jpg)
+<div class="sponsors-grid">
+    <div class="sponsored tier">
+        <div><img src="/images/sponsors/codingscape.svg" alt="CodingScape logo"/></div>
+    </div>
+</div>
 
 After the morning talks (Aug 31 + Sept 1), lunch will be served immediately outside the conference center on the Bessom Commons. You will have an opportunity to set-up banners and place items on tables. This covers lunch on both days.
+
+### Dinner (Aug 31 + Sept 1) <span class="highlight success">1 AVAILABLE</span>
+
+![Sunriver Mt. Bachelor lawn](/images/sunriver/sunriver-mt-bachelor.jpg)
+
+Help us create an amazing end to each day by catering a delicious meal and setting-up a bar. We will work with you to include your brand in fun and surprising ways. You can be involved as much or as little as you like!
 
 ### Farewell Brunch (Sept 2) <span class="highlight success">1 AVAILABLE</span>
 
@@ -185,15 +197,27 @@ After the morning talks (Aug 31 + Sept 1), lunch will be served immediately outs
 
 On the morning of Sept 2, we will host a farewell brunch. You will have an opportunity to set-up banners and place items on tables. This will be the last event that takes place before people leave the conference. 
 
-### Activity Track (Aug 31 or Sept 1) <span class="highlight warning">2 / 4 SOLD</span>
+## Bronze Sponsorships ($5k)
 
-![Sunriver canoes](/images/sunriver/canoes.jpg)
+### Activity Track (Aug 31) <span class="highlight warning">1 / 6 SOLD</span>
+
+<div class="sponsors-grid">
+    <div class="sponsored tier">
+        <div><img src="/images/sponsors/begin.svg" alt="Begin logo"/></div>
+    </div>
+</div>
 
 Each day (Aug 31 and Sept 1) the Talk Track and Workshop Track will run from 9am - 4pm. Following this, we are going to organize an Activity Track where attendees will get to choose from a basket of activities (scavenger hunt, yoga, nature walks, etc). 
 
 Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
 
-## Bronze Sponsorships ($5k)
+### Startup Fair (Sept 1) <span class="highlight success">5 AVAILABLE</span>
+
+![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
+
+After dinner on Sept 1, we are putting on our first ever Startup Fair! We have opened applications for startups who are building the next generation of developer tools to [apply](/conference/startup-fair). We will invite the top-5 startups to set-up a booth during the Startup Fair and showcase their products to our community, free of charge.
+
+You can support this event (and these startups) by being a sponsor for this event. We will connect you to these early stage startups and acknowledge your support during the event. It will be a great opportunity to connect to some high-potential founders and a larger group of developers, some of whom may become founders.
 
 ### Job Posting
 
@@ -203,7 +227,11 @@ Include a link to your job postings on the conference website, with your logo, 2
 
 ### Child Care <span class="highlight warning">SOLD OUT</span>
 
-![CascadiaJS 2015 child care](/images/past/cjs15-child-care.jpg)
+<div class="sponsors-grid">
+    <div class="sponsored tier">
+        <div><img src="/images/sponsors/formidable.svg" alt="Formidable logo"/></div>
+    </div>
+</div>
 
 Help us make CascadiaJS friendly to families! We will work with a local Bend-area child care company to provide a safe and fun environment for children while their parents are enjoying the Conference or the Significant Others Track. 
 
@@ -225,7 +253,11 @@ Example: https://twitter.com/CascadiaJS/status/1458611171913703425
 
 ### Scholarships
 
-![CascadiaJS 2019 scholarships](/images/past/cjs19-scholarships.jpg)
+<div class="sponsors-grid">
+    <div class="sponsored tier">
+        <div><img src="/images/sponsors/fission.png" alt="Fission logo"/></div>
+    </div>
+</div>
 
 Finally, please consider helping us fund our Scholarship Program. Over the years, companies like yours have helped us fund over 100 scholarships to CascadiaJS. 
 

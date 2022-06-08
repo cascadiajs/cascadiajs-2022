@@ -60,6 +60,16 @@
     "jobs": "https://boards.greenhouse.io/formidable"
   },
   {
+    "key": "dolby",
+    "tier": "gold",
+    "name": "Dolby.io",
+    "url": "https://dolby.io",
+    "logo": "dolby.svg",
+    "square": "dolby-square.png",
+    "description": "High-fidelity audio and video for all. Join the many developers, businesses, and creators turning to Dolby.io APIs to build high-quality communications, media, and streaming solutions that transform customer experiences, drive efficient workflows, and delight users.",
+    "short": "High-fidelity audio and video for all."
+  },
+  {
     "key": "codingscape",
     "tier": "silver",
     "name": "Codingscape",

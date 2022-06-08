@@ -1453,6 +1453,10 @@ a[target="_blank"]:after {
         height: 50px;
     }
 
+    .sponsored div {
+        height: 30px;
+    }
+
     #live {
         height: calc(100vh - 46px);
         display: grid;
