@@ -8,7 +8,7 @@ title: CascadiaJS is the Pacific Northwest’s JavaScript conference
 - Our 10 year anniversary event
 - In-person conference being held at Sunriver Resort outside of Bend, OR.
 - August 30 - Sept 2, 2022
-- 300+ in-person attendees expected
+- 300+ in-person attendees / 500+ virtual attendees / 5000+ livestream viewers
 - 18 talks from experts in the JavaScript and web community
 - Pre-conference reception, evening events on both days and a farewell brunch
 
@@ -103,8 +103,6 @@ Sponsorships are broken down into tiers. No matter what your budget is, we have 
 
 ## Platinum Sponsorships ($25k)
 
-Choose from one of two options: **Venue** or **Livestream**
-
 ### Venue <span class="highlight success">1 AVAILABLE</span>
 
 ![Homestead conference venue](/images/sunriver/sunriver-homestead.jpg)
@@ -115,19 +113,9 @@ Your company is making it possible for the event to be at Sunriver Resort this y
 - An invitation to the stage to address our audience
 - An opportunity to place a banner on stage
 
-### Livestream <span class="highlight success">1 AVAILABLE</span>
-
-![CascadiaJS 2021 livestream](/images/past/cjs21-livestream.jpg)
-
-Your company is making it possible for us to live stream this event. We are setting a target of 5,000 attendees for the live stream of this conference. As the Livestream sponsor, you will receive:
-
-- Premium branding throughout the Livestream (opening, breaks, closing).
-- A premium booth in our virtual conference space.
-- The ability to email the live stream attendees and share an offer.
-
 ## Gold Sponsorships ($15k)
 
-Choose from one of three options: **Booth** or **Workshop**.
+Choose from one of two options: **Booth** or **Workshop**.
 
 ### Expo Hall Booth <span class="highlight warning">5 / 7 SOLD</span>
 
@@ -143,7 +131,7 @@ Choose from one of three options: **Booth** or **Workshop**.
 
 The Expo Hall will be located directly outside of the room where talks are taking place. The hours for the Expo Hall will run from 8am - 5pm. The schedule of events will include numerous breaks and opportunities to engage with attendees.
 
-Each Booth will come equipped with a 2x8 ft table and power. You are free to set-up a banner and will have plenty of room for swag and product demos.
+Each Booth will come equipped with a 6 ft table and power. You are free to set-up a banner and will have plenty of room for swag and product demos.
 
 ### Workshop Track <span class="highlight warning">1 / 4 SOLD</span>
 
@@ -207,7 +195,7 @@ On the morning of Sept 2, we will host a farewell brunch. You will have an oppor
     </div>
 </div>
 
-Each day (Aug 31 and Sept 1) the Talk Track and Workshop Track will run from 9am - 4pm. Following this, we are going to organize an Activity Track where attendees will get to choose from a basket of activities (scavenger hunt, yoga, nature walks, etc). 
+ On the first day of the conference (8/31), we are cutting talks short to get outside for an Activity Track where attendees will get to choose from a basket of activities (scavenger hunt, yoga, nature walks, etc). 
 
 Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
 
@@ -219,11 +207,17 @@ After dinner on Sept 1, we are putting on our first ever Startup Fair! We have o
 
 You can support this event (and these startups) by being a sponsor for this event. We will connect you to these early stage startups and acknowledge your support during the event. It will be a great opportunity to connect to some high-potential founders and a larger group of developers, some of whom may become founders.
 
-### Job Posting
+### Virtual Booth <span class="highlight success">10 AVAILABLE</span>
 
-![CascadiaJS 2021 job posting](/images/past/cjs21-job-posting.jpg)
+![CascadiaJS 2021 livestream](/images/past/cjs21-livestream.jpg)
 
-Include a link to your job postings on the conference website, with your logo, 200 word company blurb, and 100 word job description per job. Job postings will be emailed to all attendees.
+We will be live streaming our talks with a target of 500 attendees in our virtual space and 5000 views on the stream. 
+
+As a Virtual Booth sponsor, you will receive:
+
+- A Virtual Booth in our Virtual Event space (powered by Gather)
+- 2 slots (1 on each day) for a 2 minute video to be played as we exit/enter talks.
+- The ability to include an offer (free sign-up, giveaway, etc) in an email we sent to all virtual attendees.
 
 ### Child Care <span class="highlight warning">SOLD OUT</span>
 
@@ -250,6 +244,14 @@ For the last few years, we have worked with an amazing artist to create on-the-f
 Example: https://twitter.com/CascadiaJS/status/1458611171913703425
 
 ## Community Sponsorships ($2500)
+
+### Job Posting
+
+![CascadiaJS 2021 job posting](/images/past/cjs21-job-posting.jpg)
+
+Include a link to your job postings on the conference website, with your logo, 200 word company blurb, and 100 word job description per job. 
+
+Prior to the conference, we will be email to all attendees (in-person and virtual) about your Job Posting.
 
 ### Scholarships
 
