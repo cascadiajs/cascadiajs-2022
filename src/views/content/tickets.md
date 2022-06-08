@@ -4,7 +4,7 @@ excerpt: Join us for our 10th anniversary event, full of amazing talks, outdoor 
 ---
 ![canoes](/images/sunriver/canoes.jpg)
 
-When you purchase a ticket to the conference, it is *fully loaded* and includes:
+When you purchase an in-person ticket to the conference, it is *fully loaded* and includes:
 
 <i class="fas fa-glass-cheers"></i> Day Zero Welcome Reception (Aug 30)
 
@@ -14,7 +14,7 @@ When you purchase a ticket to the conference, it is *fully loaded* and includes:
 
 <i class="fas fa-hiking"></i> Activity Track (Aug 31)
 
-<i class="fas fa-turntable"></i> Opening (Aug 31) and Closing (Sept 1) Parties
+<i class="fas fa-turntable"></i> Job Fair (Aug 31) and Startup Fair (Sept 1) Social Events
 
 <i class="fas fa-coffee"></i> Farewell Brunch (Sept 2)
 
@@ -35,15 +35,27 @@ For group/team purchases, please email us at tickets@cascadiajs.com. We can sepa
 
 If you are self-employed, work at a non-profit or work at a company with less than 10 employees, please use the discount code INDIE for 25% off your ticket. 
 
+## Virtual Tickets
+
+For folks that can't join us in person, we have a Virtual Ticket option that will include:
+
+<i class="fas fa-tv-retro"></i> Live Streamed Talk Track
+
+<i class="fas fa-coffee"></i> Virtual Hallway Track
+
+<i class="fas fa-handshake"></i> Virtual Expo Hall and Giveaways
+
+## Apply for an Opportunity Scholarship
+
+We have opened applications for Opportunity Scholarships! 
+
+If you are a member of an under-represented minority in tech or have financial constraints that make purchasing a ticket difficult, please consider learning more and applying.
+
+<div class="cta secondary"><a href="/scholarships">Learn More</a></div>
+
 
 ## Buy a Conference Ticket
 
 <div>
     <tito-widget event="event-loop/cascadiajs-2022" ${ DISCOUNT_CODE }></tito-widget>
 </div>
-
-## Apply for an Opportunity Scholarship
-
-We have opened applications for Opportunity Scholarships! If you are a member of an under-represented minority in tech or have financial constraints that make purchasing a ticket difficult, please consider learning more and applying.
-
-<div class="cta secondary"><a href="/scholarships">Learn More</a></div>
