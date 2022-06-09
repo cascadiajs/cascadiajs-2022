@@ -1,7 +1,7 @@
 ---
 title: Building Better Web Apps with Remix
 image: /images/training/chance-strickland.jpg
-caption: Joe Previte
+caption: Chance Strickland
 ---
 <div class="person"><div class="person-photo"><img src="/images/training/chance-strickland.jpg" alt="Photo of Chance"/></div></div>
 
