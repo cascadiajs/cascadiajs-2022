@@ -25,6 +25,10 @@ Tickets are released in batches. Each batch is limited in quantity, so please ma
 
 *Late Bird tickets will miss the option to personalize their conference hoodies (sizing, message on sleeve, etc)*
 
+## Vaccination Requirements and COVID Testing
+
+Anyone present on-site including attendees, sponsors, speakers, vendors, staff, and volunteers, are required to prove full vaccination, and provide a negative test result within 48 hours (for PCR) or 24 hours (for Antigen) of admission, and submit to a daily health screening with temperature check. Full vaccination is defined as 2 or more doses of the Moderna or Pfizer vaccine, or 1 or more of the J&J vaccine.
+
 ## Group Sales and Registration
 
 We ask people to register for their ticket themselves (and not on behalf of someone else) because during the registration process we ask folks to agree to our Code of Conduct and we collect important personal information, such as hoodie sizes and dietary restrictions.
