@@ -1,5 +1,5 @@
 const data = require('@begin/data')
-const speakers = require('./data/speakers.json')
+let speakers = require('./data/speakers.json')
 
 module.exports = async function GetSpeakerData (req) {
   //let speakerList = await data.get({ table: 'speakers', limit: 100 })

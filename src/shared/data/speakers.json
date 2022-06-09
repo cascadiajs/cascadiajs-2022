@@ -64,9 +64,9 @@
       "auth",
       "identity",
       "functional programming",
-      "OCAP",
+      "ocap",
       "formal methods",
-      "VM design"
+      "vm design"
     ],
     "url": "",
     "pixelated": "2aff62aef608951d3bd4639e9cf03e6348236eb7",
@@ -107,8 +107,7 @@
     "location": "Seattle, WA, USA",
     "topics": [
       "javascript",
-      "Node.js",
-      "Beyond touch & text",
+      "node.js",
       "side projects",
       "hardware",
       "iot",
@@ -129,11 +128,11 @@
   {
     "location": "Orlando, FL, USA",
     "topics": [
-      "Web Components",
-      "WebXR",
-      "Virtual Reality",
-      "Augmented Reality",
-      "WebRTC"
+      "web components",
+      "webxr",
+      "virtual reality",
+      "augmented reality",
+      "webrtc"
     ],
     "url": "",
     "pixelated": "d99f9d2f27cb264122215cc1c42f42ea12470a4e",
@@ -169,9 +168,9 @@
   {
     "location": "Calgary, AB, Canada",
     "topics": [
-      "Node.js",
-      "CLI",
-      "JavaScript"
+      "node.js",
+      "cli",
+      "javascript"
     ],
     "url": "",
     "pixelated": "d5be241dc0ee8ae3cf93960c623fa9cd2bf3e37a",
@@ -188,8 +187,8 @@
   {
     "location": "Federal Way, WA, USA",
     "topics": [
-      "Figma",
-      "React",
+      "figma",
+      "react.js",
       "design",
       "design systems",
       "component libraries"
@@ -209,11 +208,10 @@
   {
     "location": "Clovis, CA, USA",
     "topics": [
-      "Node.js",
-      "Deno",
-      "Workers",
-      "QUIC",
-      "Sockets"
+      "node.js",
+      "deno",
+      "web workers",
+      "quic"
     ],
     "url": "",
     "pixelated": "9fc9e08163dc9098266c2649b74160ab94f02427",
@@ -230,7 +228,7 @@
   {
     "location": "San Francisco, CA, USA",
     "topics": [
-      "API",
+      "api",
       "web",
       "security"
     ],
@@ -270,7 +268,7 @@
     "location": "Alameda, CA, USA",
     "topics": [
       "web3",
-      "IPFS"
+      "ipfs"
     ],
     "url": "",
     "pixelated": "15b3da028af0de6f2c0e29fe64ec0e3ae5a4483d",
@@ -288,7 +286,7 @@
     "location": "Brooklyn, NY, USA",
     "topics": [
       "jamstack",
-      "react",
+      "react.js",
       "webassembly",
       "canvas"
     ],
@@ -312,7 +310,7 @@
       "node.js",
       "python",
       "cloud services",
-      "SDKs"
+      "sdk"
     ],
     "url": "",
     "pixelated": "564f4989104c664fa022970039facd3cfa72d337",
@@ -365,11 +363,11 @@
   {
     "location": "Berlin, Germany",
     "topics": [
-      "Sqlite",
-      "Postgres",
-      "MongoDB",
-      "Redis",
-      "Node.js"
+      "sqlite",
+      "postgres",
+      "mongodb",
+      "redis",
+      "node.js"
     ],
     "url": "",
     "pixelated": "079dee5ff71e6166be365417491da372529d033b",
@@ -387,8 +385,7 @@
     "location": "Seattle, WA, USA",
     "topics": [
       "javascript",
-      "Node.js",
-      "Beyond touch & text",
+      "node.js",
       "side projects",
       "hardware",
       "iot",
@@ -409,12 +406,12 @@
   {
     "location": "Redmond, WA, USA",
     "topics": [
-      "Node.js",
+      "node.js",
       "npm",
-      "JavaScript",
-      "CommonJS",
-      "ECMAScript",
-      "TypeScript"
+      "javascript",
+      "commonjs",
+      "ecmascript",
+      "typescript"
     ],
     "url": "",
     "pixelated": "13737135fdc0bc536b0556404b9ddc48764bed80",
@@ -436,8 +433,8 @@
       "profiling",
       "shadow classes",
       "chrome",
-      "Node.js",
-      "Deno"
+      "node.js",
+      "deno"
     ],
     "url": "",
     "pixelated": "0758c626eb929c0710c57351b74e750952490714",
