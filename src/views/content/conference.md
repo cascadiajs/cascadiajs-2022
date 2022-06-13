@@ -32,6 +32,10 @@ Sunriver Resort is the perfect place to bring your significant others and family
 * An affordable [Guest Pass](/conference/attend#bringing-guests) for adults & kids
 * [Free Child Care](/conference/child-care), courtesy of our friends at [Formidable](https://formidable.com).
 
+### Accessibility
+
+All of the talks, remarks and banter that take place on the Main Track of the conference will be live-captioned by [White Coat Captioning](https://www.whitecoatcaptioning.com/). This captioning will be displayed on a screen at the in-person event and embedded directly on the website for livestream.
+
 ### Amazing Talks
 
 The core of the conference is two days of talks from experts in the JS/web community covering everything from Node.js to the cutting edge of the Web Platform to creating a more inclusive tech community. Check-out our [full list of speakers](/speakers) and prepare to be inspired.

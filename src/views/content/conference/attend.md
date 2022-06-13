@@ -32,9 +32,13 @@ Once the conference is here, it will be your go to place for information and lin
 
 ![Sunriver Resort guest room](/images/sunriver/sunriver-guest-room.webp)
 
+Conference attendees receive **discounted room rates** at Sunriver Resort and **the 17.5% resort fee is waived**. 
+
 We highly recommend that attendees book lodging at Sunriver Resort on the nights of Aug 30, Aug 31 and Sept 1. This will put you as close as possible to all of the conference events and will ensure you don't miss any of the fun!
 
-Conference attendees receive discounted room rates at Sunriver Resort and the 17.5% resort fee is waived. After you purchase your conference ticket, you'll receive an email with a special link to access these rates. You can book your rooms on-line or us the phone number on that website to complete booking.
+If you would look to book extra nights outside of that range, click the link below and call the reservation line. They will be able to apply our group discount to the nights of August 29 and September 2 if there is availability.
+
+The deadline to book lodging at our discounted rates is: <span class="highlight warning">Friday, July 15</span>
 
 *NOTE: you'll see the resort fee during online checkout, but it will be waived when you check-in at the resort.*
 

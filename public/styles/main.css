@@ -277,6 +277,24 @@ footer a, footer a:visited {
     padding: 4px;
 }
 
+.page-body .toc a, .page-body .toc a:visited {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.page-body .toc a:hover {
+    text-decoration: underline;
+}
+
+.page-body .toc ul {
+    padding-inline-start: 0;
+}
+
+.page-body .toc li {
+    list-style: none;
+    margin: 0;
+}
+
 table {
     margin: 16px 0;
 }
@@ -556,11 +574,7 @@ section .cta {
     text-align: left;
 }
 
-.track {
-    padding:8px;
-}
-
-.day h2, .what .title, .what .title a:link, .what .title a:visited {
+.what .title, .what .title a:link, .what .title a:visited {
     font-family: alkaline-caps, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -569,10 +583,14 @@ section .cta {
 	color: #112378;
 }
 
+.what p {
+    margin-top: 8px;
+}
+
 .day h2.day-date {
     font-size: 28px;
-    font-weight: 500;
-    line-height: 1em;
+    font-weight: 700;
+    line-height: 1.25em;
     margin: 0 16px 0 0;
 }
 
@@ -587,11 +605,45 @@ aside.day-timezone {
 }
 
 .day .track h3 {
-    font-family: sans-serif;
-    font-style: normal;
-    margin: 0 0 24px 0;
-    color: #112378;
+    font-family: alkaline, sans-serif;
+    font-size: 28px;
+    font-weight: 700;    
+    margin: 0;
+    padding: 16px;
+}
+
+.main.track h3 {
+    background: #FFCF07;
+} 
+
+.hallway.track h3 {
+    background: #112378;
+    color: #FFF5CC;
+}
+
+.workshop.track h3 {
+    background: #FF9866;
+}
+
+.location {
+    background: rgba(255, 207, 7, 0.3);
+    font-family: alkaline-caps;
     font-size: 24px;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 16px;
+}
+
+.main .location {
+    background:rgba(255, 207, 7, 0.3);
+}
+
+.hallway .location {
+    background:rgba(17, 35, 120, 0.3)
+}
+
+.workshop .location {
+    background:rgba(255, 152, 102, 0.3);
 }
 
 .day .track h3 a:link, .day .track h3 a:visited {
@@ -620,12 +672,8 @@ aside.day-timezone {
     font-size: 20px;
 }
 
-.hallway-sponsors {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.hallway-sponsors>div {
+.hallway .sponsors>div {
+    height: 30px;
     margin: 16px;
 }
 
@@ -633,20 +681,25 @@ aside.day-timezone {
     display: flex;
     align-items: flex-end;
     padding-bottom: 8px;
-    border-bottom: 1px solid #112378;
+    border-bottom: 3px solid #112378;
 }
 
 .show-item {
     display: flex;
-    margin-bottom: 24px;
+    margin: 16px;
 }
 
 .when {
-    width: 70px;
+    min-width: 50px;
+    margin-right: 16px;
 }
 
 .what {
     flex: 1;
+}
+
+.what .training.title {
+    margin-bottom: 24px;
 }
 
 .what .title {
@@ -695,6 +748,10 @@ aside.day-timezone {
 
 .hallway-option-title {
     flex: 1;
+}
+
+#conf-schedule img.sponsor, .hallway-sponsors img {
+    height: 30px;
 }
 
 /* end schedule */
@@ -1282,24 +1339,6 @@ a[target="_blank"]:after {
         margin-bottom: 64px;
     }
 
-    .page-body .toc a, .page-body .toc a:visited {
-        font-weight: 500;
-        text-decoration: none;
-    }
-
-    .page-body .toc a:hover {
-        text-decoration: underline;
-    }
-
-    .page-body .toc ul {
-        padding-inline-start: 0;
-    }
-
-    .page-body .toc li {
-        list-style: none;
-        margin: 0;
-    }
-
     header {
         z-index: 100;
         position: sticky; 
@@ -1582,11 +1621,10 @@ a[target="_blank"]:after {
 
     .track {
         flex: 33%;
-        padding: 16px;
     }
 
-    .hallway, .workshops {
-        border-left: 1px solid #112378;
+    .hallway.track, .workshop.track {
+        border-left: 3px solid #112378;
     }
 
     #hoodie-fit {

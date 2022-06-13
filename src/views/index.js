@@ -71,12 +71,12 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 <div class="cta secondary"><a href="/scholarships">Learn More</a></div>
             </div>
             <div class="banner-item">
-                <div class="banner-item-metric">53%</div>
+                <div class="banner-item-metric">55%</div>
                 <p>of Sunriver Resort rooms have been booked.</p>
                 <div class="cta secondary"><a href="/conference/next-steps">Book</a></div>
             </div>
             <div class="banner-item">
-                <div class="banner-item-metric">13</div>
+                <div class="banner-item-metric">12</div>
                 <p>free child care slots left for kids aged 12 and under.</p>
                 <div class="cta secondary"><a href="/conference/child-care">Reserve</a></div>
             </div>

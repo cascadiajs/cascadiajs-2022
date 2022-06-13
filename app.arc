@@ -20,6 +20,7 @@ get  /live
 get  /modules/:type/:module
 post /orders
 get  /organizers/:key
+get  /schedule
 get  /social
 get  /speakers
 get  /speakers/:key
