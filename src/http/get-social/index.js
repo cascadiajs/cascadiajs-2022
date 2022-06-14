@@ -6,6 +6,7 @@ let screenshot = require('./screenshot')
 
 async function Social (req) {
   const { path, rebuild } = req.queryStringParameters
+  console.log(path, rebuild)
 
   let table = 'social'
   
@@ -20,12 +21,14 @@ async function Social (req) {
   
   // if it does not or we are triggering a rebuild, build and store the image
   if (!record || rebuild) {
+    console.log('generating screen shot')
     try {
       // build the image
       let file = await screenshot({ path })
       // store it in S3
       const s3 = new AWS.S3()
       let fileName = `social-${ key }.png`
+      console.log('writing to S3: ', filename)
       await s3
         .putObject({
           Bucket: process.env.ARC_STATIC_BUCKET,
@@ -36,6 +39,7 @@ async function Social (req) {
         })
         .promise()  
       // store a record in the DB
+      console.log('writing record to DB')
       data.set({table, key, path, created: Date.now()})
     }
     catch (error) {
