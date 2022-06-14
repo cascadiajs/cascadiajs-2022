@@ -41,7 +41,7 @@ async function Social (req) {
         .promise()  
       // store a record in the DB
       console.log('writing record to DB')
-      data.set({table, key, path, created: Date.now()})
+      await data.set({table, key, path, created: Date.now()})
     }
     catch (error) {
       console.log(error)
