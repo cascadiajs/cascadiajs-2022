@@ -5,6 +5,7 @@ let arc = require('@architect/functions')
 let screenshot = require('./screenshot')
 
 async function Social (req) {
+  const s3 = new AWS.S3()
   const { path, rebuild } = req.queryStringParameters
   console.log(path, rebuild)
 
@@ -29,7 +30,6 @@ async function Social (req) {
       // build the image
       let file = await screenshot({ path })
       // store it in S3
-      const s3 = new AWS.S3()
       let fileName = `social-${ key }.png`
       console.log('writing to S3: ', fileName)
       await s3
