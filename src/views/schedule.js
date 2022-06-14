@@ -12,10 +12,10 @@ function template({ confSchedule }) {
                 <div class="toc">
                     <h2>On This Page</h2>
                     <ul>
-                        <li><a href="#conference-app">Aug 30 - Welcome Reception</a></li>
-                        <li><a href="#lodging">Aug 31 - Day One</a></li>
-                        <li><a href="#travel">Sep 1 - Day Two</a></li>
-                        <li><a href="#child-care">Sep 2 - Brunch and Training Workshops</a></li>
+                        <li><a href="#day-zero">Aug 30 - Welcome Reception</a></li>
+                        <li><a href="#day-one">Aug 31 - Day One</a></li>
+                        <li><a href="#day-two">Sep 1 - Day Two</a></li>
+                        <li><a href="#day-training">Sep 2 - Brunch and Training Workshops</a></li>
                         <li><a href="#map-of-sunriver-resort">Map of Sunriver Resort</a></li>
                     </ul>
                 </div>

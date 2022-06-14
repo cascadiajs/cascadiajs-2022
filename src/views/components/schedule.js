@@ -48,7 +48,7 @@ function hallwayTrack({ticket = undefined}) {
 
 function DayZero({ ticket = undefined }) {
     return /*html*/`
-    <div class="day">
+    <div id="day-zero" class="day">
         <div class="day-header">
             <h2 class="day-date">
             Pre-Conf<br/>August 30
@@ -75,7 +75,7 @@ function DayZero({ ticket = undefined }) {
 
 function DayOne({ speakers, ticket = undefined }) {
     return /*html*/`
-    <div class="day">
+    <div id="day-one" class="day">
         <div class="day-header">
             <h2 class="day-date">
             Day One<br/>August 31
@@ -198,7 +198,7 @@ function DayOne({ speakers, ticket = undefined }) {
 
 function DayTwo({ speakers, ticket = undefined }) {
     return /*html*/`
-    <div class="day">
+    <div id="day-two" class="day">
         <div class="day-header">
             <h2 class="day-date">
             Day Two<br/>September 1
@@ -330,7 +330,7 @@ function DayTwo({ speakers, ticket = undefined }) {
 
 function TrainingDay() {
     return /*html*/`
-    <div class="day">
+    <div id="day-training" class="day">
         <div class="day-header">
             <h2 class="day-date">
             Post-Conf<br/>September 2
