@@ -17,8 +17,9 @@ async function Social (req) {
   .digest('base64')
 
   // see if this image reference exists in the DB
-  let record = data.get({table, key })
-  
+  let record = await data.get({ table, key })
+  console.log(record)
+
   // if it does not or we are triggering a rebuild, build and store the image
   if (!record || rebuild) {
     console.log('generating screen shot')
