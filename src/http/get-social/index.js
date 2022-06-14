@@ -13,15 +13,15 @@ async function Social (req) {
   
   // use the path to generate a hash value
   let key = crypto
-  .createHash('sha1')
-  .update(path)
-  .digest('base64')
+    .createHash('sha1')
+    .update(path)
+    .digest('base64')
 
   // see if this image reference exists in the DB
   let record = await data.get({ table, key })
   //console.log(record)
 
-  let fileName = `social-${ key }.png`
+  let fileName = `social-${ encodeURIComponent(key) }.png`
 
   // if it does not or we are triggering a rebuild, build and store the image
   if (!record || rebuild) {
@@ -30,7 +30,6 @@ async function Social (req) {
       // build the image
       let file = await screenshot({ path })
       // store it in S3
-      let fileName = `social-${ key }.png`
       //console.log('writing to S3: ', fileName)
       await s3
         .putObject({
