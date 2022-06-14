@@ -71,9 +71,9 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 <div class="cta secondary"><a href="/scholarships">Learn More</a></div>
             </div>
             <div class="banner-item">
-                <div class="banner-item-metric">55%</div>
-                <p>of Sunriver Resort rooms have been booked.</p>
-                <div class="cta secondary"><a href="/conference/next-steps">Book</a></div>
+                <div class="banner-item-metric">July 15</div>
+                <p>Deadline to book at Sunriver at our Group Rate.</p>
+                <div class="cta secondary"><a href="/conference/attend">Book</a></div>
             </div>
             <div class="banner-item">
                 <div class="banner-item-metric">12</div>

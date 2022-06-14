@@ -187,11 +187,12 @@ On the morning of Sept 2, we will host a farewell brunch. You will have an oppor
 
 ## Bronze Sponsorships ($5k)
 
-### Activity Track (Aug 31) <span class="highlight warning">1 / 6 SOLD</span>
+### Activity Track (Aug 31) <span class="highlight warning">2 / 6 SOLD</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
         <div><img src="/images/sponsors/begin.svg" alt="Begin logo"/></div>
+        <div><img src="/images/sponsors/netlify.svg" alt="Netlify logo"/></div>
     </div>
 </div>
 
@@ -235,9 +236,13 @@ Help us make CascadiaJS friendly to families! We will work with a local Bend-are
 
 Help us make CascadiaJS accessible to the deaf and hard of hearing! We work with White Coat Captioning to provide a human-powered captioning experience for both attendees in the audience and those watching online. 
 
-### Graphic Recordings <span class="highlight success">1 AVAILABLE</span>
+### Graphic Recordings <span class="highlight warning">SOLD OUT</span>
 
-![CascadiaJS 2021 graphic recording](/images/past/cjs21-graphic-recording.jpg)
+<div class="sponsors-grid">
+    <div class="sponsored tier">
+        <div><img src="/images/sponsors/netlify.svg" alt="Netlify logo"/></div>
+    </div>
+</div>
 
 For the last few years, we have worked with an amazing artist to create on-the-fly illustrations of the talks that our speakers give. These “explainers” help simplify complex ideas and are an amazing and much appreciated artifact for our speakers and our community. Sponsoring these gets your logo included on each of the 18 illustrations, which also function as the social sharing images for all of our talks once the videos are published online:
 

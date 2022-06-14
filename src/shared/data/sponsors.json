@@ -30,16 +30,6 @@
   
   },
   {
-    "key": "lacework",
-    "tier": "gold",
-    "name": "Lacework",
-    "url": "https://lacework.com",
-    "logo": "lacework.webp",
-    "square": "lacework-square.jpg",
-    "description": "Cloud security at the speed of light. Use data and automation to protect your multicloud environment, prioritize risks with pinpoint accuracy, and innovate with confidence.",
-    "short": "Cloud security at the speed of light."
-  },
-  {
     "key": "vonage",
     "tier": "gold",
     "name": "Vonage",
@@ -90,7 +80,7 @@
     "description": "Begin is a ridiculously quick platform for building modern web apps, sites, and APIs. Get started for free."  
   },
   {
-    "key": "turning",
+    "key": "turing",
     "tier": "silver",
     "name": "Turing School of Software and Design",
     "url": "https://terminal.turing.edu/",
@@ -108,6 +98,15 @@
     "square": "fictiv-square.png",
     "description": "Build the future of manufacturing.",
     "jobs": "https://www.fictiv.com/careers"
+  },
+  {
+    "key": "netlify",
+    "tier": "bronze",
+    "name": "Netlify",
+    "url": "https://netlify.com",
+    "logo": "netlify.svg",
+    "square": "netlify-square.jpg",
+    "description": "The fastest way to combine your favorite tools and APIs to build the fastest sites, stores, and apps for the web."
   },
   {
     "key": "fission",
