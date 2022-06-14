@@ -20,6 +20,8 @@ async function Social (req) {
   let record = await data.get({ table, key })
   console.log(record)
 
+  let fileName = `social-${ key }.png`
+
   // if it does not or we are triggering a rebuild, build and store the image
   if (!record || rebuild) {
     console.log('generating screen shot')
@@ -52,9 +54,27 @@ async function Social (req) {
     }
   }
 
+  // read and return image data from s3
+  let data = await s3
+    .getObject({
+      Bucket: process.env.ARC_STATIC_BUCKET,
+      Key : process.env.ARC_STATIC_PREFIX + '/' + fileName
+    })
+    .promise()
+
+  console.log(data.ContentLength, data.ContentType, data.CacheControl)
+
   return {
-    location: `${ process.env.BEGIN_STATIC_ORIGIN }/social-${ key }.png`
+    type: data.ContentType,
+    length: data.ContentLength,
+    'Cache-Control': data.CacheControl,
+    body: data.Body
   }
+
+  // The Twitter scraper bot doesn't accept 302 redirect for images
+  //return {
+  //  location: `${ process.env.BEGIN_STATIC_ORIGIN }/social-${ key }.png`
+  //}
 }
 
 exports.handler = arc.http.async(Social)
