@@ -166,5 +166,13 @@
     "url": "https://techtonica.org",
     "logo": "techtonica.png",
     "description": ""
+  },
+  {
+    "key": "datadog",
+    "tier": "community",
+    "name": "Datadog",
+    "url": "https://www.datadoghq.com",
+    "logo": "datadog.png",
+    "description": ""
   }
 ]
