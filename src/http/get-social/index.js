@@ -29,7 +29,7 @@ async function Social (req) {
       // store it in S3
       const s3 = new AWS.S3()
       let fileName = `social-${ key }.png`
-      console.log('writing to S3: ', filename)
+      console.log('writing to S3: ', fileName)
       await s3
         .putObject({
           Bucket: process.env.ARC_STATIC_BUCKET,
