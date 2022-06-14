@@ -55,20 +55,20 @@ async function Social (req) {
   }
 
   // read and return image data from s3
-  let data = await s3
+  let object = await s3
     .getObject({
       Bucket: process.env.ARC_STATIC_BUCKET,
       Key : process.env.ARC_STATIC_PREFIX + '/' + fileName
     })
     .promise()
 
-  console.log(data.ContentLength, data.ContentType, data.CacheControl)
+  console.log(object.ContentLength, object.ContentType, object.CacheControl)
 
   return {
-    type: data.ContentType,
-    length: data.ContentLength,
-    'Cache-Control': data.CacheControl,
-    body: data.Body
+    type: object.ContentType,
+    length: object.ContentLength,
+    'Cache-Control': object.CacheControl,
+    body: object.Body
   }
 
   // The Twitter scraper bot doesn't accept 302 redirect for images
