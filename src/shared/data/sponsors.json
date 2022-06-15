@@ -174,5 +174,13 @@
     "url": "https://www.datadoghq.com",
     "logo": "datadog.png",
     "description": ""
+  },
+  {
+    "key": "codefellows",
+    "tier": "community",
+    "name": "Codefellows",
+    "url": "https://bit.ly/3y35Isp",
+    "logo": "codefellows.png",
+    "description": ""
   }
 ]
