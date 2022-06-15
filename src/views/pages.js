@@ -70,7 +70,7 @@ module.exports = async function Page(req) {
       // if its the ticketing page, load the Tito JS script
       let scripts = []
       if (page === 'tickets') {
-        scripts.push('https://js.tito.io/v2/with/gtag')
+        scripts.push('https://js.tito.io/v2')
         scripts.push('/js/tito.js')
       }
       html = Layout({ path, title, content, socialUrl, excerpt, scripts })
