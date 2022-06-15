@@ -4,20 +4,33 @@ window.tito = window.tito || function() {
     (tito.q = tito.q || []).push(arguments);
 };
 
-tito('on:registration:started', function(data){
+function fp(e, data) {
     if (window.firstparty) {
-        firstparty.track('Registration Started', data);
+        try {
+            firstparty.track(e, data);
+        }
+        catch (err) {
+            console.log('Error tracking with FirstParty: ', err)
+        }
     }
+}
+
+tito('on:registration:started', function(data){
+    fp('Registration Started', data);
 })
 
 tito('on:registration:finished', function(data){
-    if (window.firstparty) {
-        firstparty.track('Registration Finished', data);
-    }
+    fp('Registration Finished', data);
     if (window.lintrk) {
         window.lintrk('track', { conversion_id: 8245196 });
     }
+    if (window.twq) {
+        twq('track','Purchase', {
+            value: data.total,
+            currency: 'USD',
+            num_items: data.line_items.length,
+        });
+    }
 })
 
-// add more callback to pump to First Party
 
