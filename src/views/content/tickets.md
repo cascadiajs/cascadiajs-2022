@@ -37,7 +37,7 @@ For group/team purchases, please email us at tickets@cascadiajs.com. We can sepa
 
 ## Indie Discount
 
-If you are self-employed, work at a non-profit or work at a company with less than 10 employees, please use the discount code INDIE for 25% off your ticket. 
+If you are self-employed, work at a non-profit or work at a company with less than 10 employees, please use the discount code INDIEDEV for $175 off your ticket. 
 
 ## Virtual Tickets
 
