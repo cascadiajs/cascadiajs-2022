@@ -135,6 +135,22 @@
     "description": "The longest running web and JS meetup in Seattle. All are welcome!"
   },
   {
+    "key": "seattle-node",
+    "tier": "community",
+    "name": "Seattle Node.js Meetup",
+    "url": "https://www.meetup.com/seattle-node-js/",
+    "logo": "seattle-node.png",
+    "description": ""
+  },
+  {
+    "key": "seattle-reactjs",
+    "tier": "community",
+    "name": "Seattle React.js Meetup",
+    "url": "https://www.meetup.com/seattle-react-js/",
+    "logo": "seattle-reactjs.jpg",
+    "description": ""
+  },
+  {
     "key": "200ok",
     "tier": "community",
     "name": "200 OK",
