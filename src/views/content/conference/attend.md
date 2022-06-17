@@ -71,7 +71,7 @@ We are offering professional, on-site child care for kids 12 and under. Please c
 
 ## Bringing Guests
 
-Guests, including family, friends and significant others, are welcome! If you would like your guest to join you for meals and activities, they will need a [Guest Pass](/tickets). A Guest Pass includes breakfast, lunch and dinner on August 31 and September 1, the Farewell Brunch and planned activies. For guests 18 years and older, it also includes access to the Welcome Reception and two evening events.
+Guests, including family, friends and significant others, are welcome! If you would like your guest to join you for meals and activities, they will need a [Guest Pass](/tickets). A Guest Pass includes breakfast, lunch and dinner on August 31 and September 1, the Farewell Brunch and planned activies. For guests 18 years and older, it also includes access to the Welcome Reception and two evening events. Guest Passes are FREE for children 5 and under!
 
 Alternatively, in place of purchasing a Guest Pass, your guests are free to dine at several different [on-site restaurants](https://www.sunriverresort.com/dining-eat-drink/food-and-drinks-overview). 
 
