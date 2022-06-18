@@ -60,9 +60,8 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
             `}).join('')}
             </div>
         </section>
-        <section id="about-us">
-            <div><img src="/images/illustrations/home-1.png" alt="Over the course of 2 days, you'll hear amazing talks, connect with other developers, have the opportunity to attend hands-on workshops, and spend the afternoons choosing from indoor and outdoor activities (pickleball, anyone?)."/></div>
-            <div><img src="/images/illustrations/home-2.png" alt="talks, workshops, karaoke, job fair, pool"/></div>
+        <section id="promo-video" style="padding:16px">
+        <div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/6298be65002042523db507d3326da8bd?muted=true&autoplay=true&loop=true&poster=https%3A%2F%2Fvideodelivery.net%2F6298be65002042523db507d3326da8bd%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
         </section>
         <section id="banner">
             <div class="banner-item">
