@@ -65,7 +65,7 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
         </section>
         <section id="banner">
             <div class="banner-item">
-                <div class="banner-item-metric">July 3</div>
+                <div class="banner-item-metric">July 8</div>
                 <p>Deadline to apply for an Opportunity Scholarship.</p>
                 <div class="cta secondary"><a href="/scholarships">Learn More</a></div>
             </div>
