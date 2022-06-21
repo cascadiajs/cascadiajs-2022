@@ -118,6 +118,14 @@
     "description": "Building protocols for the future of the Internet"
   },
   {
+    "key": "appwrite",
+    "tier": "community",
+    "name": "Appwrite",
+    "url": "https://appwrite.io",
+    "logo": "appwrite.png",
+    "description": ""
+  },
+  {
     "key": "postman",
     "tier": "community",
     "name": "Postman",
@@ -125,6 +133,31 @@
     "logo": "postman.svg",
     "square": "postman-square.png",
     "description": "Browse the largest network of APIs and share what you build with 20 million developers across the planet."
+  },
+  {
+    "key": "xata",
+    "tier": "community",
+    "name": "Xata",
+    "url": "https://xata.io",
+    "logo": "xata.svg",
+    "square": "xata-square.jpg",
+    "description": ""
+  },
+  {
+    "key": "datadog",
+    "tier": "community",
+    "name": "Datadog",
+    "url": "https://www.datadoghq.com",
+    "logo": "datadog.png",
+    "description": ""
+  },
+  {
+    "key": "liveloveapp",
+    "tier": "community",
+    "name": "LiveLoveApp",
+    "url": "https://liveloveapp.com",
+    "logo": "liveloveapp.png",
+    "description": ""
   },
   {
     "key": "seattlejs",
@@ -151,28 +184,11 @@
     "description": ""
   },
   {
-    "key": "200ok",
+    "key": "portland-angular",
     "tier": "community",
-    "name": "200 OK",
-    "url": "https://200ok.vc",
-    "logo": "200ok.png",
-    "description": "200 OK invests in startups building the next-generation of dev tools."
-  },
-  {
-    "key": "appwrite",
-    "tier": "community",
-    "name": "Appwrite",
-    "url": "https://appwrite.io",
-    "logo": "appwrite.png",
-    "description": ""
-  },
-  {
-    "key": "xata",
-    "tier": "community",
-    "name": "Xata",
-    "url": "https://xata.io",
-    "logo": "xata.svg",
-    "square": "xata-square.jpg",
+    "name": "Portland Angular.js Meetup",
+    "url": "https://www.meetup.com/ngpdxers/",
+    "logo": "portland-angular.jpg",
     "description": ""
   },
   {
@@ -181,14 +197,6 @@
     "name": "Techtonica.org",
     "url": "https://techtonica.org",
     "logo": "techtonica.png",
-    "description": ""
-  },
-  {
-    "key": "datadog",
-    "tier": "community",
-    "name": "Datadog",
-    "url": "https://www.datadoghq.com",
-    "logo": "datadog.png",
     "description": ""
   },
   {
@@ -206,5 +214,13 @@
     "url": "http://1859.vc",
     "logo": "1859.png",
     "description": ""
+  },
+  {
+    "key": "200ok",
+    "tier": "community",
+    "name": "200 OK",
+    "url": "https://200ok.vc",
+    "logo": "200ok.png",
+    "description": "200 OK invests in startups building the next-generation of dev tools."
   }
 ]
