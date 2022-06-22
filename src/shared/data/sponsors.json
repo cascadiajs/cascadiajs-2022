@@ -123,7 +123,7 @@
     "name": "Appwrite",
     "url": "https://appwrite.io",
     "logo": "appwrite.png",
-    "description": ""
+    "description": "Secure Open-Source Backend Server for Web, Mobile & Flutter Developers"
   },
   {
     "key": "postman",
@@ -141,7 +141,7 @@
     "url": "https://xata.io",
     "logo": "xata.svg",
     "square": "xata-square.jpg",
-    "description": ""
+    "description": "The go-to Serverless Database of your dreams"
   },
   {
     "key": "datadog",
@@ -149,7 +149,9 @@
     "name": "Datadog",
     "url": "https://www.datadoghq.com",
     "logo": "datadog.png",
-    "description": ""
+    "square": "datadog-square.png",
+    "description": "Datadog is the essential monitoring and security platform for cloud applications. We bring together end-to-end traces, metrics, and logs to make your applications, infrastructure, and third-party services entirely observable. These capabilities help businesses secure their systems, avoid downtime, and ensure customers are getting the best user experience.",
+    "short": "The essential monitoring and security platform for cloud applications."
   },
   {
     "key": "liveloveapp",
@@ -157,7 +159,9 @@
     "name": "LiveLoveApp",
     "url": "https://liveloveapp.com",
     "logo": "liveloveapp.png",
-    "description": ""
+    "square": "liveloveapp.jpg",
+    "description": "### Who is LiveLoveApp?\n\nBrian Love and Mike Ryan are the founders of LiveLoveApp and have a combined 30 years of experience in product & technology leadership inside of Fortune 500 companies, government, and hungry startups.\n\nTheir passion for technology has led them to create open-source software with millions of downloads, speak at conferences around the world, and craft apps that delight users.\n\nWe have three primary services that we offer to our clients:\n\n* Fractional CTO Product Leadership\n* Expert-led Workshops\n* Software Architecture\n\n### Fractional CTO Product Leadership\n\nKnowing how to build web apps and cloud services that are performant and delight users is daunting. It would be best if you had technical leadership to help identify solutions to product problems.\n\n LiveLoveApp has helped startups go to market rapidly with efficient operations. We offer engineering and consulting services for startups that are building for the modern web in the cloud.\n\n### Workshops\n\nBuilding build better apps that are performant, reliable, and high quality requires supplying your team with the necessary education. You want to bring in industry experts to skill up your team and help them close their knowledge gaps.\n\nLiveLoveApp has trained thousands of software engineers on tools and technologies for the modern web. We offer workshops in-person, online, or hybrid with straightforward pricing and no hidden costs.\n\n### Software Architecture\n\nWeb apps and cloud systems with poor performance and bad reliability result in low code development velocity. Your users expect delightful experiences that evolve to meet their needs. You want to identify bottlenecks and design a plan to improve your web app or cloud system.\n\nLiveLoveApp has provided architecture reviews and designs to startups and enterprises. We analyze your current application and system architecture to provide a clear path towards increased performance, quality, and velocity.\n\n### Say Hello!\n\nEmail us at: hello@liveloveapp.com\n\nOr, [schedule a 30-minute call with us directly](https://liveloveapp.com/contact).",
+    "short": "Find Absolute Joy in Shipping Apps. Product & Technology Leadership through Consulting, Architecture Design, and Workshops"
   },
   {
     "key": "seattlejs",
@@ -173,15 +177,17 @@
     "name": "Seattle Node.js Meetup",
     "url": "https://www.meetup.com/seattle-node-js/",
     "logo": "seattle-node.png",
-    "description": ""
+    "description": "This is a group dedicated to learning, spreading the knowledge of, and improving Node.js - the evented, server side javascript platform harnessing the underlying power of Google's V8 JS engine.\n\nYou should join us if you want to learn about, share experiences with, or work to improve Node.js and its modules.",
+    "short": "Seattle's Node.js meetup"
   },
   {
     "key": "seattle-reactjs",
     "tier": "community",
-    "name": "Seattle React.js Meetup",
+    "name": "Seattle React.js meetup",
     "url": "https://www.meetup.com/seattle-react-js/",
     "logo": "seattle-reactjs.jpg",
-    "description": ""
+    "description": "React.js is a fun, easy to use Javascript library built at Facebook.\n\nYou should join us if you want to learn about, share experiences with, or work with fellow JavaScript devs interested in React.",
+    "short": "Seattle's React.js Meetup"
   },
   {
     "key": "portland-angular",
@@ -189,7 +195,8 @@
     "name": "Portland Angular.js Meetup",
     "url": "https://www.meetup.com/ngpdxers/",
     "logo": "portland-angular.jpg",
-    "description": ""
+    "description": "We are a community of JavaScript enthusiasts that share a love for Angular. Some of us have been using it for years and others are just hearing about it.\n\nEach month we get together to hear about all the great things that make up the Angular framework and see what great things people are creating with it.\n\nWe'd love to have you join us!",
+    "short": "We are a community of JS enthusiasts in Portland, OR that share a love for Angular."
   },
   {
     "key": "techtonica",
@@ -197,7 +204,9 @@
     "name": "Techtonica.org",
     "url": "https://techtonica.org",
     "logo": "techtonica.png",
-    "description": ""
+    "square": "techtonica-square.jpg",
+    "description": "[Techtonica](https://techtonica.org/) is a non-profit organization that helps women and non-binary adults with low incomes overcome barriers into tech careers. We offer free training, stipends, laptops, personal mentors, and job placements to our participants.\n\nWe started in the Bay Area and are now completely remote, which allows us to support many more people in their tech journey! With this expansion, we need more volunteers to [sign up](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1) to help our participants during:\n* Study groups\n* Workshops\n* Weekly office hours\n* Mentoring (two hours per week)\n\nWe also welcome donations at techtonica.org/donate, but our program is mostly funded by companies that [sponsor and hire our program participants](https://techtonica.org/sponsor/). If your company might be interested in collaborating with us, please contact us!",
+    "short": "Non-profit org that helps women and non-binary adults with low incomes overcome barriers into tech careers."
   },
   {
     "key": "codefellows",
@@ -205,7 +214,9 @@
     "name": "Codefellows",
     "url": "https://bit.ly/3y35Isp",
     "logo": "codefellows.png",
-    "description": ""
+    "square": "codefellows-square.png",
+    "description": "Code Fellows started in 2013 as Seattle's first code school, with a class of 20 aspiring software developers. A lot has changed since that first cohort — we've expanded our curriculum to include courses that range from beginner to advanced; moved to a bigger, brighter campus in the heart of Seattle; went fully virtual, added new curriculum in operations and cybersecurity; launched Powered by Code Fellows, built out our robust Career Transition Services Program; and much more.\n\nWe guide people from all backgrounds to change their lives through fast-paced, career-focused education. We shape passionate learners with immersive training to meet industry needs and improve diversity.",
+    "short": "We guide people from all backgrounds to change their lives through fast-paced, career-focused education."
   },
   {
     "key": "1859",
@@ -213,7 +224,9 @@
     "name": "1859 Ventures",
     "url": "http://1859.vc",
     "logo": "1859.png",
-    "description": ""
+    "square": "1859-square.jpg",
+    "description": "1859 Ventures is an Oregon-based seed-stage fund focused on helping underserved founders. An industry agnostic fund, 1859 focuses on helping women, BIPOC, LGBTQ+, military veterans, and first-time founders who are building the next big businesses here in the state of Oregon.",
+    "short": "Oregon-based seed-stage fund focused on helping underserved founders."
   },
   {
     "key": "200ok",

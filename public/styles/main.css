@@ -35,6 +35,11 @@ h2 { font-size: 32px; }
 
 h3 { font-size: 24px; }
 
+h2 img {
+    height: 35px;
+    vertical-align: bottom;
+}
+
 img, video {
     max-height: 100%;
     max-width: 100%;
