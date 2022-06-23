@@ -7,7 +7,7 @@ excerpt: Lodging, Travel, Child Care info and more!
 <div class="toc">
 <h2>On This Page</h2>
     <ul>
-        <li><a href="#conference-app">Conference App</a></li>
+        <li><a href="#conference-dashboard">Conference Dashboard</a></li>
         <li><a href="#lodging">Lodging</a></li>
         <li><a href="#travel">Travel</a></li>
         <li><a href="#child-care">Child Care</a></li>
@@ -16,15 +16,21 @@ excerpt: Lodging, Travel, Child Care info and more!
     </ul>
 </div>
 
-## Conference App
+## Conference Dashboard
 
-First, please make sure you can log in to the [Conference App](/home/dashboard). All you need is the email address you used when you assigned your conference ticket, magic links via email will handle the rest.
+### Check Your Login
+
+First, please make sure you can log in to the <a target="_blank" href="/home/dashboard">Conference Dashboard</a>. All you need is the email address you used when you assigned your conference ticket, magic links via email will handle the rest.
+
+### Create Your Virtual Ticket
 
 <img src="https://begin-static-p6uw2-production.s3.us-west-2.amazonaws.com/dawn-jh5/ticket-1.png" alt="Carter's virtual ticket" width="300" />
 
-You can use the Conference App right now to add yourself to our [Conference Directory](/#conference-directory) and create your own customized Virtual Ticket. 
+After you log-in to the Dashboard, you can add yourself to our Conference Directory and create your own customized Virtual Ticket. 
 
-Once the conference is here, it will be your go to place for information and links to the Virtual Event, sponsor raffles, and more!
+### Register for Activities
+
+All in-person conference attendees will have the opportunity to RSVP for one of the Activity Track options on the afternoon of August 31. Make sure you Register for your activity of choice, because spaces are limited and will go fast!
 
 ## Lodging
 
