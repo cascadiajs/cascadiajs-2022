@@ -117,7 +117,7 @@ Your company is making it possible for the event to be at Sunriver Resort this y
 
 Choose from one of two options: **Booth** or **Workshop**.
 
-### Expo Hall Booth <span class="highlight warning">5 / 7 SOLD</span>
+### Expo Hall Booth <span class="highlight warning">1 LEFT</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
@@ -133,7 +133,7 @@ The Expo Hall will be located directly outside of the room where talks are takin
 
 Each Booth will come equipped with a 6 ft table and power. You are free to set-up a banner and will have plenty of room for swag and product demos.
 
-### Workshop Track <span class="highlight warning">1 / 4 SOLD</span>
+### Workshop Track <span class="highlight warning">1 LEFT</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">

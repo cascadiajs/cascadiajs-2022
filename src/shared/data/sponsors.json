@@ -229,6 +229,16 @@
     "short": "Oregon-based seed-stage fund focused on helping underserved founders."
   },
   {
+    "key": "edco",
+    "tier": "community",
+    "name": "EDCO",
+    "url": "https://edcoinfo.com/",
+    "logo": "edco.png",
+    "square": "edco-square.png",
+    "short": "A non-profit whose mission is to support the economic development of Central Oregon",
+    "description": "Founded in 1981, EDCO is a non-profit corporation supported by private and public members and stakeholders. Our mission is to create a diversified local economy and a strong base of middle-class jobs in Central Oregon."
+  },
+  {
     "key": "200ok",
     "tier": "community",
     "name": "200 OK",
