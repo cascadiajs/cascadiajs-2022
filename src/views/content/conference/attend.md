@@ -30,7 +30,7 @@ After you log-in to the Dashboard, you can add yourself to our Conference Direct
 
 ### Register for Activities
 
-All in-person conference attendees will have the opportunity to RSVP for one of the Activity Track options on the afternoon of August 31. Make sure you Register for your activity of choice, because spaces are limited and will go fast!
+All in-person conference attendees will have the opportunity to RSVP for one of the [Activity Track](/conference/activities) options on the afternoon of August 31. Make sure you Register for your activity of choice, because spaces are limited and will go fast!
 
 ## Lodging
 

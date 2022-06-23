@@ -152,7 +152,7 @@ function DayOne({ speakers, ticket = undefined }) {
                 <div class="location">Various Locations</div>
                 <div class="show-item">       
                     <div class="when">16:30</div>
-                    <div class="what"><div class="title"><i class="fas fa-bicycle"></i> Activities</div></div>
+                    <div class="what"><div class="title"><i class="fas fa-bicycle"></i> <a href="/conference/activities">Activity Track</a></div></div>
                 </div>
                 <div class="location">Bessom Commons</div>
                 <div class="show-item">       
