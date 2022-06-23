@@ -40,7 +40,9 @@ async function authenticated(req) {
     let ticketData = await data.get( {table: 'tickets', limit: 5000 })
     let newTicket = ticket()
     let ticketsSection = `<h2>Tickets</h2>${ newTicket + ticketData.map(ticket).join('') }`
-    let html = layout(linksSection + speakersSection + ticketsSection)
+    let rsvpData = await data.get({ table: 'rsvps', limit: 500 })
+    let rsvpSection = `<h2>Activity RSVPs</h2><ul>${ rsvpData.map(rsvp).join('') }</ul>`
+    let html = layout(linksSection + speakersSection + ticketsSection + rsvpSection)
     return { html }
   }
 }
@@ -104,4 +106,8 @@ function link(l) {
         <button>Save</button>
       </form>
     </details>`
+}
+
+function rsvp(r) {
+  return `<li>${ r.key } ${ r.activity }</li>`
 }

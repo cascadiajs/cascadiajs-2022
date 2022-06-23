@@ -1,0 +1,32 @@
+[
+    {
+        "key": "kayaking",
+        "table": "activities",
+        "name": "Kayaking",
+        "cap": 30
+    },
+    {
+        "key": "scavenger",
+        "table": "activities",
+        "name": "Scavenger Hunt",
+        "cap": 50
+    },
+    {
+        "key": "yoga",
+        "table": "activities",
+        "name": "Yoga",
+        "cap": 30
+    },
+    {   
+        "key": "biking",
+        "table": "activities",
+        "name": "Bike Ride",
+        "cap": 30
+    },
+    {
+        "key": "walking",
+        "table": "activities",
+        "name": "Nature Walk",
+        "cap": 50
+    }
+]

@@ -1,5 +1,6 @@
 let arc = require('@architect/functions')
 const data = require('@begin/data')
+const activities = require('@architect/shared/data/activities.json')
 const HomeView = require('@architect/views/home')
 const LoginView = require('@architect/views/home/login')
 const CheckView = require('@architect/views/home/check')
@@ -7,11 +8,22 @@ const WaitView = require('@architect/views/home/wait')
 const NotFoundView = require('@architect/views/404')
 const github = require('./github')
 
+
+async function getActivitiesWithCounts() {
+  let rsvpData = await data.get({table: 'rsvps', limit: 500 })
+  return activities.map(a => {
+    return {
+      ...a,
+      full: rsvpData.filter((r) => r.activityKey === a.key) >= a.cap
+    }
+  })
+}
+
 // render the form
 async function unauthenticated(req) {
   const { view } = req.params
   let { ticketRef } = req.session
-  let { message, email } = req.queryStringParameters
+  let { message } = req.queryStringParameters
   // non-authenticated views
   if (view === 'login') {
     return LoginView(message)
@@ -39,11 +51,15 @@ async function unauthenticated(req) {
 
 // display the ticket information
 async function authenticated(req) {
+  let { message } = req.queryStringParameters
   const { view } = req.params
   let { ticketRef } = req.session
   let ticket = await data.get( { table: 'tickets', key: ticketRef })
   if (view === 'dashboard') {
-    return HomeView(ticket)
+    // load the RSVP (if one exists)
+    let rsvp = await data.get({table: 'rsvps', key: ticketRef })
+    let activitiesWithCounts = await getActivitiesWithCounts()
+    return HomeView({ ticket, rsvp, activities: activitiesWithCounts, message })
   }
   else if (view === 'wait'){
     return WaitView()

@@ -7,7 +7,7 @@ module.exports = async function(message = undefined) {
             <div class=page-body class=narrow>
                 ${ message ? `<span class="highlight error">${ message }</span>` : '' }
                 <p>Enter the email address you used when registering for your ticket, and we will send you a magic link to use to complete the log-in process.</p>
-                <form action=/home method=post>
+                <form action=/home/login method=post>
                     <input style="width:50%;" type=text placeholder="foo.bar@baz.com" name=email>
                     <button>Submit</button>
                 </form>

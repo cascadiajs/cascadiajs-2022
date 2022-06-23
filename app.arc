@@ -14,7 +14,7 @@ post /admin
 get  /changelog
 post /codes/:key
 get  /home/:view
-post /home
+post /home/:action
 post /links/:key
 get  /live
 get  /modules/:type/:module
