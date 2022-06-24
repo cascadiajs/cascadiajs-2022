@@ -6,7 +6,11 @@ excerpt: Choose your own adventure with kayaking, hiking, yoga and more!
 ---
 ![Getting out on the water at Sunriver Resort](/images/sunriver/sunriver-boating.webp)
 
-All in-person conference attendees will have the opportunity to RSVP for one of the following during our Activity Track on the afternoon of August 31. Make sure you [get your Conference Ticket](/tickets) and RSVP soon, because spaces are limited!
+All in-person conference attendees will have the opportunity to RSVP for one of the following during our Activity Track on the afternoon of August 31. Make sure you [get your Conference Ticket](/tickets) and RSVP soon, because spaces are limited! A few notes:
+
+- Activities run from roughly 4:30pm - 6:30pm, but timing may change per Activity.
+- Activities are only open to Conference Attendees for now. We may open up registration to Guests later.
+- Equipment (kayaks, bikes, etc) will be provided where necessary.
 
 <h2>Kayaking by <img src="/images/sponsors/netlify.svg"/></h2>
 
@@ -22,7 +26,7 @@ Unwind from a day of talks and networking with some yoga on the lawn with Ginger
 
 ## Biking 🚲
 
-Bike alongside the Deschutes River, among the pine trees, and past the horse fields, on over 40 miles of paved bike paths! The perfect place for cruising with your new friends at CascadiaJS.
+Bike alongside the Deschutes River, among the pine trees, and past the horse fields, on over 40 miles of paved bike paths! The perfect place for cruising with your new friends at CascadiaJS. Bikes will be provided, but you can always bring your own.
 
 ## Nature Walk 🌲
 
