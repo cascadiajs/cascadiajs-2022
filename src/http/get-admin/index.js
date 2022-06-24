@@ -1,5 +1,6 @@
 let data = require('@begin/data')
 let arc = require('@architect/functions')
+let activities = require('@architect/shared/data/activities.json')
 
 let layout = body=> `<!doctype>
 <html>
@@ -41,8 +42,8 @@ async function authenticated(req) {
     let newTicket = ticket()
     let ticketsSection = `<h2>Tickets</h2>${ newTicket + ticketData.map(ticket).join('') }`
     let rsvpData = await data.get({ table: 'rsvps', limit: 500 })
-    let rsvpSection = `<h2>Activity RSVPs</h2><ul>${ rsvpData.map(rsvp).join('') }</ul>`
-    let html = layout(linksSection + speakersSection + ticketsSection + rsvpSection)
+    let activitySection = `<h2>Activity Registrations</h2>${ activities.map((a) => { return activity(a, rsvpData) }).join('') }`
+    let html = layout(linksSection + speakersSection + ticketsSection + activitySection)
     return { html }
   }
 }
@@ -106,6 +107,11 @@ function link(l) {
         <button>Save</button>
       </form>
     </details>`
+}
+
+function activity(a, rsvpData) {
+  let rsvps = rsvpData.filter((r) => r.activity === a.key)
+  return `<h3>${ a.name }</h3><ul>${ rsvps.map(rsvp).join('') }</ul>`
 }
 
 function rsvp(r) {
