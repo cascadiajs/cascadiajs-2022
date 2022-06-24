@@ -15,7 +15,12 @@ This year is the 10-year anniversary event and they are celebrating by returning
 
 ## Logos and Banners
 
-![Logo](/images/logo-green.png)
+![logo](/images/brand/cjs-icon.png)
+
+![logo with wordmark horizontal](/images/brand/cjs-wordmark-horizontal.png)
+
+![logo with wordmark stacked](/images/brand/cjs-wordmark-stacked.png)
+
 
 ![Banner](/images/media-kit/email-header.png)
 
@@ -32,9 +37,5 @@ This year is the 10-year anniversary event and they are celebrating by returning
 ![Hero 2](/images/media-kit/hero-2.png)
 
 ![Features](/images/media-kit/features.png)
-
-
-
-
 
 
