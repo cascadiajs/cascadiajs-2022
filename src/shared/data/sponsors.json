@@ -229,6 +229,14 @@
     "short": "Oregon-based seed-stage fund focused on helping underserved founders."
   },
   {
+    "key": "200ok",
+    "tier": "community",
+    "name": "200 OK",
+    "url": "https://200ok.vc",
+    "logo": "200ok.png",
+    "description": "200 OK invests in startups building the next-generation of dev tools."
+  },
+  {
     "key": "edco",
     "tier": "community",
     "name": "EDCO",
@@ -239,11 +247,12 @@
     "description": "Founded in 1981, EDCO is a non-profit corporation supported by private and public members and stakeholders. Our mission is to create a diversified local economy and a strong base of middle-class jobs in Central Oregon."
   },
   {
-    "key": "200ok",
+    "key": "tao",
     "tier": "community",
-    "name": "200 OK",
-    "url": "https://200ok.vc",
-    "logo": "200ok.png",
-    "description": "200 OK invests in startups building the next-generation of dev tools."
+    "name": "TAO",
+    "url": "https://www.techoregon.org/",
+    "logo": "tao.png",
+    "square": "tao-square.jpg",
+    "description": "The Technology Association of Oregon is creating and uniting a world-class innovation economy in Oregon and beyond."
   }
 ]
