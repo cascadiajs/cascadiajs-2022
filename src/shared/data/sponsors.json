@@ -199,6 +199,15 @@
     "short": "We are a community of JS enthusiasts in Portland, OR that share a love for Angular."
   },
   {
+    "key": "codeday",
+    "tier": "community",
+    "name": "Code Day",
+    "url": "https://www.codeday.org/",
+    "logo": "codeday.png",
+    "square": "codeday-square.png",
+    "description": "A non-profit providing welcoming and diverse opportunities for under-served students to explore a future in tech and beyond."
+  },
+  {
     "key": "techtonica",
     "tier": "community",
     "name": "Techtonica.org",
