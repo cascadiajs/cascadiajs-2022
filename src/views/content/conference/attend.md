@@ -42,7 +42,7 @@ Conference attendees receive **discounted room rates** at Sunriver Resort and **
 
 We highly recommend that attendees book lodging at Sunriver Resort on the nights of Aug 30, Aug 31 and Sept 1. This will put you as close as possible to all of the conference events and will ensure you don't miss any of the fun!
 
-If you would look to book extra nights outside of that range, click the link below and call the reservation line. They will be able to apply our group discount to the nights of August 29 and September 2 if there is availability.
+If you would like to book extra nights outside of that range, click the link below and call the reservation line. They will be able to apply our group discount to the nights of August 29 and September 2 if there is availability.
 
 The deadline to book lodging at our discounted rates is: <span class="highlight warning">Friday, July 15</span>
 

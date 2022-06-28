@@ -50,7 +50,7 @@ In addition to the talks and workshops, your ticket to the conference includes a
 
 ### Outdoor Activities
 
-Finally, for the first time ever, we are cutting the talks short on the first day and organizing a bunch of outdoor activities that attendees will be able to choose from. We can't reveal all the activities yet, but we hear a scavenger hunt might be one of them.
+Finally, for the first time ever, we are cutting the talks short on the first day and organizing a bunch of outdoor activities that attendees will be able to choose from. Check out our [current roster](/conference/activities) of activities and stay tuned for new ones to be added!
 
 ### We hope you can join us!
 
