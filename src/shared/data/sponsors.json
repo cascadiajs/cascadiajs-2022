@@ -199,6 +199,16 @@
     "short": "We are a community of JS enthusiasts in Portland, OR that share a love for Angular."
   },
   {
+    "key": "openjs",
+    "tier": "community",
+    "name": "OpenJS Foundation",
+    "url": "https://openjsf.org/",
+    "logo": "openjs.svg",
+    "square": "openjs-square.png",
+    "description": "Our mission is to support the healthy growth of JavaScript and web technologies by providing a neutral organization to host and sustain projects, as well as collaboratively fund activities that benefit the ecosystem as a whole.",
+    "short": "Our mission is to support the healthy growth of JavaScript and web technologies"
+  },
+  {
     "key": "codeday",
     "tier": "community",
     "name": "Code Day",
