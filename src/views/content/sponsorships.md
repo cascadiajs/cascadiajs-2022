@@ -179,12 +179,6 @@ After the morning talks (Aug 31 + Sept 1), lunch will be served immediately outs
 
 Help us create an amazing end to each day by catering a delicious meal and setting-up a bar. We will work with you to include your brand in fun and surprising ways. You can be involved as much or as little as you like!
 
-### Farewell Brunch (Sept 2) <span class="highlight success">1 AVAILABLE</span>
-
-![CascadiaJS 2016 lunch](/images/past/cjs16-lunch-outside.jpg)
-
-On the morning of Sept 2, we will host a farewell brunch. You will have an opportunity to set-up banners and place items on tables. This will be the last event that takes place before people leave the conference. 
-
 ## Bronze Sponsorships ($5k)
 
 ### Activity Track (Aug 31) <span class="highlight warning">2 / 6 SOLD</span>
@@ -200,7 +194,7 @@ On the morning of Sept 2, we will host a farewell brunch. You will have an oppor
 
 Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
 
-### Startup Fair (Sept 1) <span class="highlight success">5 AVAILABLE</span>
+### Startup Fair (Sept 1) <span class="highlight success">3 AVAILABLE</span>
 
 ![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
 
@@ -208,7 +202,7 @@ After dinner on Sept 1, we are putting on our first ever Startup Fair! We have o
 
 You can support this event (and these startups) by being a sponsor for this event. We will connect you to these early stage startups and acknowledge your support during the event. It will be a great opportunity to connect to some high-potential founders and a larger group of developers, some of whom may become founders.
 
-### Virtual Booth <span class="highlight success">10 AVAILABLE</span>
+### Virtual Booth <span class="highlight success">4 AVAILABLE</span>
 
 ![CascadiaJS 2021 livestream](/images/past/cjs21-livestream.jpg)
 
@@ -248,7 +242,23 @@ For the last few years, we have worked with an amazing artist to create on-the-f
 
 Example: https://twitter.com/CascadiaJS/status/1458611171913703425
 
+### Karaoke Party 🎤 (Sept 1)
+
+We close our EVERY CascadiaJS conference with a karaoke night! We have hired one of the [best karaoke DJ's](https://baby-ketten-klub.mailchimpsites.com/) in the Pacific NW to help us close the conference out right.
+
+Your company will receive full recognition for making this karaoke night possible. 
+
+### Farewell Brunch (Sept 2) <span class="highlight success">1 AVAILABLE</span>
+
+![CascadiaJS 2016 lunch](/images/past/cjs16-lunch-outside.jpg)
+
+On the morning of Sept 2, we will host a farewell brunch. You will have an opportunity to set-up banners and place items on tables. This will be the last event that takes place before people leave the conference. 
+
 ## Community Sponsorships ($2500)
+
+### Airport Shuttle (Aug 30 + Sept 2)
+
+Help us offer our attendees a FREE airport shuttle that will run from the RDM airport to Sunriver Resort. Your company will be recognized for making this happen in communications to ALL our attendees, and this shuttle will make a big difference in terms of both cost and our event's environmental impact (fewer rented cars).
 
 ### Job Posting
 
