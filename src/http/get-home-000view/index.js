@@ -14,7 +14,7 @@ async function getActivitiesWithCounts() {
   return activities.map(a => {
     return {
       ...a,
-      full: rsvpData.filter((r) => r.activityKey === a.key) >= a.cap
+      full: rsvpData.filter((r) => r.activity === a.key) >= a.cap
     }
   })
 }

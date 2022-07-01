@@ -23,7 +23,7 @@ async function processAction(req) {
         // check to see if the activity has open spots
         let activity = activities.find((a) => a.key === activityKey)
         let rsvpData = await data.get({table: 'rsvps', limit: 500 }) || []
-        if (rsvpData.filter((r) => r.activityKey === activityKey).length < activity.cap) {
+        if (rsvpData.filter((r) => r.activity === activityKey).length < activity.cap) {
           // create the RSVP
           await data.set({ table: 'rsvps', key: ticketRef, activity: activityKey })
           location = '/home/dashboard'
