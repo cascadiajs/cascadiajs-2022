@@ -70,14 +70,14 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 <div class="cta secondary"><a href="/scholarships">Learn More</a></div>
             </div>
             <div class="banner-item">
+                <div class="banner-item-metric">Act Fast</div>
+                <p>RSVP for the Activity Track option of your choice before it fills up!</p>
+                <div class="cta secondary"><a href="/conference/attend#conference-dashboard">RSVP</a></div>
+            </div>
+            <div class="banner-item">
                 <div class="banner-item-metric">July 15</div>
                 <p>Deadline to book at Sunriver at our Group Rate.</p>
                 <div class="cta secondary"><a href="/conference/attend">Book</a></div>
-            </div>
-            <div class="banner-item">
-                <div class="banner-item-metric">12</div>
-                <p>free child care slots left for kids aged 12 and under.</p>
-                <div class="cta secondary"><a href="/conference/child-care">Reserve</a></div>
             </div>
         </section>
         <section id="features" class="landing">

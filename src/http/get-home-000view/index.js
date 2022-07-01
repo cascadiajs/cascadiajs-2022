@@ -59,6 +59,7 @@ async function authenticated(req) {
     // load the RSVP (if one exists)
     let rsvp = await data.get({table: 'rsvps', key: ticketRef })
     let activitiesWithCounts = await getActivitiesWithCounts()
+    console.log(activitiesWithCounts)
     return HomeView({ ticket, rsvp, activities: activitiesWithCounts, message })
   }
   else if (view === 'wait'){

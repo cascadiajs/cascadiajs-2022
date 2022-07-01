@@ -14,7 +14,7 @@ There are three ways we expect most folks from out of town to arrive at Sunriver
 
 We are going to charter a shuttle bus from Portland, OR to bring people to Sunriver on August 30 and to return them to Portland, OR on September 2. The buses will depart Portland, OR on August 30 around 2:30pm for an arrival into Sunriver of roughly 6:30pm.
 
-<div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2022/with/hacker-bus">Reserve Seat</a></div>
+<div class="cta"><a target="_blank" href="https://ti.to/event-loop/cascadiajs-2022/with/hacker-bus">Reserve Seat</a></div>
 
 ### Hacker Train from Seattle, WA
 
@@ -33,7 +33,14 @@ We are also interested in helping people organize car pools departing from and r
 
 ### Flying in to RDM
 
-If you plan on flying, the closest airport to Sunriver with is RDM.  Sunriver Resort is roughly 40 minutes from the airport, so we will organize a FREE shuttle bus to pick folks up from RDM on August 30th and bring them to Sunriver Resort and return folks to RDM following the Farewell Brunch on Sept 2.
+If you plan on flying, the closest airport to Sunriver with is [RDM](http://www.flyrdm.com).  Sunriver Resort is roughly 40 minutes from the airport, so make sure you secure a spot on our free airport shuttle. This is our current rough schedule:
+
+- Aug 30 - shuttles departing RDM every hour from 11am - 4pm
+- Sep 2 - shuttle departing Sunriver Resort at 11am
+
+<div class="cta"><a target="_blank" href="https://ti.to/event-loop/cascadiajs-2022/with/4rhs6z2nqg8,qydnlo6i5ho,zivhpjefbzs,5uesj2szjeo,am24lcrwhwy,gomj9j5ryac,aty-v1bzvos">Reserve Seats</a></div>
+
+If our shuttle doesn't work for you (timing, fully booked, etc) RDM has an excellent [Ground Transporation Guide](http://www.flyrdm.com/?TaxisGround-Transportation) that provides all the local options.
 
 NOTE: Alaska Airlines cancelled the only direct flight between PDX and RDM. There are plans to restore this service, but probably not in time for the conference. So if your plan was to fly from Portland, please consider the Hacker Bus or plan to drive.
 
