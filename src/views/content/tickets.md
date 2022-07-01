@@ -23,7 +23,7 @@ When you purchase an in-person ticket to the conference, it is *fully loaded* an
 
 Tickets are released in batches. Each batch is limited in quantity, so please make sure you act fast to secure your ticket.
 
-*Late Bird tickets will miss the option to personalize their conference hoodies (sizing, message on sleeve, etc)*
+*NOTE: Late Bird ticket holders who purchase a ticket after July 1 are not guaranteed a hoodie or a hoodie in their preferred size.*
 
 ## Vaccination Requirements and COVID Testing
 

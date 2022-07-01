@@ -21,7 +21,7 @@
         "key": "biking",
         "table": "activities",
         "name": "Bike Ride",
-        "cap": 30
+        "cap": 20
     },
     {
         "key": "walking",
