@@ -100,6 +100,16 @@
     "jobs": "https://www.fictiv.com/careers"
   },
   {
+    "key": "retool",
+    "tier": "silver",
+    "name": "Retool",
+    "url": "https://www.retool.com",
+    "logo": "retool.png",
+    "square": "retool-square.jpg",
+    "description": "Build internal tools, remarkably fast. Stop wrestling with UI libraries, hacking together data sources, and figuring out access controls. Start shipping apps that move your business forward.",
+    "short": "Build internal tools, remarkably fast."
+  },
+  {
     "key": "netlify",
     "tier": "bronze",
     "name": "Netlify",
