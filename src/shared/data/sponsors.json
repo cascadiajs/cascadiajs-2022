@@ -110,6 +110,16 @@
     "short": "Build internal tools, remarkably fast."
   },
   {
+    "key": "mux",
+    "tier": "silver",
+    "name": "Mux",
+    "url": "https://get.mux.com/3GBeOis",
+    "logo": "mux.png",
+    "square": "mux-square.png",
+    "description": "Mux is a powerful API to video and performance monitoring platform. POST a video; GET back a video URL that plays well on any device. Founded by video experts, including the creators of the biggest open-source video player (Video.js), Mux makes beautiful video possible for every development team.\n\nBuild on-demand and live streaming video into your apps and products, all while tracking performance and engagement — no matter the size of your development team.\n\nGet a $50 Mux credit to build video into your product using the Mux Video API. [Sign up](https://get.mux.com/3GBeOis) for an account, email us at deal+cascadiajs22@mux.com, and mention CascadiaJS to get your free credits.",
+    "short": "Video infrastructure for the internet. Sign-up, mention CascadiaJS and get a $50 Mux credit to build video into your product 📺"
+  },
+  {
     "key": "netlify",
     "tier": "bronze",
     "name": "Netlify",
