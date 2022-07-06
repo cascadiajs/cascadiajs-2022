@@ -40,24 +40,24 @@ All in-person conference attendees will have the opportunity to RSVP for one of 
 
 Conference attendees receive **discounted room rates** at Sunriver Resort and **the 17.5% resort fee is waived**. 
 
-We highly recommend that attendees book lodging at Sunriver Resort on the nights of Aug 30, Aug 31 and Sept 1. This will put you as close as possible to all of the conference events and will ensure you don't miss any of the fun!
-
-If you would like to book extra nights outside of that range, click the link below and call the reservation line. They will be able to apply our group discount to the nights of August 29 and September 2 if there is availability.
-
-The deadline to book lodging at our discounted rates is: <span class="highlight warning">Friday, July 15</span>
-
-*NOTE: you'll see the resort fee during online checkout, but it will be waived when you check-in at the resort.*
-
 <table id="ticket-info">
     <thead>
         <tr><th>Room Type</th><th>Discounted Rate</th></tr>
     </thead>
     <tbody>
-        <tr><td>Lodge Village Guest Room</td><td>$239/night</td></tr>
-        <tr><td>Lodge Village Suite</td><td>$339/night</td></tr>
-        <tr><td>River Lodge Guest Room</td><td>$309/night</td></tr>
+        <tr><td>Lodge Village Guest Room</td><td>$239 / night</td></tr>
+        <tr><td>Lodge Village Suite</td><td>$339 / night</td></tr>
+        <tr><td>River Lodge Guest Room</td><td>$309 / night</td></tr>
     </tbody>
 </table>
+
+*NOTE: you'll see the resort fee during online checkout, but it will be waived when you check-in at the resort.*
+
+We highly recommend that attendees book lodging at Sunriver Resort on the nights of Aug 30, Aug 31 and Sept 1. This will put you as close as possible to all of the conference events and will ensure you don't miss any of the fun! If you would like to book extra nights outside of that range, click the link below and call the reservation line. They will be able to apply our group discount to the nights of August 29 and September 2 if there is availability.
+
+The deadline to book lodging at our discounted rates is: <span class="highlight warning">Friday, July 15</span>
+
+If you have **ANY ISSUES** booking lodging (finding the right room, finding preferred dates, pricing, etc) please email info@cascadiajs.com immediately so that we can help you out. The Sunriver Resort website and reservation line isn't always up-to-date or as helpful as they should be, so please contact us so that we can get you sorted.
 
 <div class="cta"><a target="_blank" href="https://www.sunriverresort.com/group-stays/cascadia-js-2022">Book at Sunriver</a></div>
 
