@@ -60,6 +60,16 @@
     "short": "High-fidelity audio and video for all."
   },
   {
+    "key": "contrast-security",
+    "tier": "gold",
+    "name": "Contrast Secutiry",
+    "url": "https://www.contrastsecurity.com",
+    "logo": "contrast-security.png",
+    "square": "contrast-security-square.png",
+    "description": "Contrast Security empowers developers to secure-as-they code. The Secure Code Platform enables developers to write and release secure code faster, remove security roadblocks, eliminate false positives, and quickly remediate vulnerabilities.",
+    "short": "Contrast Security empowers developers to secure-as-they code."
+  },
+  {
     "key": "codingscape",
     "tier": "silver",
     "name": "Codingscape",
