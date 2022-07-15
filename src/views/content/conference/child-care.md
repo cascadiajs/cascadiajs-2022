@@ -4,9 +4,11 @@ excerpt: We are offering free child care so you can get away and enjoy the fun!
 image: /images/past/cjs15-child-care.jpg
 caption: Child Care at CascadiaJS 2015
 ---
+<div class="highlight warning">We are currently fully booked. Feel free to sign-up for the Wait List and we'll be in touch if we can assist you!</div>
+
 ![Child care at CascadiaJS 2015](/images/past/cjs15-child-care.jpg)
 
-We are offering FREE, professional, on-site child care for kids 12 and under through [Snappy Sitters](https://snappysitters.com). Child care will be available from 8:30am to 5pm and 6pm to 10pm on August 31 and September 1, and located onsite at Sunriver Resort in close proximity to the talks. All sitters will be fully vaccinated against Covid. A limited number of spots are available and must be reserved by <span class="highlight warning">July 25th</span>. 
+We are offering FREE, professional, on-site child care for kids 12 and under through [Snappy Sitters](https://snappysitters.com). Child care will be available from 8:30am to 5pm and 6pm to 10pm on August 31 and September 1, and located onsite at Sunriver Resort in close proximity to the talks. All sitters will be fully vaccinated against Covid.
 
 ## On-site drop-off
 
@@ -28,4 +30,5 @@ All sitters have professional childcare experience, with background and referenc
 
 We’ll provide age-appropriate games, arts and crafts, toys, and activities, such as excursions to the playground.
 
-<div class="cta"><a target="_blank" href="https://airtable.com/shr3Qkxif4K3FIBJO">Reserve Child Care</a></div>
+<div class="cta"><a target="_blank" href="https://airtable.com/shrw8V2fMUIBy8Q37">SIGN-UP FOR WAITLIST</a></div>
+
