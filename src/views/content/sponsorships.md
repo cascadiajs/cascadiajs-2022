@@ -117,7 +117,7 @@ Your company is making it possible for the event to be at Sunriver Resort this y
 
 Choose from one of two options: **Booth** or **Workshop**.
 
-### Expo Hall Booth <span class="highlight warning">1 LEFT</span>
+### Expo Hall Booth <span class="highlight warning">SOLD OUT</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
@@ -133,11 +133,12 @@ The Expo Hall will be located directly outside of the room where talks are takin
 
 Each Booth will come equipped with a 6 ft table and power. You are free to set-up a banner and will have plenty of room for swag and product demos.
 
-### Workshop Track <span class="highlight warning">1 LEFT</span>
+### Workshop Track <span class="highlight warning">3 SOLD, 1 AVAILABLE</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
         <div><img src="/images/sponsors/courier.png" alt="Courier logo"/></div>
+        <div><img src="/images/sponsors/dolby.svg" alt="Dolby logo"/></div>
     </div>
 </div>
 
@@ -181,7 +182,7 @@ Help us create an amazing end to each day by catering a delicious meal and setti
 
 ## Bronze Sponsorships ($5k)
 
-### Activity Track (Aug 31) <span class="highlight warning">2 / 6 SOLD</span>
+### Activity Track (Aug 31) <span class="highlight warning">2 SOLD, 4 AVAILABLE</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
@@ -194,7 +195,7 @@ Help us create an amazing end to each day by catering a delicious meal and setti
 
 Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
 
-### Startup Fair (Sept 1) <span class="highlight success">3 AVAILABLE</span>
+### Startup Fair (Sept 1) <span class="highlight success">1 AVAILABLE</span>
 
 ![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
 
@@ -242,7 +243,7 @@ For the last few years, we have worked with an amazing artist to create on-the-f
 
 Example: https://twitter.com/CascadiaJS/status/1458611171913703425
 
-### Karaoke Party 🎤 (Sept 1)
+### Karaoke Party 🎤 (Sept 1) <span class="highlight success">1 AVAILABLE</span>
 
 We close our EVERY CascadiaJS conference with a karaoke night! We have hired one of the [best karaoke DJ's](https://baby-ketten-klub.mailchimpsites.com/) in the Pacific NW to help us close the conference out right.
 
@@ -256,11 +257,11 @@ On the morning of Sept 2, we will host a farewell brunch. You will have an oppor
 
 ## Community Sponsorships ($2500)
 
-### Airport Shuttle (Aug 30 + Sept 2)
+### Airport Shuttle (Aug 30 + Sept 2) <span class="highlight success">1 AVAILABLE</span>
 
 Help us offer our attendees a FREE airport shuttle that will run from the RDM airport to Sunriver Resort. Your company will be recognized for making this happen in communications to ALL our attendees, and this shuttle will make a big difference in terms of both cost and our event's environmental impact (fewer rented cars).
 
-### Job Posting
+### Job Posting <span class="highlight warning">1 SOLD, 5 AVAILABLE</span>
 
 ![CascadiaJS 2021 job posting](/images/past/cjs21-job-posting.jpg)
 

@@ -6,10 +6,10 @@ Level up your skills with hands-on training from industry experts!
 
 These training workshops **are not** included in your conference ticket, so please make sure to purchase a separate ticket to any training workshop that you'd like to attend after the conference.
 
+<!--
 <section class="person">
     <h2>Build a TypeScript Project From Scratch</h2>
     <p>Learn the fundamentals of TypeScript by building a library from scratch, publishing it on npm and using it in a production app.</p>
-    <!--div class="topics"><div class=js-topic>TypeScript</div></div-->
     <div class="person-info"> 
         <div class="person-photo"><img src="/images/training/joe-previte.jpg" alt="photo of Joe"/></div>
         <div class="person-more">
@@ -24,14 +24,16 @@ These training workshops **are not** included in your conference ticket, so plea
 </section>
 
 <div class="cta secondary"><a href="/trainings/typescript" aria-label="More info about Build a TypeScript Project From Scratch">More Info</a></div>
+-->
 
 <section class="person">
     <h2>Demystifying Data Structures</h2>
     <p>Intimidated by data structures and algorithms? Fearing the traditional whiteboard interview? Has your educational journey not yet presented you with a proper introduction to the classic data structures of computer science and Big-O notation? Let's take some time to tackle these topics and level up your CS skillset! This workshop will be a gentle introduction suitable for devs of all backgrounds.</p>
-    <!--div class="topics"><div class=js-topic>TypeScript</div></div-->
     <div class="person-info"> 
         <div class="person-photo"><img src="/images/training/brook-riggio.jpg" alt="photo of Brook Riggio"/></div>
         <div class="person-more">
+            <h3>Where</h3>
+            <p>Sunriver Resort, OR</p>
             <h3>When</h3>
             <p>Friday, Sept 2 (9am - 4pm)</p>
             <h3>Instructor</h3>
@@ -43,10 +45,10 @@ These training workshops **are not** included in your conference ticket, so plea
 
 <div class="cta secondary"><a href="/trainings/data-structures" aria-label="More info about Demystifying Data Structures">More Info</a></div>
 
+<!--
 <section class="person">
     <h2>Building Better Web Apps with Remix</h2>
     <p>Learn to build state-of-the-art, highly responsive user interfaces with Remix. This workshop will get you from zero to a fully functional web app with authentication using various APIs and patterns unique to Remix.</p>
-    <!--div class="topics"><div class=js-topic>TypeScript</div></div-->
     <div class="person-info"> 
         <div class="person-photo"><img src="/images/training/chance-strickland.jpg" alt="photo of Chance Strickland"/></div>
         <div class="person-more">
@@ -60,6 +62,7 @@ These training workshops **are not** included in your conference ticket, so plea
 </section>
 
 <div class="cta secondary"><a href="/trainings/remix" aria-label="More info about Building Better Web Apps with Remix">More Info</a></div>
+-->
 
 <section class="person">
     <h2>Full-Stack Next.js Monorepo for Production Ready React+TypeScript Apps</h2>
@@ -68,6 +71,8 @@ These training workshops **are not** included in your conference ticket, so plea
     <div class="person-info"> 
         <div class="person-photo"><img src="/images/training/joel-hooks.jpg" alt="photo of Joel Hooks"/></div>
         <div class="person-more">
+            <h3>Where</h3>
+            <p>Sunriver Resort, OR</p>
             <h3>When</h3>
             <p>Friday, Sept 2 (9am - 4pm)</p>
             <h3>Instructor</h3>

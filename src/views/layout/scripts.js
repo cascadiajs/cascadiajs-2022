@@ -14,6 +14,7 @@ module.exports = function Scripts ({ scripts = [] }) {
         gtag('js', new Date());
         gtag('config', '${ GOOGLE_SITE_ID }');
       </script>
+      <script src="https://platform.twitter.com/widgets.js"></script>
       <script type="text/javascript">
       _linkedin_partner_id = "3996660";
       window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
