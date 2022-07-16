@@ -1,3 +1,4 @@
+let { marked } = require('marked')
 let Layout = require('./layout')
 let SocialLayout = require('./layout/social')
 
@@ -15,7 +16,7 @@ let Template = function(sponsors) {
             ${ sponsors.sort(()=> Math.random() - 0.5).map(s => /*html*/`
                 <div class="job-listing">
                     <div style="margin-bottom:24px"><img src="/images/sponsors/${ s.logo }" alt="logo for ${ s.name }"/></div>
-                    <p>${ s.description }</p>
+                    <p>${ marked.parse(s.short || s.description) }</p>
                     <div class="cta secondary"><a target="_blank" href="${ s.jobs }">View Jobs</a></div>
                 </div>
             `
