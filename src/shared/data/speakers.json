@@ -206,26 +206,6 @@
     "table": "speakers"
   },
   {
-    "location": "Clovis, CA, USA",
-    "topics": [
-      "node.js",
-      "deno",
-      "web workers",
-      "quic"
-    ],
-    "url": "",
-    "pixelated": "9fc9e08163dc9098266c2649b74160ab94f02427",
-    "abstract": "Coming soon!",
-    "name": "James Snell",
-    "twitter": "jasnell",
-    "company": "Cloudflare",
-    "pronouns": "he/him",
-    "reveal": "2022-05-12T10:00-07:00",
-    "title": "Secret Talk",
-    "key": "james-snell",
-    "table": "speakers"
-  },
-  {
     "location": "San Francisco, CA, USA",
     "topics": [
       "api",
