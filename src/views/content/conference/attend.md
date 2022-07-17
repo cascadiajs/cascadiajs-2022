@@ -55,7 +55,7 @@ Conference attendees receive **discounted room rates** at Sunriver Resort and **
 
 We highly recommend that attendees book lodging at Sunriver Resort on the nights of Aug 30, Aug 31 and Sept 1. This will put you as close as possible to all of the conference events and will ensure you don't miss any of the fun! If you would like to book extra nights outside of that range, click the link below and call the reservation line. They will be able to apply our group discount to the nights of August 29 and September 2 if there is availability.
 
-The deadline to book lodging at our discounted rates is: <span class="highlight warning">Friday, July 15</span>
+The deadline to book lodging at our discounted rates is: <span class="highlight warning">July 30</span>
 
 If you have **ANY ISSUES** booking lodging (finding the right room, finding preferred dates, pricing, etc) please email info@cascadiajs.com immediately so that we can help you out. The Sunriver Resort website and reservation line isn't always up-to-date or as helpful as they should be, so please contact us so that we can get you sorted.
 

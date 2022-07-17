@@ -65,9 +65,9 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
         </section>
         <section id="banner">
             <div class="banner-item">
-                <div class="banner-item-metric">July 8</div>
-                <p>Deadline to apply for an Opportunity Scholarship.</p>
-                <div class="cta secondary"><a href="/scholarships">Learn More</a></div>
+                <div class="banner-item-metric">July 30</div>
+                <p>Deadline to book at Sunriver at our Group Rate has been EXTENDED</p>
+                <div class="cta secondary"><a href="/conference/attend">Book</a></div>
             </div>
             <div class="banner-item">
                 <div class="banner-item-metric">Act Fast</div>
@@ -75,9 +75,9 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 <div class="cta secondary"><a href="/conference/attend#conference-dashboard">RSVP</a></div>
             </div>
             <div class="banner-item">
-                <div class="banner-item-metric">July 15</div>
-                <p>Deadline to book at Sunriver at our Group Rate.</p>
-                <div class="cta secondary"><a href="/conference/attend">Book</a></div>
+                <div class="banner-item-metric">Limited Seats</div>
+                <p>Book your seat on the Portland Hacker Bus before seats run out!</p>
+                <div class="cta secondary"><a href="/travel">Learn More</a></div>
             </div>
         </section>
         <section id="features" class="landing">
@@ -95,7 +95,7 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 </div>
                 <div class="feature">
                     <div><img src="/images/illustrations/feature-talks.gif" alt="illustration of a microphone"/></div>
-                    <h2><a href="/conference#amazing-talks">22 Awesome Speakers</a></h2>
+                    <h2><a href="/conference#amazing-talks">21 Awesome Speakers</a></h2>
                     <p>We are being joined by a wonderful line-up of speakers covering everything from the latest in the web and Node.js to building a more inclusive tech industry.</p>
                 </div>
                 <div class="feature">
