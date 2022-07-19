@@ -30,3 +30,7 @@ We will cover 3 nights of lodging at Sunriver Resort for the nights of Aug 30, A
 If you think your employer might be willing to cover travel and/or lodging expenses in exchange for a Community Sponsorship of the conference, please let me know. If your employer might be willing to sponsor our conference in another capacity (funding Scholarships, setting-up an booth in our Expo Hall), please let me know. It takes a village to put on CascadiaJS, and everything helps!
 
 ![CascadiaJS 2019 family photo](/images/past/cjs18-sponsor.jpg)
+
+## A/V and Presenting
+
+In order to optimize your presentation as it is displayed in the conference space and on the livestream, please plan on a 16:9 aspect ratio for your screen/slides and a resolution of 1920 x 1080.

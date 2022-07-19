@@ -115,6 +115,6 @@ function activity(a, rsvpData, ticketData) {
 }
 
 function rsvp(r, ticketData) {
-  let ticket = ticketData.find((t) => t.key === r.key)
+  let ticket = ticketData.find((t) => t.key === r.key) || { full_name: 'not found', email: 'not found'}
   return `<tr><td>${ r.key }</td><td>${ ticket.full_name }</td><td>${ ticket.email }</td><td>${ r.activity }</td></tr>`
 }
