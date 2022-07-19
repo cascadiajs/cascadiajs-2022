@@ -14,7 +14,14 @@ All in-person conference attendees will have the opportunity to RSVP for one of 
 
 <h2>Kayaking by <img src="/images/sponsors/netlify.svg"/></h2>
 
-Our friends at [Netlify](/sponsors/netlify) have reserved a block of kayaks! Folks will head over to the Marina, check-out their gear, and spend 90 minutes or so paddling around the Deschutes River.
+Our friends at [Netlify](/sponsors/netlify) have reserved a block of kayaks! Folks will head over to the Marina, check-out their gear and paddle down the Deschutes River. Here are details on how kayaking will work:
+
+- You will have to depart the conference a little early and possibly miss a talk.
+- We will arrange a shuttle to take you over to the Marina.
+- The ride down the river is one way and can take **2:15 to 3 hours** to complete. 
+- There is a clearly marked pickup point where you will be brought back to the Marina and then shuttled back over to the Lodge, hopefully in time for dinner!
+
+So, this is by far the most intense activity and will require you to leave the conference a little early and arrive for dinner a little late.
 
 <h2>Scavenger Hunt by <img src="/images/sponsors/begin.svg"/></h2>
 

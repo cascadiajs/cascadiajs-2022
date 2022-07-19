@@ -64,12 +64,15 @@ We have published guidance on how we plan on [handling the safety of our attende
 
 ![Expo Hall layout](/images/sunriver/homestead-expo-hall.png)
 
-Expo Hall tables are 6 feet long and 30 inches wide and will be set-up in the entrance hall located directly outside of the Talk Track room. Unlike the diagram above, we will only set-up a maximum of 9 booths, so there will be space in between all of the booths to minimize crowding while inside. 
+Expo Hall tables are 6 feet long and 30 inches wide and will be set-up in the entrance hall located directly outside of the Talk Track room. Some important notes:
 
-We will run power to each booth. Sponsors will be responsible for setting-up pop-up banners, tablecloths and staffing their booths.
-
-Expo Halls hours will run from 8am - 3pm on August 31 and 8am - 5pm on September 1.
+- You will be assigned a booth location when you check-in with us on August 30.
+- We will run power to each booth. 
+- Sponsors will be responsible for setting-up monitors, pop-up banners, tablecloths and staffing their booths.
+- Expo Halls hours will run from 8am - 3pm on August 31 and 8am - 5pm on September 1.
 
 ## Shipping to Sunriver Resort
 
 If you need to ship banners, swag or other equipment to Sunriver for the conference, please review this <a target="_blank" href="/files/sunriver-shipping.pdf">Sunriver Shipping Instructions</a> PDF document.
+
+Please do not schedule anything to arrive prior to August 28.
