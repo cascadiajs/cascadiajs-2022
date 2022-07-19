@@ -133,7 +133,7 @@ The Expo Hall will be located directly outside of the room where talks are takin
 
 Each Booth will come equipped with a 6 ft table and power. You are free to set-up a banner and will have plenty of room for swag and product demos.
 
-### Workshop Track <span class="highlight warning">3 SOLD, 1 AVAILABLE</span>
+### Workshop Track <span class="highlight warning">SOLD OUT</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
