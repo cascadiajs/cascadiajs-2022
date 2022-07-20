@@ -100,7 +100,7 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 </div>
                 <div class="feature">
                     <div><img src="/images/illustrations/feature-workshops.gif" alt="illustration of merit badge"/></div>
-                    <h2><a href="/conference#hands-on-workshops">Hands-on Workshops</a></h2>
+                    <h2><a href="/workshops">Hands-on Workshops</a></h2>
                     <p>Running parallel to the talks, there will be hands-on workshops to choose from if you care to roll-up your sleeves and do some coding.</p>
                 </div>
                 <div class="feature">
