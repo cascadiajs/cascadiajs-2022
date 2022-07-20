@@ -5,10 +5,12 @@ caption: Allison Kaufman of Circle
 ---
 <div class="person"><div class="person-photo"><img src="/images/workshops/allison-kaufman.jpg" alt="Photo of Allison Kaufman"/></div></div>
 
-* When: Aug 31 or Sep 1 (timing TBD)
-* Where: Sunriver Resort
-* Instructor: Allison Kaufman
-* Cost: FREE for attendees of CascadiaJS
+<table>
+    <tr><th>When</th><td>Aug 31 or Sep 1 (timing TBD)</td></tr>
+    <tr><th>Where</th><td>Sunriver Resort</td></tr>
+    <tr><th>Instructor</th><td>Allison Kaufman</td></tr>
+    <tr><th>Cost</th><td>FREE for attendees of CascadiaJS</td></tr>
+</table>
 
 As the Web3 ecosystem continues to evolve, developers are finding ways to build a payments infrastructure for both the traditional and crypto user.
 
@@ -26,7 +28,7 @@ A deep dive into how Circle’s Payments, Accounts, and Payouts APIs can bring f
 
 Allison Kaufman has been a Solutions Engineer at Circle for the last 2 years, helping customers bring their applications to life using Circle’s suite of API products. Allison studied Computer Science and Philosophy at Boston University, and has since focused in REST API integrations and implementations.
 
-## Sponsored by Circle
+### Sponsored by Circle
 
 [![Circle logo](/images/sponsors/circle.png)](/sponsors/circle)
 

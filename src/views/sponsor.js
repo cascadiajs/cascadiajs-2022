@@ -3,7 +3,7 @@ let Layout = require('./layout')
 let SocialLayout = require('./layout/social')
 
 let Template = function(sponsor) {
-    const { name, logo, url, jobs, description } = sponsor
+    const { name, logo, url, jobs, description, workshop, workshop_link } = sponsor
 
     return /*html*/`
     <div id="page">
@@ -16,9 +16,12 @@ let Template = function(sponsor) {
             <section class="sponsor">
                 <p><img src="/images/sponsors/${ logo }" alt="logo of ${ name }"/></p>
                 <p>${ marked.parse(description) }</p>
-                <p><a target="_blank" href="${ url }">Learn More</a></p>
+                <div class="cta"><a target="_blank" href="${ url }">Learn More</a></div>
                 ${ jobs ? /*html*/`<h2>${ name } is Hiring!</h2>
-                <p><a target="_blank" href="${ jobs }">Open Jobs</a></p>` : '' }
+                <div class="cta secondary"><a target="_blank" href="${ jobs }">Open Jobs</a></div>` : '' }
+                ${ workshop ? /*html*/`<h2>${ name } is Running a Workshop at CascadiaJS!</h2>
+                <p>${ workshop }</p>
+                <div class="cta secondary"><a href="${ workshop_link }">RSVP</a></div>` : '' }
             </section>
         </div>
     </div>

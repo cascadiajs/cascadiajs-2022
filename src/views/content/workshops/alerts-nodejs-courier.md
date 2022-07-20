@@ -5,10 +5,12 @@ caption: Shreya Gupta of Courier
 ---
 <div class="person"><div class="person-photo"><img src="/images/workshops/shreya.jpg" alt="Photo of Shreya Gupta of Courier"/></div></div>
 
-* When: Aug 31 or Sep 1 (timing TBD)
-* Where: Sunriver Resort
-* Instructor: Shreya Gupta
-* Cost: FREE for attendees of CascadiaJS
+<table>
+    <tr><th>When</th><td>Aug 31 or Sep 1 (timing TBD)</td></tr>
+    <tr><th>Where</th><td>Sunriver Resort</td></tr>
+    <tr><th>Instructor</th><td>Shreya Gupta</td></tr>
+    <tr><th>Cost</th><td>FREE for attendees of CascadiaJS</td></tr>
+</table>
 
 When working on a new project, notifications can be a tough nut to crack. Sending email, push notifications to multiple geographies, global SMS, all present headaches that normally require low-level configuration and often a dedicated notifications micro-service.
 
@@ -31,7 +33,7 @@ Participants only need to be comfortable sending JSON API requests.
 
 Shreya Gupta is a Developer Advocate for Courier and the Founder of Bit Project. She is a serverless enthusiast, lowkey loves acting, and is crazy about boba.
 
-## Sponsored by Courier
+### Sponsored by Courier
 
 [![Courier logo](/images/sponsors/courier.png)](/sponsors/courier)
 

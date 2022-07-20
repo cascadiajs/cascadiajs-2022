@@ -5,33 +5,35 @@ caption: Colby Fayock of Cloudinary
 ---
 <div class="person"><div class="person-photo"><img src="/images/workshops/colby.jpg" alt="Photo of Colby Fayock"/></div></div>
 
-* When: Aug 31 or Sep 1 (timing TBD)
-* Where: Sunriver Resort
-* Instructor: Colby Fayock
-* Cost: FREE for attendees of CascadiaJS
+<table>
+    <tr><th>When</th><td>Aug 31 or Sep 1 (timing TBD)</td></tr>
+    <tr><th>Where</th><td>Sunriver Resort</td></tr>
+    <tr><th>Instructor</th><td>Colby Fayock</td></tr>
+    <tr><th>Cost</th><td>FREE for attendees of CascadiaJS</td></tr>
+</table>
 
-Experiences on the web have grown increasingly visual, from simply showing an image of a product in an online store to interactive media that gives you a digital hands-on look at your new NFT.
+Experiences on the web have grown increasingly visual, from displaying product images to interactive NFTs, but not paying attention to how media is delivered can impact Core Web Vitals creating a bad UX with slow loading pages, hurting your store’s conversion and potentially losing sales.
 
-While sometimes this is just for fun, being able to provide a great visual experience in worlds like ecommerce helps to engage your potential customers, giving them an opportunity to get a closer look at your products and helping your store with conversion.
-
-But it’s not as simple as dumping a bunch of photographs on a product page. Not paying attention to how your media is being delivered can impact your website or app’s Core Web Vitals turning those fun visuals into a bad user experience with slow-loading pages due to unoptimized images that can end up hurting conversion instead of helping.
-
-How can we leverage media to engage our potential customers while still providing a great overall UX? We’ll talk about media’s role in building the visual web, methods we can use to showcase our products effectively, and how we can make sure we’re delivering media in a way that won’t negatively impact our store’s experience.
+How can we effectively leverage media to showcase products creating engaging experiences for our store? We’ll learn about media’s role in ecomm and how we can take advantage of it while optimizing delivery.
 
 ### Prerequisites
 
-TBD
+- Basic understanding of web technologies and React
+- Able to use git and npm on a personally available environment 
 
 ### Agenda
 
-- Create a new demo application with a Next.js React starter
-- Install and configure Cloudinary
-- Optimize images and serve with modern formats programmatically
-- Resize and crop images with face and subject detection
-- Serve responsive images
+- Create a new demo application from a starting project
+- Learn how media impacts delivery
+- Use Cloudinary to optimize media delivery
+- Add advanced features to work with media in a modern project
 
 ### About Colby Fayock
 
-TBD
+Colby Fayock helps others to learn by doing with JavaScript, React, and the static web. His work includes writing, video courses, two books, and working with the development community as a Sr Developer Experience Engineer at Cloudinary.
+
+### Sponsored by Cloudinary
+
+[![Cloudinary logo](/images/sponsors/cloudinary.png)](/sponsors/cloudinary)
 
 <div class="cta"><a href="/tickets">Join us at CascadiaJS 2022</a></div>

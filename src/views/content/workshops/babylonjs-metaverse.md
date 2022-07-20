@@ -5,10 +5,12 @@ caption: Dan Zeitman of Dolby.io
 ---
 <div class="person"><div class="person-photo"><img src="/images/workshops/dzeitman.jpg" alt="Photo of Dan Zeitman of Dolby.io"/></div></div>
 
-* When: Aug 31 or Sep 1 (timing TBD)
-* Where: Sunriver Resort
-* Instructor: Dan Zeitman
-* Cost: FREE for attendees of CascadiaJS
+<table>
+    <tr><th>When</th><td>Aug 31 or Sep 1 (timing TBD)</td></tr>
+    <tr><th>Where</th><td>Sunriver Resort</td></tr>
+    <tr><th>Instructor</th><td>Dan Zeitman</td></tr>
+    <tr><th>Cost</th><td>FREE for attendees of CascadiaJS</td></tr>
+</table>
 
 Users expect immersive experiences that can not only be entertaining but create engagement and retention.
 
@@ -34,7 +36,7 @@ Intermediate JavaScript
 
 Dan Zeitman is a Developer Advocate on the Dolby.io Developer Relations team for Dolby.io, a cloud-based API platform for live streaming video, media processing, and real-time communications. He will be joined by Jayson DeLancey and Griffin Solot-Kehl to bring a combined range of expertise with web technologies, filmmaking, media management, AR/VR and computer animation.
 
-## Sponsored by Cloudinary
+### Sponsored by Cloudinary
 
 [![Cloudinary logo](/images/sponsors/cloudinary.png)](/sponsors/cloudinary)
 

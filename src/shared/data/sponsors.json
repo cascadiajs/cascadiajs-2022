@@ -6,6 +6,8 @@
     "url": "https://cloudinary.com",
     "logo": "cloudinary.png",
     "square": "cloudinary-square.png",
+    "workshop": "Performance-First Ecommerce & Visual Web Experiences with Cloudinary",
+    "workshop_link": "/workshops/ecommerce-cloudinary",
     "description": "Developers use Cloudinary to quickly and easily create, manage and deliver their digital experiences across any browser, device and bandwidth."
   },
   {
@@ -15,6 +17,8 @@
     "url": "https://www.courier.com/",
     "logo": "courier.png",
     "square": "courier-square.png",
+    "workshop": "Sending Multi-channel Alerts From Your Node.JS Environment with Courier",
+    "workshop_link": "/workshops/alerts-nodejs-courier",
     "description": "Notifications are hard. They require infrastructure that is reliable, scalable and observable as well as an end user experience that is helpful and respectful. That's why we built Courier. Courier is a complete notification system that allows you to design and send notifications across all channels, orchestrate your workflow, and collect real-time insights.",
     "short": "Notifications are hard, that's why we built Courier."
   },
@@ -57,6 +61,8 @@
     "logo": "dolby.svg",
     "square": "dolby-square.png",
     "jobs": "https://dolby.io/careers/",
+    "workshop": "Learn Babylon.js to Create Your Own 3D Metaverse Environments",
+    "workshop_link": "/workshops/babylonjs-metaverse",
     "description": "High-fidelity audio and video for all. Join the many developers, businesses, and creators turning to Dolby.io APIs to build high-quality communications, media, and streaming solutions that transform customer experiences, drive efficient workflows, and delight users.",
     "short": "High-fidelity audio and video for all."
   },
@@ -79,6 +85,8 @@
     "logo": "circle.png",
     "square": "circle-square.png",
     "jobs": "https://www.circle.com/en/careers",
+    "workshop": "Connecting the Fiat and Crypto Worlds with Digital Dollars",
+    "workshop_link": "/workshops/digital-payments-circle",
     "description": "Circle is a global financial technology firm that's at the center of digital currency innovation and open financial infrastructure. We bridge the traditional financial system and the world's leading public blockchains to unlock growth for businesses and investors around the world.",
     "short": "Payments & treasury infrastructure for the internet"
   },
