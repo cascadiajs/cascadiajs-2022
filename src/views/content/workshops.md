@@ -1,6 +1,8 @@
 ---
 title: Hands-on Workshops
-excerpt: Level up your skills with FREE hands-on workshops!
+excerpt: FREE for attendees of CascadiaJS 2022 and taught by industry experts!
+image: /images/illustrations/feature-workshops.png
+caption: Time to level up!
 ---
 Level up your skills with FREE hands-on workshops!
 
