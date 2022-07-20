@@ -36,8 +36,8 @@ Intermediate JavaScript
 
 Dan Zeitman is a Developer Advocate on the Dolby.io Developer Relations team for Dolby.io, a cloud-based API platform for live streaming video, media processing, and real-time communications. He will be joined by Jayson DeLancey and Griffin Solot-Kehl to bring a combined range of expertise with web technologies, filmmaking, media management, AR/VR and computer animation.
 
-### Sponsored by Cloudinary
+### Sponsored by Dolby.io
 
-[![Cloudinary logo](/images/sponsors/dolby.pngsvg)](/sponsors/dolby)
+[![Dolby.io logo](/images/sponsors/dolby.svg)](/sponsors/dolby)
 
 <div class="cta"><a href="/tickets">Join us at CascadiaJS 2022</a></div>
