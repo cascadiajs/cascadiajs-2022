@@ -38,6 +38,6 @@ Dan Zeitman is a Developer Advocate on the Dolby.io Developer Relations team for
 
 ### Sponsored by Cloudinary
 
-[![Cloudinary logo](/images/sponsors/cloudinary.png)](/sponsors/cloudinary)
+[![Cloudinary logo](/images/sponsors/dolby.pngsvg)](/sponsors/dolby)
 
 <div class="cta"><a href="/tickets">Join us at CascadiaJS 2022</a></div>
