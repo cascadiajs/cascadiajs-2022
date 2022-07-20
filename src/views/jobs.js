@@ -17,7 +17,7 @@ let Template = function(sponsors) {
                 <div class="job-listing">
                     <div style="margin-bottom:24px"><img src="/images/sponsors/${ s.logo }" alt="logo for ${ s.name }"/></div>
                     <p>${ marked.parse(s.short || s.description) }</p>
-                    <div class="cta secondary"><a target="_blank" href="${ s.jobs }">View Jobs</a></div>
+                    <div class="cta secondary"><a target="_blank" href="${ s.jobs }">${ s.jobs.split('://')[1] }</a></div>
                 </div>
             `
             ).join("")}

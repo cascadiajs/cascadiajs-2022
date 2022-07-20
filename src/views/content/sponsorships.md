@@ -126,6 +126,9 @@ Choose from one of two options: **Booth** or **Workshop**.
         <div><img src="/images/sponsors/circleci.svg" alt="Circle CI logo"/></div>
         <div><img src="/images/sponsors/formidable.svg" alt="Formidable logo"/></div>
         <div><img src="/images/sponsors/dolby.svg" alt="Dolby logo"/></div>
+        <div><img src="/images/sponsors/contrast-security.png" alt="Contrast Security logo"/></div>
+        <div><img src="/images/sponsors/courier.png" alt="Courier logo"/></div>
+        <div><img src="/images/sponsors/circle.png" alt="Circle logo"/></div>
     </div>
 </div>
 
@@ -139,6 +142,8 @@ Each Booth will come equipped with a 6 ft table and power. You are free to set-u
     <div class="sponsored tier">
         <div><img src="/images/sponsors/courier.png" alt="Courier logo"/></div>
         <div><img src="/images/sponsors/dolby.svg" alt="Dolby logo"/></div>
+        <div><img src="/images/sponsors/cloudinary.png" alt="Cloudinary logo"/></div>
+        <div><img src="/images/sponsors/circle.png" alt="Circle logo"/></div>
     </div>
 </div>
 
@@ -182,7 +187,7 @@ Help us create an amazing end to each day by catering a delicious meal and setti
 
 ## Bronze Sponsorships ($5k)
 
-### Activity Track (Aug 31) <span class="highlight warning">2 SOLD, 4 AVAILABLE</span>
+### Activity Track (Aug 31) <span class="highlight warning">2 SOLD, 1 AVAILABLE</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
@@ -197,7 +202,7 @@ Companies sponsoring an activity will get to select their activity of choice on 
 
 ### Startup Fair (Sept 1) <span class="highlight success">1 AVAILABLE</span>
 
-![Moovweb at CascadiaJS 2019](/images/past/cjs19-moovweb.jpg)
+![Moovweb at CascadiaJS 2019](/images/past/cjs14-party.jpg)
 
 After dinner on Sept 1, we are putting on our first ever Startup Fair! We have opened applications for startups who are building the next generation of developer tools to [apply](/conference/startup-fair). We will invite the top-5 startups to set-up a booth during the Startup Fair and showcase their products to our community, free of charge.
 
@@ -207,7 +212,7 @@ You can support this event (and these startups) by being a sponsor for this even
 
 ![CascadiaJS 2021 livestream](/images/past/cjs21-livestream.jpg)
 
-We will be live streaming our talks with a target of 500 attendees in our virtual space and 5000 views on the stream. 
+We will be live streaming our talks with a target of 500 attendees in our virtual space and 5000 viewers on the stream across YouTube, Twitch and Twitter. 
 
 As a Virtual Booth sponsor, you will receive:
 
