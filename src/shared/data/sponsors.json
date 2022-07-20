@@ -72,6 +72,17 @@
     "short": "Contrast Security empowers developers to secure-as-they code."
   },
   {
+    "key": "circle",
+    "tier": "gold",
+    "name": "Circle",
+    "url": "https://www.circle.com",
+    "logo": "circle.png",
+    "square": "circle-square.png",
+    "jobs": "https://www.circle.com/en/careers",
+    "description": "Circle is a global financial technology firm that's at the center of digital currency innovation and open financial infrastructure. We bridge the traditional financial system and the world's leading public blockchains to unlock growth for businesses and investors around the world.",
+    "short": "Payments & treasury infrastructure for the internet"
+  },
+  {
     "key": "codingscape",
     "tier": "silver",
     "name": "Codingscape",
