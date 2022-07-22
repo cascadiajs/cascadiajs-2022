@@ -137,6 +137,7 @@
     "url": "https://www.retool.com",
     "logo": "retool.png",
     "square": "retool-square.jpg",
+    "jobs": "https://retool.com/careers/",
     "description": "Build internal tools, remarkably fast. Stop wrestling with UI libraries, hacking together data sources, and figuring out access controls. Start shipping apps that move your business forward.",
     "short": "Build internal tools, remarkably fast."
   },

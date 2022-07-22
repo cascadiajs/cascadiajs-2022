@@ -30,8 +30,8 @@ let Template = function(sponsors) {
 module.exports = async function Jobs({ sponsors, social }) {
     let html
     if (social !== undefined) {
-        html = SocialLayout({ 
-            header: 'Companies Hiring at CascadiaJS', 
+        html = SocialLayout({
+            header: 'Companies Hiring at CascadiaJS',
             excerpt: 'Grow your career and connect with awesome companies!',
             image: '/images/past/cjs18-sponsor.jpg',
             caption: 'Amazon hiring at CascadiaJS 2018',
