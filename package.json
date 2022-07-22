@@ -3,10 +3,11 @@
   "version": "0.0.192",
   "description": "The web app for the CascadiaJS 2022 conference",
   "scripts": {
-    "start": "ARC_TABLES_PORT=5001 npx sandbox"
+    "start": "ARC_TABLES_PORT=5001 npx sandbox",
+    "eslint": "eslint src --ignore-pattern node_modules --fix"
   },
   "devDependencies": {
-    "@architect/architect": "^10.3.3",
+    "@architect/architect": "^10.3.4",
     "@architect/sandbox": "^4.0",
     "node-fetch": "^2.6.5"
   },

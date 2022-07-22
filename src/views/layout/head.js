@@ -1,5 +1,5 @@
 const { TYPEKIT } = require("../../shared/config.json")
-const social = require("./social")
+//const social = require("./social")
 
 function script(source) {
   return `<script src=${source} type=module crossorigin></script>`

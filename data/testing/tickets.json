@@ -36,5 +36,13 @@
       "release_title": "Conference Virtual",
       "full_name": "Foo Bar",
       "email": "virtual@bar.com"
+    },
+    {
+      "key": "GGGG-1",
+      "number": 7,
+      "release_slug": "slug-7",
+      "release_title": "Guest Pass (13+)",
+      "full_name": "Guest Pass",
+      "email": "guest@pass.com"
     }
 ]

@@ -392,8 +392,8 @@ div.highlight {
 }
 
 .error {
-    background-color: #f9ecec;
-    color: #e57575;
+    background-color: #ee3e4a;
+    color: #fff;
 }
 
 
@@ -1064,33 +1064,51 @@ a.js-topic:hover {
 #live-header {
     background-color: #112378;
     padding: 8px;
-    height: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #live-header #logo {
-    flex: 1;
+    margin-right: 8px;
 }
 
 #live-header #logo img {
     height: 30px;
 }
 
-#live-header #settings {
+#live-header #live-nav {
+    flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left:32px;
+}
+
+#live-header #live-nav div {
+    margin: 0 16px 4px 0;
+}
+
+#live-header #live-nav a, #live-header #live-nav a:visited {
+    font-family: alkaline-caps, monospace;
+    font-weight: 500;
+    color: #17C37B;
+    text-decoration: none;
+}
+
+#live-header #live-nav a:hover,  #live-header #live-nav a.selected {
+    color: #fff;
 }
 
 #live-header #settings .label {
     font-size: 0.75em;
     color: #fff;
-    margin: 0 10px 0 10px;
+    margin: 0 8px 8px 0;
 }
 
-#settings-label-slackview, #settings-switch-slackview, #graphic-recording, #q-and-a, #chat {
+#settings .switch {
+    margin: 0 8px 8px 0;
+}
+
+#settings-label-clapping, #settings-switch-clapping, #graphic-recording  {
     display: none;
 }
 
@@ -1114,9 +1132,9 @@ a.js-topic:hover {
     display: none;
 }
 
-#live h2 {
-    font-size: 24px;
-    margin: 0;
+#live h2.sponsor {
+    text-align: center;
+    margin-top: 8px;
 }
 
 #live-more {
@@ -1136,13 +1154,16 @@ a.js-topic:hover {
     margin-bottom: 8px;
 }
 
+emote-widget {
+    display: none;
+}
+
+/* end live page */
+
 table.profiles {
     width: auto;
 }
 
-emote-widget {
-    display: none;
-}
 
 #home ul {
 	padding: 0;
@@ -1240,6 +1261,10 @@ a[target="_blank"]:after {
 
 .job-listing img {
     height: 100px;
+}
+
+.topics {
+    margin-bottom: 8px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1502,32 +1527,18 @@ a[target="_blank"]:after {
     }
 
     #live {
-        height: calc(100vh - 46px);
+        /*height: calc(100vh - 46px);*/
         display: grid;
+        grid-template-columns: 2fr 1fr;
         grid-template-rows: 100%;
         background-color: #eee;
     }
 
-    #live-header #handbook-link, #live-header #leaderboard-link {
+    #graphic-recording, #stream-text {
         display: block;
     }
 
-    #live-header #leaderboard-link {
-        margin-left: 8px;
-    }
-
-
-    #graphic-recording, #q-and-a, #stream-text, #chat, #settings-label-slackview, #settings-switch-slackview {
-        display: block;
-    }
-
-    #live #chat {
-        display: flex;
-        flex-direction: column;
-        max-width: 500px;
-    }
-
-    #live #left-pane {
+    #live #right-pane {
         padding: 8px;
         display: flex;
         flex-direction: column;
@@ -1536,27 +1547,6 @@ a[target="_blank"]:after {
     #stream-text {
         background-color: #fff;
         height: auto;
-    }
-
-    #q-and-a {
-        flex: 1;
-        min-height: 140px;
-    }
-    
-    #q-a-container {
-        background-color: #fff;
-        height: calc(100% - 27px);
-        position: relative;
-        overflow: hidden;
-    }
-    
-    #q-and-a iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
     }
     
     #emote {
@@ -1569,22 +1559,6 @@ a[target="_blank"]:after {
         z-index: 10;
         left: 0;
         bottom: 0;
-    }
-
-    #live.slack-view-true {
-        grid-template-columns: 1fr 3fr 1fr;
-    }
-
-    #live.slack-view-false {
-        grid-template-columns: 1fr 2fr;
-    }
-
-    #live #chat.slack-view-true {
-        display: flex;
-    }
-
-    #live #chat.slack-view-false {
-        display: none;
     }
 
     #live #stream {
@@ -1608,18 +1582,20 @@ a[target="_blank"]:after {
         padding: 10px;
     }
 
-    #live #chat {
-        padding: 8px;
-        position:relative;
+    #live-header #settings {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    #chat-slackview {
-        display: block;
-        flex: 1;
-        background-color: #fff;
-        overflow-y: scroll;
+    #live-header #settings .label, #live-header #settings .switch {
+        margin-bottom: 0;
     }
-    
+
+    #graphic-recording, #stream-text, #settings-label-clapping, #settings-switch-clapping {
+        display: block;
+    }
+
     .day-content {
         display: flex;
     }
@@ -1632,65 +1608,43 @@ a[target="_blank"]:after {
         border-left: 3px solid #112378;
     }
 
-    #hoodie-fit {
-        display:flex;
-        justify-content: space-between;
-        width:100%
+    /* campaign landing page styles */
+
+    .campaign-container {
+        position:relative;
+        width: 100%;
+        background-color: #17C37B
     }
 
-    #hoodie-fit>div {
-        width: 45%;
+    .campaign-container video {
+        display: block;
+        position: absolute;
+        object-fit: cover;
+        z-index: 0;
+        height: 100%;
+        width: 100%;
+        top: -50px;
     }
 
-    #hoodie-fit table {
-        border: 1px solid #ccc;
-        border-collapse: collapse;
+    .campaign-content {
+        position: relative;
+        width: 60%;
+        margin:50px auto 0 auto;
+        z-index: 1;
+        background: #fff; 
+        border: 4px solid #17C37B;
     }
 
-    #hoodie-fit table td, #hoodie-fit table th {
-        font-size: 16px;
-        padding:4px;
-        margin:0;
-        border: 1px solid #ccc;
+    .campaign-inner {
+        padding: 0 10%;
     }
 
-        /* campaign landing page styles */
-
-        .campaign-container {
-            position:relative;
-            width: 100%;
-            background-color: #17C37B
-        }
-    
-        .campaign-container video {
-            display: block;
-            position: absolute;
-            object-fit: cover;
-            z-index: 0;
-            height: 100%;
-            width: 100%;
-            top: -50px;
-        }
-    
-        .campaign-content {
-            position: relative;
-            width: 60%;
-            margin:50px auto 0 auto;
-            z-index: 1;
-            background: #fff; 
-            border: 4px solid #17C37B;
-        }
-
-        .campaign-inner {
-            padding: 0 10%;
-        }
-
-        .campaign-photo {
-            float: right;
-            shape-outside: url("/images/sticker-memory-stick.png");
-            shape-image-threshold: 0.9;
-            shape-margin: 2%;
-        }
+    .campaign-photo {
+        float: right;
+        shape-outside: url("/images/sticker-memory-stick.png");
+        shape-image-threshold: 0.9;
+        shape-margin: 2%;
+    }
 
 }
 

@@ -16,7 +16,7 @@ post /codes/:key
 get  /home/:view
 post /home/:action
 post /links/:key
-get  /live
+get  /live/:view
 get  /modules/:type/:module
 post /orders
 get  /organizers/:key
@@ -30,7 +30,7 @@ get  /sponsors/:key
 get  /tickets/:number
 post /tickets
 post /tickets/:key
-get /*
+get  /*
 
 @tables
 data

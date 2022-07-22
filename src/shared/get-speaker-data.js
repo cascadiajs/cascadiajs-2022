@@ -1,4 +1,4 @@
-const data = require('@begin/data')
+//const data = require('@begin/data')
 const speakerList = require('./data/speakers.json')
 
 module.exports = async function GetSpeakerData (req) {
