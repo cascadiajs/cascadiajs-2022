@@ -17,13 +17,16 @@ function hallwayTrack({ticket = undefined}) {
     <div class="show-item">       
         <div class="what">
             <div class="title">Connect with Experts</div><br/>
-            <p>Connect with experts at some of the top developer tooling companies in our industry.</p>
+            <p>Connect with folks at some of the top software companies in our industry.</p>
             <div class="sponsors">
                 <div><img src="/images/sponsors/cloudinary.png" alt="Cloudinary logo"/></div>
                 <div><img src="/images/sponsors/vonage.png" alt="Vonage logo"/></div>
                 <div><img src="/images/sponsors/circleci.svg" alt="Circle CI logo"/></div>
                 <div><img src="/images/sponsors/formidable.svg" alt="Formidable logo"/></div>
                 <div><img src="/images/sponsors/dolby.svg" alt="Dolby logo"/></div>
+                <div><img src="/images/sponsors/courier.png" alt="Courier logo"/></div>
+                <div><img src="/images/sponsors/circle.png" alt="Circle logo"/></div>
+                <div><img src="/images/sponsors/contrast-security.png" alt="Contrast Security logo"/></div>
             </div>
         </div>
     </div>
@@ -161,7 +164,7 @@ function DayOne({ speakers, ticket = undefined }) {
                 </div>
                 <div class="show-item">       
                     <div class="when">19:30</div>
-                    <div class="what"><div class="title"><i class="fas fa-handshake"></i> Job Fair</div></div>
+                    <div class="what"><div class="title"><a href="/conference/job-fair"><i class="fas fa-handshake"></i> Job Fair and Social</a></div></div>
                 </div>
                 <div class="show-item">       
                     <div class="when">22:00</div>
@@ -287,7 +290,7 @@ function DayTwo({ speakers, ticket = undefined }) {
                 </div>
                 <div class="show-item">       
                     <div class="when">19:30</div>
-                    <div class="what"><div class="title"><i class="fas fa-rocket"></i> Startup Fair</div></div>
+                    <div class="what"><div class="title"><a href="/conference/startup-fair"><i class="fas fa-rocket"></i> Startup Fair and Social</a></div></div>
                 </div>
                 <div class="location">Great Hall</div>
                 <div class="show-item">       
@@ -349,10 +352,8 @@ function TrainingDay() {
                 <div class="show-item"> 
                     <div class="when">9am - 4pm</div>
                     <div class="what">
-                        <div class="training title">Build a TypeScript Project From Scratch</div>
-                        <div class="training title">Demystifying Data Structures</div>
-                        <div class="training title">Building Better Web Apps with Remix</div>
-                        <div class="training title">Full-Stack Next.js Monorepo for Production Ready React+TypeScript Apps</div>
+                        <div class="training title"><a href="/trainings/data-structures">Demystifying Data Structures</a></div>
+                        <div class="training title"><a href="/trainings/nextjs">Full-Stack Next.js Monorepo for Production Ready React+TypeScript Apps</a></div>
                     </div>
                 </div>
             </div>

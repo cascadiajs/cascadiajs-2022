@@ -150,7 +150,8 @@
     "square": "mux-square.png",
     "jobs": "https://www.mux.com/jobs",
     "description": "Mux is a powerful API to video and performance monitoring platform. POST a video; GET back a video URL that plays well on any device. Founded by video experts, including the creators of the biggest open-source video player (Video.js), Mux makes beautiful video possible for every development team.\n\nBuild on-demand and live streaming video into your apps and products, all while tracking performance and engagement — no matter the size of your development team.\n\nGet a $50 Mux credit to build video into your product using the Mux Video API. [Sign up](https://get.mux.com/3GBeOis) for an account, email us at deal+cascadiajs22@mux.com, and mention CascadiaJS to get your free credits.",
-    "short": "Video infrastructure for the internet 📺"
+    "short": "Video infrastructure for the internet 📺",
+    "job_desc": "Mux is video for developers. Our mission is to democratize video by solving the hard problems developers face when building video: video encoding and streaming (Mux Video), video monitoring (Mux Data), and more. Video is a huge part of people’s lives, and we want to help make it better. We’re committed to building a healthy team that welcomes a diverse range of backgrounds and experiences. We want people who care about our mission, are ready to grow, believe in our values (from Be Human to Turn Customers Into Fans), and want to make the people around them better."
   },
   {
     "key": "netlify",

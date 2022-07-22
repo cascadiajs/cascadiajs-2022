@@ -1,5 +1,5 @@
 ---
-title: Job Fair
+title: Job Fair and Social
 excerpt: Connect with great companies looking to hire JS developers!
 image: /images/past/cjs19-formidable-table.jpg
 caption: Formidable booth at CascadiaJS 2019
@@ -19,8 +19,9 @@ When you're not talking to the founders and checking out what they're building, 
         <div><img src="/images/sponsors/formidable.svg" alt="Formidable logo"/></div>
         <div><img src="/images/sponsors/fictiv.png" alt="Fictiv logo"/></div>
         <div><img src="/images/sponsors/codingscape.svg" alt="Codingscape logo"/></div>
-        <div><img src="/images/sponsors/contrast-security.png" alt="Contrast Security logo"/></div>
         <div><img src="/images/sponsors/retool.png" alt="Retool logo"/></div>
+        <div><img src="/images/sponsors/mux.png" alt="Mux logo"/></div>
+        <div><img src="/images/sponsors/contrast-security.png" alt="Contrast Security logo"/></div>
     </div>
 </div>
 
@@ -64,18 +65,6 @@ Our highest commitment is to our team. This means you! Working with world-class 
 
 <div class="cta secondary"><a target="_blank" href="https://codingscape.com/jobs">codingscape.com/jobs</a></div>
 
-### Contrast Security
-
-Contrast Security empowers developers to secure-as-they code. The Secure Code Platform enables developers to write and release secure code faster, remove security roadblocks, eliminate false positives, and quickly remediate vulnerabilities.
-
- <div class="topics">
-    <div class=js-topic>100+ employees</div>
-    <div class=js-topic>Startup</div>
-    <div class=js-topic>Full Stack</div>
-</div>
-
-<div class="cta secondary"><a target="_blank" href="https://www.contrastsecurity.com/contrast-careers">contrastsecurity.com/contrast-careers</a></div>
-
 ### Retool
 
 Build internal tools, remarkably fast. Stop wrestling with UI libraries, hacking together data sources, and figuring out access controls. Start shipping apps that move your business forward.
@@ -87,3 +76,28 @@ Build internal tools, remarkably fast. Stop wrestling with UI libraries, hacking
 </div>
 
 <div class="cta secondary"><a target="_blank" href="https://retool.com/careers/">retool.com/careers/</a></div>
+
+### Mux
+
+Mux is video for developers. Our mission is to democratize video by solving the hard problems developers face when building video: video encoding and streaming (Mux Video), video monitoring (Mux Data), and more. Video is a huge part of people’s lives, and we want to help make it better. We’re committed to building a healthy team that welcomes a diverse range of backgrounds and experiences. We want people who care about our mission, are ready to grow, believe in our values (from Be Human to Turn Customers Into Fans), and want to make the people around them better.
+
+ <div class="topics">
+    <div class=js-topic>Startup</div>
+    <div class=js-topic>~200 employees</div>
+    <div class=js-topic>Full Stack / Eng Mgr</div>
+    <div class=js-topic>Remote / SF</div>
+</div>
+
+<div class="cta secondary"><a target="_blank" href="https://www.mux.com/jobs">mux.com/jobs</a></div>
+
+### Contrast Security
+
+Contrast Security empowers developers to secure-as-they code. The Secure Code Platform enables developers to write and release secure code faster, remove security roadblocks, eliminate false positives, and quickly remediate vulnerabilities.
+
+ <div class="topics">
+    <div class=js-topic>Startup</div>
+    <div class=js-topic>100+ employees</div>
+    <div class=js-topic>Full Stack</div>
+</div>
+
+<div class="cta secondary"><a target="_blank" href="https://www.contrastsecurity.com/contrast-careers">contrastsecurity.com/contrast-careers</a></div>
