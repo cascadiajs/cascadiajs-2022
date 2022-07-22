@@ -62,7 +62,7 @@ function ticket(t) {
         <input type=text name=avatar placeholder="Github avatar URL" value="${ t?.avatar || '' }">
         <button>Save</button>
       </form>
-      ${ t 
+      ${ t
         ? `
       <form action=/tickets/${ t.key } method=post>
         <input type=hidden name=key value="${ t.key }">
@@ -91,7 +91,7 @@ function speaker(person) {
     <textarea name=abstract value="${ person ? person.abstract : '' }" placeholder="VB.NET and C# go on a date with Java and JavaScript …" required>${ person ? person.abstract : '' }</textarea>
     <button>Save</button>
   </form>
-  ${ person 
+  ${ person
     ? `<form action=/speakers/${ person.key } method=post><input type=hidden name=__delete value="true"><button>Delete</button></form>`
     : '' }
 </details>`

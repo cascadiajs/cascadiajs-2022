@@ -1,13 +1,13 @@
-function renderSpeaker(time, speaker = {}) {
-    return /*html*/`
-    <div class="show-item">                
-        <div class="when">${ time }</div>
-        <div class="what">
-            <div class="title"><a href="/speakers/${ speaker.key }">${ speaker.title }</a></div>
-            <div class="speaker">${ speaker.name }</div>
-        </div>
-    </div>`
-}
+//function renderSpeaker(time, speaker = {}) {
+//    return /*html*/`
+//    <div class="show-item">
+//        <div class="when">${ time }</div>
+//        <div class="what">
+//            <div class="title"><a href="/speakers/${ speaker.key }">${ speaker.title }</a></div>
+//            <div class="speaker">${ speaker.name }</div>
+//        </div>
+//    </div>`
+//}
 
 function hallwayTrack({ticket = undefined}) {
     return /*html*/`

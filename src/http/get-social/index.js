@@ -10,7 +10,7 @@ async function Social (req) {
   //console.log(path, rebuild)
 
   let table = 'social'
-  
+
   // use the path to generate a hash value
   let key = crypto
     .createHash('sha1')
@@ -39,7 +39,7 @@ async function Social (req) {
           Body: file,
           ACL: 'public-read',
         })
-        .promise()  
+        .promise()
       // store a record in the DB
       //console.log('writing record to DB')
       await data.set({table, key, path, created: Date.now()})

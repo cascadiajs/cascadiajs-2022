@@ -49,8 +49,8 @@ async function processAction(req) {
 }
 
 async function send_magic_link(req) {
-  let session, location 
-  
+  let session, location
+
   let { email } = req.body
   let validSlugs = process.env.TITO_CONF_SLUGS.split(',')
 
@@ -58,7 +58,7 @@ async function send_magic_link(req) {
     session = {}
     location = '/'
   }
-  else {     
+  else {
     // find the conference ticket associated with this email address
     let ticketData = await data.get( { table: 'tickets', limit: 5000 })
     let ticket
@@ -68,7 +68,7 @@ async function send_magic_link(req) {
         ticket = record
         break
       }
-    }      
+    }
     if (ticket) {
       // create token
       let token = Math.floor(Math.random() * 1000000).toString().padStart(6, '0')
@@ -92,7 +92,7 @@ async function send_magic_link(req) {
       }
     }
     else {
-      location = '/home/login?notfound'
+      location = `/home/login?message=${ encodeURIComponent("We could not find a virtual or in-person conference pass with that email address.") }`
     }
   }
 

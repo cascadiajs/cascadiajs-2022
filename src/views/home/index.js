@@ -2,8 +2,9 @@ let Layout = require('../layout')
 
 module.exports = async function Index({ ticket, rsvp, activities, message }) {
     let clientID = process.env.GITHUB_CLIENT_ID
-    let { full_name, number } = ticket
-    console.log(process.env.TITO_INPERSON_SLUGS, ticket)
+    let { full_name, number, release_slug } = ticket
+    let isInPerson = process.env.TITO_INPERSON_SLUGS.split(',').indexOf(release_slug) >= 0
+    //console.log(process.env.TITO_INPERSON_SLUGS, ticket)
     let content = /*html*/`
         <div id=page>
             <div class=page-title><div><h1>Hello ${ full_name }!</h1></div></div>
@@ -23,8 +24,8 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
                     : /*html*/`<p>Let folks know you're attending CascadiaJS this year! We use <a target="_blank" href="https://docs.github.com/en/developers/apps/building-github-apps/authenticating-with-github-apps">Github OAuth</a> to retrieve your profile photo and add it to our Conference Directory. We will also generate a customized virtual ticket that will include a discount code for you to share with your friends!</p>
                     <div class="cta secondary"><a href="https://github.com/login/oauth/authorize?client_id=${ clientID }">Get Added to Directory</a></div>`
                 }
-                ${ process.env.TITO_INPERSON_SLUGS.split(',').indexOf(ticket.release_slug) >= 0
-                    ? `<h2>Activity Track RSVP</h2>
+                ${ isInPerson
+                    ? /*html*/`<h2>Activity Track RSVP</h2>
                         <p>Choose your own adventure and register to your Activity of choice! The Activity Track will take place on the afternoon of Day One, August 31. Please <a href="/conference/activities">review the descriptions</a> of each activity before you make your selection.</p>
                         <table>
                             <tr><th>Activity</th></tr>
@@ -34,7 +35,7 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
                                 <td>
                                     <form action=/home/rsvp method=post>
                                         <input type=hidden name=activityKey value=${ a.key } />
-                                    ${ rsvp 
+                                    ${ rsvp
                                         ? rsvp.activity === a.key
                                             ? `<input type=submit name=unregister value="Un-Register" />`
                                             : a.full

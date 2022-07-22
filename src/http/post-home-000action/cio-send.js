@@ -7,7 +7,7 @@ async function send_email({ email, transactional_message_id, message_data }) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${ process.env.CUSTOMERIO_TOKEN }` 
+            'Authorization': `Bearer ${ process.env.CUSTOMERIO_TOKEN }`
         },
         body: JSON.stringify(payload),
     })

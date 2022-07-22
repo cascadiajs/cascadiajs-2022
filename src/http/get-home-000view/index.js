@@ -41,11 +41,11 @@ async function unauthenticated(req) {
       return { session, location }
     }
     else {
-      return { location: `/home/login?message=${ encodeURIComponent("Log-in verification failed, try again?") }`} 
+      return { location: `/home/login?message=${ encodeURIComponent("Log-in verification failed, try again?") }`}
     }
   }
   else if (!ticketRef) {
-    return { location: `/home/login?message=${ encodeURIComponent("Please log-in") }`} 
+    return { location: `/home/login?message=${ encodeURIComponent("Please log-in") }`}
   }
 }
 
