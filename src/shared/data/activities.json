@@ -20,8 +20,14 @@
     {   
         "key": "biking",
         "table": "activities",
-        "name": "Bike Ride",
+        "name": "Sunriver Bike Ride",
         "cap": 20
+    },
+    {   
+        "key": "bike-benham-falls",
+        "table": "activities",
+        "name": "Bike to Benham Falls",
+        "cap": 50
     },
     {
         "key": "walking",
