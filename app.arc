@@ -11,11 +11,9 @@ src src/views
 @http
 get  /admin
 post /admin
-get  /changelog
-post /codes/:key
+post /admin/:table/:key
 get  /home/:view
 post /home/:action
-post /links/:key
 get  /live/:view
 get  /modules/:type/:module
 post /orders
@@ -29,7 +27,6 @@ post /speakers/:key
 get  /sponsors/:key
 get  /tickets/:number
 post /tickets
-post /tickets/:key
 get  /*
 
 @tables

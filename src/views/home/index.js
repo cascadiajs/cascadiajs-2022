@@ -26,7 +26,7 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
                 }
                 ${ isInPerson
                     ? /*html*/`<h2>Activity Track RSVP</h2>
-                        <p>Choose your own adventure and register to your Activity of choice! The Activity Track will take place on the afternoon of Day One, August 31. Please <a href="/conference/activities">review the descriptions</a> of each activity before you make your selection.</p>
+                        <p>Choose your own adventure and register to your Activity of choice! The Activity Track will take place on the afternoon of Day One, August 31. Please <a href="/conference/activities">review the descriptions</a> of each activity before you make your selection. You can "un-register" anytime and make a new selection if there are spots open.</p>
                         <table>
                             <tr><th>Activity</th></tr>
                             ${ activities.map((a) => `

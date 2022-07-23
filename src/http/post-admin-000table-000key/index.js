@@ -10,18 +10,15 @@ async function auth(req) {
 }
 
 async function delete_or_upsert(req) {
-  let { key } = req.params
+  let { table, key } = req.params
   if (req.body.__delete) {
-    await data.destroy({table: 'tickets', key })
+    await data.destroy({table, key })
   }
   else {
     await data.set({
-      table: 'tickets',
+      table,
       ...req.body
     })
   }
   return { location: '/admin' }
 }
-
-
-

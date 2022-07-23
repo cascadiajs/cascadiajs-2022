@@ -26,32 +26,31 @@ async function unauthenticated(req) {
   }
 }
 
-/** render the speaker list/form */
 async function authenticated(req) {
-  let speakerData = await data.get({ table: 'speakers', limit: 100 })
+  /*let speakerData = await data.get({ table: 'speakers', limit: 100 })
   if (req.query.export === 'speakers') {
     return { json: speakerData }
   }
-  else {
+  else {*/
     let linkData = await data.get( {table: 'links', limit: 100 })
     let newLink = link()
     let linksSection = `<h2>Private Links</h2>${ linkData.map(link).join('') + newLink }`
-    let newSpeaker = speaker()
-    let speakersSection = `<h2>Speakers</h2>${ newSpeaker + speakerData.map(speaker).join('') }`
+    //let newSpeaker = speaker()
+    //let speakersSection = `<h2>Speakers</h2>${ newSpeaker + speakerData.map(speaker).join('') }`
     let ticketData = await data.get( {table: 'tickets', limit: 5000 })
     let newTicket = ticket()
     let ticketsSection = `<h2>Tickets</h2>${ newTicket + ticketData.map(ticket).join('') }`
     let rsvpData = await data.get({ table: 'rsvps', limit: 500 })
     let activitySection = `<h2>Activity Registrations</h2>${ activities.map((a) => { return activity(a, rsvpData, ticketData) }).join('') }`
-    let html = layout(linksSection + speakersSection + ticketsSection + activitySection)
+    let html = layout(linksSection /*+ speakersSection*/ + ticketsSection + activitySection)
     return { html }
-  }
+  //}
 }
 
 function ticket(t) {
   return `<details>
       <summary>${ t ? `${ t.key } ${ t.release_title } ${ t.full_name }` : 'new ticket' }</summary>
-      <form action=/tickets/${ t ? t.key : 'new' } method=post>
+      <form action=/admin/tickets/${ t ? t.key : 'new' } method=post>
         <input type=${ t ? 'hidden' : 'text' } ${ t ? '' : 'placeholder=key' } name=key value="${ t ? t.key : '' }">
         <input type=text name=number placeholder="Number" value="${ t?.number || '' }">
         <input type=text name=release_title placeholder="Release Title" value="${ t?.release_title || '' }">
@@ -64,7 +63,7 @@ function ticket(t) {
       </form>
       ${ t
         ? `
-      <form action=/tickets/${ t.key } method=post>
+      <form action=/admin/tickets/${ t.key } method=post>
         <input type=hidden name=key value="${ t.key }">
         <input type=hidden name=__delete value="true">
         <button>Delete</button>
@@ -73,7 +72,7 @@ function ticket(t) {
     </details>`
 }
 
-function speaker(person) {
+/*function speaker(person) {
   return `<details>
   <summary>${ person ? person.name : 'new speaker' }</summary>
   <form action=/speakers/${ person ? person.key : 'new' } method=post>
@@ -95,12 +94,12 @@ function speaker(person) {
     ? `<form action=/speakers/${ person.key } method=post><input type=hidden name=__delete value="true"><button>Delete</button></form>`
     : '' }
 </details>`
-}
+}*/
 
 function link(l) {
   return `<details>
       <summary>${ l ? l.label : 'New Link' }</summary>
-      <form action=/links/${ l ? l.key : 'new' } method=post>
+      <form action=/admin/links/${ l ? l.key : 'new' } method=post>
         <input type=${ l ? 'hidden' : 'text' } name=key placeholder="key" value="${ l ? l.key : '' }">
         <input type=text name=label placeholder="Label" value="${ l ? l.label : '' }">
         <input type=text name=url placeholder="https://foo.com/bar" value="${ l ? l.url : '' }">
@@ -111,10 +110,17 @@ function link(l) {
 
 function activity(a, rsvpData, ticketData) {
   let rsvps = rsvpData.filter((r) => r.activity === a.key)
-  return `<h3>${ a.name }</h3><table>${ rsvps.map((r) => { return rsvp(r, ticketData) }).join('') }</table>`
+  return `<h3>${ a.name } (${ rsvps.length })</h3><table>${ rsvps.map((r) => { return rsvp(r, ticketData) }).join('') }</table>`
 }
 
 function rsvp(r, ticketData) {
   let ticket = ticketData.find((t) => t.key === r.key) || { full_name: 'not found', email: 'not found'}
-  return `<tr><td>${ r.key }</td><td>${ ticket.full_name }</td><td>${ ticket.email }</td><td>${ r.activity }</td></tr>`
+  return `
+    <tr>
+      <td>${ r.key }</td>
+      <td>${ ticket.full_name }</td>
+      <td>${ ticket.email }</td>
+      <td>${ r.activity }</td>
+      <td><form action=/admin/rsvps/${ r.key } method=post><input type=hidden name=__delete value="true"><button>Delete</button></form></td>
+    </tr>`
 }
