@@ -84,10 +84,16 @@ Alternatively, in place of purchasing a Guest Pass, your guests are free to dine
 
 ## Pets
 
-Some folks have asked about whether CascadiaJS is a pet-friendly conference. We are currently working on figuring out what we can and can't offer regarding pets. Here's what we know for sure:
+CascadiaJS is a pet-friendly conference! Here are some important rules and guidelines to keep in mind:
 
 - Sunriver Resort offers [pet-friendly rooms](https://www.sunriverresort.com/hotel-and-vacation-rentals-overview/rooms-overview/pet-friendly-lodging-hotels-bend-central-oregon-activities).
 - Pets CANNOT be left in Sunriver Resort guest rooms unattended.
-- Pets will definitely be welcome at all of our events that take place outside.
-- We are still looking into options for limited access to the inside or pet sitting on-site. 
+- Pets will be welcome at all of our events that take place outside.
+- Pets will be welcome in a specific section of the Talk Track room, but will not be allowed in the Expo Hall or at the indoor workshops or evening events.
 
+## Sunriver Resort Perks
+
+All attendees and guests of CascadiaJS recieve the following perks at Sunriver Resort:
+
+- Two (2) Day Bike Rental @ $35.00 per bike, total. (Choice of any bike)
+- 10% Discount offered for resort-owned [Golf](https://www.sunriverresort.com/central-oregon-bend-golf/golf-overview) at Meadows and Woodlands, [Marina](https://www.sunriverresort.com/activities/the-marina-float-kayak-canoe-stand-up-paddle-board-sup-rentals-bend-central-oregon), [Stables](https://www.sunriverresort.com/activities/morning-wrangle-sunriver-stables) & [Sage Springs Spa Services](https://www.sunriverresort.com/sage-springs-spa-and-fitness/spa/spa-services/)
