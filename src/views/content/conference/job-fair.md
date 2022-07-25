@@ -16,7 +16,6 @@ When you're not talking to the founders and checking out what they're building, 
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
-        <div><img src="/images/sponsors/formidable.svg" alt="Formidable logo"/></div>
         <div><img src="/images/sponsors/fictiv.png" alt="Fictiv logo"/></div>
         <div><img src="/images/sponsors/codingscape.svg" alt="Codingscape logo"/></div>
         <div><img src="/images/sponsors/retool.png" alt="Retool logo"/></div>
@@ -24,18 +23,6 @@ When you're not talking to the founders and checking out what they're building, 
         <div><img src="/images/sponsors/contrast-security.png" alt="Contrast Security logo"/></div>
     </div>
 </div>
-
-### Formidable
-
-We build the modern web.
-
- <div class="topics">
-    <div class=js-topic>Agency</div>
-    <div class=js-topic>Modern JS Stack</div>
-    <div class=js-topic>Remote First</div>
-</div>
-
-<div class="cta secondary"><a target="_blank" href="https://boards.greenhouse.io/formidable">boards.greenhouse.io/formidable</a></div>
 
 ### Fictiv
 
