@@ -16,8 +16,6 @@ When you purchase an in-person ticket to the conference, it is *fully loaded* an
 
 <i class="fas fa-turntable"></i> Job Fair (Aug 31) and Startup Fair (Sept 1) Social Events
 
-<i class="fas fa-coffee"></i> Farewell Brunch (Sept 2)
-
 
 ## Ticket Release Schedule
 

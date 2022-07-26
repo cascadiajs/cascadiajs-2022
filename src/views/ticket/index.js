@@ -35,7 +35,7 @@ module.exports = async function Index({ ticket, socialUrl }) {
                     <div class="feature">
                         <div><img src="/images/illustrations/feature-allinclusive.png" alt="illustration of a meal"/></div>
                         <h2><a href="/tickets">All Inclusive</a></h2>
-                        <p>Your ticket includes a Welcome Reception, 3 meals a day for 2 days, 2 awesome parties and a Farewell Brunch!</p>
+                        <p>Your ticket includes a Welcome Reception, 3 meals a day for 2 days and 2 awesome parties!</p>
                     </div>
                     <div class="feature">
                         <div><img src="/images/illustrations/feature-activities.gif" alt="illustration of a pickleball racquet"/></div>

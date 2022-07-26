@@ -46,7 +46,7 @@ In addition to our Talk Track, we will be curating a Workshop Track for folks wh
 
 ### All Inclusive
 
-In addition to the talks and workshops, your ticket to the conference includes access to the Welcome Reception on August 30, three meals a day and evening events on August 31 and September 1 and a Farewell Brunch on September 2. Check out the [schedule](/schedule) to see what we've planned so far, and stay tuned because we keep adding to it!
+In addition to the talks and workshops, your ticket to the conference includes access to the Welcome Reception on August 30, three meals a day and evening events on August 31 and September 1. Check out the [schedule](/schedule) to see what we've planned so far, and stay tuned because we keep adding to it!
 
 ### Outdoor Activities
 

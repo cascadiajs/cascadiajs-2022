@@ -345,10 +345,6 @@ function TrainingDay() {
         <div class="location">Great Hall</div>
         <div class="day-content">
             <div class="show track">   
-                <div class="show-item">       
-                    <div class="when">8am - 11am</div>
-                    <div class="what"><div class="title">Farewell Brunch</div></div>
-                </div>
                 <div class="show-item"> 
                     <div class="when">9am - 4pm</div>
                     <div class="what">

@@ -40,4 +40,4 @@ After the Closing Ceremony, dinner will be served at 7pm for all attendees and g
 
 ## Friday, September 2
 
-To wrap things up, we will host a very chill "show up when you like" Farewell Brunch.
+Training workshops!
