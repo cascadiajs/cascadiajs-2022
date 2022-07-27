@@ -54,12 +54,12 @@ Our highest commitment is to our team. This means you! Working with world-class 
 
 ### Retool
 
-Build internal tools, remarkably fast. Stop wrestling with UI libraries, hacking together data sources, and figuring out access controls. Start shipping apps that move your business forward.
+Retool is a fast way to build internal tools. You visually design apps that interface with any database or API, and switch to code nearly anywhere to customize how your apps look or work. By removing the friction to build internal tools, we help developers solve operational challenges with custom tools while keeping the team focused on high-value work. Thousands of teams at companies like Amazon, DoorDash, Peloton, and Brex collaborate around custom-built Retool apps to solve internal workflows.
 
  <div class="topics">
     <div class=js-topic>Startup</div>
-    <div class=js-topic>Full Stack</div>
-    <div class=js-topic>Remote Options</div>
+    <div class=js-topic>Frontend / Full Stack</div>
+    <div class=js-topic> SF, SEA and NYC</div>
 </div>
 
 <div class="cta secondary"><a target="_blank" href="https://retool.com/careers/">retool.com/careers/</a></div>
