@@ -15,6 +15,7 @@ Thank you SO MUCH for supporting CascadiaJS this year. Your support is the only 
         <li><a href="#covid-and-safety">COVID and Safety</a></li>
         <li><a href="#expo-hall-and-booths">Expo Hall and Booths</a></li>
         <li><a href="#shipping-to-sunriver-resort">Shipping to Sunriver Resort</a></li>
+        <li><a href="#renting-gear">Renting Gear</a></li>
         <li><a href="#video-clip">Video Clip</a></li>
         <li><a href="#email-copy">Email Copy</a></li>
         <li><a href="#job-posting">Job Posting</a></li>
@@ -81,7 +82,13 @@ The Expo Hall will be set-up in the entrance hall located directly outside of th
 
 If you need to ship banners, swag or other equipment to Sunriver for the conference, please review this <a target="_blank" href="/files/sunriver-shipping.pdf">Sunriver Shipping Instructions</a> PDF document.
 
-**Please do not schedule anything to arrive prior to August 28.**
+<span class="highlight warning">Please do not schedule anything to arrive prior to August 28.</span>
+
+## Renting Gear
+
+If you would like to rent gear from Sunriver Resort (external display, laptop, etc) please review and fill-out this [pricing and ordering form](/files/sunriver-exhibitor-form-2022.pdf) and email it to the contact listed on the form. If you plan on paying with a credit card, you can also fill-out and include this [credit card authorization form](avms-cc-auth-form.pdf).
+
+Please note that these rentals and payments are handled by the Resort, not the CascadiaJS conference and are not included in your sponsorship.
 
 ## Video Clip
 
