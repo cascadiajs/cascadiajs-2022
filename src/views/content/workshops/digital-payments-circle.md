@@ -14,7 +14,7 @@ caption: Allison Kaufman of Circle
 
 As the Web3 ecosystem continues to evolve, developers are finding ways to build a payments infrastructure for both the traditional and crypto user.
 
-In this talk, you’ll discover how Circle’s APIs can help seamlessly connect the world of fiat and the world of crypto, allowing you to grow your platform’s user base with the power of the digital dollar.
+In this talk, you'll discover how Circle's APIs can help seamlessly connect the world of fiat and the world of crypto, allowing you to grow your platform's user base with the power of the digital dollar.
 
 ### Prerequisites
 

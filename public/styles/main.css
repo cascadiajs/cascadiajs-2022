@@ -575,8 +575,9 @@ section .cta {
 
 /* Schedule styles */
 
-#landing .day {
+.day {
     text-align: left;
+    margin-bottom: 16px;
 }
 
 .what .title, .what .title a:link, .what .title a:visited {
@@ -584,8 +585,13 @@ section .cta {
     font-weight: 300;
     font-style: normal;
     text-decoration: none;
+    line-height: 1.25em;
     margin: 0;
 	color: #112378;
+}
+
+.what .speaker {
+    line-height: 1.5em;
 }
 
 .what p {
@@ -679,7 +685,7 @@ aside.day-timezone {
 
 .hallway .sponsors>div {
     height: 30px;
-    margin: 16px;
+    margin: 24px;
 }
 
 .day-header {

@@ -15,7 +15,7 @@ function template({ confSchedule }) {
                         <li><a href="#day-zero">Aug 30 - Welcome Reception</a></li>
                         <li><a href="#day-one">Aug 31 - Day One</a></li>
                         <li><a href="#day-two">Sep 1 - Day Two</a></li>
-                        <li><a href="#day-training">Sep 2 - Training Workshops</a></li>
+                        <li><a href="#day-training">Sep 2 - Post-Conf Training Workshops</a></li>
                         <li><a href="#map-of-sunriver-resort">Map of Sunriver Resort</a></li>
                     </ul>
                 </div>

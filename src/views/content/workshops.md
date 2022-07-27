@@ -16,7 +16,7 @@ These workshops are **included** in your conference ticket and will run parallel
             <h3>Where</h3>
             <p>Sunriver Resort, OR</p>
             <h3>When</h3>
-            <p>TBD</p>
+            <p>Aug 31, 10:30am</p>
             <h3>Instructor</h3>
             <p>Shreya Gupta</p>
         </div>
@@ -33,7 +33,7 @@ These workshops are **included** in your conference ticket and will run parallel
             <h3>Where</h3>
             <p>Sunriver Resort, OR</p>
             <h3>When</h3>
-            <p>TBD</p>
+            <p>Aug 31, 1:30pm</p>
             <h3>Instructor</h3>
             <p>Dan Zeitman</p>
         </div>

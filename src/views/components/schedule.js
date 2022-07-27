@@ -1,13 +1,13 @@
-//function renderSpeaker(time, speaker = {}) {
-//    return /*html*/`
-//    <div class="show-item">
-//        <div class="when">${ time }</div>
-//        <div class="what">
-//            <div class="title"><a href="/speakers/${ speaker.key }">${ speaker.title }</a></div>
-//            <div class="speaker">${ speaker.name }</div>
-//        </div>
-//    </div>`
-//}
+function renderSpeaker(time, speaker = {}) {
+    return /*html*/`
+    <div class="show-item">
+        <div class="when">${ time }</div>
+        <div class="what">
+            <div class="title"><a href="/speakers/${ speaker.key }">${ speaker.title }</a></div>
+            <div class="speaker">${ speaker.name }</div>
+        </div>
+    </div>`
+}
 
 function hallwayTrack({ticket = undefined}) {
     return /*html*/`
@@ -60,7 +60,7 @@ function DayZero({ ticket = undefined }) {
             All times in PDT (UTC-7)
             </aside>
         </div>
-        <div class="location">Bessom Commons</div>
+        <div class="location">Mt. Bachelor Lawn</div>
         <div class="day-content">
             <div class="show track">   
                 <div class="show-item">       
@@ -103,7 +103,7 @@ function DayOne({ speakers, ticket = undefined }) {
                 <div class="what"><div class="title"><i class="fas fa-door-open"></i> Doors Open</div></div>
             </div>
         </div>
-        <div class="location">Great Hall</div>
+        <div class="location">Landmark</div>
         <div class="day-content">
             <div class="show-item">       
                 <div class="when">08:30</div>
@@ -118,43 +118,35 @@ function DayOne({ speakers, ticket = undefined }) {
                     <div class="when">09:00</div>
                     <div class="what"><div class="title">Opening Remarks</div></div>
                 </div>
-                <div class="show-item">       
-                    <div class="when">09:30</div>
-                    <div class="what"><div class="title">Talks</div></div>
-                </div>
+                ${ renderSpeaker("09:30", speakers.find(s => s.key === 'chris-coyier'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'isabela-moreira'))}
                 <div class="show-item">       
                     <div class="when">10:30</div>
                     <div class="what"><div class="title"><i class="fas fa-coffee"></i> Break</div></div>
                 </div>
-                <div class="show-item">       
-                    <div class="when">11:00</div>
-                    <div class="what"><div class="title">Talks</div></div>
-                </div>
+                ${ renderSpeaker("11:00", speakers.find(s => s.key === 'joyce-park'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'tejas-kumar'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'rachel-white'))}
                 <div class="location">Homestead Lawn</div>
                 <div class="show-item">       
                     <div class="when">12:30</div>
                     <div class="what"><div class="title"><i class="fas fa-taco"></i> Lunch</div></div>
                 </div>
                 <div class="location">Homestead</div>
+                ${ renderSpeaker("13:30", speakers.find(s => s.key === 'trivikram-kamat'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'eddie-zaneski'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'joyce-lin'))}
                 <div class="show-item">       
-                    <div class="when">13:30</div>
-                    <div class="what"><div class="title">Talks</div></div>
-                </div>
-                <div class="show-item">       
-                    <div class="when">14:30</div>
+                    <div class="when">15:00</div>
                     <div class="what"><div class="title"><i class="fas fa-popcorn"></i> Break</div></div>
                 </div>
                 <div class="show-item">       
-                    <div class="when">15:00</div>
-                    <div class="what"><div class="title">Talks</div></div>
-                </div>
-                <div class="show-item">       
-                    <div class="when">16:00</div>
+                    <div class="when">15:30</div>
                     <div class="what"><div class="title">Day One Wrap</div></div>
                 </div>
                 <div class="location">Various Locations</div>
                 <div class="show-item">       
-                    <div class="when">16:30</div>
+                    <div class="when">16:00</div>
                     <div class="what"><div class="title"><i class="fas fa-bicycle"></i> <a href="/conference/activities">Activity Track</a></div></div>
                 </div>
                 <div class="location">Bessom Commons</div>
@@ -162,6 +154,7 @@ function DayOne({ speakers, ticket = undefined }) {
                     <div class="when">18:30</div>
                     <div class="what"><div class="title"><i class="fas fa-burger"></i> Dinner</div></div>
                 </div>
+                <div class="location">Heritage</div>
                 <div class="show-item">       
                     <div class="when">19:30</div>
                     <div class="what"><div class="title"><a href="/conference/job-fair"><i class="fas fa-handshake"></i> Job Fair and Social</a></div></div>
@@ -176,20 +169,24 @@ function DayOne({ speakers, ticket = undefined }) {
 
             <div class="workshop track">
                 <h3>Workshop Track</h3>
-                <div class="location">Great Hall</div>
+                <div class="location">Heritage</div>
                 <div class="show-item">       
                     <div class="when">10:30</div>
                     <div class="what">
-                        <div class="title"><a href="/workshops/courier">Workshop #1</a></div>
-                        <div class="speaker"><p>More info coming soon!</p></div>
+                        <div class="title"><a href="/workshops/alerts-nodejs-courier">Sending Multi-channel Alerts From Your Node.JS Environment with Courier</a></div>
+                        <div class="speaker">
+                            <p>When working on a new project, notifications can be a tough nut to crack. Sending email, push notifications to multiple geographies, global SMS, all present headaches that normally require low-level configuration and often a dedicated notifications micro-service.</p>
+                            <p>In this 2 hour workshop Nočnica and Shreya will get you from 0 to "Sending an SMS to Ghana" in your Node.JS app.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="show-item">       
                     <div class="when">13:30</div>
                     <div class="what">
-                        <div class="title">Workshop #2</div>
+                        <div class="title"><a href="/workshops/babylonjs-metaverse">Learn Babylon.js to Create Your Own 3D Metaverse Environments</a></div>
                         <div class="speaker">
-                            <p>More info coming soon!</p>
+                            <p>Users expect immersive experiences that can not only be entertaining but create engagement and retention.</p>
+                            <p>This workshop will explore some of the theory around user perception while learning the Babylon.js library for creating 3D environments in a web browser.</p>
                         </div>
                     </div>
                 </div>
@@ -226,7 +223,7 @@ function DayTwo({ speakers, ticket = undefined }) {
                 <div class="what"><div class="title"><i class="fas fa-door-open"></i> Doors Open</div></div>
             </div>
         </div>
-        <div class="location">Great Hall</div>
+        <div class="location">Landmark</div>
         <div class="day-content">
             <div class="show-item">       
                 <div class="when">08:30</div>
@@ -241,17 +238,20 @@ function DayTwo({ speakers, ticket = undefined }) {
                     <div class="when">09:00</div>
                     <div class="what"><div class="title">Opening Remarks</div></div>
                 </div>
-                <div class="show-item">       
-                    <div class="when">09:30</div>
-                    <div class="what"><div class="title">Talks</div></div>
-                </div>
+                ${ renderSpeaker("09:30", speakers.find(s => s.key === 'vladimir-de-turckheim'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'ian-sutherland'))}
                 <div class="show-item">       
                     <div class="when">10:30</div>
                     <div class="what"><div class="title"><i class="fas fa-coffee"></i> Break</div></div>
                 </div>
-                <div class="show-item">       
-                    <div class="when">11:00</div>
-                    <div class="what"><div class="title">Talks</div></div>
+                ${ renderSpeaker("11:00", speakers.find(s => s.key === 'aaroh-mankad'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'brittany-joiner'))}
+                <div class="show-item">
+                    <div class="when"></div>
+                    <div class="what">
+                        <div class="title"><a href="/speakers/daphne-liu">${ speakers.find(s => s.key === 'daphne-liu').title }</a></div>
+                        <div class="speaker">Daphne Liu &amp; Tiger Oakes</div>
+                    </div>
                 </div>
                 <div class="location">Homestead Lawn</div>
                 <div class="show-item">       
@@ -259,26 +259,21 @@ function DayTwo({ speakers, ticket = undefined }) {
                     <div class="what"><div class="title"><i class="fas fa-taco"></i> Lunch</div></div>
                 </div>
                 <div class="location">Homestead</div>
-                <div class="show-item">       
-                    <div class="when">13:30</div>
-                    <div class="what"><div class="title">Talks</div></div>
-                </div>
+                ${ renderSpeaker("13:30", speakers.find(s => s.key === 'saimon-sharif'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'dwane-hemmings'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'rebecca-peltz'))}
                 <div class="show-item">       
                     <div class="when">14:30</div>
                     <div class="what"><div class="title"><i class="fas fa-popcorn"></i> Break</div></div>
                 </div>
-                <div class="show-item">       
-                    <div class="when">15:00</div>
-                    <div class="what"><div class="title">Talks</div></div>
-                </div>
-                <div class="show-item">       
-                    <div class="when">16:00</div>
-                    <div class="what"><div class="title">Break</div></div>
-                </div>
+                ${ renderSpeaker("15:30", speakers.find(s => s.key === 'mikeal-rogers'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'brooklyn-zelenka'))}
                 <div class="show-item">       
                     <div class="when">16:30</div>
-                    <div class="what"><div class="title">Talks</div></div>
+                    <div class="what"><div class="title"><i class="fas fa-cookie"></i>Break</div></div>
                 </div>
+                ${ renderSpeaker("17:00", speakers.find(s => s.key === 'shawn-swyx-wang'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'brian-leroux'))}
                 <div class="show-item">       
                     <div class="when">18:00</div>
                     <div class="what"><div class="title">Closing Remarks</div></div>
@@ -288,11 +283,11 @@ function DayTwo({ speakers, ticket = undefined }) {
                     <div class="when">18:30</div>
                     <div class="what"><div class="title"><i class="fas fa-burger"></i> Dinner</div></div>
                 </div>
+                <div class="location">Heritage</div>
                 <div class="show-item">       
                     <div class="when">19:30</div>
                     <div class="what"><div class="title"><a href="/conference/startup-fair"><i class="fas fa-rocket"></i> Startup Fair and Social</a></div></div>
                 </div>
-                <div class="location">Great Hall</div>
                 <div class="show-item">       
                     <div class="when">22:00</div>
                     <div class="what"><div class="title"><i class="fas fa-microphone"></i> Karaoke</div></div>
@@ -307,20 +302,24 @@ function DayTwo({ speakers, ticket = undefined }) {
 
             <div class="workshop track">
                 <h3>Workshop Track</h3>
-                <div class="location">Great Hall</div>
+                <div class="location">Heritage</div>
                 <div class="show-item">       
                     <div class="when">10:30</div>
                     <div class="what">
-                        <div class="title"><a href="/workshops/courier">Workshop #3</a></div>
-                        <div class="speaker"><p>More info coming soon!</p></div>
+                        <div class="title"><a href="/workshops/digital-payments-circle">Connecting the Fiat and Crypto Worlds with Digital Dollars</a></div>
+                        <div class="speaker">
+                            <p>As the Web3 ecosystem continues to evolve, developers are finding ways to build a payments infrastructure for both the traditional and crypto user.</p>
+                            <p>In this talk, you'll discover how Circle's APIs can help seamlessly connect the world of fiat and the world of crypto, allowing you to grow your platform's user base with the power of the digital dollar.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="show-item">       
                     <div class="when">13:30</div>
                     <div class="what">
-                        <div class="title">Workshop #4</div>
+                        <div class="title"><a href="/workshops/ecommerce-cloudinary">Performance-First Ecommerce & Visual Web Experiences with Cloudinary</a></div>
                         <div class="speaker">
-                            <p>More info coming soon!</p>
+                            <p>Experiences on the web have grown increasingly visual, from displaying product images to interactive NFTs, but not paying attention to how media is delivered can impact Core Web Vitals creating a bad UX with slow loading pages, hurting your store's conversion and potentially losing sales.</p>
+                            <p>How can we effectively leverage media to showcase products creating engaging experiences for our store? We'll learn about media's role in ecomm and how we can take advantage of it while optimizing delivery.</p>
                         </div>
                     </div>
                 </div>
@@ -342,13 +341,19 @@ function TrainingDay() {
             All times in PDT (UTC-7)
             </aside>
         </div>
-        <div class="location">Great Hall</div>
         <div class="day-content">
             <div class="show track">   
+                <div class="location">Heritage 1</div>
                 <div class="show-item"> 
                     <div class="when">9am - 4pm</div>
                     <div class="what">
                         <div class="training title"><a href="/trainings/data-structures">Demystifying Data Structures</a></div>
+                    </div>
+                </div>
+                <div class="location">Heritage 2</div>
+                <div class="show-item"> 
+                    <div class="when">9am - 4pm</div>
+                    <div class="what">
                         <div class="training title"><a href="/trainings/nextjs">Full-Stack Next.js Monorepo for Production Ready React+TypeScript Apps</a></div>
                     </div>
                 </div>
