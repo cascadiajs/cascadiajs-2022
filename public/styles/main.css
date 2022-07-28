@@ -471,8 +471,8 @@ div.highlight {
 
 .tier div img {
     display: block;
-    margin: 64px auto;
-    height: 100px;
+    margin: 32px auto;
+    height: 50px;
 }
 
 /* end sponsors component */

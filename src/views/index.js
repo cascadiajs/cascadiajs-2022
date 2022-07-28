@@ -76,8 +76,8 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
             </div>
             <div class="banner-item">
                 <div class="banner-item-metric">Limited Seats</div>
-                <p>Book your seat on the Portland Hacker Bus before seats run out!</p>
-                <div class="cta secondary"><a href="/travel">Learn More</a></div>
+                <p>Register for FREE hands-on workshops by industry experts.</p>
+                <div class="cta secondary"><a href="/workshops">Learn More</a></div>
             </div>
         </section>
         <section id="features" class="landing">
@@ -95,7 +95,7 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 </div>
                 <div class="feature">
                     <div><img src="/images/illustrations/feature-talks.gif" alt="illustration of a microphone"/></div>
-                    <h2><a href="/conference#amazing-talks">21 Awesome Speakers</a></h2>
+                    <h2><a href="/speakers">21 Awesome Speakers</a></h2>
                     <p>We are being joined by a wonderful line-up of speakers covering everything from the latest in the web and Node.js to building a more inclusive tech industry.</p>
                 </div>
                 <div class="feature">
@@ -110,7 +110,7 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 </div>
                 <div class="feature">
                     <div><img src="/images/illustrations/feature-activities.gif" alt="illustration of a pickleball racquet"/></div>
-                    <h2><a href="/conference#outdoor-activities">Outdoor Activities</a></h2>
+                    <h2><a href="/conference/activities">Outdoor Activities</a></h2>
                     <p>On the afternoon of the first day, we will cut talks and workshops short and spend an afternoon outside having fun!</p>
                 </div>
                 <div class="feature">
