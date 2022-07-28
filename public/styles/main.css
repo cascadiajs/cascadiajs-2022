@@ -1562,10 +1562,10 @@ a[target="_blank"]:after {
 
     emote-widget {
         display: block;
-        position: absolute;
+        /*position: absolute;
         z-index: 10;
         left: 0;
-        bottom: 0;
+        bottom: 0;*/
     }
 
     #live #stream {

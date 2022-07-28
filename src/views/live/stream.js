@@ -40,7 +40,7 @@ module.exports = function Live({ speakers, ticket, links }) {
                 <h2 class="sponsor">Illustrations by <img src="/images/sponsors/netlify.svg"/></h2>
             </div>
             <div id="emote">
-                <emote-widget talk-id="cjs21-test" open="false"></emote-widget>
+                <emote-widget talk-id="cjs22-test" open="false"></emote-widget>
                 <!--audio src="/sounds/applause-8.mp3"></audio-->
             </div>
         </section>
@@ -51,7 +51,7 @@ module.exports = function Live({ speakers, ticket, links }) {
         </div>
     </div>
     `
-    let html = LiveLayout({ content, view: 'live', scripts: ['https://unpkg.com/@mux/mux-player'] })
+    let html = LiveLayout({ content, view: 'live', scripts: ['https://unpkg.com/@mux/mux-player', '/js/emote.js', '/js/live.js'] })
     return { html }
 }
 
