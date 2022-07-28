@@ -11,6 +11,8 @@ async function auth(req) {
 
 async function delete_or_upsert(req) {
   let { table, key } = req.params
+  // if this is a create operation, get the key from the POST body
+  key = key || req.body.key
   if (req.body.__delete) {
     await data.destroy({table, key })
   }

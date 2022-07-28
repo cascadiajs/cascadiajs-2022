@@ -41,7 +41,7 @@ async function authenticated(req) {
     let newTicket = ticket()
     let ticketsSection = `<h2>Tickets</h2>${ newTicket + ticketData.map(ticket).join('') }`
     let rsvpData = await data.get({ table: 'rsvps', limit: 500 })
-    let activitySection = `<h2>Activity Registrations</h2>${ activities.map((a) => { return activity(a, rsvpData, ticketData) }).join('') }`
+    let activitySection = `<h2>Activity Registrations</h2>${ newRsvp() }${ activities.map((a) => { return activity(a, rsvpData, ticketData) }).join('') }`
     let html = layout(linksSection /*+ speakersSection*/ + ticketsSection + activitySection)
     return { html }
   //}
@@ -111,6 +111,15 @@ function link(l) {
 function activity(a, rsvpData, ticketData) {
   let rsvps = rsvpData.filter((r) => r.activity === a.key)
   return `<h3>${ a.name } (${ rsvps.length })</h3><table>${ rsvps.map((r) => { return rsvp(r, ticketData) }).join('') }</table>`
+}
+
+function newRsvp() {
+  return `
+  <form action=/admin/rsvps/new method=post>
+    <input type=text name=key placeholder="ticket ref">
+    <input type=text name=activity placeholder=activity>
+    <button>Create</button>
+  </form>`
 }
 
 function rsvp(r, ticketData) {
