@@ -3,7 +3,7 @@
         "key": "kayaking",
         "table": "activities",
         "name": "Kayaking",
-        "cap": 20
+        "cap": 0
     },
     {
         "key": "scavenger",

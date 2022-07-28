@@ -16,7 +16,6 @@ When you purchase an in-person ticket to the conference, it is *fully loaded* an
 
 <i class="fas fa-turntable"></i> Job Fair (Aug 31) and Startup Fair (Sept 1) Social Events
 
-
 ## Ticket Release Schedule
 
 Tickets are released in batches. Each batch is limited in quantity, so please make sure you act fast to secure your ticket.
@@ -47,6 +46,7 @@ For folks that can't join us in person, we have a Virtual Ticket option that wil
 
 <i class="fas fa-handshake"></i> Virtual Expo Hall and Giveaways
 
+<!--
 ## Apply for an Opportunity Scholarship
 
 We have opened applications for Opportunity Scholarships! 
@@ -54,7 +54,7 @@ We have opened applications for Opportunity Scholarships!
 If you are a member of an under-represented minority in tech or have financial constraints that make purchasing a ticket difficult, please consider learning more and applying.
 
 <div class="cta secondary"><a href="/scholarships">Learn More</a></div>
-
+-->
 
 ## Buy a Conference Ticket
 
