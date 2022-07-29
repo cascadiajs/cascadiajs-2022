@@ -2,19 +2,26 @@
 title: Attending the Conference
 image: /images/sunriver/sunriver-guest-room.webp
 caption: A guest room at Sunriver Resort
-excerpt: Lodging, Travel, Child Care info and more!
+excerpt: Lodging, Travel, Guest Passes and more!
 ---
 <div class="toc">
 <h2>On This Page</h2>
     <ul>
-        <li><a href="#conference-dashboard">Conference Dashboard</a></li>
+        <li><a href="#preparing-for-the-conference">Preparing for the Conference</a></li>
         <li><a href="#lodging">Lodging</a></li>
         <li><a href="#travel">Travel</a></li>
-        <li><a href="#child-care">Child Care</a></li>
         <li><a href="#bringing-guests">Bringing Guests</a></li>
         <li><a href="#pets">Pets</a></li>
+        <li><a href="#sunriver-resort-perks">Sunriver Resort Perks</a>
     </ul>
 </div>
+
+## Preparing for the Conference
+
+Before
+
+<div class="cta secondary"><a href="/conference/prep">Prep Guide</a></div>
+
 
 ## Conference Dashboard
 
@@ -71,16 +78,13 @@ There is a campground quite close to Sunriver Resort called [Big River Campgroun
 
 Unless you live in Bend, you'll need to travel to Sunriver Resort. There are many ways to get to and from Cascadia, so please check-out our [Travel Guide](/travel) for information on trains, shuttle buses, car pools and more.
 
-## Child Care
-
-We are offering professional, on-site child care for kids 12 and under. Please check out our [Child Care Guide](/conference/child-care) for more information on what we are providing and how you can reserve your spot.
-
 ## Bringing Guests
 
 Guests, including family, friends and significant others, are welcome! If you would like your guest to join you for meals and activities, they will need a [Guest Pass](/tickets). A Guest Pass includes breakfast, lunch and dinner on August 31 and September 1. For guests 18 years and older, it also includes access to the Welcome Reception and two evening events. Guest Passes are FREE for children 5 and under!
 
 Alternatively, in place of purchasing a Guest Pass, your guests are free to dine at several different [on-site restaurants](https://www.sunriverresort.com/dining-eat-drink/food-and-drinks-overview). 
 
+We are also offering professional, on-site child care for kids 12 and under. Please check out our [Child Care Guide](/conference/child-care) for more information on what we are providing and how you can reserve your spot.
 
 ## Pets
 
