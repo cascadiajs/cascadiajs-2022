@@ -21,6 +21,7 @@ When you're not talking to the founders and checking out what they're building, 
         <div><img src="/images/sponsors/retool.png" alt="Retool logo"/></div>
         <div><img src="/images/sponsors/mux.png" alt="Mux logo"/></div>
         <div><img src="/images/sponsors/contrast-security.png" alt="Contrast Security logo"/></div>
+        <div><img src="/images/sponsors/circle.png" alt="Circle logo"/></div>
     </div>
 </div>
 
@@ -88,3 +89,16 @@ Contrast Security empowers developers to secure-as-they code. The Secure Code Pl
 </div>
 
 <div class="cta secondary"><a target="_blank" href="https://www.contrastsecurity.com/contrast-careers">contrastsecurity.com/contrast-careers</a></div>
+
+### Circle
+
+At Circle, we envision a global economy where people and businesses everywhere can more freely connect and transact with each other, through a system that has the reach and accessibility of the internet and knows no borders or boundaries. We believe that such a system can raise prosperity for people and companies anywhere.
+
+ <div class="topics">
+    <div class=js-topic>Startup</div>
+    <div class=js-topic>500+ employees</div>
+    <div class=js-topic>Remote First</div>
+    <div class=js-topic>Frontend / Backend / DeFi</div>
+</div>
+
+<div class="cta secondary"><a target="_blank" href="https://www.circle.com/en/careers">circle.com/en/careers</a></div>
