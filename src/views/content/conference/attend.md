@@ -18,7 +18,7 @@ excerpt: Lodging, Travel, Guest Passes and more!
 
 ## Preparing for the Conference
 
-Before
+Before you leave your home to travel to Cascadia, make sure you've got everything need to be ready for all the fun!
 
 <div class="cta secondary"><a href="/conference/prep">Prep Guide</a></div>
 
