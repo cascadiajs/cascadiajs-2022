@@ -1536,6 +1536,8 @@ a[target="_blank"]:after {
     #live {
         /*height: calc(100vh - 46px);*/
         display: grid;
+        gap: 8px;
+        padding:8px;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 100%;
         background-color: #eee;
@@ -1546,9 +1548,9 @@ a[target="_blank"]:after {
     }
 
     #live #right-pane {
-        padding: 8px;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
 
     #stream-text {
@@ -1557,19 +1559,19 @@ a[target="_blank"]:after {
     }
     
     #emote {
-        flex-basis: 150px;
+
     }
 
     emote-widget {
         display: block;
-        /*position: absolute;
-        z-index: 10;
-        left: 0;
-        bottom: 0;*/
+        position: absolute;
+        z-index: 100;
+        left: -64px;
+        bottom: -72px;
     }
 
     #live #stream {
-        padding: 8px;
+        
     }
 
     #stream .inner {

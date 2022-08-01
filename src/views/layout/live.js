@@ -21,13 +21,6 @@ module.exports = function Layout ({title = 'CascadiaJS 2022 - Live Stream', cont
           </div>
           ${ view === 'live' ? /*html*/`
           <div id="settings">
-            <div class="label">Captions</div>
-            <div>
-              <label class="switch">
-                <input id="stream-text-button" type="checkbox" checked>
-                <span class="slider"></span>
-              </label>
-            </div>
             <div id="settings-label-clapping" class="label">Clapping Audio</div>
             <div id="settings-switch-clapping">
               <label class="switch">

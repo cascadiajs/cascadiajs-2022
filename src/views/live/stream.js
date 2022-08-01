@@ -4,7 +4,7 @@ let { DayOne, DayTwo } = require('../components/schedule')
 module.exports = function Live({ speakers, ticket, links }) {
     let isDayOne = (new Date() - new Date('2022-09-01T04:00:00.0Z') < 0)
     let dayContainer = (isDayOne ? DayOne({ speakers, ticket, links }) : DayTwo({ speakers, ticket, links }))
-    let playbackId = (isDayOne ? 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM' : 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM')
+    let playbackId = 'Tjyi00T802Zdjf8x00qzGpXEHgL43Jhcbl27hC9oXlgHr4' // MOVE THIS INTO DB!
     let content = /*html*/`
     <div id="live">
         <section id="stream"> 
@@ -15,21 +15,16 @@ module.exports = function Live({ speakers, ticket, links }) {
                     metadata-video-title="Test Live Stream"
                     metadata-viewer-user-id="user-id-007"
                     muted="true"
+                    autoplay="any"
                     default-hidden-captions>
                 </mux-player>
-                <h2 class="sponsor">Livestream by <img src="/images/sponsors/mux.png"/></h2>
-            </div>
-            <div id="stream-text" class="stream-text-true">
-                <iframe id="stFrame" 
-                src="//www.streamtext.net/player?event=CascadiaJS&header=true&footer=false&scroll=false&chat=false" 
-                style="width:100%;height:95%" frameborder="0"></iframe>
             </div>
         </section>
         <section id="right-pane">
             <div id="graphic-recording">
                 <div class="video-container">
                     <iframe
-                        src="https://player.twitch.tv/?channel=cascadiajs&parent=localhost&parent=2021.cascadiajs.com"
+                        src="https://player.twitch.tv/?channel=cascadiajs&parent=localhost&parent=2022.cascadiajs.com"
                         height="100%"
                         width="100%"
                         frameborder="no"
@@ -37,7 +32,13 @@ module.exports = function Live({ speakers, ticket, links }) {
                         allowfullscreen="allowfullscreen">
                     </iframe>
                 </div>
-                <h2 class="sponsor">Illustrations by <img src="/images/sponsors/netlify.svg"/></h2>
+            </div>
+            <div id="mux-sponsor">
+                <p><img src="/images/sponsors/livestream-powered.png"/></p>
+            </div>
+            <div id="now-and-next">
+                <p>On Stage Now: The Startup's Guide to Creating a Design System by Isabela Moreira</p>
+                <p>Coming Up Next: Coffee Break</p>
             </div>
             <div id="emote">
                 <emote-widget talk-id="cjs22-brian" open="false"></emote-widget>
@@ -51,7 +52,7 @@ module.exports = function Live({ speakers, ticket, links }) {
         </div>
     </div>
     `
-    let html = LiveLayout({ content, view: 'live', scripts: ['https://unpkg.com/@mux/mux-player', '/js/emote.js', '/js/live.js'] })
+    let html = LiveLayout({ content, view: 'live', scripts: ['https://unpkg.com/@mux/mux-player', '/js/emote.js', '/js/sounds.js'] })
     return { html }
 }
 

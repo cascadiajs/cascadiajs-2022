@@ -9,6 +9,7 @@
   "devDependencies": {
     "@architect/architect": "^10.3.4",
     "@architect/sandbox": "^4.0",
+    "dotenv": "^16.0.1",
     "node-fetch": "^2.6.5"
   },
   "dependencies": {
