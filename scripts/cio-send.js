@@ -20,7 +20,7 @@ async function main() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${ process.env.CUSTOMERIO_TOKEN }` 
+            'Authorization': `Bearer ${ process.env.CUSTOMERIO_TOKEN }`
         },
         body:    JSON.stringify(payload),
     })

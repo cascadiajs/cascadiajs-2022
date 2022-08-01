@@ -22,23 +22,6 @@ Before you leave your home to travel to Cascadia, make sure you've got everythin
 
 <div class="cta secondary"><a href="/conference/prep">Prep Guide</a></div>
 
-
-## Conference Dashboard
-
-### Check Your Login
-
-First, please make sure you can log in to the <a target="_blank" href="/home/dashboard">Conference Dashboard</a>. All you need is the email address you used when you assigned your conference ticket, magic links via email will handle the rest.
-
-### Create Your Virtual Ticket
-
-<img src="https://begin-static-p6uw2-production.s3.us-west-2.amazonaws.com/dawn-jh5/ticket-1.png" alt="Carter's virtual ticket" width="300" />
-
-After you log-in to the Dashboard, you can add yourself to our Conference Directory and create your own customized Virtual Ticket. 
-
-### Register for Activities
-
-All in-person conference attendees will have the opportunity to RSVP for one of the [Activity Track](/conference/activities) options on the afternoon of August 31. Make sure you Register for your activity of choice, because spaces are limited and will go fast!
-
 ## Lodging
 
 ### Sunriver Resort
