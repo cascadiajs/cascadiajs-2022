@@ -27,12 +27,17 @@ When you're not talking to the founders and checking out what they're building, 
 
 ### Fictiv
 
-Build the future of manufacturing.
+Fictiv is a rapidly growing, all-in-one manufacturing SaaS platform that works with companies such as Ford, Honeywell, NASA, SpaceX and Tesla, helping them build groundbreaking technology since 2013.
+
+Cutting-edge companies choose us because we accelerate innovations in the supply chain industry, bringing speed and automation to historically slow and tedious processes.
+
+We're always looking for technology leads, and software and engineering talent, so come build the future with us!
 
  <div class="topics">
     <div class=js-topic>Startup</div>
-    <div class=js-topic>Full Stack</div>
-    <div class=js-topic>Remote Options</div>
+    <div class=js-topic>> 200 employees</div>
+    <div class=js-topic>Frontend / Backend / Full Stack</div>
+    <div class=js-topic>US / Remote</div>
 </div>
 
 <div class="cta secondary"><a target="_blank" href="https://www.fictiv.com/careers">fictiv.com/careers</a></div>
@@ -59,6 +64,7 @@ Retool is a fast way to build internal tools. You visually design apps that inte
 
  <div class="topics">
     <div class=js-topic>Startup</div>
+    <div class=js-topic>> 200 employees</div>
     <div class=js-topic>Frontend / Full Stack</div>
     <div class=js-topic> SF, SEA and NYC</div>
 </div>
@@ -71,7 +77,7 @@ Mux is video for developers. Our mission is to democratize video by solving the 
 
  <div class="topics">
     <div class=js-topic>Startup</div>
-    <div class=js-topic>~200 employees</div>
+    <div class=js-topic>> 200 employees</div>
     <div class=js-topic>Full Stack / Eng Mgr</div>
     <div class=js-topic>Remote / SF</div>
 </div>
@@ -84,7 +90,7 @@ Contrast Security empowers developers to secure-as-they code. The Secure Code Pl
 
  <div class="topics">
     <div class=js-topic>Startup</div>
-    <div class=js-topic>100+ employees</div>
+    <div class=js-topic>> 100 employees</div>
     <div class=js-topic>Full Stack</div>
 </div>
 
@@ -96,7 +102,7 @@ At Circle, we envision a global economy where people and businesses everywhere c
 
  <div class="topics">
     <div class=js-topic>Startup</div>
-    <div class=js-topic>500+ employees</div>
+    <div class=js-topic>> 500 employees</div>
     <div class=js-topic>Remote First</div>
     <div class=js-topic>Frontend / Backend / DeFi</div>
 </div>

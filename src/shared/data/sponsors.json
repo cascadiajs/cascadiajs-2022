@@ -84,6 +84,7 @@
     "logo": "circle.png",
     "square": "circle-square.png",
     "jobs": "https://www.circle.com/en/careers",
+    "job_desc": "At Circle, we envision a global economy where people and businesses everywhere can more freely connect and transact with each other, through a system that has the reach and accessibility of the internet and knows no borders or boundaries. We believe that such a system can raise prosperity for people and companies anywhere.",
     "workshop": "Connecting the Fiat and Crypto Worlds with Digital Dollars",
     "workshop_link": "/workshops/digital-payments-circle",
     "description": "Circle is a global financial technology firm that's at the center of digital currency innovation and open financial infrastructure. We bridge the traditional financial system and the world's leading public blockchains to unlock growth for businesses and investors around the world.",
@@ -97,6 +98,7 @@
     "logo": "codingscape.svg",
     "square": "codingscape-square.png",
     "jobs": "https://codingscape.com/jobs",
+    "job_desc": "The Codingscape Team is a US based group of senior engineers that have over 20 years building unique products, experiences, and implementing processes for Fortune 500 companies together. We can manage the entire software project lifecycle from start to finish or work directly with existing product and development teams. The Codingscape team is comfortable working in both enterprise and startup environments.\n\nOur highest commitment is to our team. This means you! Working with world-class developers is our foremost goal. We value colleagues who have high integrity, excellent communication and who are fantastic at their job.  Codingscape is a remote native organization, and no positions require travel or for work to be done in an office.",
     "description": "Codingscape is a custom software development company specializing in high-quality development projects.  Our team of Senior Software Engineers are all based in North America and are experts at contributing to your projects quickly.",
     "short": "Codingscape is a custom software development company specializing in high-quality development projects."
   },
@@ -127,7 +129,8 @@
     "logo": "fictiv.png",
     "square": "fictiv-square.png",
     "description": "Build the future of manufacturing.",
-    "jobs": "https://www.fictiv.com/careers"
+    "jobs": "https://www.fictiv.com/careers",
+    "job_desc": "Fictiv is a rapidly growing, all-in-one manufacturing SaaS platform that works with companies such as Ford, Honeywell, NASA, SpaceX and Tesla, helping them build groundbreaking technology since 2013.\n\nCutting-edge companies choose us because we accelerate innovations in the supply chain industry, bringing speed and automation to historically slow and tedious processes.\n\nWe're always looking for technology leads, and software and engineering talent, so come build the future with us!"
   },
   {
     "key": "retool",
@@ -137,6 +140,7 @@
     "logo": "retool.png",
     "square": "retool-square.jpg",
     "jobs": "https://retool.com/careers/",
+    "job_desc": "Retool is a fast way to build internal tools. You visually design apps that interface with any database or API, and switch to code nearly anywhere to customize how your apps look or work. By removing the friction to build internal tools, we help developers solve operational challenges with custom tools while keeping the team focused on high-value work. Thousands of teams at companies like Amazon, DoorDash, Peloton, and Brex collaborate around custom-built Retool apps to solve internal workflows.",
     "description": "Retool is a fast way to build internal tools. You visually design apps that interface with any database or API, and switch to code nearly anywhere to customize how your apps look or work. By removing the friction to build internal tools, we help developers solve operational challenges with custom tools while keeping the team focused on high-value work. Thousands of teams at companies like Amazon, DoorDash, Peloton, and Brex collaborate around custom-built Retool apps to solve internal workflows.",
     "short": "Build internal tools, remarkably fast."
   },
@@ -326,5 +330,15 @@
     "logo": "tao.png",
     "square": "tao-square.jpg",
     "description": "The Technology Association of Oregon is creating and uniting a world-class innovation economy in Oregon and beyond."
+  },
+  {
+    "key": "106-miles",
+    "tier": "community",
+    "name": "106 Miles",
+    "url": "https://meetup.com/106miles",
+    "logo": "106-miles.jpg",
+    "square": "106-miles-square.jpg",
+    "short": "We help entrepreneurial engineers and get honest information about the ins and outs of venture backed startups.",
+    "description": "We are a long-running nonprofit based in Silicon Valley, whose mission is to help entrepreneurial engineers navigate the tech industry. We host face to face meetups in San Francisco and Palo Alto, where you can meet fellow entrepreneurs and get honest information about the ins and outs of venture backed startups."
   }
 ]
