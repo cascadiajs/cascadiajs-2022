@@ -22,8 +22,9 @@ async function authenticated(req) {
   let speakers = speakerData.speakers
   let { view } = req.params
   let links = await data.get( {table: 'links', limit: 100 })
+  let setting = await data.get( {table: 'settings', key: 'playbackId' })
   if (view === 'stream') {
-    return StreamView({ speakers, ticket, links })
+    return StreamView({ speakers, ticket, links, playbackId: setting.value })
   }
   else if (view === 'expo') {
     return ExpoView({ links })

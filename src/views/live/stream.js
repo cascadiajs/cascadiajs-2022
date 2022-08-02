@@ -1,10 +1,10 @@
 let LiveLayout = require('../layout/live')
 let { DayOne, DayTwo } = require('../components/schedule')
 
-module.exports = function Live({ speakers, ticket, links }) {
+module.exports = function Live({ speakers, ticket, links, playbackId  }) {
     let isDayOne = (new Date() - new Date('2022-09-01T04:00:00.0Z') < 0)
     let dayContainer = (isDayOne ? DayOne({ speakers, ticket, links }) : DayTwo({ speakers, ticket, links }))
-    let playbackId = 'Tjyi00T802Zdjf8x00qzGpXEHgL43Jhcbl27hC9oXlgHr4' // MOVE THIS INTO DB!
+    playbackId = /*playbackId ||*/ 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM'
     let content = /*html*/`
     <div id="live">
         <section id="stream"> 

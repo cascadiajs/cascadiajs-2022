@@ -1064,10 +1064,6 @@ a.js-topic:hover {
 
 /* live page */
 
-#live {
-    display:block;
-}
-
 #live-header {
     background-color: #112378;
     padding: 8px;
@@ -1110,6 +1106,18 @@ a.js-topic:hover {
     color: #fff;
     margin: 0 8px 8px 0;
 }
+
+#live {
+    padding: 16px;
+}
+
+#live  #mux-sponsor {
+    margin-top: 16px;
+}
+
+mux-player {
+    width: 100%;
+} 
 
 #settings .switch {
     margin: 0 8px 8px 0;
@@ -1534,17 +1542,17 @@ a[target="_blank"]:after {
     }
 
     #live {
-        /*height: calc(100vh - 46px);*/
         display: grid;
-        gap: 8px;
-        padding:8px;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 100%;
-        background-color: #eee;
     }
 
     #graphic-recording, #stream-text {
         display: block;
+    }
+
+    #live #stream {
+        margin-right: 16px;
     }
 
     #live #right-pane {
@@ -1557,21 +1565,13 @@ a[target="_blank"]:after {
         background-color: #fff;
         height: auto;
     }
-    
-    #emote {
-
-    }
 
     emote-widget {
         display: block;
         position: absolute;
         z-index: 100;
-        left: -64px;
+        right: 0;
         bottom: -72px;
-    }
-
-    #live #stream {
-        
     }
 
     #stream .inner {

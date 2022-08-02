@@ -21,7 +21,7 @@ require('dotenv').config()
  */
 
 
-async function main() {
+async function createLivestream() {
     // create a payload for the REST API call that will initialize a livestream and simulcast it to both Twitter and Twitch
     let payload = {
         "playback_policy": [
@@ -62,9 +62,45 @@ async function main() {
         },
         body:    JSON.stringify(payload),
     })
-
     const result = await response.json()
-    console.log(result)
+    console.log(result.data)
+    return result.data.playback_ids[0].id
+}
+
+async function updatePlaybackId(env, password, playbackId) {
+    let url
+    if (env === 'testing') {
+        url = 'http://localhost:3333'
+    }
+    else  {
+        url = `https://${ env === 'staging' ? 'staging.' : '' }2022.cascadiajs.com`
+    }
+    // log-in
+    let params = new URLSearchParams()
+    params.append('password', password)
+    let login = await fetch(`${url}/admin`, {method: 'POST', body: params, redirect: 'manual'})
+
+    // get the session cookie
+    let cookie = login.headers.get('set-cookie')
+
+    // update the app setting
+    params = new URLSearchParams()
+    params.append('key', 'playbackId')
+    params.append('value', playbackId)
+    await fetch(`${url}/admin/settings/playbackId`, {
+        method: 'POST',
+        headers: { cookie },
+        body:    params,
+        redirect: 'manual'
+    })
+    console.log('Setting Updated: playbackId = ', playbackId)
+}
+
+async function main() {
+    let env = process.argv[2]
+    let password = process.argv[3]
+    let playbackId = await createLivestream()
+    await updatePlaybackId(env, password, playbackId)
 }
 
 main()
