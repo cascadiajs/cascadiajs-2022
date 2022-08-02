@@ -22,9 +22,12 @@ async function authenticated(req) {
   let speakers = speakerData.speakers
   let { view } = req.params
   let links = await data.get( {table: 'links', limit: 100 })
+  // enable override of the playbackId for testing purposes
+  let playbackIdOverride = req.queryStringParameters.playbackId
   let setting = await data.get( {table: 'settings', key: 'playbackId' })
+  let playbackId = playbackIdOverride || (setting ? setting.value : undefined)
   if (view === 'stream') {
-    return StreamView({ speakers, ticket, links, playbackId: setting.value })
+    return StreamView({ speakers, ticket, links, playbackId })
   }
   else if (view === 'expo') {
     return ExpoView({ links })

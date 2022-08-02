@@ -35,6 +35,9 @@ async function authenticated(req) {
     let linkData = await data.get( {table: 'links', limit: 100 })
     let newLink = link()
     let linksSection = `<h2>Private Links</h2>${ linkData.map(link).join('') + newLink }`
+    let settingsData = await data.get( {table: 'settings', limit: 100 })
+    let newSetting = setting()
+    let settingsSection = `<h2>Settings</h2>${ settingsData.map(setting).join('') + newSetting }`
     //let newSpeaker = speaker()
     //let speakersSection = `<h2>Speakers</h2>${ newSpeaker + speakerData.map(speaker).join('') }`
     let ticketData = await data.get( {table: 'tickets', limit: 5000 })
@@ -42,7 +45,7 @@ async function authenticated(req) {
     let ticketsSection = `<h2>Tickets</h2>${ newTicket + ticketData.map(ticket).join('') }`
     let rsvpData = await data.get({ table: 'rsvps', limit: 500 })
     let activitySection = `<h2>Activity Registrations</h2>${ newRsvp() }${ activities.map((a) => { return activity(a, rsvpData, ticketData) }).join('') }`
-    let html = layout(linksSection /*+ speakersSection*/ + ticketsSection + activitySection)
+    let html = layout(settingsSection + linksSection /*+ speakersSection*/ + ticketsSection + activitySection)
     return { html }
   //}
 }
@@ -103,6 +106,17 @@ function link(l) {
         <input type=${ l ? 'hidden' : 'text' } name=key placeholder="key" value="${ l ? l.key : '' }">
         <input type=text name=label placeholder="Label" value="${ l ? l.label : '' }">
         <input type=text name=url placeholder="https://foo.com/bar" value="${ l ? l.url : '' }">
+        <button>Save</button>
+      </form>
+    </details>`
+}
+
+function setting(s) {
+  return `<details>
+      <summary>${ s ? s.key : 'New Setting' }</summary>
+      <form action=/admin/settings/${ s ? s.key : 'new' } method=post>
+        <input type=${ s ? 'hidden' : 'text' } name=key placeholder="key" value="${ s ? s.key : '' }">
+        <input type=text name=value placeholder="value" value="${ s ? s.value : '' }">
         <button>Save</button>
       </form>
     </details>`
