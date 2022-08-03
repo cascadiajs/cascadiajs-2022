@@ -4,9 +4,24 @@ title: FAQ and COVID Information
 <div class="toc">
 <h2>On This Page</h2>
     <ul>
+        <li><a href="#code-of-conduct">Code of Conduct</a></li>
+        <li><a href="#accessibility">Accessibility</a></li>
         <li><a href="#covid">Covid & Safety</a></li>
     </ul>
 </div>
+
+## Code of Conduct
+
+CascadiaJS is dedicated to providing a harassment-free conference experience for everyone. Our Code of Conduct applies to ALL participants of our events, including speakers and sponsors.
+
+Please review our [Code of Conduct](/code-of-conduct) thoroughly so that you understand what we expect of everyone and 
+
+
+## Accessibility
+
+In order to build an inclusive community for web developers we work hard to make our event as accessible as possible.
+
+Learn more about our [accessibility efforts](/accessibility) for this year's CascadiaJS.
 
 ## COVID
 
