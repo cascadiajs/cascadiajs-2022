@@ -28,7 +28,7 @@ Before you leave your home to travel to Cascadia, make sure you've got everythin
 
 ![Sunriver Resort guest room](/images/sunriver/sunriver-guest-room.webp)
 
-<div class="highlight warning">UPDATE: Our group block has expired. If you need to book a room, please email us at info@cascadiajs.com and we will try to help!</div>
+<div class="highlight success">UPDATE: Our group block has expired, but we set aside some extra rooms! If you need to book a room, please email us at info@cascadiajs.com and we get you hooked up!</div>
 
 Conference attendees receive **discounted room rates** at Sunriver Resort and **the 17.5% resort fee is waived**. 
 
