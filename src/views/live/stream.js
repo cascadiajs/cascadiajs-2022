@@ -12,8 +12,8 @@ module.exports = function Live({ speakers, ticket, links, playbackId  }) {
                 <mux-player
                     stream-type="live"
                     playback-id="${ playbackId }"
-                    metadata-video-title="Test Live Stream"
-                    metadata-viewer-user-id="user-id-007"
+                    metadata-video-title="CascadiaJS 2022 Livestream"
+                    metadata-viewer-user-id="${ ticket.key }"
                     muted="true"
                     autoplay="any"
                     default-hidden-captions>

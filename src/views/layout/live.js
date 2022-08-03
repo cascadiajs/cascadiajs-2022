@@ -17,7 +17,7 @@ module.exports = function Layout ({title = 'CascadiaJS 2022 - Live Stream', cont
             <div><a class="${ view === 'live' ? 'selected': ''}" href="/live/stream">Live</a></div>
             <div><a class="${ view === 'expo' ? 'selected': ''}" href="/live/expo">Expo</a></div>
             <div><a class="${ view === 'jobs' ? 'selected': ''}" href="/live/jobs">Jobs</a></span></div>
-            <div><a href="/conf/handbook" target="_handbook">Handbook</a></div>
+            <div><a href="/conference/handbook" target="_handbook">Handbook</a></div>
           </div>
           ${ view === 'live' ? /*html*/`
           <div id="settings">

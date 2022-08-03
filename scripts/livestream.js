@@ -50,6 +50,12 @@ async function createLivestream() {
             "stream_key" : process.env.TWITCH_STREAM_KEY,
             "passthrough" : "Twitch Test"
           }
+          ,
+          {
+            "url" : "rtmp://a.rtmp.youtube.com/live2",
+            "stream_key" : process.env.YOUTUBE_STREAM_KEY,
+            "passthrough" : "YouTube Test"
+          }
         ]
       }
 
