@@ -25,7 +25,16 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
                     <div class="cta secondary"><a href="https://github.com/login/oauth/authorize?client_id=${ clientID }">Get Added to Directory</a></div>`
                 }
                 ${ isInPerson
-                    ? /*html*/`<h2>Activity Track RSVP</h2>
+                    ? /*html*/`
+                        <h2>Workshop Track</h2>
+                        <p>These workshops are FREE to all in-person attendees!</p>
+                        <table id="workshop-rsvp">
+                            <tr><td>8/31 @ 10:30am</td><td><a href="/workshops/alerts-nodejs-courier">Sending Multi-channel Alerts From Your Node.JS Environment with Courier</a></td><td><a target="_blank" href="https://ti.to/event-loop/cascadiajs-2022/with/7bcjwyo4ys">RSVP</a></td></tr>
+                            <tr><td>8/31 @ 1:30pm</td><td><a href="/workshops/babylonjs-metaverse">Learn Babylon.js to Create Your Own 3D Metaverse Environments</a></td><td><a target="_blank" href="https://ti.to/event-loop/cascadiajs-2022/with/dviiwcsynwc">RSVP</a></td></tr>
+                            <tr><td>9/1 @ 10:30am</td><td><a href="/workshops/digital-payments-circle">Connecting the Fiat and Crypto Worlds with Digital Dollars</a></td><td><a target="_blank" href="https://ti.to/event-loop/cascadiajs-2022/with/3ocrs1jwc7w">RSVP</a></td></tr>
+                            <tr><td>9/1 @ 1:30pm</td><td><a href="/workshops/ecommerce-cloudinary">Performance-First Ecommerce & Visual Web Experiences with Cloudinary</a></td><td><a target="_blank" href="https://ti.to/event-loop/cascadiajs-2022/with/b8h7ytftg3c">RSVP</a></td></tr>
+                        </table>
+                        <h2>Activity Track</h2>
                         <p>Choose your own adventure and register to your Activity of choice! The Activity Track will take place on the afternoon of Day One, August 31. Please <a href="/conference/activities">review the descriptions</a> of each activity before you make your selection. You can "un-register" anytime and make a new selection if there are spots open.</p>
                         <p><b>Note:</b> We have <span class="highlight success">availability</span> for single and double kayaks, but you will need to email info@cascadiajs.com to book. Please specify your preference: single, double or no preference.</p>
                         <table>
