@@ -4,11 +4,24 @@ let getSpeakerData = require('@architect/shared/get-speaker-data')
 let StreamView = require('@architect/views/live/stream')
 let ExpoView = require('@architect/views/live/expo')
 let JobsView = require('@architect/views/live/jobs')
+let EmbedView = require('@architect/views/live/embed')
 let NotFoundView = require('@architect/views/404')
+
+async function getPlaybackId(req) {
+  // enable override of the playbackId for testing purposes
+  let playbackIdOverride = req.queryStringParameters.playbackId
+  let setting = await data.get( {table: 'settings', key: 'playbackId' })
+  return playbackIdOverride || (setting ? setting.value : undefined)
+}
 
 // check for session
 async function unauthenticated(req) {
-  if (req.session.ticketRef) return
+  let { view } = req.params
+  if (view === 'embed') {
+    let playbackId = await getPlaybackId(req)
+    return EmbedView({ playbackId })
+  }
+  else if (req.session.ticketRef) return
   else {
     let location = `/home/login?message=${ encodeURIComponent('You must be logged-in to access this page') }`
     return { location }
@@ -22,11 +35,8 @@ async function authenticated(req) {
   let speakers = speakerData.speakers
   let { view } = req.params
   let links = await data.get( {table: 'links', limit: 100 })
-  // enable override of the playbackId for testing purposes
-  let playbackIdOverride = req.queryStringParameters.playbackId
-  let setting = await data.get( {table: 'settings', key: 'playbackId' })
-  let playbackId = playbackIdOverride || (setting ? setting.value : undefined)
   if (view === 'stream') {
+    let playbackId = await getPlaybackId(req)
     return StreamView({ speakers, ticket, links, playbackId })
   }
   else if (view === 'expo') {
