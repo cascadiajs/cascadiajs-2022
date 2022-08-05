@@ -93,9 +93,11 @@ Sponsorships are broken down into tiers. No matter what your budget is, we have 
     <tr><td>Invited On Stage</td><td></td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Open/Close thanks</td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Copy in email to all attendees</td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
+    <tr><td>Dedicated Discord channel</td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
+    <tr><td>Video clip during show</td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Dedicated tweet</td><td></td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Grouped tweet</td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td></td><td></td></tr>
-    <tr><td>Job Fair table</td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
+    <tr><td>Job Fair Booth</td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Logo on website</td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
     <tr><td>Dedicated website page</td><td></td><td></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td><td><i class="fa-solid fa-circle-check"></td></tr>
 </table>

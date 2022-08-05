@@ -50,9 +50,6 @@ We trust that you are grown-ups and professionals, so we DO NOT NEED TO PRE-APPR
 
 Make sure, however, to HAVE YOUR SLIDES BACKED-UP ONLINE before you leave for the conference. If your laptop has a misfortune in transit or at Cascadia, we can try to get a "loaner" on which to run your presentation.
 
-
-
-
 ## Giving Your Talk
 
 ### When your talk is scheduled

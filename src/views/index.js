@@ -65,14 +65,14 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
         </section>
         <section id="banner">
             <div class="banner-item">
-                <div class="banner-item-metric">July 30</div>
-                <p>Deadline to book at Sunriver at our Group Rate has been EXTENDED</p>
-                <div class="cta secondary"><a href="/conference/attend">Book</a></div>
+                <div class="banner-item-metric">Virtual</div>
+                <p>Can't attend in-person? No problem, join us on-line!</p>
+                <div class="cta secondary"><a href="/conference/virtual">Learn More</a></div>
             </div>
             <div class="banner-item">
                 <div class="banner-item-metric">Act Fast</div>
                 <p>RSVP for the Activity Track option of your choice before it fills up!</p>
-                <div class="cta secondary"><a href="/conference/attend#conference-dashboard">RSVP</a></div>
+                <div class="cta secondary"><a href="/conference/activities">RSVP</a></div>
             </div>
             <div class="banner-item">
                 <div class="banner-item-metric">Limited Seats</div>
