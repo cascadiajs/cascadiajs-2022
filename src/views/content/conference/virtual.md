@@ -8,7 +8,7 @@ image: /images/gather-dancing.png
 
 The virtual event builds on our successful virtual events from 2020 and 2021, and will include:
 
-*Note: all times below in PST, which is UTC-8*
+*Note: all times below in PDT, which is UTC-7*
 
 <i class="fas fa-tv-retro"></i> Talk Track live stream
 

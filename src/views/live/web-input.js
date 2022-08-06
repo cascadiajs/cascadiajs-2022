@@ -1,9 +1,6 @@
-let LiveLayout = require('../layout/live')
-let { DayOne, DayTwo } = require('../components/schedule')
+let Layout = require('../layout/web-input')
 
-module.exports = function Live({ speakers, ticket, links, playbackId  }) {
-    let isDayOne = (new Date() - new Date('2022-09-01T04:00:00.0Z') < 0)
-    let dayContainer = (isDayOne ? DayOne({ speakers, ticket, links }) : DayTwo({ speakers, ticket, links }))
+module.exports = function Live({ playbackId  }) {
     playbackId = playbackId || 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM'
     let content = /*html*/`
     <div id="live">
@@ -13,7 +10,7 @@ module.exports = function Live({ speakers, ticket, links, playbackId  }) {
                     stream-type="live"
                     playback-id="${ playbackId }"
                     metadata-video-title="CascadiaJS 2022 Livestream"
-                    metadata-viewer-user-id="${ ticket.key }"
+                    metadata-viewer-user-id="web-input"
                     muted="true"
                     autoplay="any"
                     default-hidden-captions>
@@ -42,18 +39,10 @@ module.exports = function Live({ speakers, ticket, links, playbackId  }) {
             </div>
             <div id="emote">
                 <emote-widget talk-id="cjs22-brian" open="false"></emote-widget>
-                <!--audio src="/sounds/applause-8.mp3"></audio-->
             </div>
         </section>
     </div>
-    <div id="live-more">
-        <div id="conf-schedule">
-            ${ dayContainer }
-        </div>
-    </div>
     `
-    let html = LiveLayout({ content, view: 'live', scripts: ['https://unpkg.com/@mux/mux-player', '/js/emote.js', '/js/sounds.js','/js/agenda.js'] })
+    let html = Layout({ content, view: 'live', scripts: ['https://unpkg.com/@mux/mux-player', '/js/emote.js', '/js/sounds.js','/js/agenda.js'] })
     return { html }
 }
-
-
