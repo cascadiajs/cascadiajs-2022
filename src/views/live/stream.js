@@ -13,7 +13,7 @@ module.exports = function Live({ speakers, ticket, links, playbackId  }) {
                     stream-type="live"
                     playback-id="${ playbackId }"
                     metadata-video-title="CascadiaJS 2022 Livestream"
-                    metadata-viewer-user-id="${ ticket.key }"
+                    metadata-viewer-user-id="${ ticket ? ticket.key : 'anonymous' }"
                     muted="true"
                     autoplay="any"
                     default-hidden-captions>

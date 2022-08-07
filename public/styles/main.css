@@ -1547,6 +1547,12 @@ a[target="_blank"]:after {
         grid-template-rows: 100%;
     }
 
+    #live.web-input {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 100%;
+    }
+
     #graphic-recording, #stream-text {
         display: block;
     }
@@ -1566,12 +1572,26 @@ a[target="_blank"]:after {
         height: auto;
     }
 
+    .web-input #now-and-next h2 {
+        font-size: 40px;
+    }
+
+    .web-input #now-and-next div {
+        font-size: 32px;
+        line-height: 40px;;
+    }
+
     emote-widget {
         display: block;
         position: absolute;
         z-index: 100;
         right: 0;
         bottom: -72px;
+    }
+
+    emote-widget.web-input {
+        right: 128px;
+        bottom: 100px;   
     }
 
     #stream .inner {

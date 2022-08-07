@@ -9513,7 +9513,7 @@ class Widget extends BaseLightningElement {
 
   emoteReceived(event) {
     // If animations are enabled, trigger an animation
-    if (this.showAnimations) {
+    if (this.showAnimations && this.animation) {
       this.animation.fireAnimation(event.data);
     } // If a listener is added then trigger it
 

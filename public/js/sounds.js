@@ -37,6 +37,11 @@ document.addEventListener(
       clappingBuffer: null
     }
 
+    // expose clapping boolean to global scope for web-inputs.js
+    window.clapping = function(bool) {
+      state.clapping = bool
+    }
+
     // emote event types that we will use to trigger clapping sound effect
     const CLAPPABLE = ["celebrate", "heart", "plusone", "clap", "smile"];
 
@@ -63,12 +68,15 @@ document.addEventListener(
     }
 
     // wire-up audio controls
-    document.getElementById("clapping-audio-button").onclick = () =>
-      toggleAudio();
+    if (document.getElementById("clapping-audio-button")) {
+      document.getElementById("clapping-audio-button").onclick = () =>
+        toggleAudio();
+    }
 
     // trigger clapping sound effect if applicable
     document.querySelector("emote-widget").onEmote((event) => {
       if (CLAPPABLE.includes(event.data) && state.clapping) {
+        console.log('web-inputs: clapping!')
         audioClap();
       }
     });

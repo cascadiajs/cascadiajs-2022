@@ -54,6 +54,6 @@ module.exports = function Scripts ({ scripts = [] }) {
         onUpdate();
       })();
       </script>
-      ${ scripts.map(s => script(s)) }
+      ${ scripts.map(s => script(s)).join('') }
 `
 }

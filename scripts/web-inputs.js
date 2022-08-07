@@ -30,11 +30,13 @@ async function createLivestream() {
         body:    JSON.stringify(payload),
     })
     let result = await response.json()
-    console.log(result.data)
+    let livestreamId = result.data.id
+    let playbackId = result.data.playback_ids[0].id
 
     payload = {
-      url: "https://2022.cascadiajs.com/live/web-inputs",
-      live_stream_id: result.data.id
+      url: "https://2022.cascadiajs.com/live/web-input",
+      live_stream_id: livestreamId,
+      auto_launch : true
     }
 
     response = await fetch(`https://api.mux.com/video/v1/web-inputs`, {
@@ -48,7 +50,7 @@ async function createLivestream() {
     result = await response.json()
     console.log(result.data)
 
-    return result.data.playback_ids[0].id
+    return playbackId
 }
 
 async function updateWebInputPlaybackId(env, password, webInputplaybackId) {
