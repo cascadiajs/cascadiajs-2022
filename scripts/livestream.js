@@ -38,24 +38,6 @@ async function createLivestream() {
               "passthrough": "English closed captions (auto-generated)",
               "language_code": "en-US"
             }
-        ],
-        "simulcast_targets" : [
-          {
-            "url" : "rtmps://or.pscp.tv:443/x",
-            "stream_key" : process.env.TWITTER_STREAM_KEY,
-            "passthrough" : "Twitter Test"
-          },
-          {
-            "url" : "rtmp://live.twitch.tv/app/",
-            "stream_key" : process.env.TWITCH_STREAM_KEY,
-            "passthrough" : "Twitch Test"
-          }
-          ,
-          {
-            "url" : "rtmp://a.rtmp.youtube.com/live2",
-            "stream_key" : process.env.YOUTUBE_STREAM_KEY,
-            "passthrough" : "YouTube Test"
-          }
         ]
       }
 

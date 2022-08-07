@@ -36,7 +36,7 @@ module.exports = function Live({ playbackId  }) {
             </div>
         </section>
     </div>
-    <div id="mux-sponsor" style="height:281px;width:100%;text-align:center;position:relative">
+    <div id="mux-sponsor" style="height:256px;width:100%;text-align:center;position:relative">
         <span style="vertical-align:middle;height:100%;display:inline-block"></span>
         <img src="/images/sponsors/livestream-powered.png"/>
         <emote-widget class="web-input" talk-id="cjs22-brian" open="false"></emote-widget>
