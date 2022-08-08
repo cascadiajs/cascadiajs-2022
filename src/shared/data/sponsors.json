@@ -175,6 +175,16 @@
     "description": "Building protocols for the future of the Internet"
   },
   {
+    "key": "nx",
+    "tier": "community",
+    "name": "Nx",
+    "url": "https://nx.dev",
+    "logo": "nx.png",
+    "jobs": "https://nrwl.io/careers",
+    "description": "Nx is a smart, fast, and extensible open source build system with first-class monorepo support and powerful integrations. It was created and is maintained by Nrwl, a growing team of software development experts with extensive experience helping startups and Fortune 500's alike build better software through better developer experience and smarter devops.",
+    "short": "Nx is a smart, fast, and extensible open source build system with first-class monorepo support and powerful integrations."
+  },
+  {
     "key": "appwrite",
     "tier": "community",
     "name": "Appwrite",
