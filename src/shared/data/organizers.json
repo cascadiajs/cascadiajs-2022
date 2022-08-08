@@ -6,7 +6,7 @@
         "role": "Lead Organizer",
         "location": "Seattle, WA",
         "twitter": "crtr0",
-        "bio": "Carter is the Founder of CascadiaJS. He loves to write code, play with his daughters and take his labradoodle Otto on walks."
+        "bio": "Carter is the Founder of CascadiaJS. He loves to write code, play with his kids and take his labradoodle Otto on walks."
     },
     {
         "key": "carrie-rabasa",
@@ -15,7 +15,23 @@
         "role": "Design Lead",
         "location": "Seattle, WA",
         "twitter": "carrie_k",
-        "bio": "Logo and brand identity designer. Mom to two amazing girls, one dog, many plants, and a sourdough starter."
+        "bio": "Logo and brand identity designer. Mom to two amazing kids, one dog, many plants, and a sourdough starter."
+    },
+    {
+        "key": "quinn-rabasa",
+        "name": "Quinn Rabasa",
+        "pronouns": "he/him",
+        "role": "Animation Lead",
+        "location": "Seattle, WA",
+        "bio": "Kid coder, artist and animator, loves to play with his dog Otto!"
+    },
+    {
+        "key": "emily-rabasa",
+        "name": "Emily Rabasa",
+        "pronouns": "she/they",
+        "role": "Vintage Swag Lead",
+        "location": "Seattle, WA",
+        "bio": "Jewelry maker, Roblox player and amazing baker!"
     },
     {
         "key": "aaron-turner",
