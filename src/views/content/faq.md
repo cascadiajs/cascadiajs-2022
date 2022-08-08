@@ -30,8 +30,8 @@ Learn more about our [accessibility efforts](/accessibility) for this year's Cas
 The CascadiaJS organizers are currently monitoring the COVID-19 (Coronavirus) situation carefully and daily to ensure the safety of our attendees, speakers, and staff. With this mind, we plan on updating this information on a regular basis. Given what we know now, the following safety measures will be employed and enforced to the strictest possible extent:
 
 - Anyone present on-site including attendees, sponsors, speakers, vendors, staff, and volunteers, are required to prove full vaccination, and provide a negative test result within 48 hours (for PCR) or 24 hours (for Antigen) of admission, and submit to a daily health screening with temperature check. Full vaccination is defined as 2 or more doses of the Moderna or Pfizer vaccine, or 1 or more of the J&J vaccine.
-- Surfaces will be sanitized regularly, and hand sanitizer will be available at every sponsor booth and other locations.
-- Meals are served on compostable single-use serving dishes & trays, in a "grab and go" style.
+- Hand sanitizer will be available at every sponsor booth and other locations.
+- Lunch and dinner will be served outside.
 
 Given these safety measures, we will likely make masking optional unless directed otherwise by government or health officials.
 
