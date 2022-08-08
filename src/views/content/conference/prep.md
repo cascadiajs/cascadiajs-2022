@@ -27,7 +27,7 @@ All in-person conference attendees will have the opportunity to RSVP for one of 
 If you live outside of Bend, please make sure you've [secured lodging](/attend). If you have booked at Sunriver Resort, a few things to remember:
 
 - Have you confirmation numer handy to expedite check-in.
-- The 17.5% (!) is waived for our group, but double-check you're not charged that when you check-out.
+- The 17.5% is waived for our group, but double-check you're not charged that when you check-out.
 
 ## 🔲 Have a Travel Plan
 
@@ -38,7 +38,8 @@ Unless you live in Bend, you'll need to travel to Sunriver Resort. There are man
 There are a few required items that you MUST bring to the conference:
 
 - A government issued photo ID
-- Proof of COVID-19 vaccination
+- Proof of COVID-19 vaccination (photo is OK)
+- Proof of a negative PCR or Antigen test (photo is OK)
 
 Here are some things that we strongly encourage you to consider bringing:
 
@@ -51,15 +52,13 @@ Here are some things that we strongly encourage you to consider bringing:
 
 We will be publishing the menus for all of the meals being served on Aug 31 and Sept 1 soon.
 
-While the resort will do its best to accomodate everyone's needs, there are certain things they are not equipped for, such as preparting kosher or halal meals. 
+While the resort will do its best to accomodate everyone's needs, there are certain things they are not equipped for, such as preparing kosher or halal meals. 
 
-In the event that our catering plan does not work for you, please contact us immediately so that we can figure out a plan for you.
+In the event that our catering plan does not work for you, please make sure you have a plan.
 
 ## 🔲 Bringing Guests
 
-If you are bringing family or friends, consider getting them a [Guest Pass](/tickets). A Guest Pass includes breakfast, lunch and dinner on August 31 and September 1. For guests 18 years and older, it also includes access to the Welcome Reception and two evening events. Guest Passes are FREE for children 5 and under!
-
-We are also offering professional, on-site child care for kids 12 and under. Please check out our [Child Care Guide](/conference/child-care) for more information on what we are providing and how you can reserve your spot.
+If you are bringing family or friends, please review our [Significant Other (SO) Track](/conference/so-track), which includes information on how folks can plug-in to: meals, child care, activities, connecting with other SOs, discounts at Sunriver Resort and more! 
 
 ## 🔲 Make Reservations
 
@@ -67,13 +66,13 @@ All attendees and guests of CascadiaJS recieve the following perks at Sunriver R
 
 - 10% Discount offered for resort-owned [Golf](https://www.sunriverresort.com/central-oregon-bend-golf/golf-overview) at Meadows and Woodlands, [Marina](https://www.sunriverresort.com/activities/the-marina-float-kayak-canoe-stand-up-paddle-board-sup-rentals-bend-central-oregon), [Stables](https://www.sunriverresort.com/activities/morning-wrangle-sunriver-stables) & [Sage Springs Spa Services](https://www.sunriverresort.com/sage-springs-spa-and-fitness/spa/spa-services/)
 
-If you or your guest(s) know you want to do something, consider buying tickets or making reservations soon before things sell out!
+If you or your guest(s) know you want to do something, consider buying tickets or making reservations soon before things book up!
 
-## 🔲 Bringing Pets
+## 🔲 Have a Pet Plan
 
 CascadiaJS is a pet-friendly conference! Here are some important rules and guidelines to keep in mind:
 
 - Sunriver Resort offers [pet-friendly rooms](https://www.sunriverresort.com/hotel-and-vacation-rentals-overview/rooms-overview/pet-friendly-lodging-hotels-bend-central-oregon-activities).
 - Pets CANNOT be left in Sunriver Resort guest rooms unattended.
 - Pets will be welcome at all of our events that take place outside.
-- Pets will be welcome in a specific section of the Talk Track room, but will not be allowed in the Expo Hall or at the indoor workshops or evening events.
+- Pets will be welcome in a specific section of the Talk Track room, but will not be allowed in the Expo Hall or at the indoor workshops or at the indoor portions of the evening events.
