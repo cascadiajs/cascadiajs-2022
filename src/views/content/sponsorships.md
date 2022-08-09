@@ -119,7 +119,7 @@ Your company is making it possible for the event to be at Sunriver Resort this y
 
 Choose from one of two options: **Booth** or **Workshop**.
 
-### Expo Hall Booth <span class="highlight warning">SOLD OUT</span>
+### Expo Hall Booth <span class="highlight success">1 AVAILABLE</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
@@ -189,7 +189,7 @@ Help us create an amazing end to each day by catering a delicious meal and setti
 
 ## Bronze Sponsorships ($5k)
 
-### Activity Track (Aug 31) <span class="highlight warning">2 SOLD, 1 AVAILABLE</span>
+### Activity Track (Aug 31) <span class="highlight warning">SOLD OUT</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
@@ -232,7 +232,7 @@ As a Virtual Booth sponsor, you will receive:
 
 Help us make CascadiaJS friendly to families! We will work with a local Bend-area child care company to provide a safe and fun environment for children while their parents are enjoying the Conference or the Significant Others Track. 
 
-### Captions <span class="highlight success">1 AVAILABLE</span>
+### Captions <span class="highlight warning">SOLD OUT</span>
 
 ![CascadiaJS 2019 closed captioning](/images/past/cjs19-captions.jpg)
 
