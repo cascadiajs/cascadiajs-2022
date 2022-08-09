@@ -43,7 +43,7 @@ document.addEventListener(
     }
 
     // emote event types that we will use to trigger clapping sound effect
-    const CLAPPABLE = ["celebrate", "heart", "plusone", "clap", "smile"];
+    const CLAPPABLE = ["clap"];
 
     // check for Web Audio API
     try {
@@ -76,7 +76,6 @@ document.addEventListener(
     // trigger clapping sound effect if applicable
     document.querySelector("emote-widget").onEmote((event) => {
       if (CLAPPABLE.includes(event.data) && state.clapping) {
-        console.log('web-inputs: clapping!')
         audioClap();
       }
     });

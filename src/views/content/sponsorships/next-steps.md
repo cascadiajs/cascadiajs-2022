@@ -78,6 +78,15 @@ If you are a Gold sponsor, your sponsorship includes adding some email copy to o
 
 Please send over some copy (no more than 2-3 paragraphs) so that we can get it prepped. No images or special formatting, just text and a clear call-to-action and link. This will also be due by <span class="highlight warning">August 12</span>.
 
+If you're looking for inspiration, here's an example of some copy from Simple at a past event:
+
+> At Simple, doing right by our customers is the heart of our business. Simple customers receive a Simple Visa® debit card that's tied to an FDIC-insured account. This account offers no surprise fees, and provides powerful budgeting and savings tools right in our mobile and online apps. We are headquartered in Portland, OR and support a large group of remote engineers across the US. If you're interested in building the future of personal banking with a group of kind, funny, smart people who love music, food, design, coffee, and code, Simple is the place for you.
+>  
+> https://www.simple.com/careers
+> 
+> We hope you're excited about today's talks and workshops - we know we are!
+
+
 ### Job Posting
 
 If you are a Silver or Gold sponsor or have purchased a Job Posting sponsorship, you can get added to our [Job Board](/sponsors/jobs). If you provided a "job posts" link when you filled-out this form, we have taken care of this form you. If you didn't, just email us a link and we'll add it!
