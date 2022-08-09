@@ -26,172 +26,160 @@ const agenda = [
     "when": "2022-08-07T00:40:00.000Z"
   },
   {
-    "id": "recKrDVtO7sMRVjuE",
+    "id": "joyce-park",
     "talk": true,
-    "what": "Speaker Leonardo Faria",
+    "what": "Speaker Joyce Park",
     "when": "2021-11-03T17:45:25.000Z"
   },
   {
-    "id": "recFnVDImZdO7uPSW",
+    "id": "tejas-kumar",
     "talk": true,
-    "what": "Speaker Andrew Hao",
+    "what": "Speaker Tejas Kumar",
     "when": "2021-11-03T18:08:08.000Z"
   },
   {
-    "id": "recUjGPhiQ7AYP0fY",
+    "id": "rachel-white",
     "talk": true,
-    "what": "Speaker Aaron Turner",
+    "what": "Speaker Rachel White",
     "when": "2021-11-03T18:35:53.000Z"
   },
   {
-    "id": "recprVw5cAWeefQ4n",
+    "id": "day-one-lunch-break",
     "talk": false,
     "what": "Lunch break",
     "when": "2021-11-03T19:10:09.000Z"
   },
   {
-    "id": "rec63Kwet9PhSPM5z",
+    "id": "trivikram-kamat",
     "talk": true,
-    "what": "Speaker Ceora Ford",
+    "what": "Speaker Trivikram Kamat",
     "when": "2021-11-03T20:45:00.000Z"
   },
   {
-    "id": "recpdDsCWycvY11CV",
+    "id": "eddie-zaneski",
     "talk": true,
-    "what": "Speaker Michelle Bakels",
+    "what": "Speaker Eddie Zaneski",
     "when": "2021-11-03T21:10:35.000Z"
   },
   {
-    "id": "recQaKG1vewBFT5ou",
+    "id": "joyce-lin",
     "talk": true,
-    "what": "Speaker Romello Goodman",
+    "what": "Speaker Joyce Lin",
     "when": "2021-11-03T21:38:46.000Z"
   },
   {
-    "id": "recZND7UFTIOtoP8G",
+    "id": "day-one-close",
     "talk": false,
-    "what": "Coffee Break",
+    "what": "Closing Day One",
     "when": "2021-11-03T22:04:09.000Z"
   },
   {
-    "id": "recB3SXFDcqNlVmRu",
-    "talk": true,
-    "what": "Speaker Josh Goldberg",
-    "when": "2021-11-03T22:40:25.000Z"
-  },
-  {
-    "id": "reckWcTAcddY5lxrL",
-    "talk": true,
-    "what": "Speaker Kyle Shevlin",
-    "when": "2021-11-03T23:06:44.000Z"
-  },
-  {
-    "id": "rechLlCSCpuf9uLI7",
-    "talk": false,
-    "what": "Cascadia Cup Finale",
-    "when": "2021-11-03T23:34:33.000Z"
-  },
-  {
-    "id": "recL1vvmw2eH2TMxI",
-    "talk": false,
-    "what": "Day One Close",
-    "when": "2021-11-03T23:49:33.000Z"
-  },
-  {
-    "id": "recCWikQliaDwx3uM",
-    "talk": false,
-    "what": "JavaScript Trivia Night",
-    "when": "2021-11-03T23:54:33.000Z"
-  },
-  {
-    "id": "rec1ndZfRUAIg6bth",
+    "id": "day-two-open",
     "talk": false,
     "what": "Day Two Open",
     "when": "2021-11-04T16:10:20.000Z"
   },
   {
-    "id": "recNZHckQN7Scg6lA",
+    "id": "vladimir-de-turckheim",
     "talk": true,
-    "what": "Speaker Charlie Gerard",
+    "what": "Speaker Vladimir de Turckheim",
     "when": "2021-11-04T16:18:35.000Z"
   },
   {
-    "id": "recRhUfh6f4vsGvff",
+    "id": "ian-sutherland",
     "talk": true,
-    "what": "Speaker Lizzie Siegle",
+    "what": "Speaker Ian Sutherland",
     "when": "2021-11-04T16:43:36.000Z"
   },
   {
-    "id": "recYpPOqXBLoiGesD",
+    "id": "day-two-morning-break",
     "talk": false,
-    "what": "Coffee Break",
+    "what": "Morning Break",
     "when": "2021-11-04T17:09:07.000Z"
   },
   {
-    "id": "rec8k4oQh3rAvJISd",
+    "id": "aaroh-mankad",
     "talk": true,
-    "what": "Speaker Brooklyn Zelenka",
+    "what": "Speaker Aaroh Mankad",
     "when": "2021-11-04T17:45:25.000Z"
   },
   {
-    "id": "recg3dXTISGGReT54",
+    "id": "brittany-joiner",
     "talk": true,
-    "what": "Speaker Ian Sutherland",
+    "what": "Speaker Brittany Joiner",
     "when": "2021-11-04T18:12:30.000Z"
   },
   {
-    "id": "rec6PwMcOvkBMj9vp",
+    "id": "daphne-tiger",
     "talk": true,
-    "what": "Speaker Jacques Favreau",
+    "what": "Speakers Daphne & Tiger",
     "when": "2021-11-04T18:35:35.000Z"
   },
   {
-    "id": "recsiGmpEkpK1UeLS",
+    "id": "day-two-lunch-break",
     "talk": false,
     "what": "Lunch break",
     "when": "2021-11-04T19:08:47.000Z"
   },
   {
-    "id": "recobGccJpfxXhXcB",
+    "id": "saimon-sharif",
     "talk": true,
-    "what": "Speaker Daria Caraway",
+    "what": "Speaker Saimon Sharif",
     "when": "2021-11-04T21:00:25.000Z"
   },
   {
-    "id": "recdPYvemb8z9rfgX",
+    "id": "dwane-hemmings",
     "talk": true,
-    "what": "Speaker Derek Hurley",
+    "what": "Speaker Dwane Hemmings",
     "when": "2021-11-04T21:27:55.000Z"
   },
   {
-    "id": "recRjBugpfpdEsOtC",
+    "id": "rebecca-peltz",
+    "talk": true,
+    "what": "Speaker Rebecca Peltz",
+    "when": "2021-11-04T21:27:55.000Z"
+  },
+  {
+    "id": "day-two-afternoon-break",
     "talk": false,
-    "what": "Coffee Break",
+    "what": "Afternoon Break",
     "when": "2021-11-04T22:02:26.000Z"
   },
   {
-    "id": "recz3W6z9dVYMBgds",
+    "id": "mikeal-rogers",
     "talk": true,
-    "what": "Speaker Garann Means",
+    "what": "Speaker Mikeal Rogers",
     "when": "2021-11-04T22:45:25.000Z"
   },
   {
-    "id": "recmoQZWUObP4q4FU",
+    "id": "brooklyn-zelenka",
     "talk": true,
-    "what": "Speaker Feross",
+    "what": "Speaker Brooklyn Zelenka",
     "when": "2021-11-04T23:13:15.000Z"
   },
   {
-    "id": "recAf1h8tW7JyNMif",
+    "id": "day-two-late-afternoon-break",
     "talk": false,
-    "what": "Day Two Close",
+    "what": "Day Two Late Afternoon Break",
     "when": "2021-11-04T23:44:40.000Z"
   },
   {
-    "id": "rec65BeJbaMM8OMo3",
+    "id": "shawn-wang",
+    "talk": true,
+    "what": "Speaker Shawn (swyx) Wang",
+    "when": "2021-11-04T22:45:25.000Z"
+  },
+  {
+    "id": "brian-leroux",
+    "talk": true,
+    "what": "Speaker Brian Leroux",
+    "when": "2021-11-04T23:13:15.000Z"
+  },
+  {
+    "id": "day-two-close",
     "talk": false,
-    "what": "Live Music Performance",
-    "when": "2021-11-05T00:00:00.000Z"
+    "what": "Conference Close",
+    "when": "2021-11-04T23:44:40.000Z"
   }
 ]
 

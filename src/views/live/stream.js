@@ -33,18 +33,21 @@ module.exports = function Live({ speakers, ticket, links, playbackId  }) {
                     </iframe>
                 </div>
             </div>
-            <div id="mux-sponsor">
-                <p><img src="/images/sponsors/livestream-powered.png"/></p>
-            </div>
             <div id="now-and-next">
-                <p>Happening Now: <span id="current-agenda">Loading...</span></p>
-                <p>Coming Up Next: <span id="next-agenda">Loading...</span></p>
+                <h3>Happening Now</h3>
+                <div id="current-agenda">Loading...</span></div>
+                <h3>Coming Up Next</h3>
+                <div id="next-agenda">Loading...</div>
             </div>
             <div id="emote">
                 <emote-widget talk-id="cjs22-brian" open="false"></emote-widget>
                 <!--audio src="/sounds/applause-8.mp3"></audio-->
             </div>
         </section>
+    </div>
+    <div id="mux-sponsor" style="text-align:center;position:relative">
+        <span style="vertical-align:middle;height:100%;display:inline-block"></span>
+        <img src="/images/sponsors/livestream-powered.png"/>
     </div>
     <div id="live-more">
         <div id="conf-schedule">
