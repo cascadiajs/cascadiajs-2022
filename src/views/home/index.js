@@ -4,16 +4,18 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
     let clientID = process.env.GITHUB_CLIENT_ID
     let { full_name, number, release_slug } = ticket
     let isInPerson = process.env.TITO_INPERSON_SLUGS.split(',').indexOf(release_slug) >= 0
+    let isVirtual = process.env.TITO_VIRTUAL_SLUGS.split(',').indexOf(release_slug) >= 0
     //console.log(process.env.TITO_INPERSON_SLUGS, ticket)
     let content = /*html*/`
         <div id=page>
             <div class=page-title><div><h1>Hello ${ full_name }!</h1></div></div>
             <div id="home" class="page-body narrow">
                 ${ message ? `<p><span class="highlight warning">${ message }</span></p>` : ``}
-                <h2>Conference Directory</h2>
+                <h2>Hallway Track</h2>
+                <h3>Conference Directory</h3>
                 ${ ticket.github && ticket.github !== ''
                     ? /*html*/`<p>You have been added to the Conference Directory ✅<p>
-                    <h2>Virtual Ticket</h2>
+                    <h3>Virtual Ticket</h3>
                     <p><img src="${ process.env.BEGIN_STATIC_ORIGIN }/ticket-${ number }.png" alt="image of virtual ticket" width="500"/></p>
                     <p>Anyone who registers via your virtual ticket page gets 10% off!</p>
                     <p>
@@ -24,6 +26,19 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
                     : /*html*/`<p>Let folks know you're attending CascadiaJS this year! We use <a target="_blank" href="https://docs.github.com/en/developers/apps/building-github-apps/authenticating-with-github-apps">Github OAuth</a> to retrieve your profile photo and add it to our Conference Directory. We will also generate a customized virtual ticket that will include a discount code for you to share with your friends!</p>
                     <div class="cta secondary"><a href="https://github.com/login/oauth/authorize?client_id=${ clientID }">Get Added to Directory</a></div>`
                 }
+                ${ isVirtual
+                    ? /*html*/`
+                        <h3>Gather</h3>
+                        <p>Gather is the virtual event space that we have fully customized for your enjoyment. Walk around, meet new people and even watch the Livestream!</p>
+                        <div class="cta secondary"><a target="_gather" href="https://app.gather.town/events/DLM6I5xJNNbT62oqPaqa">Join Gather</a></div>`
+                    : ``
+                }
+                <h3>Discord</h3>
+                <p>Discord is the text chat experience, complete with the animated gifs and reactions that you love.</p>
+                <div class="cta secondary"><a target="_discord" href="https://discord.gg/cascadiajs">Join Discord</a></div>
+                <!--h3>Video Selfie Booth</h3>
+                <p>Hop into the CascadiaJS Video Selfie Booth! Record yourself saying "hello", download the animated gif, and share it in the Discord and on Twitter!</p>
+                <div class="cta secondary"><a target="_booth" href="#">Video Selfie Booth</a></div-->
                 ${ isInPerson
                     ? /*html*/`
                         <h2>Workshop Track</h2>
