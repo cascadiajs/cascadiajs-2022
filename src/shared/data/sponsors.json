@@ -8,6 +8,7 @@
     "square": "cloudinary-square.png",
     "workshop": "Performance-First Ecommerce & Visual Web Experiences with Cloudinary",
     "workshop_link": "/workshops/ecommerce-cloudinary",
+    "video_id": "b34ea2f90a631942da0075cbb17974fc",
     "description": "Developers use Cloudinary to quickly and easily create, manage and deliver their digital experiences across any browser, device and bandwidth."
   },
   {
@@ -40,6 +41,7 @@
     "url": "https://vonage.dev/cascadiajs",
     "logo": "vonage.png",
     "square": "vonage-square.png",
+    "video_id": "2edd33fd988cd03a9c7050398b6bb8e1",
     "description": "Vonage has everything you need to build connected applications with their APIs for SMS, Voice, Video, Verify and more. Whether you want to make and receive phone calls with code, reach users by the messaging platforms they prefer or ensure that users provide the correct contact details, they’ve got you covered. Easily integrate with social chat apps such as Facebook Messenger, WhatsApp and Viber, or build in-app voice and messaging experience on mobile and web. Vonage has quick solutions made easy for you.",
     "short": "Everything you need to build connected applications with APIs for SMS, Voice, Video, Verify & more."
   },
@@ -50,6 +52,7 @@
     "url": "https://formidable.com",
     "logo": "formidable.svg",
     "square": "formidable-square.png",
+    "video_id": "4f837f07c0c6387cb752f33c55a15d24",
     "description": "We build the modern web."
   },
   {
@@ -87,6 +90,7 @@
     "job_desc": "At Circle, we envision a global economy where people and businesses everywhere can more freely connect and transact with each other, through a system that has the reach and accessibility of the internet and knows no borders or boundaries. We believe that such a system can raise prosperity for people and companies anywhere.",
     "workshop": "Connecting the Fiat and Crypto Worlds with Digital Dollars",
     "workshop_link": "/workshops/digital-payments-circle",
+    "video_id": "59bb7f84837e56007a9d5ab608c1d4a7",
     "description": "Circle is a global financial technology firm that's at the center of digital currency innovation and open financial infrastructure. We bridge the traditional financial system and the world's leading public blockchains to unlock growth for businesses and investors around the world.",
     "short": "Payments & treasury infrastructure for the internet"
   },

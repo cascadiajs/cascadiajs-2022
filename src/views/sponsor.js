@@ -3,7 +3,7 @@ let Layout = require('./layout')
 let SocialLayout = require('./layout/social')
 
 let Template = function(sponsor) {
-    const { name, logo, url, jobs, description, workshop, workshop_link } = sponsor
+    const { name, logo, url, jobs, description, workshop, workshop_link, video_id } = sponsor
 
     return /*html*/`
     <div id="page">
@@ -15,6 +15,9 @@ let Template = function(sponsor) {
         <div class="page-body">
             <section class="sponsor">
                 <p><img src="/images/sponsors/${ logo }" alt="logo of ${ name }"/></p>
+                ${ video_id
+                    ? `<div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/${ video_id }?autoplay=true&muted=true&poster=https%3A%2F%2Fcloudflarestream.com%2F${ video_id }%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>`
+                    : '' }
                 <p>${ marked.parse(description) }</p>
                 <div class="cta"><a target="_blank" href="${ url }">Learn More</a></div>
                 ${ jobs ? /*html*/`<h2>${ name } is Hiring!</h2>
