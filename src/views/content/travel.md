@@ -29,7 +29,7 @@ If you end up purchasing tickets on these trains PLEASE make sure to secure a ti
 
 ### Car Pools
 
-We are also interested in helping people organize car pools departing from and return to Portland. If you are interested in catching a ride in a car pool or offering some seats in your car, please fill-out [this form](https://airtable.com/shrEUDtosdLy7IenQ) so we can start to figure this out.
+We are also interested in helping people organize car pools departing from and return to Portland. If you are interested in catching a ride in a car pool or offering some seats in your car, please check-out our [Discord](https://discord.gg/cascadiajs) where we have set-up a forum for people to offer and ask for rides.
 
 ### Flying in to RDM
 
