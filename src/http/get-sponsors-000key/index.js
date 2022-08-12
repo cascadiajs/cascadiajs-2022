@@ -8,8 +8,8 @@ async function Sponsor(req) {
   const { key } = req.params
   const { social } = req.queryStringParameters
   if (key === 'jobs') {
-    sponsors = sponsors.filter(s => s.jobs !== undefined)
-    return await JobsView({ sponsors, social })
+    let hiring = sponsors.filter(s => s.jobs !== undefined)
+    return await JobsView({ sponsors: hiring, social })
   }
   else {
     const sponsor = sponsors.find(s => s.key === key)
