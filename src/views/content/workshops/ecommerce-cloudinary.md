@@ -6,7 +6,7 @@ caption: Colby Fayock of Cloudinary
 <div class="person"><div class="person-photo"><img src="/images/workshops/colby.jpg" alt="Photo of Colby Fayock"/></div></div>
 
 <table>
-    <tr><th>When</th><td>Aug 31 or Sep 1 (timing TBD)</td></tr>
+    <tr><th>When</th><td>Sep 1, 1:30pm</td></tr>
     <tr><th>Where</th><td>Sunriver Resort</td></tr>
     <tr><th>Instructor</th><td>Colby Fayock</td></tr>
     <tr><th>Cost</th><td>FREE for attendees of CascadiaJS</td></tr>
@@ -27,6 +27,8 @@ How can we effectively leverage media to showcase products creating engaging exp
 - Learn how media impacts delivery
 - Use Cloudinary to optimize media delivery
 - Add advanced features to work with media in a modern project
+
+<div class="cta"><a href="/home/dashboard">RSVP</a></div>
 
 ### About Colby Fayock
 

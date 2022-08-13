@@ -4,9 +4,9 @@ excerpt: FREE for attendees of CascadiaJS 2022 and taught by industry experts!
 image: /images/illustrations/feature-workshops.png
 caption: Time to level up!
 ---
-Level up your skills with FREE hands-on workshops!
+Level up your skills with FREE hands-on workshops at Sunriver Resort!
 
-These workshops are **included** in your conference ticket and will run parallel to the Talk Track on August 31 and September 1. We will let all registered attendees know when registration opens, seats will be limited!
+These workshops are **included** in your in-person conference ticket and will run parallel to the Talk Track on August 31 and September 1. Please [log-in](/home/dashboard) to your Conference Dashboard to RSVP.
 
 <section class="person">
     <h2>Sending Multi-channel Alerts From Your Node.JS Environment with Courier</h2>

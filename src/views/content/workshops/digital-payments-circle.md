@@ -6,7 +6,7 @@ caption: Allison Kaufman of Circle
 <div class="person"><div class="person-photo"><img src="/images/workshops/allison-kaufman.jpg" alt="Photo of Allison Kaufman"/></div></div>
 
 <table>
-    <tr><th>When</th><td>Aug 31 or Sep 1 (timing TBD)</td></tr>
+    <tr><th>When</th><td>Sep 1, 10:30am</td></tr>
     <tr><th>Where</th><td>Sunriver Resort</td></tr>
     <tr><th>Instructor</th><td>Allison Kaufman</td></tr>
     <tr><th>Cost</th><td>FREE for attendees of CascadiaJS</td></tr>
@@ -23,6 +23,8 @@ REST API experience
 ### Agenda
 
 A deep dive into how Circle’s Payments, Accounts, and Payouts APIs can bring faster, cheaper, and more secure payments to your platform using the power of the digital dollar.
+
+<div class="cta"><a href="/home/dashboard">RSVP</a></div>
 
 ### About Allison Kaufman
 

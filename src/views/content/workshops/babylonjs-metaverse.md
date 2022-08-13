@@ -6,7 +6,7 @@ caption: Dan Zeitman of Dolby.io
 <div class="person"><div class="person-photo"><img src="/images/workshops/dzeitman.jpg" alt="Photo of Dan Zeitman of Dolby.io"/></div></div>
 
 <table>
-    <tr><th>When</th><td>Aug 31 or Sep 1 (timing TBD)</td></tr>
+    <tr><th>When</th><td>Aug 31, 1:30pm</td></tr>
     <tr><th>Where</th><td>Sunriver Resort</td></tr>
     <tr><th>Instructor</th><td>Dan Zeitman</td></tr>
     <tr><th>Cost</th><td>FREE for attendees of CascadiaJS</td></tr>
@@ -31,6 +31,8 @@ Intermediate JavaScript
 5. Live Streaming
 6. Real-time Communications
 7. Spatial and Perception
+
+<div class="cta"><a href="/home/dashboard">RSVP</a></div>
 
 ### About Dan Zeitman
 

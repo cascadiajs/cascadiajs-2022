@@ -6,7 +6,7 @@ caption: Shreya Gupta of Courier
 <div class="person"><div class="person-photo"><img src="/images/workshops/shreya.jpg" alt="Photo of Shreya Gupta of Courier"/></div></div>
 
 <table>
-    <tr><th>When</th><td>Aug 31 or Sep 1 (timing TBD)</td></tr>
+    <tr><th>When</th><td>Aug 31, 10:30am</td></tr>
     <tr><th>Where</th><td>Sunriver Resort</td></tr>
     <tr><th>Instructor</th><td>Shreya Gupta</td></tr>
     <tr><th>Cost</th><td>FREE for attendees of CascadiaJS</td></tr>
@@ -28,6 +28,8 @@ Participants only need to be comfortable sending JSON API requests.
 * Exploring the datalog
 * Setup your node.js and start sending notifications
 * (Optional) Automate your messages
+
+<div class="cta"><a href="/home/dashboard">RSVP</a></div>
 
 ### About Shreya Gupta
 
