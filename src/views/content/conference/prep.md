@@ -8,7 +8,7 @@ This is a very important guide to making sure you are prepped and ready to go fo
 
 ## 🔲 Check Your Login
 
-First, please make sure you can log in to the <a target="_blank" href="/home/dashboard">Conference Dashboard</a>. This is where you will RSVP for activities, sign-up for raffles and other things related to the conference.
+First, please make sure you can log in to the <a target="_blank" href="/home/dashboard">Conference Dashboard</a>. This is where you will RSVP for workshops and activities, sign-up for raffles and other things related to the conference.
 
 All you need is the email address you used when you assigned your conference ticket, magic links via email will handle the rest.
 
@@ -21,6 +21,10 @@ In the Dashboard you can add yourself to our Conference Directory and create you
 ## 🔲 Register for Activities
 
 All in-person conference attendees will have the opportunity to RSVP for one of the [Activity Track](/conference/activities) options on the afternoon of August 31. Make sure you Register for your activity of choice, because spaces are limited and will go fast!
+
+## 🔲 Register for Workshops
+
+All in-person conference attendees have access to our [Workshop Track](/workshops), where you can get hands-on coding experience. Make sure you RSVP for workshops you want to attend, because spaces are limited and will go fast!
 
 ## 🔲 Have a Lodging Plan
 
@@ -50,15 +54,15 @@ Here are some things that we strongly encourage you to consider bringing:
 
 ## 🔲 Plans Your Meals
 
-We will be publishing the menus for all of the meals being served on Aug 31 and Sept 1 soon.
+We have published [the menus](/conference/meals) for all of the meals being served on Aug 31 and Sept 1.
 
-While the resort will do its best to accomodate everyone's needs, there are certain things they are not equipped for, such as preparing kosher or halal meals. 
+While the resort will do its best to accommodate everyone's needs, there are certain things they are not equipped for, such as preparing kosher or halal meals. 
 
 In the event that our catering plan does not work for you, please make sure you have a plan.
 
 ## 🔲 Bringing Guests
 
-If you are bringing family or friends, please review our [Significant Other (SO) Track](/conference/so-track), which includes information on how folks can plug-in to: meals, child care, activities, connecting with other SOs, discounts at Sunriver Resort and more! 
+If you are bringing family or friends, please review our [Significant Other (SO) Track](/conference/so-track), which includes information on how guests of attendees can plug-in to: meals, child care, activities, connecting with other SOs, discounts at Sunriver Resort and more! 
 
 ## 🔲 Make Reservations
 

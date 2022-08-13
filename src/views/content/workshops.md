@@ -50,7 +50,7 @@ These workshops are **included** in your conference ticket and will run parallel
             <h3>Where</h3>
             <p>Sunriver Resort, OR</p>
             <h3>When</h3>
-            <p>TBD</p>
+            <p>Sep 1, 10:30am</p>
             <h3>Instructor</h3>
             <p>Allison Kaufman</p>
         </div>
@@ -67,7 +67,7 @@ These workshops are **included** in your conference ticket and will run parallel
             <h3>Where</h3>
             <p>Sunriver Resort, OR</p>
             <h3>When</h3>
-            <p>TBD</p>
+            <p>Sep 1, 1:30pm</p>
             <h3>Instructor</h3>
             <p>Colby Fayock</p>
         </div>
