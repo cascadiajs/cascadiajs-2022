@@ -1,5 +1,14 @@
 [
   {
+    "key": "web3-storage",
+    "tier": "platinum",
+    "name": "Web3.Storage",
+    "url": "https://web3.storage",
+    "logo": "web3-storage.png",
+    "square": "web3-storage-square.png",
+    "description": "The easiest way to store data on the decentralized web. Store your data using our simple API. It’s fast, open, and free."
+  },
+  {
     "key": "cloudinary",
     "tier": "gold",
     "name": "Cloudinary",
@@ -179,6 +188,15 @@
     "square": "stateful-square.jpg",
     "jobs": "https://www.stateful.com/careers",
     "description": "Supercharge your VS Code experience. We build tools that make developing in VS Code productive and rewarding."
+  },
+  {
+    "key": "lacework",
+    "tier": "bronze",
+    "name": "Lacework",
+    "url": "https://www.lacework.com",
+    "logo": "lacework.png",
+    "square": "lacework-square.jpg",
+    "description": "Cloud security is knowing truth from the chaos. Shine a light on your multicloud environment with a full spectrum of automated visibility, insights, and actions."
   },
   {
     "key": "fission",
