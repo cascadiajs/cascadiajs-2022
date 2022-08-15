@@ -40,6 +40,7 @@ h2 img {
     vertical-align: bottom;
 }
 
+
 img, video {
     max-height: 100%;
     max-width: 100%;
@@ -589,6 +590,12 @@ section .cta {
     line-height: 1.25em;
     margin: 0;
 	color: #112378;
+}
+
+.title img {
+    margin-left:4px;
+    height: 20px;
+    vertical-align: middle; 
 }
 
 .what .speaker {

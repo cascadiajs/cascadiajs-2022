@@ -30,18 +30,18 @@ function hallwayTrack({ticket = undefined}) {
             </div>
         </div>
     </div>
-    <div class="show-item">       
-        <div class="what">
-            <div class="title">Find Your Friends</div>
-            <br/>
-            <p>We're setting-up affinity tables and channels across our Hallway Track platforms so that you can easily find folks to hang out with!</p>
-        </div>
-    </div>
     <div class="location">Virtual</div>
     <div class="show-item">
         <div class="what">
-            <p>More info coming soon!</p>
+            <div class="title">Walk Around</div>
+            <p>Join us in a virtual space where you can watch the talks, meet new people and chat with our sponsors!</p>
             <p><img src="/images/gather-map.jpg" alt="source: https://www.reddit.com/r/gathertown/comments/no8i1a/our_new_office/"/></p>
+        </div>
+    </div>
+    <div class="show-item">       
+        <div class="what">
+            <div class="title">Find Your Friends</div>
+            <p>We're setting-up affinity tables for everything from "React.js" to "Vancouver, BC" so that you can easily find folks to hang out with!</p>
         </div>
     </div>
 </div>
@@ -66,7 +66,7 @@ function DayZero({ ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">3pm - 6pm</div>
                     <div class="what">
-                        <div class="title">Welcome Reception &amp; Pre-Registration</div>
+                        <div class="title">Welcome Reception &amp; Pre-Registration by <img src="/images/sponsors/fictiv.png"></div>
                         <p>The Welcome Reception will be an opportunity for folks to register and hang out with fellow attendees. When you check-in to Sunriver Resort, you'll be directed to the Welcome Reception, where you'll find drinks, snacks and friends!</p>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ function DayOne({ speakers, ticket = undefined }) {
             <div class="show track">   
                 <div class="show-item">       
                     <div class="when">07:00</div>
-                    <div class="what"><div class="title">Breakfast</div></div>
+                    <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-pan-frying"></i> Breakfast</a></div></div>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@ function DayOne({ speakers, ticket = undefined }) {
         <div class="day-content">
             <div class="show-item">       
                 <div class="when">08:30</div>
-                <div class="what"><div class="title">Child Care Drop-off</div></div>
+                <div class="what"><div class="title">Child Care by <img src="/images/sponsors/formidable.svg"/></div></div>
             </div>
         </div>
         <div class="day-content">
@@ -130,7 +130,7 @@ function DayOne({ speakers, ticket = undefined }) {
                 <div class="location">Homestead Lawn</div>
                 <div class="show-item">       
                     <div class="when">12:30</div>
-                    <div class="what"><div class="title"><i class="fas fa-taco"></i> Lunch</div></div>
+                    <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-taco"></i> Lunch</a> by <img src="/images/sponsors/codingscape.svg"></div></div>
                 </div>
                 <div class="location">Homestead</div>
                 ${ renderSpeaker("13:30", speakers.find(s => s.key === 'trivikram-kamat'))}
@@ -152,7 +152,7 @@ function DayOne({ speakers, ticket = undefined }) {
                 <div class="location">Bessom Commons</div>
                 <div class="show-item">       
                     <div class="when">18:30</div>
-                    <div class="what"><div class="title"><i class="fas fa-burger"></i> Dinner</div></div>
+                    <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-burger"></i> Dinner</a></div></div>
                 </div>
                 <div class="location">Heritage</div>
                 <div class="show-item">       
@@ -212,7 +212,7 @@ function DayTwo({ speakers, ticket = undefined }) {
             <div class="show track">   
                 <div class="show-item">       
                     <div class="when">07:00</div>
-                    <div class="what"><div class="title">Breakfast</div></div>
+                    <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-pan-frying"></i> Breakfast</a></div></div>
                 </div>
             </div>
         </div>
@@ -227,7 +227,7 @@ function DayTwo({ speakers, ticket = undefined }) {
         <div class="day-content">
             <div class="show-item">       
                 <div class="when">08:30</div>
-                <div class="what"><div class="title">Child Care Drop-off</div></div>
+                <div class="what"><div class="title">Child Care by <img src="/images/sponsors/formidable.svg"/></div></div>
             </div>
         </div>
         <div class="day-content">
@@ -256,7 +256,7 @@ function DayTwo({ speakers, ticket = undefined }) {
                 <div class="location">Homestead Lawn</div>
                 <div class="show-item">       
                     <div class="when">12:30</div>
-                    <div class="what"><div class="title"><i class="fas fa-taco"></i> Lunch</div></div>
+                    <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-taco"></i> Lunch</a> by <img src="/images/sponsors/codingscape.svg"></div></div>
                 </div>
                 <div class="location">Homestead</div>
                 ${ renderSpeaker("13:30", speakers.find(s => s.key === 'saimon-sharif'))}
@@ -281,7 +281,7 @@ function DayTwo({ speakers, ticket = undefined }) {
                 <div class="location">Bessom Commons</div>
                 <div class="show-item">       
                     <div class="when">18:30</div>
-                    <div class="what"><div class="title"><i class="fas fa-burger"></i> Dinner</div></div>
+                    <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-burger"></i> Dinner</a></div></div>
                 </div>
                 <div class="location">Heritage</div>
                 <div class="show-item">       
