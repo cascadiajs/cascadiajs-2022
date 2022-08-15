@@ -171,6 +171,16 @@
     "description": "The fastest way to combine your favorite tools and APIs to build the fastest sites, stores, and apps for the web."
   },
   {
+    "key": "stateful",
+    "tier": "bronze",
+    "name": "Stateful",
+    "url": "https://www.stateful.com",
+    "logo": "stateful.svg",
+    "square": "stateful-square.jpg",
+    "jobs": "https://www.stateful.com/careers",
+    "description": "Supercharge your VS Code experience. We build tools that make developing in VS Code productive and rewarding."
+  },
+  {
     "key": "fission",
     "tier": "community",
     "name": "Fission",

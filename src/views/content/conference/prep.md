@@ -31,7 +31,7 @@ All in-person conference attendees have access to our [Workshop Track](/workshop
 If you live outside of Bend, please make sure you've [secured lodging](/attend). If you have booked at Sunriver Resort, a few things to remember:
 
 - Have you confirmation numer handy to expedite check-in.
-- The 17.5% is waived for our group, but double-check you're not charged that when you check-out.
+- The 17.5% resort fee is waived for our group, but double-check you're not charged that when you check-out.
 
 ## 🔲 Have a Travel Plan
 
