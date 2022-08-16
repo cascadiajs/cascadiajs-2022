@@ -51,7 +51,6 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
                         </table>
                         <h2>Activity Track</h2>
                         <p>Choose your own adventure and register to your Activity of choice! The Activity Track will take place on the afternoon of Day One, August 31. Please <a href="/conference/activities">review the descriptions</a> of each activity before you make your selection. You can "un-register" anytime and make a new selection if there are spots open.</p>
-                        <p><b>Note:</b> We have <span class="highlight success">availability</span> for single and double kayaks, but you will need to email info@cascadiajs.com to book. Please specify your preference: single, double or no preference.</p>
                         <table>
                             <tr><th>Activity</th></tr>
                             ${ activities.map((a) => `
