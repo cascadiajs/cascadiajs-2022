@@ -19,14 +19,14 @@ function hallwayTrack({ticket = undefined}) {
             <div class="title">Connect with Experts</div><br/>
             <p>Connect with folks at some of the top software companies in our industry.</p>
             <div class="sponsors">
-                <div><img src="/images/sponsors/cloudinary.png" alt="Cloudinary logo"/></div>
-                <div><img src="/images/sponsors/vonage.png" alt="Vonage logo"/></div>
-                <div><img src="/images/sponsors/circleci.svg" alt="Circle CI logo"/></div>
-                <div><img src="/images/sponsors/formidable.svg" alt="Formidable logo"/></div>
-                <div><img src="/images/sponsors/dolby.svg" alt="Dolby logo"/></div>
-                <div><img src="/images/sponsors/courier.png" alt="Courier logo"/></div>
-                <div><img src="/images/sponsors/circle.png" alt="Circle logo"/></div>
-                <div><img src="/images/sponsors/contrast-security.png" alt="Contrast Security logo"/></div>
+                <div><a href="/sponsors/cloudinary"><img src="/images/sponsors/cloudinary.png" alt="Cloudinary logo"/></a></div>
+                <div><a href="/sponsors/vonage"><img src="/images/sponsors/vonage.png" alt="Vonage logo"/></a></div>
+                <div><a href="/sponsors/circle-ci"><img src="/images/sponsors/circleci.svg" alt="Circle CI logo"/></a></div>
+                <div><a href="/sponsors/formidable"><img src="/images/sponsors/formidable.svg" alt="Formidable logo"/></a></div>
+                <div><a href="/sponsors/dolby"><img src="/images/sponsors/dolby.svg" alt="Dolby logo"/></a></div>
+                <div><a href="/sponsors/courier"><img src="/images/sponsors/courier.png" alt="Courier logo"/></a></div>
+                <div><a href="/sponsors/circle"><img src="/images/sponsors/circle.png" alt="Circle logo"/></a></div>
+                <div><a href="/sponsors/contrast-security"><img src="/images/sponsors/contrast-security.png" alt="Contrast Security logo"/></a></div>
             </div>
         </div>
     </div>
@@ -66,8 +66,9 @@ function DayZero({ ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">3pm - 6pm</div>
                     <div class="what">
-                        <div class="title">Welcome Reception &amp; Pre-Registration by <img src="/images/sponsors/fictiv.png"></div>
-                        <p>The Welcome Reception will be an opportunity for folks to register and hang out with fellow attendees. When you check-in to Sunriver Resort, you'll be directed to the Welcome Reception, where you'll find drinks, snacks and friends!</p>
+                        <div class="title">Welcome Reception &amp; Pre-Registration by <a href="/sponsors/fictiv"><img src="/images/sponsors/fictiv.png"></a></div>
+                        <p>The Welcome Reception will be an opportunity for folks to pre-register, get their badge, pickup swag and hang out with fellow attendees.</p>
+                        <p>When you check-in to Sunriver Resort, you'll be directed to the Welcome Reception, where you'll find drinks, snacks and friends!</p>
                     </div>
                 </div>
             </div>
@@ -130,7 +131,7 @@ function DayOne({ speakers, ticket = undefined }) {
                 <div class="location">Homestead Lawn</div>
                 <div class="show-item">       
                     <div class="when">12:30</div>
-                    <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-taco"></i> Lunch</a> by <img src="/images/sponsors/codingscape.svg"></div></div>
+                    <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-taco"></i> Lunch</a> by <a href="/sponsors/codingscape"><img src="/images/sponsors/codingscape.svg"></a></div></div>
                 </div>
                 <div class="location">Homestead</div>
                 ${ renderSpeaker("13:30", speakers.find(s => s.key === 'trivikram-kamat'))}
@@ -289,9 +290,13 @@ function DayTwo({ speakers, ticket = undefined }) {
                     <div class="what"><div class="title"><a href="/conference/startup-fair"><i class="fas fa-rocket"></i> Startup Fair and Social</a></div></div>
                 </div>
                 <div class="show-item">       
-                    <div class="when">22:00</div>
-                    <div class="what"><div class="title"><i class="fas fa-microphone"></i> Karaoke</div></div>
+                    <div class="when"></div>
+                    <div class="what"><div class="title"><i class="fas fa-cake-candles"></i> Happy Birthday Cascadia</div></div>
                 </div>
+                <div class="show-item">       
+                <div class="when"></div>
+                <div class="what"><div class="title"><i class="fas fa-microphone"></i> Karaoke</div></div>
+            </div>
                 <div class="show-item">       
                     <div class="when">23:59</div>
                     <div class="what"><div class="title"><i class="fas fa-door-closed"></i> Conference Close</div></div>

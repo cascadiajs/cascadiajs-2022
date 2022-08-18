@@ -6,9 +6,9 @@ module.exports = function Expo({ links }) {
     let content = /*html*/`
     <div id="page">
     <div class="page-title">
-      <div><h1>Expo Hall</h1></div>
+      <div class="wide"><h1>Expo Hall</h1></div>
     </div>
-    <div class="page-body">
+    <div class="page-body wide">
       <p>Connect with our event sponsors during the breaks! Chat face-to-face on Gather or stick to text on our Discord.</p>
       <br/>
       <div>

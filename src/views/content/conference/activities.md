@@ -6,7 +6,7 @@ excerpt: Choose your own adventure with kayaking, hiking, yoga and more!
 ---
 ![Getting out on the water at Sunriver Resort](/images/sunriver/sunriver-boating.webp)
 
-All in-person conference attendees will have the opportunity to RSVP for one of the following during our Activity Track on the afternoon of August 31. Make sure you [get your Conference Ticket](/tickets) and RSVP soon, because spaces are limited! A few notes:
+All in-person conference attendees will have the opportunity to RSVP for one of the following during our Activity Track on the afternoon of August 31. Make sure you [get your Conference Ticket](/tickets) and [RSVP](/home/dashboard) soon, because spaces are limited! A few notes:
 
 - Activities run from roughly 4pm - 6pm, but timing may change per Activity.
 - Activities are only open to Conference Attendees for now. We may open up registration to Guests later.
@@ -27,17 +27,17 @@ So, this is by far the most intense activity and will require you to leave the c
 
 Our Activity Lead, Kelsey Breseman, loves to go Orienteering and has devised an amazing Scavenger Hunt that will require speed and wits. Our friends at [Begin](/sponsors/begin) will have some surprises in store as well, so don't miss out!
 
+<h2>Sunriver Bike Ride by <img src="/images/sponsors/web3-storage.png"/></h2>
+
+This will be a self-guided bike ride alongside the Deschutes River, among the pine trees, and past the horse fields, on over 40 miles of paved bike paths! The perfect place for cruising with your new friends at CascadiaJS. 
+
+Bikes will be provided, but you can always bring your own.
+
 ## Yoga 🏔🧘‍♀️✨
 
 Unwind from a day of talks and networking with some yoga on the lawn with Ginger Lee of [Sisters Yoga Outside](http://www.shakatownyoga.com/). You'll be supported by the cool grass and warmth of the sun, moving to the rhythm of your breath and sounds of the birds... and most likely a fire playlist.
 
 Please plan on bringing your own yoga mat or beach towel.
-
-## Sunriver Bike Ride 🚲
-
-This will be a self-guided bike ride alongside the Deschutes River, among the pine trees, and past the horse fields, on over 40 miles of paved bike paths! The perfect place for cruising with your new friends at CascadiaJS. 
-
-Bikes will be provided, but you can always bring your own.
 
 ## Bike to Benham Falls 🚲
 
@@ -50,5 +50,3 @@ You will need to bring your own bike, or [reserve one](https://www.sunriverresor
 ## Nature Walk 🌲
 
 This will be a self-guided walk through the trails around the Sunriver Resort Lodge. 
-
-<div class="cta"><a href="/tickets">Buy Your Conference Ticket</a></div>
