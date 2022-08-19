@@ -1,4 +1,4 @@
-module.exports = function Embed({ playbackId  }) {
+module.exports = function Embed({ playbackId }) {
     playbackId = playbackId || 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM'
     let html = /*html*/`
     <html>

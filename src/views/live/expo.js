@@ -1,8 +1,7 @@
 let LiveLayout = require('../layout/live')
 let SponsorsContainer = require('../components/sponsors')
 
-module.exports = function Expo({ links }) {
-    let gather = links.find(l => l.key === 'gather')
+module.exports = function Expo() {
     let content = /*html*/`
     <div id="page">
     <div class="page-title">
@@ -13,7 +12,7 @@ module.exports = function Expo({ links }) {
       <br/>
       <div>
         <span class="cta"><a target="_discord" href="https://discord.gg/cascadiajs">Join Discord</a></span>
-        <span class="cta"><a target="_gather" href="${ gather?.url }">Join Gather</a></span>
+        <span class="cta"><a target="_gather" href="https://app.gather.town/events/DLM6I5xJNNbT62oqPaqa">Join Gather</a></span>
       </div>
       ${ SponsorsContainer() }
     </div>

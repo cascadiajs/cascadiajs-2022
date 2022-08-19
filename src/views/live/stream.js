@@ -1,9 +1,9 @@
 let LiveLayout = require('../layout/live')
 let { DayOne, DayTwo } = require('../components/schedule')
 
-module.exports = function Live({ speakers, ticket, links, playbackId  }) {
+module.exports = function Live({ speakers, ticket, playbackId  }) {
     let isDayOne = (new Date() - new Date('2022-09-01T04:00:00.0Z') < 0)
-    let dayContainer = (isDayOne ? DayOne({ speakers, ticket, links }) : DayTwo({ speakers, ticket, links }))
+    let dayContainer = (isDayOne ? DayOne({ speakers, ticket }) : DayTwo({ speakers, ticket }))
     playbackId = playbackId || 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM'
     let content = /*html*/`
     <div id="live">
@@ -24,7 +24,7 @@ module.exports = function Live({ speakers, ticket, links, playbackId  }) {
             <div id="graphic-recording">
                 <div class="video-container">
                     <iframe
-                        src="https://player.twitch.tv/?channel=cascadiajs&parent=localhost&parent=2022.cascadiajs.com"
+                        src="https://player.twitch.tv/?channel=ashtonmindseye&parent=localhost&parent=2022.cascadiajs.com"
                         height="100%"
                         width="100%"
                         frameborder="no"

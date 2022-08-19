@@ -23,7 +23,7 @@ async function Live(req) {
   }
   let speakerData = await getSpeakerData(req)
   let speakers = speakerData.speakers
-  let links = await data.get( {table: 'links', limit: 100 })
+  //let links = await data.get( {table: 'links', limit: 100 })
   let playbackId = await getPlaybackId(req)
 
   if (view === 'embed') {
@@ -33,13 +33,13 @@ async function Live(req) {
     return WebInputView({ playbackId })
   }
   else if (view === 'stream') {
-    return StreamView({ speakers, ticket, links, playbackId })
+    return StreamView({ speakers, ticket, playbackId })
   }
   else if (view === 'expo') {
-    return ExpoView({ links })
+    return ExpoView()
   }
   else if (view === 'jobs') {
-    return JobsView({ links })
+    return JobsView()
   }
   else {
     return

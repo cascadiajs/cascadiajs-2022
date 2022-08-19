@@ -1,9 +1,8 @@
 let LiveLayout = require('../layout/live')
 let sponsors = require('../../shared/data/sponsors.json')
 
-module.exports = function Expo({ links }) {
+module.exports = function Expo() {
     let hiring = sponsors.filter(s => s.jobs)
-    let gather = links.find(l => l.key === 'gather')
     let content = /*html*/`
     <div id="page">
     <div class="page-title">
@@ -16,7 +15,7 @@ module.exports = function Expo({ links }) {
         <br/>
         <div style="margin-bottom: 48px">
             <span class="cta"><a target="_discord" href="https://discord.gg/cascadiajs">Join Discord</a></span>
-            <span class="cta"><a target="_gather" href="${ gather?.url }">Join Gather</a></span>
+            <span class="cta"><a target="_gather" href="https://app.gather.town/events/DLM6I5xJNNbT62oqPaqa">Join Gather</a></span>
         </div>
         <div class="job-listings">
         ${ hiring.sort(()=> Math.random() - 0.5).map(s => /*html*/`
