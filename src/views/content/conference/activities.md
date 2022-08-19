@@ -25,7 +25,12 @@ So, this is by far the most intense activity and will require you to leave the c
 
 <h2>Scavenger Hunt by <img src="/images/sponsors/begin.svg"/></h2>
 
-Our Activity Lead, Kelsey Breseman, loves to go Orienteering and has devised an amazing Scavenger Hunt that will require speed and wits. Our friends at [Begin](/sponsors/begin) will have some surprises in store as well, so don't miss out!
+Our Activity Lead, Kelsey Breseman, loves to go Orienteering and has devised an amazing Scavenger Hunt that will require speed and wits. She's literally been doing this since she was 8...
+
+ <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/xgvIphYgT_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<br/>
+
+Our friends at [Begin](/sponsors/begin) will have some surprises in store as well, so don't miss out!
 
 <h2>Sunriver Bike Ride by <img src="/images/sponsors/web3-storage.png"/></h2>
 
@@ -49,4 +54,10 @@ You will need to bring your own bike, or [reserve one](https://www.sunriverresor
 
 ## Nature Walk 🌲
 
-This will be a self-guided walk through the trails around the Sunriver Resort Lodge. 
+![Carter and Otto](/images/organizers/carter-otto.jpg)
+
+This will be a gentle walk through some of the prettier parts of Sunriver, led by Lead Organizer Carter Rabasa and his trusty sidekick Otto the Labradoodle. 
+
+This walk will be designed to be kid-friendly and dog-friendly and probably not be more than 2 miles or so.
+
+
