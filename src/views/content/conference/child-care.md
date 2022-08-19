@@ -4,31 +4,44 @@ excerpt: We are offering free child care so you can get away and enjoy the fun!
 image: /images/past/cjs15-child-care.jpg
 caption: Child Care at CascadiaJS 2015
 ---
-<div class="highlight warning">We are currently fully booked. Feel free to sign-up for the Wait List and we'll be in touch if we can assist you!</div>
+<div class="highlight warning">We are currently fully booked. Feel free to <a target="_blank" href="https://airtable.com/shrw8V2fMUIBy8Q37">sign up for the Wait List</a> and we'll be in touch if we can assist you!</div>
 
-![Child care at CascadiaJS 2015](/images/past/cjs15-child-care.jpg)
+We are offering FREE, professional, on-site child care for kids 12 and under through [Snappy Sitters](https://snappysitters.com). All sitters will be fully vaccinated against Covid and will be wearing mask when indoors.
 
-We are offering FREE, professional, on-site child care for kids 12 and under through [Snappy Sitters](https://snappysitters.com). Child care will be available from 8:30am to 6pm and 7pm to 10pm on August 31 and September 1, and located onsite at Sunriver Resort in close proximity to the talks. All sitters will be fully vaccinated against Covid.
+## Hours
 
-## On-site drop-off
+- Aug 31 and Sept 1
+- Daytime: 8:30am - 6pm
+- Evening: 7pm - 10pm
 
-We’ll have you complete a registration form for each child during the initial drop-off so that you can communicate any allergies, food preferences, special instructions or needs. 
+You're welcome to drop off and pick up your child at any time during the shifts that you are signed up for.
 
-## Food
+## Location
 
-Snacks will be provided. If you purchase a [Guest Pass](/conference/attend#bringing-guests) for your child, we will coordinate getting those meals to your kid for you. If you want to pack meals for your child, please label them with your child’s name. 
+Childcare will be located in the Great Hall, in Landmark Rooms 1 + 2, which is a 5 minute walk from where the talks will be held. 
 
-## Child-to-Nanny Ratios
+## What to bring
 
-We plan to offer a 1:3 ratio for children under 5, and a 1:6 ratio for children ages 6-12, with sitters assigned to each age group.
+Please make sure everything is labeled with your child's name.
 
-## Experience
+- Water bottle or cup
+- Sunscreen (we'll have some on hand, but if you have a preferred brand, please bring it)
+- Favorite toys, games and books (optional)
 
-All sitters have professional childcare experience, with background and reference checks, and are fully vaccinated against Covid. There will be CPR trained individuals on staff during the event.
+For babies and toddlers:
 
-## Activities
+- portable crib or mat for naps
+- breast milk/formula and bottles (in a cooler or insulated bag if it needs to be kept cool) 
+- diapers, wipes and a spare set of clothes
 
-We’ll provide age-appropriate games, arts and crafts, toys, and activities, such as excursions to the playground.
+## Lunch and snacks
 
-<div class="cta"><a target="_blank" href="https://airtable.com/shrw8V2fMUIBy8Q37">SIGN-UP FOR WAITLIST</a></div>
+- If you purchased a Guest Pass for your child, lunch will be catered by the resort. Lunch will include a deli sandwich (e.g. ham/turkey with cheese), chips and a cookie. 
+- If you did not purchase a Guest Pass, or would like to provide a different lunch, please bring it in a bag labeled with your child's name.
+- If you're providing food that needs to be kept cool, please bring it in a cooler or insulated bag. Refrigeration isn't available in the Landmark Rooms. 
+- Guest Passes can be [purchased](/tickets) until Aug 22, and are free for kids 5 and under.
+- We'll provide some nut-free snacks and fruit.
 
+## Masks
+
+The sitters will wear masks when inside. Masks are optional for kids. We ask that you please wear a mask whenever you are in the childcare rooms. 
