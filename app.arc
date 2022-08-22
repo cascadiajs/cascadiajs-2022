@@ -12,6 +12,9 @@ src src/views
 get  /admin
 post /admin
 post /admin/:table/:key
+get  /api/tickets
+post /api/tickets
+post /api/connect
 get  /home/:view
 post /home/:action
 get  /live/:view

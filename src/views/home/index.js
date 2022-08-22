@@ -1,4 +1,4 @@
-let Layout = require('../layout')
+let Layout = require('../layout/home')
 
 module.exports = async function Index({ ticket, rsvp, activities, message }) {
     let clientID = process.env.GITHUB_CLIENT_ID
@@ -92,6 +92,6 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
             </div>
         </div>
     `
-    let html = Layout({ content })
+    let html = Layout({ content, view: 'dashboard' })
     return { html }
 }

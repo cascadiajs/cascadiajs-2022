@@ -1,13 +1,28 @@
-let arc = require('@architect/functions')
+const arc = require('@architect/functions')
 const data = require('@begin/data')
+const crypto = require("crypto")
 const activities = require('@architect/shared/data/activities.json')
 const HomeView = require('@architect/views/home')
+const ConnectView = require('@architect/views/home/connect')
 const LoginView = require('@architect/views/home/login')
 const CheckView = require('@architect/views/home/check')
 const WaitView = require('@architect/views/home/wait')
 const NotFoundView = require('@architect/views/404')
 const github = require('./github')
 
+async function fetchToData(key) {
+  return await data.get({ table: 'tickets', key })
+}
+
+async function fetchConnections(cursor) {
+  let result = await data.get({ table: 'connections', cursor })
+  if (result.cursor) {
+    return result.concat(await fetchConnections(result.cursor))
+  }
+  else {
+    return result
+  }
+}
 
 async function getActivitiesWithCounts() {
   let rsvpData = await data.get({table: 'rsvps', limit: 500 })
@@ -61,6 +76,29 @@ async function authenticated(req) {
     let activitiesWithCounts = await getActivitiesWithCounts()
     //console.log(activitiesWithCounts)
     return HomeView({ ticket, rsvp, activities: activitiesWithCounts, message })
+  }
+  else if (view === 'connect') {
+    let connections = []
+    // if user does not have an authHash, create authHash, connHash and emailShare and attach to ticket record
+    if (!ticket.auth_hash) {
+      let auth_hash = crypto.createHmac("sha256", process.env.RETOOL_SECRET).update(ticket.key).digest("base64")
+      let conn_hash = Math.floor(Math.random() * 1000000).toString().padStart(6, '0')
+      let email_share = ticket.email
+      let bad_connects = 0
+      ticket = await data.set({ ...ticket, auth_hash, conn_hash, email_share, bad_connects })
+    }
+    else {
+      // load connections
+      connections = (await fetchConnections()).filter((c) => c.from === ticket.key)
+      // inflate connections with ticket data
+      for (let i in connections) {
+        let conn = connections[i]
+        let to_data = await fetchToData(conn.to)
+        connections[i] = { ...conn, to_data}
+      }
+      //console.log(connections)
+    }
+    return ConnectView({ ticket, connections })
   }
   else if (view === 'wait'){
     return WaitView()
