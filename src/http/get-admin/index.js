@@ -1,6 +1,7 @@
 let data = require('@begin/data')
 let arc = require('@architect/functions')
 let activities = require('@architect/shared/data/activities.json')
+let { getAll } = require('@architect/shared/utils/db-helper')
 
 let layout = body=> `<!doctype>
 <html>
@@ -45,7 +46,9 @@ async function authenticated(req) {
     let ticketsSection = `<h2>Tickets</h2>${ newTicket + ticketData.map(ticket).join('') }`
     let rsvpData = await data.get({ table: 'rsvps', limit: 500 })
     let activitySection = `<h2>Activity Registrations</h2>${ newRsvp() }${ activities.map((a) => { return activity(a, rsvpData, ticketData) }).join('') }`
-    let html = layout(settingsSection + linksSection /*+ speakersSection*/ + ticketsSection + activitySection)
+    let connectionsData = await getAll('connections')
+    let connectionsSection = `<h2>Connections</h2><table>${ connectionsData.map(connection).join('') }</table>`
+    let html = layout(settingsSection + linksSection /*+ speakersSection*/ + ticketsSection + activitySection + connectionsSection)
     return { html }
   //}
 }
@@ -62,6 +65,10 @@ function ticket(t) {
         <input type=text name=email placeholder="Email" value="${ t?.email || '' }">
         <input type=text name=github placeholder="Github username" value="${ t?.github || '' }">
         <input type=text name=avatar placeholder="Github avatar URL" value="${ t?.avatar || '' }">
+        <input type=text name=avatar placeholder="auth_hash" value="${ t?.auth_hash || '' }">
+        <input type=text name=avatar placeholder="conn_hash" value="${ t?.conn_hash || '' }">
+        <input type=text name=avatar placeholder="email_share" value="${ t?.email_share || '' }">
+        <input type=text name=avatar placeholder="bad_connects" value="${ t?.bad_connects || '' }">
         <button>Save</button>
       </form>
       ${ t
@@ -145,5 +152,15 @@ function rsvp(r, ticketData) {
       <td>${ ticket.email }</td>
       <td>${ r.activity }</td>
       <td><form action=/admin/rsvps/${ r.key } method=post><input type=hidden name=__delete value="true"><button>Delete</button></form></td>
+    </tr>`
+}
+
+function connection(c) {
+  return `
+    <tr>
+      <td>${ c.key }</td>
+      <td>${ c.from }</td>
+      <td>${ c.to }</td>
+      <td><form action=/admin/connections/${ c.key } method=post><input type=hidden name=__delete value="true"><button>Delete</button></form></td>
     </tr>`
 }
