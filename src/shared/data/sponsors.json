@@ -2,11 +2,11 @@
   {
     "key": "web3-storage",
     "tier": "platinum",
-    "name": "Web3.Storage",
+    "name": "web3.storage",
     "url": "https://web3.storage",
     "logo": "web3-storage.png",
     "square": "web3-storage-square.png",
-    "description": "The easiest way to store data on the decentralized web. Store your data using our simple API. It’s fast, open, and free."
+    "description": "Web3.storage is the easiest way to store data on the decentralized web. Powered by Protocol Labs and Filecoin, web3.storage brings web scale IPFS to an application near you. Watch the video below to see how NFT.Storage is using web3.storage to make uploading NFTs accessible for all."
   },
   {
     "key": "cloudinary",
