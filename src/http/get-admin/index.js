@@ -68,6 +68,8 @@ function ticket(t) {
         <input type=text name=avatar placeholder="auth_hash" value="${ t?.auth_hash || '' }">
         <input type=text name=avatar placeholder="conn_hash" value="${ t?.conn_hash || '' }">
         <input type=text name=avatar placeholder="email_share" value="${ t?.email_share || '' }">
+        <input type=text name=avatar placeholder="linkedin" value="${ t?.linkedin || '' }">
+        <input type=text name=avatar placeholder="twitter" value="${ t?.twitter || '' }">
         <input type=text name=avatar placeholder="bad_connects" value="${ t?.bad_connects || '' }">
         <button>Save</button>
       </form>
