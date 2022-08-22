@@ -22,7 +22,7 @@ module.exports = function Live({ playbackId }) {
                 <div id="graphic-recording">
                     <div class="video-container">
                         <iframe
-                            src="https://player.twitch.tv/?channel=cascadiajs&parent=localhost&parent=2022.cascadiajs.com&muted=true"
+                            src="https://player.twitch.tv/?channel=ashtonmindseye&parent=localhost&parent=2022.cascadiajs.com&muted=true"
                             height="100%"
                             width="100%"
                             allowfullscreen>
