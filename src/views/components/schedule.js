@@ -284,7 +284,7 @@ function DayTwo({ speakers, ticket = undefined }) {
                     <div class="when">18:30</div>
                     <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-burger"></i> Dinner</a></div></div>
                 </div>
-                <div class="location">Heritage</div>
+                <div class="location">Great Hall</div>
                 <div class="show-item">       
                     <div class="when">19:30</div>
                     <div class="what"><div class="title"><a href="/conference/startup-fair"><i class="fas fa-rocket"></i> Startup Fair and Social</a></div></div>
@@ -295,7 +295,7 @@ function DayTwo({ speakers, ticket = undefined }) {
                 </div>
                 <div class="show-item">       
                 <div class="when"></div>
-                <div class="what"><div class="title"><i class="fas fa-microphone"></i> Karaoke</div></div>
+                <div class="what"><div class="title"><i class="fas fa-microphone"></i> Karaoke (Fireside Room)</div></div>
             </div>
                 <div class="show-item">       
                     <div class="when">23:59</div>

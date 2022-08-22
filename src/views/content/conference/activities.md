@@ -16,8 +16,7 @@ All in-person conference attendees will have the opportunity to RSVP for one of 
 
 Our friends at [Netlify](/sponsors/netlify) have reserved a block of single and double kayaks! Folks will head over to the Marina, check-out their gear and paddle down the Deschutes River. Here are details on how kayaking will work:
 
-- You will have to depart the conference a little early and possibly miss a talk.
-- We will arrange a shuttle to take you over to the Marina.
+- Shuttles to Marina will pickup folks at the Main Lodge and depart at **3pm**
 - The ride down the river is one way and can take **2:15 to 3 hours** to complete. 
 - There is a clearly marked pickup point where you will be brought back to the Marina and then shuttled back over to the Lodge, hopefully in time for dinner!
 
