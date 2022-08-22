@@ -46,10 +46,10 @@ If an attendee or other participant engages in unacceptable behavior, the commun
 
 ## If You Witness or Are Subject to Unacceptable Behavior
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify an Organizer immediately in-person or on either Slack (year-round) or Discord (during the conference):
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify an Organizer (anyone with a Staff badge) immediately in-person or file a report on our Discord:
 
-- Channel #help-questions
-- Direct DM to Carter Rabasa
+- Discord channel #help-questions (tagging @Conf Organizer)
+- Private DM on Discord to Carter Rabasa or Kate Pond
 
 If you are experiencing a life threatening emergency, dial 9-1-1.
 
