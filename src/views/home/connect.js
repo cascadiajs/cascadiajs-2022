@@ -6,7 +6,7 @@ module.exports = async function({ ticket, connections }) {
             <div class=page-title><div><h1>Connect at CascadiaJS 2022</h1></div></div>
             <div class=page-body class=narrow>
             <h2>Make a Connection</h2>
-            <p>Retool iFrame here: ${ ticket.auth_hash } ${ ticket.bad_connects }</p>
+            <iframe id="retool-app" height="600" width="500" style="border:none" src="https://retoolin.tryretool.com/embedded/public/3997468d-a0cf-4d2f-b18e-055db698b133?auth_hash=${ ticket.auth_hash }"></iframe>
             <h2>Your Connections</h2>
             ${ connections.map((c) => /*html*/`
                 <details>
