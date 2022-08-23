@@ -17,6 +17,7 @@ Please review our guide to the meals and food we will be serving at CascadiaJS a
 - Coffee (regular + decaf), tea and juice
 - Seasonal fruits and berries
 - Scrambled eggs with cheddar cheese and scallions [gf]
+- Chefs choice vegan option [ve]
 - Roasted red potatoes with wild mushrooms, caramelized onions and herb coulis [gf, ve]
 - Assorted house-made muffins: blueberry-lemon [v], maple-bacon and blackberry-bran [v]
 - Crisp bacon [gf, df]
@@ -40,6 +41,7 @@ Plus chips and a cookie.
 - Potato salad with cheddar cheese, scallions and bacon [gf]
 - BBQ chicken breast with Bad Black’s BBQ sauce [gf, df]
 - Grilled hamburgers [gf, df]
+- Black bean burgers [ve]
 - Great Hall cowboy steak fries [v]
 - Sliced cheese [gf, v]
 - Condiments: Lettuce, tomatoes, onions, sliced pickles, mayonnaise, Dijon and yellow mustard, ketchup, relish, diced onions, sauerkraut and shredded cheddar cheese [gf, v]
@@ -52,6 +54,7 @@ Plus chips and a cookie.
 - Coffee (regular + decaf), tea and juice
 - Seasonal fruit and berry display
 - Scrambled eggs with scallions [gf]
+- Chefs choice vegan option [ve]
 - Honey-cured bacon
 - Roasted red potatoes with wild mushrooms, caramelized onions and herb coulis [gf, ve]
 - Brioche French toast with maple syrup [v]
@@ -72,6 +75,7 @@ Plus chips and a cookie.
 - Coffee (regular + decaf), tea and juice
 - Romaine salad with cherry tomatoes, cotija cheese, sunflower seeds, sweety drop peppers, served with cilantro lime vinaigrette and southwest ranch.
 - Buffalo and Spanish style dry rubbed chicken wings served with blue cheese and ranch dressings.
+- Soy chicken [ve]
 
 Taco Station:
 
