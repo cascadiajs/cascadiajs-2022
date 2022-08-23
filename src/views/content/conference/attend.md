@@ -84,5 +84,7 @@ CascadiaJS is a pet-friendly conference! Here are some important rules and guide
 
 All attendees and guests of CascadiaJS recieve the following perks at Sunriver Resort:
 
-- Two (2) Day Bike Rental @ $35.00 per bike, total. (Choice of any bike)
+- A discounted rate ($35.00) for a 2-day bike rental (Aug 31 + Sept 1)
 - 10% Discount offered for resort-owned [Golf](https://www.sunriverresort.com/central-oregon-bend-golf/golf-overview) at Meadows and Woodlands, [Marina](https://www.sunriverresort.com/activities/the-marina-float-kayak-canoe-stand-up-paddle-board-sup-rentals-bend-central-oregon), [Stables](https://www.sunriverresort.com/activities/morning-wrangle-sunriver-stables) & [Sage Springs Spa Services](https://www.sunriverresort.com/sage-springs-spa-and-fitness/spa/spa-services/)
+
+Note: there isn't a way to reserve a bike in advance using our special rate. You'll be provided with a coupon when you register for the conference that you will be able to redeem at the Bike Barn.
