@@ -19,6 +19,11 @@ module.exports = async function({ ticket, connections }) {
                 </details>
             `).join('')}
             </div>
+            <script>
+                window.addEventListener('message', (event) => {
+                    if (event.data === 'reload') window.location.reload();
+                });
+            </script>
         </div>
     `
     let html = Layout({ content, view: 'connect' })
