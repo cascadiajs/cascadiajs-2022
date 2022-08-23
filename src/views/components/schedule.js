@@ -138,12 +138,16 @@ function DayOne({ speakers, ticket = undefined }) {
                 ${ renderSpeaker("", speakers.find(s => s.key === 'eddie-zaneski'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'joyce-lin'))}
                 <div class="show-item">       
-                    <div class="when">15:00</div>
+                    <div class="when"></div>
+                    <div class="what"><div class="title">Day One Wrap</div></div>
+                </div>
+                <div class="show-item">       
+                    <div class="when">15:15</div>
                     <div class="what"><div class="title"><i class="fas fa-popcorn"></i> Break</div></div>
                 </div>
                 <div class="show-item">       
-                    <div class="when">15:30</div>
-                    <div class="what"><div class="title">Day One Wrap</div></div>
+                    <div class="when">15:45</div>
+                    <div class="what"><div class="title">Activity Orientation</div></div>
                 </div>
                 <div class="location">Various Locations</div>
                 <div class="show-item">       
