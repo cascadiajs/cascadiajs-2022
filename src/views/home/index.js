@@ -4,13 +4,17 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
     let clientID = process.env.GITHUB_CLIENT_ID
     let { full_name, number, release_slug } = ticket
     let isInPerson = process.env.TITO_INPERSON_SLUGS.split(',').indexOf(release_slug) >= 0
-    let isVirtual = process.env.TITO_VIRTUAL_SLUGS.split(',').indexOf(release_slug) >= 0
+    //let isVirtual = process.env.TITO_VIRTUAL_SLUGS.split(',').indexOf(release_slug) >= 0
     //console.log(process.env.TITO_INPERSON_SLUGS, ticket)
     let content = /*html*/`
         <div id=page>
             <div class=page-title><div><h1>Hello ${ full_name }!</h1></div></div>
             <div id="home" class="page-body narrow">
                 ${ message ? `<p><span class="highlight warning">${ message }</span></p>` : ``}
+                <h2>Talk Track</h2>
+                <p>Folks who are not attending the conference in-person have two options for watching talks: on our website and within Gather. The password for Gather is: <pre>family-reunion</pre></p>
+                <div class="cta"><a href="/live/stream">Live Stream</a></div>
+                <div class="cta"><a target="_gather" href="https://app.gather.town/events/DLM6I5xJNNbT62oqPaqa">Gather</a></div>
                 <h2>Hallway Track</h2>
                 <h3>Conference Directory</h3>
                 ${ ticket.github && ticket.github !== ''
@@ -26,13 +30,10 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
                     : /*html*/`<p>Let folks know you're attending CascadiaJS this year! We use <a target="_blank" href="https://docs.github.com/en/developers/apps/building-github-apps/authenticating-with-github-apps">Github OAuth</a> to retrieve your profile photo and add it to our Conference Directory. We will also generate a customized virtual ticket that will include a discount code for you to share with your friends!</p>
                     <div class="cta secondary"><a href="https://github.com/login/oauth/authorize?client_id=${ clientID }">Get Added to Directory</a></div>`
                 }
-                ${ isVirtual
-                    ? /*html*/`
-                        <h3>Gather</h3>
-                        <p>Gather is the virtual event space that we have fully customized for your enjoyment. Walk around, meet new people and even watch the Livestream!</p>
-                        <div class="cta secondary"><a target="_gather" href="https://app.gather.town/events/DLM6I5xJNNbT62oqPaqa">Join Gather</a></div>`
-                    : ``
-                }
+                <h3>Gather</h3>
+                <p>Gather is the virtual event space that we have fully customized for your enjoyment. Walk around, meet new people and even watch the Livestream!</p>
+                <p>The password to enter the Virtual Space is: <pre>family-reunion</pre></p>
+                <div class="cta secondary"><a target="_gather" href="https://app.gather.town/events/DLM6I5xJNNbT62oqPaqa">Join Gather</a></div>
                 <h3>Discord</h3>
                 <p>Discord is the text chat experience, complete with the animated gifs and reactions that you love.</p>
                 <div class="cta secondary"><a target="_discord" href="https://discord.gg/cascadiajs">Join Discord</a></div>
@@ -66,12 +67,12 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
                                                 : `<input type=submit name=unregister value="Un-Register" />`
                                             : a.full
                                                 ? a.key === 'kayaking'
-                                                    ? `<button disabled>Email us to Register</button>`
+                                                    ? `<button disabled>Max Limit Reached</button>`
                                                     : `<button disabled>Max Limit Reached</button>`
                                                 : `<button disabled>Register</button>`
                                         :  a.full
                                             ? a.key === 'kayaking'
-                                                ? `<button disabled>Email us to Register</button>`
+                                                ? `<button disabled>Max Limit Reached</button>`
                                                 : `<button disabled>Max Limit Reached</button>`
                                             : `<input type=submit name=register value=Register />`
                                     }

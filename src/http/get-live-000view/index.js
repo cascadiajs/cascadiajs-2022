@@ -15,6 +15,19 @@ async function getPlaybackId(req) {
   return playbackIdOverride || (setting ? setting.value : undefined)
 }
 
+// render the form
+async function unauthenticated(req) {
+  let { view } = req.params
+  let { ticketRef } = req.session
+  let playbackId = await getPlaybackId(req)
+  if (view === 'web-input') {
+    return WebInputView({ playbackId })
+  }
+  else if (!ticketRef) {
+    return { location: `/home/login?message=${ encodeURIComponent("Please log-in") }`}
+  }
+}
+
 async function Live(req) {
   let { view } = req.params
   let ticket
@@ -46,4 +59,4 @@ async function Live(req) {
   }
 }
 
-exports.handler = arc.http.async(Live, NotFoundView)
+exports.handler = arc.http.async(unauthenticated, Live, NotFoundView)

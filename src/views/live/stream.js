@@ -41,7 +41,6 @@ module.exports = function Live({ speakers, ticket, playbackId  }) {
             </div>
             <div id="emote">
                 <emote-widget talk-id="cjs22-brian" open="false"></emote-widget>
-                <!--audio src="/sounds/applause-8.mp3"></audio-->
             </div>
         </section>
     </div>
