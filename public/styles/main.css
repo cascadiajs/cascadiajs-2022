@@ -1116,10 +1116,17 @@ a.js-topic:hover {
 
 #live {
     padding: 16px;
+    background: #112378;
+    color: #fff5cc;
 }
 
-#live  #mux-sponsor {
-    margin-top: 16px;
+#live h3 {
+    color: #fff5cc;
+}
+
+#mux-sponsor {
+    padding: 16px 0;
+    background: #112378;
 }
 
 mux-player {
