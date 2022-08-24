@@ -4,20 +4,14 @@ require('dotenv').config()
 /**
  * This script is used to launch the conference livestream using Mux.
  *
- * 1. Run script, this will create a Mux livestream object and connect it to both Twitter and Twitch
+ * 1. Run script, this will create a Mux livestream object and store a playbackId in the DB
  * 2. Note the stream_key value that is returned
  * 3. Configure the conference live stream to send via RTMP to rtmps://global-live.mux.com:443/app using the stream_key
- * 4. Go to the Mux dashboard, click into the livestream resource, and note the public "Playback ID"
- * 5. Set the playback_id for the embedded Mux Video player
  *
  * Once you're ready to start the livestream:
  *
  * 1. Start streaming to the Mux endpoint
- * 2. Go to https://studio.twitter.com/producer/broadcasts and "Create broadcast", make it public, tweet it out
- *
- * No action for Twitch, it will automatically start streaming.
- *
- * See: https://docs.mux.com/guides/video/stream-live-to-3rd-party-platforms#2-select-a-simulcast-target-supported-by-mux
+ * 2. Run the `web-inputs.js` script to start the simulcast to social media
  */
 
 

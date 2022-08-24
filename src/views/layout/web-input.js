@@ -6,8 +6,8 @@ module.exports = function Layout ({title = 'CascadiaJS 2022 - Live Stream', cont
   <!doctype html>
   <html lang=en>
     ${ head({ title, content })}
-    <body style="height:1080px;max-height:1080px;width:1920px;max-width:1920px;">
-      <div style="height:1080px;max-height:1080px;width:1920px;max-width:1920px;">
+    <body style="height:1070px;max-height:1070px;width:1910px;max-width:1910px;">
+      <div style="height:1070px;max-height:1070px;width:1910px;max-width:1910px;">
       <main id="content">
         ${ content }
       </main>

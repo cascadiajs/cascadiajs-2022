@@ -2,8 +2,14 @@ const fetch = require('node-fetch')
 require('dotenv').config()
 
 /**
- * This script is used to launch the livestream feed using Mux Web Inputs
+ * This script is used to launch the conference livestream simulcast using Mux.
  *
+ * 1. Run script, this will create a Mux livestream object and store a webInputPlaybackId in the DB
+ * 2. Go to https://studio.twitter.com/producer/broadcasts and "Create broadcast", make it public, tweet it out
+ *
+ * No action needed for Twitch or YouTube, they will automatically start streaming.
+ *
+ * See: https://docs.mux.com/guides/video/stream-live-to-3rd-party-platforms#2-select-a-simulcast-target-supported-by-mux
  */
 
 
@@ -22,17 +28,17 @@ async function createLivestream() {
           {
             url : "rtmps://or.pscp.tv:443/x",
             stream_key : process.env.TWITTER_STREAM_KEY,
-            passthrough : "Twitter Test"
+            passthrough : "CascadiaJS 2022 Livestream on Twitter"
           },
           {
             url : "rtmp://live.twitch.tv/app/",
             stream_key : process.env.TWITCH_STREAM_KEY,
-            passthrough : "Twitch Test"
+            passthrough : "CascadiaJS 2022 Livestream on Twitch"
           },
           {
             url : "rtmp://a.rtmp.youtube.com/live2",
             stream_key : process.env.YOUTUBE_STREAM_KEY,
-            passthrough : "YouTube Test"
+            passthrough : "CascadiaJS 2022 Livestream on YouTube"
           }
         ]
       }
