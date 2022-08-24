@@ -30,6 +30,7 @@ Learn more about our [accessibility efforts](/accessibility) for this year's Cas
 The CascadiaJS organizers are currently monitoring the COVID-19 (Coronavirus) situation carefully and daily to ensure the safety of our attendees, speakers, and staff. With this mind, we plan on updating this information on a regular basis. Given what we know now, the following safety measures will be employed and enforced to the strictest possible extent:
 
 - Anyone present on-site including attendees, sponsors, speakers, vendors, staff, and volunteers, are required to prove full vaccination, and provide a negative test result within 48 hours (for PCR) or 24 hours (for Antigen) of admission, and submit to a daily health screening with temperature check. Full vaccination is defined as 2 or more doses of the Moderna or Pfizer vaccine, or 1 or more of the J&J vaccine.
+- Photos of vaccination cards and PCR/antigen test results are OK.
 - Hand sanitizer will be available at every sponsor booth and other locations.
 - Lunch and dinner will be served outside.
 
@@ -41,7 +42,7 @@ If you cannot take the vaccine due to a medical issue, an exemption can be made 
 
 ### What is involved in the Health Screening?
 
-The health screening is a few questions that ask about your current health, known contact with Covid-positive indivduals, and documenting your temperature.
+The health screening is a few questions that ask about your current health, known contact with Covid-positive individuals, and documenting your temperature.
 
 ### In what instances will the conference be postponed, cancelled, or taken online?
 
