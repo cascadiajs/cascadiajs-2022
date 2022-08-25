@@ -6,6 +6,23 @@ excerpt: Lodging, Travel, Guest Passes and more!
 ---
 This is a very important guide to making sure you are prepped and ready to go for CascadiaJS! Please review it completely and let us know if you have any questions.
 
+## 🔲 Pack your Bags
+
+There are a few required items that you MUST bring to the conference:
+
+- A government issued photo ID
+- Proof of COVID-19 vaccination (photo is OK)
+- Proof of a negative PCR or over-the-counter Antigen test (photo is OK)
+
+Here are some things that we strongly encourage you to consider bringing:
+
+- Mask: we encourage folks to mask up when they are inside and not eating or drinking
+- Snacks: we will be serving 3 hearty meals every day, but if you need to nosh regularly throughout the day, please bring snacks.
+- Water bottle: there will be water stations and it will be important to stay hydrated!
+- Clothing: please [check the weather](https://www.wunderground.com/weather/us/or/sunriver) and dress in layers. It will be air conditioned inside, hot outside during the day and much cooler as the sun sets.
+- Pool gear: swimsuit, sunscreen, giant pool floatie, etc.
+
+
 ## 🔲 Check Your Login
 
 First, please make sure you can log in to the <a target="_blank" href="/home/dashboard">Conference Dashboard</a>. This is where you will RSVP for workshops and activities, sign-up for raffles and other things related to the conference.
@@ -36,21 +53,6 @@ If you live outside of Bend, please make sure you've [secured lodging](/attend).
 ## 🔲 Have a Travel Plan
 
 Unless you live in Bend, you'll need to travel to Sunriver Resort. There are many ways to get to and from Cascadia, so please check-out our [Travel Guide](/travel) for information on trains, shuttle buses, car pools and more.
-
-## 🔲 Pack your Bags
-
-There are a few required items that you MUST bring to the conference:
-
-- A government issued photo ID
-- Proof of COVID-19 vaccination (photo is OK)
-- Proof of a negative PCR or Antigen test (photo is OK)
-
-Here are some things that we strongly encourage you to consider bringing:
-
-- Snacks: we will be serving 3 hearty meals every day, but if you need to nosh regularly throughout the day, please bring snacks.
-- Water bottle: there will be water stations and it will be important to stay hydrated!
-- Clothing: please [check the weather](https://www.wunderground.com/weather/us/or/sunriver) and dress in layers. It will be air conditioned inside, hot outside during the day and much cooler as the sun sets.
-- Pool gear: swimsuit, sunscreen, giant pool floatie, etc.
 
 ## 🔲 Plans Your Meals
 

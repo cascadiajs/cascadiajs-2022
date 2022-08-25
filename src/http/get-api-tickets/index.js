@@ -1,11 +1,12 @@
 const data = require('@begin/data')
+let arc = require('@architect/functions')
 
 /**
  * Accepts an auth_hash as a query parameter
  *
  * Returns auth_hash, conn_hash, full_name, email_share, linkedin, twitter, github, bio
  */
-exports.handler = async function(req) {
+async function GetTicket (req) {
   const { auth_hash } = req.queryStringParameters
   console.log("Calling API: ", auth_hash)
   let tickets = await data.get({ table: 'tickets', limit: 1000 })
@@ -19,3 +20,5 @@ exports.handler = async function(req) {
     return { status: 404 }
   }
 }
+
+exports.handler = arc.http.async(GetTicket)
