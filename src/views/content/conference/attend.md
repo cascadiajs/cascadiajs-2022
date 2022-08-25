@@ -8,11 +8,12 @@ excerpt: Lodging, Travel, Guest Passes and more!
 <h2>On This Page</h2>
     <ul>
         <li><a href="#preparing-for-the-conference">Preparing for the Conference</a></li>
-        <li><a href="#lodging">Lodging</a></li>
+        <li><a href="#arriving-at-sunriver-resort">Arriving at Sunriver Resort</a></li>
+        <!--li><a href="#lodging">Lodging</a></li>
         <li><a href="#travel">Travel</a></li>
         <li><a href="#bringing-guests">Bringing Guests</a></li>
         <li><a href="#pets">Pets</a></li>
-        <li><a href="#sunriver-resort-perks">Sunriver Resort Perks</a>
+        <li><a href="#sunriver-resort-perks">Sunriver Resort Perks</a-->
     </ul>
 </div>
 
@@ -21,6 +22,10 @@ excerpt: Lodging, Travel, Guest Passes and more!
 Before you leave your home to travel to Cascadia, make sure you've got everything need to be ready for all the fun!
 
 <div class="cta secondary"><a href="/conference/prep">Prep Guide</a></div>
+
+## Arriving at Sunriver Resort
+
+Coming Soon!
 
 ## Lodging
 
