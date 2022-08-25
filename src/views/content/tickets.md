@@ -32,9 +32,11 @@ We ask people to register for their ticket themselves (and not on behalf of some
 
 For group/team purchases, please email us at tickets@cascadiajs.com. We can separate the payment process from the registration process. We can also provide group discounts for groups of 5 or more. Thank you!
 
+<!--
 ## Indie Discount
 
 If you are self-employed, work at a non-profit or work at a company with less than 10 employees, please use the discount code INDIEDEV for $175 off your ticket. 
+-->
 
 ## Virtual Tickets
 
