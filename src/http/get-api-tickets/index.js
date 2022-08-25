@@ -7,7 +7,7 @@ const data = require('@begin/data')
  */
 exports.handler = async function(req) {
   const { auth_hash } = req.queryStringParameters
-  //console.log(authHash)
+  console.log("Calling API: ", auth_hash)
   let tickets = await data.get({ table: 'tickets', limit: 1000 })
   let ticket = tickets.find((t) => t.auth_hash === auth_hash)
   if (ticket) {
