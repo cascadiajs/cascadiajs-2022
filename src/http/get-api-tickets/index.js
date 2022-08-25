@@ -14,10 +14,10 @@ async function GetTicket (req) {
   if (ticket) {
     console.log(ticket)
     let { auth_hash, conn_hash, full_name, email_share, linkedin, twitter, github, bio } = ticket
-    return { auth_hash, conn_hash, full_name, email_share, linkedin, twitter, github, bio }
+    return { json: { auth_hash, conn_hash, full_name, email_share, linkedin, twitter, github, bio } }
   }
   else {
-    return { status: 404 }
+    return { json: { status: 404 } }
   }
 }
 
