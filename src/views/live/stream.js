@@ -4,20 +4,26 @@ let { DayOne, DayTwo } = require('../components/schedule')
 module.exports = function Live({ speakers, ticket, playbackId  }) {
     let isDayOne = (new Date() - new Date('2022-09-01T04:00:00.0Z') < 0)
     let dayContainer = (isDayOne ? DayOne({ speakers, ticket }) : DayTwo({ speakers, ticket }))
-    playbackId = playbackId || 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM'
+    // playbackId = playbackId || 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM'
     let content = /*html*/`
     <div id="live">
         <section id="stream"> 
             <div id="stream-video">
+            ${ playbackId
+                ? /*html*/`
                 <mux-player
                     stream-type="live"
                     playback-id="${ playbackId }"
                     metadata-video-title="CascadiaJS 2022 Livestream"
-                    metadata-viewer-user-id="${ ticket ? ticket.key : 'anonymous' }"
+                    metadata-viewer-user-id="${ ticket.key }"
                     muted="true"
                     autoplay="any"
                     default-hidden-captions>
-                </mux-player>
+                </mux-player>`
+                : /*html*/`
+                <img src="/images/livestream-placeholder.png" alt="livestream placeholder graphic"/>`
+            }
+
             </div>
         </section>
         <section id="right-pane">
@@ -40,7 +46,7 @@ module.exports = function Live({ speakers, ticket, playbackId  }) {
                 <div id="next-agenda">Loading...</div>
             </div>
             <div id="emote">
-                <emote-widget talk-id="cjs22-brian" open="false"></emote-widget>
+                <emote-widget talk-id="cjs22-default" open="false"></emote-widget>
             </div>
         </section>
     </div>
