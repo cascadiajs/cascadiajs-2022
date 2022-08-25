@@ -65,12 +65,12 @@ function ticket(t) {
         <input type=text name=email placeholder="Email" value="${ t?.email || '' }">
         <input type=text name=github placeholder="Github username" value="${ t?.github || '' }">
         <input type=text name=avatar placeholder="Github avatar URL" value="${ t?.avatar || '' }">
-        <input type=text name=avatar placeholder="auth_hash" value="${ t?.auth_hash || '' }">
-        <input type=text name=avatar placeholder="conn_hash" value="${ t?.conn_hash || '' }">
-        <input type=text name=avatar placeholder="email_share" value="${ t?.email_share || '' }">
-        <input type=text name=avatar placeholder="linkedin" value="${ t?.linkedin || '' }">
-        <input type=text name=avatar placeholder="twitter" value="${ t?.twitter || '' }">
-        <input type=text name=avatar placeholder="bad_connects" value="${ t?.bad_connects || '' }">
+        <input type=text name=auth_hash placeholder="auth_hash" value="${ t?.auth_hash || '' }">
+        <input type=text name=conn_hash placeholder="conn_hash" value="${ t?.conn_hash || '' }">
+        <input type=text name=email_share placeholder="email_share" value="${ t?.email_share || '' }">
+        <input type=text name=linkedin placeholder="linkedin" value="${ t?.linkedin || '' }">
+        <input type=text name=twitter placeholder="twitter" value="${ t?.twitter || '' }">
+        <input type=text name=bad_connects placeholder="bad_connects" value="${ t?.bad_connects || '' }">
         <button>Save</button>
       </form>
       ${ t

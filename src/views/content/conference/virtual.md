@@ -34,4 +34,12 @@ Hop into the CascadiaJS Video Selfie Booth! Record yourself saying "hello", down
 
 The Video Selfie Booth is brought to you by our friends at [Mux](/sponsors/mux).
 
+## Virtual Raffle 🎁
+
+We are running a raffle that you will be able to enter once on each of the two days of the conference. The raffle form will be located in the center of the Expo Hall and each day a lucky winner with receive:
+
+- Vintage CascadiaJS swag
+- A FREE ticket to [Converge22](https://converge.circle.com/event/4ea0d06f-3900-4b6d-a9cd-aeaedda9ef2e/summary)
+
+
 <div class="cta"><a href="/tickets" aria-label="Buy Tickets">Buy a Virtual Ticket</a></div>
