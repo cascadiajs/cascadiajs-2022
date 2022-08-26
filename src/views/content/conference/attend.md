@@ -8,6 +8,7 @@ excerpt: Lodging, Travel, Guest Passes and more!
 <h2>On This Page</h2>
     <ul>
         <li><a href="#preparing-for-the-conference">Preparing for the Conference</a></li>
+        <li><a href="#hacker-bus-and-shuttles-to-sunriver">Hacker Bus and Shuttles to Sunriver Resort</a></li>
         <li><a href="#arriving-at-sunriver-resort">Arriving at Sunriver Resort</a></li>
         <!--li><a href="#lodging">Lodging</a></li>
         <li><a href="#travel">Travel</a></li>
@@ -23,9 +24,17 @@ Before you leave your home to travel to Cascadia, make sure you've got everythin
 
 <div class="cta secondary"><a href="/conference/prep">Prep Guide</a></div>
 
+## Hacker Bus and Shuttles to Sunriver Resort
+
+Did you buy a ticket for the Hacker Bus or RSVP for our airport shuttle? Read on!
+
+<div class="cta secondary"><a href="/conference/shuttles">Shuttle Guide</a></div>
+
 ## Arriving at Sunriver Resort
 
-Coming Soon!
+Everything you need to know about check-in to Sunriver Resort, our Welcome Reception and how Registration will work!
+
+<div class="cta secondary"><a href="/conference/arrival">Arrival Guide</a></div>
 
 ## Lodging
 
