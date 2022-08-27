@@ -37,9 +37,9 @@ module.exports = async function Index({ ticket, rsvp, activities, message }) {
                 <h3>Discord</h3>
                 <p>Discord is the text chat experience, complete with the animated gifs and reactions that you love.</p>
                 <div class="cta secondary"><a target="_discord" href="https://discord.gg/cascadiajs">Join Discord</a></div>
-                <!--h3>Video Selfie Booth</h3>
-                <p>Hop into the CascadiaJS Video Selfie Booth! Record yourself saying "hello", download the animated gif, and share it in the Discord and on Twitter!</p>
-                <div class="cta secondary"><a target="_booth" href="#">Video Selfie Booth</a></div-->
+                <h3>Video Selfie Booth</h3>
+                <p>Hop into the CascadiaJS Video Selfie Booth! Record yourself saying "hello", download the video clip, and share it in the Discord and on Twitter!</p>
+                <div class="cta secondary"><a target="_booth" href="https://guestbook.mux.dev">Video Selfie Booth</a></div>
                 ${ isInPerson
                     ? /*html*/`
                         <h2>Workshop Track</h2>

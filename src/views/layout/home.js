@@ -15,7 +15,7 @@ module.exports = function Layout ({title = 'CascadiaJS 2022 - Home', content, so
           </div>
           <div id="live-nav">
             <div><a class="${ view === 'dashboard' ? 'selected': ''}" href="/home/dashboard">Dashboard</a></div>
-            <!--div><a class="${ view === 'connect' ? 'selected': ''}" href="/home/connect">Connect</a></div-->
+            <div><a class="${ view === 'connect' ? 'selected': ''}" href="/home/connect">Connect</a></div>
           </div>
         </header>
         <main id="content">
