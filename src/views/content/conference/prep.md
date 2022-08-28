@@ -11,17 +11,16 @@ This is a very important guide to making sure you are prepped and ready to go fo
 There are a few required items that you MUST bring to the conference:
 
 - A government issued photo ID
-- Proof of COVID-19 vaccination (photo is OK)
+- Proof of COVID-19 vaccination (photo or app is OK)
 - Proof of a negative PCR or over-the-counter Antigen test (photo is OK)
 
 Here are some things that we strongly encourage you to consider bringing:
 
 - Mask: we encourage folks to mask up when they are inside and not eating or drinking
 - Snacks: we will be serving 3 hearty meals every day, but if you need to nosh regularly throughout the day, please bring snacks.
-- Water bottle: there will be water stations and it will be important to stay hydrated!
+- Insulated water bottle: there will be water stations and it will be important to stay hydrated!
 - Clothing: please [check the weather](https://www.wunderground.com/weather/us/or/sunriver) and dress in layers. It will be air conditioned inside, hot outside during the day and much cooler as the sun sets.
 - Pool gear: swimsuit, sunscreen, giant pool floatie, etc.
-
 
 ## 🔲 Check Your Login
 

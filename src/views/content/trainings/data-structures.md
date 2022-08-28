@@ -34,7 +34,7 @@ So whether you are in a job hunt or just hunting for ways to be better at your j
 - 09:00a - doors open
 - 09:30a - morning session begins
 - 12:30p - lunch
-- 01:00p - afternoon session begins
+- 01:30p - afternoon session begins
 - 04:00p - workshop ends
 
 ### About Brook Riggio

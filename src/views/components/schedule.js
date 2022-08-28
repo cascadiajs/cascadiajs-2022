@@ -134,16 +134,12 @@ function DayOne({ speakers, ticket = undefined }) {
                     <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-taco"></i> Lunch</a> by <a href="/sponsors/codingscape"><img src="/images/sponsors/codingscape.svg"></a></div></div>
                 </div>
                 <div class="location">Homestead</div>
-                ${ renderSpeaker("13:30", speakers.find(s => s.key === 'trivikram-kamat'))}
+                ${ renderSpeaker("14:00", speakers.find(s => s.key === 'trivikram-kamat'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'eddie-zaneski'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'joyce-lin'))}
                 <div class="show-item">       
-                    <div class="when"></div>
+                    <div class="when">15:30</div>
                     <div class="what"><div class="title">Day One Wrap</div></div>
-                </div>
-                <div class="show-item">       
-                    <div class="when">15:15</div>
-                    <div class="what"><div class="title"><i class="fas fa-popcorn"></i> Break</div></div>
                 </div>
                 <div class="show-item">       
                     <div class="when">15:45</div>
@@ -264,18 +260,18 @@ function DayTwo({ speakers, ticket = undefined }) {
                     <div class="what"><div class="title"><a href="/conference/meals"><i class="fas fa-taco"></i> Lunch</a> by <img src="/images/sponsors/codingscape.svg"></div></div>
                 </div>
                 <div class="location">Homestead</div>
-                ${ renderSpeaker("13:30", speakers.find(s => s.key === 'saimon-sharif'))}
+                ${ renderSpeaker("14:00", speakers.find(s => s.key === 'saimon-sharif'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'dwane-hemmings'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'rebecca-peltz'))}
                 <div class="show-item">       
-                    <div class="when">14:30</div>
+                    <div class="when">15:30</div>
                     <div class="what"><div class="title"><i class="fas fa-popcorn"></i> Break</div></div>
                 </div>
-                ${ renderSpeaker("16:00", speakers.find(s => s.key === 'shawn-swyx-wang'))}
+                ${ renderSpeaker("16:30", speakers.find(s => s.key === 'shawn-swyx-wang'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'brooklyn-zelenka'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'mikeal-rogers'))}
                 <div class="show-item">       
-                    <div class="when">17:30</div>
+                    <div class="when">18:00</div>
                     <div class="what"><div class="title">Closing Remarks</div></div>
                 </div>
                 <div class="location">Bessom Commons</div>

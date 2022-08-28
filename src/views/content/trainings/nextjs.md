@@ -23,6 +23,11 @@ This is an intermediate to advanced workshop. We will assume working familiarity
 
 We will start with setup and introduction that will outline the day. From there we will incrementally build our application, discussing decisions, tradeoffs, and alternatives along the way. There will be plenty of hands-on time to work and explore the tools.
 
+- 09:00a - doors open
+- 12:30p - lunch
+- 01:30p - afternoon session begins
+- 04:00p - workshop ends
+
 ### About Joel Hooks
 
 Joel is a software developer from the Pacific Northwest and built egghead.io. Joel is also the lead developer and executive producer of many high-quality courses for web developers such as Epic React, Testing JavaScript, Just JavaScript, and Testing Accessibility.  Over the last two years Joel has led the effort to migrate egghead.io to Next.js and create a monorepo that is home to more than half a dozen Next.js apps that share a common core library and it’s AWESOME.  After almost three decades of building UIs, Joel thinks now is the BEST time to be alive as a developer and is excited to share his experience with you.
