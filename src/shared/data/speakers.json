@@ -185,27 +185,6 @@
     "table": "speakers"
   },
   {
-    "location": "Federal Way, WA, USA",
-    "topics": [
-      "figma",
-      "react.js",
-      "design",
-      "design systems",
-      "component libraries"
-    ],
-    "url": "",
-    "pixelated": "136fab8ac5b4216f11ad611f2db1aa50861eb921",
-    "abstract": "A solid design system is one of the most important things to make sure your product and brand is consistent and relays the same message to users across the board. In this talk, we’ll cover how to create a design system that nails how you want to convey your brand - from colors to typography to tone.",
-    "name": "Isabela Moreira",
-    "twitter": "isabelacmor",
-    "company": "Microsoft",
-    "pronouns": "she/her",
-    "reveal": "2022-04-19T10:00-07:00",
-    "title": "The Startup's Guide to Creating a Design System",
-    "key": "isabela-moreira",
-    "table": "speakers"
-  },
-  {
     "location": "San Francisco, CA, USA",
     "topics": [
       "api",

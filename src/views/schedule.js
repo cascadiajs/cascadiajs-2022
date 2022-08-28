@@ -22,7 +22,7 @@ function template({ confSchedule }) {
                 <!--p><i class="fas fa-calendar-alt"></i> <a href="https://airtable.com/shrFhMryCHcGdGLdW/iCal?timeZone=America%2FLos_Angeles&userLocale=en">Subscribe to the Live Stream Calendar</a></p-->
                 ${ confSchedule }
                 <h2 id="map-of-sunriver-resort">Map of Sunriver Resort</h2>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1g9kDXCZmYEoD1Le0qPp2ZOqWrcSqCP8&ehbc=2E312F" width="100%" height="480"></iframe>
+                <img src="/images/sunriver/sunriver-map.png" alt="map of Sunriver Resort"/>
             </div>
         </div>
     `

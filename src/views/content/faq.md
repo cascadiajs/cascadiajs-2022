@@ -7,6 +7,7 @@ title: FAQ and COVID Information
         <li><a href="#code-of-conduct">Code of Conduct</a></li>
         <li><a href="#accessibility">Accessibility</a></li>
         <li><a href="#covid">Covid & Safety</a></li>
+        <li><a href="#refund-policy">Refund Policy</a></li>
     </ul>
 </div>
 
@@ -48,3 +49,12 @@ The health screening is a few questions that ask about your current health, know
 
 The conference will move forward in-person unless shut down by local, state, or federal government or health officials.
 
+## Refund Policy
+
+When you purchase a ticket to CascadiaJS, all sales are final:
+
+![all sales final](/images/no-refunds.png)
+
+We understand that sometimes your plans change, but we have no flexibility here. Organizing a conference requires us to spend money in advance on a venue, catering, hoodies, vendors and dozens of other expenses related to the event.
+
+If you cannot attend the conference for any reason, you are more than welcome to sell your ticket and we can assist with the transfer process.
