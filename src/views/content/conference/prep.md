@@ -53,7 +53,7 @@ If you live outside of Bend, please make sure you've [secured lodging](/attend).
 
 Unless you live in Bend, you'll need to travel to Sunriver Resort. There are many ways to get to and from Cascadia, so please check-out our [Travel Guide](/travel) for information on trains, shuttle buses, car pools and more.
 
-## 🔲 Plans Your Meals
+## 🔲 Plan Your Meals
 
 We have published [the menus](/conference/meals) for all of the meals being served on Aug 31 and Sept 1.
 

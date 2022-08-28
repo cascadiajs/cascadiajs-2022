@@ -52,7 +52,7 @@ async function send_magic_link(req) {
   let session, location
 
   let { email } = req.body
-  let validSlugs = process.env.TITO_CONF_SLUGS.split(',')
+  let validSlugs = process.env.TITO_INPERSON_SLUGS.split(',').concat(process.env.TITO_VIRTUAL_SLUGS.split(','))
 
   if (req.body.reset) {
     session = {}
