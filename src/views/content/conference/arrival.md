@@ -21,6 +21,8 @@ If you take a PCR test, the test itself (not the results) must take place within
 
 If you take an antigen test (over the counter, take home test), please take that test within 24 hours of registering for the conference and write the date and time on the test.
 
+<div class="highlight warning">We will NOT have Covid tests at Sunriver Resort. Please make sure you procure one before you arrive.</div>
+
 ## Welcome Reception and Pre-Registration (8/30)
 
 We're welcoming everyone to Sunriver Resort with a fun Welcome Reception (powered by our friends at Fictiv) where you will be able to pre-register for the conference. This will enable you to "skip the line" the next morning, meaning more time for breakfast and hanging out with friends. 

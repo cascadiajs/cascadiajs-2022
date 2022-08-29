@@ -35,7 +35,10 @@ function hallwayTrack({ticket = undefined}) {
         <div class="what">
             <div class="title">Walk Around</div>
             <p>Join us in a virtual space where you can watch the talks, meet new people and chat with our sponsors!</p>
-            <p><img src="/images/gather-map.jpg" alt="source: https://www.reddit.com/r/gathertown/comments/no8i1a/our_new_office/"/></p>
+            <p><img src="/images/gather-dancing.png"/></p>
+            <div class="title">Video Selfie Booth</div>
+            <p>Hop into the CascadiaJS Video Selfie Booth! Record yourself saying "hello", download the video clip, and share it in the Discord and on Twitter!</p>
+            <div class="cta secondary"><a target="_booth" href="https://guestbook.mux.dev">Video Selfie Booth</a></div>
         </div>
     </div>
     <div class="show-item">       

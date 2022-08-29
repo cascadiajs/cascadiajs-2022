@@ -14,6 +14,8 @@ There are a few required items that you MUST bring to the conference:
 - Proof of COVID-19 vaccination (photo or app is OK)
 - Proof of a negative PCR or over-the-counter Antigen test (photo is OK)
 
+<div class="highlight warning">We will NOT have Covid tests at Sunriver Resort. Please make sure you procure one before you arrive.</div>
+
 Here are some things that we strongly encourage you to consider bringing:
 
 - Mask: we encourage folks to mask up when they are inside and not eating or drinking
