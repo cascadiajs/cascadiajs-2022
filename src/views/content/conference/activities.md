@@ -33,7 +33,7 @@ Our friends at [Begin](/sponsors/begin) will have some surprises in store as wel
 
 <h2>Sunriver Bike Ride by <img src="/images/sponsors/web3-storage.png"/></h2>
 
-This will be a self-guided bike ride alongside the Deschutes River, among the pine trees, and past the horse fields, on over 40 miles of paved bike paths! The perfect place for cruising with your new friends at CascadiaJS. 
+If you're looking for a guided ride, Christian Danielsen will lead a group from the Bike Barn for a mellow, 1-hour circuit around the resort. Beginner friendly, all abilities welcome! The perfect place for cruising with your new friends at CascadiaJS. 
 
 Bikes will be provided, but you can always bring your own.
 
