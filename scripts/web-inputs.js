@@ -76,7 +76,7 @@ async function createLivestream() {
     return playbackId
 }
 
-async function updateWebInputPlaybackId(env, password, webInputplaybackId) {
+async function updateWebInputPlaybackId(env, password, webInputPlaybackId) {
     let url
     if (env === 'testing') {
         url = 'http://localhost:3333'
@@ -94,22 +94,22 @@ async function updateWebInputPlaybackId(env, password, webInputplaybackId) {
 
     // update the app setting
     params = new URLSearchParams()
-    params.append('key', 'webInputplaybackId')
-    params.append('value', webInputplaybackId)
-    await fetch(`${url}/admin/settings/webInputplaybackId`, {
+    params.append('key', 'webInputPlaybackId')
+    params.append('value', webInputPlaybackId)
+    await fetch(`${url}/admin/settings/webInputPlaybackId`, {
         method: 'POST',
         headers: { cookie },
         body:    params,
         redirect: 'manual'
     })
-    console.log('Setting Updated: webInputplaybackId = ', webInputplaybackId)
+    console.log('Setting Updated: webInputPlaybackId = ', webInputPlaybackId)
 }
 
 async function main() {
     let env = process.argv[2]
     let password = process.argv[3]
-    let webInputplaybackId = await createLivestream()
-    await updateWebInputPlaybackId(env, password, webInputplaybackId)
+    let webInputPlaybackId = await createLivestream()
+    await updateWebInputPlaybackId(env, password, webInputPlaybackId)
 }
 
 main()

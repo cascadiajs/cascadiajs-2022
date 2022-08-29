@@ -15,13 +15,24 @@ async function getPlaybackId(req) {
   return playbackIdOverride || (setting ? setting.value : undefined)
 }
 
+async function getWebInputPlaybackId(req) {
+  // enable override of the playbackId for testing purposes
+  let playbackIdOverride = req.queryStringParameters.playbackId
+  let setting = await data.get( {table: 'settings', key: 'webInputPlaybackId' })
+  return playbackIdOverride || (setting ? setting.value : undefined)
+}
+
 // render the form
 async function unauthenticated(req) {
   let { view } = req.params
   let { ticketRef } = req.session
-  let playbackId = await getPlaybackId(req)
   if (view === 'web-input') {
+    let playbackId = await getPlaybackId(req)
     return WebInputView({ playbackId })
+  }
+  else if (view === 'embed') {
+    let webInputPlaybackId = await getWebInputPlaybackId(req)
+    return EmbedView({ webInputPlaybackId })
   }
   else if (!ticketRef) {
     return { location: `/home/login?message=${ encodeURIComponent("Please log-in") }`}
@@ -37,15 +48,9 @@ async function Live(req) {
   let speakerData = await getSpeakerData(req)
   let speakers = speakerData.speakers
   //let links = await data.get( {table: 'links', limit: 100 })
-  let playbackId = await getPlaybackId(req)
 
-  if (view === 'embed') {
-    return EmbedView({ playbackId })
-  }
-  else if (view === 'web-input') {
-    return WebInputView({ playbackId })
-  }
-  else if (view === 'stream') {
+  if (view === 'stream') {
+    let playbackId = await getPlaybackId(req)
     return StreamView({ speakers, ticket, playbackId })
   }
   else if (view === 'expo') {

@@ -1,7 +1,7 @@
 let Layout = require('../layout/web-input')
 
 module.exports = function Live({ playbackId }) {
-    playbackId = playbackId || 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM'
+    //playbackId = playbackId || 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM'
     let content = /*html*/`
     <div style="background-color: #fff5cc;">
         <div id="live" class="web-input">
