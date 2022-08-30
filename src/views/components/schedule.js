@@ -104,7 +104,7 @@ function DayOne({ speakers, ticket = undefined }) {
         <div class="day-content">
             <div class="show-item">       
                 <div class="when">08:00</div>
-                <div class="what"><div class="title"><i class="fas fa-door-open"></i> Doors Open</div></div>
+                <div class="what"><div class="title"><i class="fas fa-door-open"></i> Doors Open and Registration</div></div>
             </div>
         </div>
         <div class="location">Landmark</div>
@@ -224,7 +224,7 @@ function DayTwo({ speakers, ticket = undefined }) {
         <div class="day-content">
             <div class="show-item">       
                 <div class="when">08:00</div>
-                <div class="what"><div class="title"><i class="fas fa-door-open"></i> Doors Open</div></div>
+                <div class="what"><div class="title"><i class="fas fa-door-open"></i> Doors Open and Registration</div></div>
             </div>
         </div>
         <div class="location">Landmark</div>
