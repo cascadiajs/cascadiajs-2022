@@ -10,6 +10,7 @@ excerpt: Lodging, Travel, Guest Passes and more!
         <li><a href="#preparing-for-the-conference">Preparing for the Conference</a></li>
         <li><a href="#hacker-bus-and-shuttles-to-sunriver">Hacker Bus and Shuttles to Sunriver Resort</a></li>
         <li><a href="#arriving-at-sunriver-resort">Arriving at Sunriver Resort</a></li>
+        <li><a href="#the-significant-other-track">Significant Other Track</a></li>
         <!--li><a href="#lodging">Lodging</a></li>
         <li><a href="#travel">Travel</a></li>
         <li><a href="#bringing-guests">Bringing Guests</a></li>
@@ -35,6 +36,12 @@ Did you buy a ticket for the Hacker Bus or RSVP for our airport shuttle? Read on
 Everything you need to know about check-in to Sunriver Resort, our Welcome Reception and how Registration will work!
 
 <div class="cta secondary"><a href="/conference/arrival">Arrival Guide</a></div>
+
+## The Significant Other Track
+
+Resources and tips for having fun at CascadiaJS as a Guest.
+
+<div class="cta secondary"><a href="/conference/so-track">Significant Other Track</a></div>
 
 ## Lodging
 

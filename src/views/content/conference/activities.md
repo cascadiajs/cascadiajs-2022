@@ -9,7 +9,7 @@ excerpt: Choose your own adventure with kayaking, hiking, yoga and more!
 All in-person conference attendees will have the opportunity to RSVP for one of the following during our Activity Track on the afternoon of August 31. Make sure you [get your Conference Ticket](/tickets) and [RSVP](/home/dashboard) soon, because spaces are limited! A few notes:
 
 - Activities run from roughly 4pm - 6pm, but timing may change per Activity.
-- Activities are only open to Conference Attendees for now. We may open up registration to Guests later.
+- Activities are only open to Attendees and Guests, but we have only reserved kayaks and bikes for attendees. Guests who want to reserve and pay for their own kayaks/bikes are welcome to join!
 - See equipment requirements for each activity.
 
 <h2>Kayaking by <img src="/images/sponsors/netlify.svg"/></h2>
