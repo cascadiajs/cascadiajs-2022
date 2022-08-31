@@ -12,7 +12,6 @@ module.exports = function Live({ playbackId }) {
                         playback-id="${ playbackId }"
                         metadata-video-title="CascadiaJS 2022 Livestream"
                         metadata-viewer-user-id="web-input"
-                        muted="true"
                         autoplay="any"
                         default-hidden-captions>
                     </mux-player>
