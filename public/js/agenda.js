@@ -20,9 +20,9 @@ const agenda = [
     "when": "2022-08-31T16:30:00.000Z"
   },
   {
-    "id": "isabela-moreira",
+    "id": "brian-leroux",
     "talk": true,
-    "what": "Speaker Isabela Moreira",
+    "what": "Speaker Brian Leroux",
     "when": "2022-08-31T17:00:00.000Z"
   },
   {
@@ -59,25 +59,25 @@ const agenda = [
     "id": "trivikram-kamat",
     "talk": true,
     "what": "Speaker Trivikram Kamat",
-    "when": "2022-08-31T20:30:00.000Z"
+    "when": "2022-08-31T21:00:00.000Z"
   },
   {
     "id": "eddie-zaneski",
     "talk": true,
     "what": "Speaker Eddie Zaneski",
-    "when": "2022-08-31T21:21:00.000Z"
+    "when": "2022-08-31T21:30:00.000Z"
   },
   {
     "id": "joyce-lin",
     "talk": true,
     "what": "Speaker Joyce Lin",
-    "when": "2022-08-31T21:30:00.000Z"
+    "when": "2022-08-31T22:00:00.000Z"
   },
   {
     "id": "day-one-close",
     "talk": false,
     "what": "Closing Day One",
-    "when": "2022-08-31T22:00:00.000Z"
+    "when": "2022-08-31T22:30:00.000Z"
   },
   {
     "id": "day-two-open",
@@ -131,54 +131,42 @@ const agenda = [
     "id": "saimon-sharif",
     "talk": true,
     "what": "Speaker Saimon Sharif",
-    "when": "2022-09-01T20:30:00.000Z"
+    "when": "2022-09-01T21:00:00.000Z"
   },
   {
     "id": "dwane-hemmings",
     "talk": true,
     "what": "Speaker Dwane Hemmings",
-    "when": "2022-09-01T21:00:00.000Z"
+    "when": "2022-09-01T21:30:00.000Z"
   },
   {
     "id": "rebecca-peltz",
     "talk": true,
     "what": "Speaker Rebecca Peltz",
-    "when": "2022-09-01T21:30:00.000Z"
+    "when": "2022-09-01T22:00:00.000Z"
   },
   {
     "id": "day-two-afternoon-break",
     "talk": false,
     "what": "Afternoon Break",
-    "when": "2022-09-01T22:00:00.000Z"
-  },
-  {
-    "id": "mikeal-rogers",
-    "talk": true,
-    "what": "Speaker Mikeal Rogers",
     "when": "2022-09-01T22:30:00.000Z"
-  },
-  {
-    "id": "brooklyn-zelenka",
-    "talk": true,
-    "what": "Speaker Brooklyn Zelenka",
-    "when": "2022-09-01T23:00:00.000Z"
-  },
-  {
-    "id": "day-two-late-afternoon-break",
-    "talk": false,
-    "what": "Day Two Late Afternoon Break",
-    "when": "2022-09-01T23:30:00.000Z"
   },
   {
     "id": "shawn-wang",
     "talk": true,
     "what": "Speaker Shawn (swyx) Wang",
+    "when": "2022-09-01T23:30:00.000Z"
+  },
+  {
+    "id": "brooklyn-zelenka",
+    "talk": true,
+    "what": "Speaker Brooklyn Zelenka",
     "when": "2022-09-02T00:00:00.000Z"
   },
   {
-    "id": "brian-leroux",
+    "id": "mikeal-rogers",
     "talk": true,
-    "what": "Speaker Brian Leroux",
+    "what": "Speaker Mikeal Rogers",
     "when": "2022-09-02T00:30:00.000Z"
   },
   {
