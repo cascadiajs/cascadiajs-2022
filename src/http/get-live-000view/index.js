@@ -15,12 +15,12 @@ async function getPlaybackId(req) {
   return playbackIdOverride || (setting ? setting.value : undefined)
 }
 
-async function getWebInputPlaybackId(req) {
+/*async function getWebInputPlaybackId(req) {
   // enable override of the playbackId for testing purposes
   let playbackIdOverride = req.queryStringParameters.playbackId
   let setting = await data.get( {table: 'settings', key: 'webInputPlaybackId' })
   return playbackIdOverride || (setting ? setting.value : undefined)
-}
+}*/
 
 // render the form
 async function unauthenticated(req) {
@@ -31,8 +31,9 @@ async function unauthenticated(req) {
     return WebInputView({ playbackId })
   }
   else if (view === 'embed') {
-    let webInputPlaybackId = await getWebInputPlaybackId(req)
-    return EmbedView({ webInputPlaybackId })
+    //let webInputPlaybackId = await getWebInputPlaybackId(req)
+    let playbackId = await getPlaybackId(req)
+    return EmbedView({ playbackId })
   }
   else if (!ticketRef) {
     return { location: `/home/login?message=${ encodeURIComponent("Please log-in") }`}

@@ -32,6 +32,23 @@ async function createLivestream() {
               "passthrough": "English closed captions (auto-generated)",
               "language_code": "en-US"
             }
+        ],
+        simulcast_targets : [
+          {
+            url : "rtmps://or.pscp.tv:443/x",
+            stream_key : process.env.TWITTER_STREAM_KEY,
+            passthrough : "CascadiaJS 2022 Livestream on Twitter"
+          },
+          {
+            url : "rtmp://live.twitch.tv/app/",
+            stream_key : process.env.TWITCH_STREAM_KEY,
+            passthrough : "CascadiaJS 2022 Livestream on Twitch"
+          },
+          {
+            url : "rtmp://a.rtmp.youtube.com/live2",
+            stream_key : process.env.YOUTUBE_STREAM_KEY,
+            passthrough : "CascadiaJS 2022 Livestream on YouTube"
+          }
         ]
       }
 
