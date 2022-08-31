@@ -30,6 +30,8 @@ Feel free to take a selfie using one of these lenses and send us a tweet using t
 
 ## Video Selfie Booth
 
+![mux video booth](/images/conf/mux-video-booth.png)
+
 Hop into the CascadiaJS Video Selfie Booth! Record yourself saying "hello", download the animated gif, and share it in the Discord and on Twitter!
 
 The Video Selfie Booth is brought to you by our friends at [Mux](/sponsors/mux).
