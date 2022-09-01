@@ -23,8 +23,8 @@ module.exports = function Layout ({ path, title, content, socialUrl, excerpt, sc
               <div class="spacer"><a href="/trainings">Training</a></div>
               <div class="spacer"><a href="/sponsors/jobs">Jobs</a></div>
               <div class="spacer"><a href="/code-of-conduct">Code of Conduct</a></div>
-              <div class="spacer"><a href="/faq">FAQ</a></div>
-              <div class="spacer"><a href="/tickets" class="buy">Tickets</a></div>
+              <div class="spacer"><a href="/tickets">Tickets</a></div>
+              <div class="spacer"><a href="/home/dashboard" class="buy">Log In</a></div>
             </div>
           </nav>
         </header>
