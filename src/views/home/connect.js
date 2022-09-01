@@ -13,7 +13,7 @@ module.exports = async function({ ticket, connections }) {
                     <summary>${ c.to_data.full_name }</summary>
                     <ul>
                         <li>${ c.to_data.email_share }</li>
-                        ${ c.to_data.linkedin ? `<li><a target="_blank" href="${ c.to_data.linkedin }>${ c.to_data.linkedin }</a></li>` : `` }
+                        ${ c.to_data.linkedin ? `<li><a target="_blank" href="${ c.to_data.linkedin }">${ c.to_data.linkedin }</a></li>` : `` }
                         ${ c.to_data.twitter ? `<li><a target="_blank" href="https://twitter.com/${ c.to_data.twitter }">@${ c.to_data.twitter }</a></li>` : `` }
                         ${ c.to_data.github ? `<li><a target="_blank" href="https://github.com/${ c.to_data.github }">@${ c.to_data.github }</a></li>` : `` }
                         ${ c.to_data.bio ? `<li>${ c.to_data.bio }</li>` : `` }
