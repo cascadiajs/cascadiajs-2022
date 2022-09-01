@@ -1,11 +1,11 @@
-module.exports = function Embed({ playbackId }) {
+module.exports = function Embed({ webInputPlaybackId }) {
     //playbackId = playbackId || 'v69RSHhFelSm4701snP22dYz2jICy4E4FUyk02rW4gxRM'
     let html = /*html*/`
     <html>
         <body>
             <mux-player
                 stream-type="live"
-                playback-id="${ playbackId }"
+                playback-id="${ webInputPlaybackId }"
                 metadata-video-title="CascadiaJS 2022 Livestream"
                 metadata-viewer-user-id="gather-embed"
                 muted="true"

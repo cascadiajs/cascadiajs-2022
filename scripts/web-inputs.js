@@ -58,6 +58,7 @@ async function createLivestream() {
 
     payload = {
       url: "https://2022.cascadiajs.com/live/web-input",
+      timeout: 43200,
       live_stream_id: livestreamId,
       auto_launch : true
     }
