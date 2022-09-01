@@ -1,6 +1,6 @@
 {
   "name": "cascadiajs-2022",
-  "version": "0.0.279",
+  "version": "0.0.280",
   "description": "The web app for the CascadiaJS 2022 conference",
   "scripts": {
     "start": "ARC_TABLES_PORT=5001 npx sandbox",
