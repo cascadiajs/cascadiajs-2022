@@ -61,9 +61,9 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
             </div>
         </section>
         <section id="promo-video" style="padding:16px">
-        <div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/6298be65002042523db507d3326da8bd?muted=true&autoplay=true&loop=true&poster=https%3A%2F%2Fvideodelivery.net%2F6298be65002042523db507d3326da8bd%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+            <div><img src="/images/cjs22-family-photo.jpg" alt="2022 family photo"/></div>
         </section>
-        <section id="banner">
+        <!--section id="banner">
             <div class="banner-item">
                 <div class="banner-item-metric">Virtual</div>
                 <p>Can't attend in-person? No problem, join us on-line!</p>
@@ -79,7 +79,7 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
                 <p>Register for FREE hands-on workshops by industry experts.</p>
                 <div class="cta secondary"><a href="/workshops">Learn More</a></div>
             </div>
-        </section>
+        </section-->
         <section id="features" class="landing">
             <h1>Features</h1>
             <div id="features-container">
