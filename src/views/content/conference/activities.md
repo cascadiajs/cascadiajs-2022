@@ -43,6 +43,8 @@ Unwind from a day of talks and networking with some yoga on the lawn with Ginger
 
 Please plan on bringing your own yoga mat or beach towel.
 
+<div class="cta secondary"><a href="/conference/yoga">Yoga Recap</div>
+
 ## Bike to Benham Falls 🚲
 
 This is a roughly 14-mile ride out to Benham Falls being led by Eric Artzt, a ride leader in the local Bend biking community. He promises this will be a fantastic Central Oregon experience!
