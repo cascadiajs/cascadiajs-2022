@@ -102,7 +102,7 @@ async function authenticated(req) {
     if (csv) {
       return {
         type: 'text/csv',
-        body: 'name,email,linkedin,twitter,github,bio\n' + connections.map(c => `${c.to_data.full_name},${c.to_data.email_share},${c.to_data.linkedin},${c.to_data.twitter},${c.to_data.github},"${c.to_data.bio}"`).join('\n')
+        body: 'name,email,linkedin,twitter,github\n' + connections.map(c => `${c.to_data.full_name},${c.to_data.email_share},${c.to_data.linkedin},${c.to_data.twitter},${c.to_data.github}`).join('\n')
       }
     }
     else {

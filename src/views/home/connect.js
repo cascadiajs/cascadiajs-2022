@@ -20,7 +20,7 @@ module.exports = async function({ ticket, connections }) {
                     </ul>
                 </details>
             `).join('')}
-            <a target="_csv" href="/home/connect?csv">Download Connections CSV</a>
+            <div class="cta"><a target="_csv" href="/home/connect?csv=true">Download Connections CSV</a></div>
             </div>
             <script>
                 window.addEventListener('message', (event) => {
