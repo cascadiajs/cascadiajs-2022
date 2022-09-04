@@ -25,7 +25,7 @@ async function fetchConnections(cursor) {
 }
 
 async function getActivitiesWithCounts() {
-  let rsvpData = await data.get({table: 'rsvps', limit: 500 })
+  let rsvpData = await data.get({ table: 'rsvps', limit: 500 })
   return activities.map(a => {
     return {
       ...a,
@@ -49,18 +49,18 @@ async function unauthenticated(req) {
   }
   else if (view === 'verify') {
     let { ticketRef, token } = req.queryStringParameters
-    let login = await data.get( { table: 'logins', key: ticketRef })
+    let login = await data.get({ table: 'logins', key: ticketRef })
     if (login && login.token === token && login.expires > Date.now()) {
       let session = { ticketRef }
       let location = '/home/dashboard'
       return { session, location }
     }
     else {
-      return { location: `/home/login?message=${ encodeURIComponent("Log-in verification failed, try again?") }`}
+      return { location: `/home/login?message=${encodeURIComponent("Log-in verification failed, try again?")}` }
     }
   }
   else if (!ticketRef) {
-    return { location: `/home/login?message=${ encodeURIComponent("Please log-in") }`}
+    return { location: `/home/login?message=${encodeURIComponent("Please log-in")}` }
   }
 }
 
@@ -69,10 +69,10 @@ async function authenticated(req) {
   let { message } = req.queryStringParameters
   const { view } = req.params
   let { ticketRef } = req.session
-  let ticket = await data.get( { table: 'tickets', key: ticketRef })
+  let ticket = await data.get({ table: 'tickets', key: ticketRef })
   if (view === 'dashboard') {
     // load the RSVP (if one exists)
-    let rsvp = await data.get({table: 'rsvps', key: ticketRef })
+    let rsvp = await data.get({ table: 'rsvps', key: ticketRef })
     let activitiesWithCounts = await getActivitiesWithCounts()
     //console.log(activitiesWithCounts)
     return HomeView({ ticket, rsvp, activities: activitiesWithCounts, message })
@@ -94,7 +94,7 @@ async function authenticated(req) {
       for (let i in connections) {
         let conn = connections[i]
         let to_data = await fetchToData(conn.to)
-        connections[i] = { ...conn, to_data}
+        connections[i] = { ...conn, to_data }
       }
       //console.log(connections)
     }
@@ -110,7 +110,7 @@ async function authenticated(req) {
       return ConnectView({ ticket, connections })
     }
   }
-  else if (view === 'wait'){
+  else if (view === 'wait') {
     return WaitView()
   }
   else if (view === 'oauth') {
