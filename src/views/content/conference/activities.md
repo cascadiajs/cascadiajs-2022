@@ -43,7 +43,7 @@ Unwind from a day of talks and networking with some yoga on the lawn with Ginger
 
 Please plan on bringing your own yoga mat or beach towel.
 
-<div class="cta secondary"><a href="/conference/yoga">Yoga Recap</div>
+<div class="cta secondary"><a href="/conference/yoga">Yoga Recap</a></div>
 
 ## Bike to Benham Falls 🚲
 
