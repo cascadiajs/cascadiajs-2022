@@ -9,20 +9,8 @@ const CheckView = require('@architect/views/home/check')
 const WaitView = require('@architect/views/home/wait')
 const NotFoundView = require('@architect/views/404')
 const github = require('./github')
-
-async function fetchToData(key) {
-  return await data.get({ table: 'tickets', key })
-}
-
-async function fetchConnections(cursor) {
-  let result = await data.get({ table: 'connections', cursor })
-  if (result.cursor) {
-    return result.concat(await fetchConnections(result.cursor))
-  }
-  else {
-    return result
-  }
-}
+const { ConnectedTicket } = require('./connected-ticket')
+const { Ticket } = require('./ticket')
 
 async function getActivitiesWithCounts() {
   let rsvpData = await data.get({ table: 'rsvps', limit: 500 })
@@ -69,7 +57,7 @@ async function authenticated(req) {
   let { message } = req.queryStringParameters
   const { view } = req.params
   let { ticketRef } = req.session
-  let ticket = await data.get({ table: 'tickets', key: ticketRef })
+  let ticket = await Ticket.byKey(ticketRef)
   if (view === 'dashboard') {
     // load the RSVP (if one exists)
     let rsvp = await data.get({ table: 'rsvps', key: ticketRef })
@@ -78,7 +66,6 @@ async function authenticated(req) {
     return HomeView({ ticket, rsvp, activities: activitiesWithCounts, message })
   }
   else if (view === 'connect') {
-    let connections = []
     // if user does not have an authHash, create authHash, connHash and emailShare and attach to ticket record
     if (!ticket.auth_hash) {
       let auth_hash = crypto.createHmac("sha256", process.env.RETOOL_SECRET).update(ticket.key).digest("base64")
@@ -87,18 +74,13 @@ async function authenticated(req) {
       let bad_connects = 0
       ticket = await data.set({ ...ticket, auth_hash, conn_hash, email_share, bad_connects })
     }
-    else {
-      // load connections
-      connections = (await fetchConnections()).filter((c) => c.from === ticket.key)
-      // inflate connections with ticket data
-      for (let i in connections) {
-        let conn = connections[i]
-        let to_data = await fetchToData(conn.to)
-        connections[i] = { ...conn, to_data }
-      }
-      //console.log(connections)
+    const connectedTicket = new ConnectedTicket(ticket)
+    const connections = await connectedTicket.connections()
+    const { csv, add_connection } = req.queryStringParameters
+    if (add_connection) {
+      const connectToTicket = Ticket.fromConnectionHash(add_connection)
+      connectedTicket.addConnection(connectToTicket)
     }
-    let { csv } = req.queryStringParameters
     if (csv) {
       return {
         type: 'text/csv',
