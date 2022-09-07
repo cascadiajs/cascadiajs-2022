@@ -19,10 +19,10 @@ let Template = function(speaker) {
                 <h2>${ title }</h2>
                 <div class="topics">${ topics.map(t => `<div class=js-topic>${ t }</div>`).join('') }</div>
                 <div class="abstract">${ marked.parse(abstract) }</div>
-                <!--div class="illustration">
-                    <img src="https://static.cascadiajs.com/2021/graphic-recordings/${ key }.jpg" alt="talk illustration"/><br/>
-                    <p><small><i>Illustrations made possible by our friends at <a href="https://trynewrelic.com/cascadiajs">NewRelic</a> ❤️</i></small></p>
-                </div-->
+                <div class="illustration">
+                    <img src="/images/graphic-recordings/${ key }.jpg" alt="talk illustration"/><br/>
+                    <p><small><i>Illustrations made possible by our friends at <a href="https://netlify.com">Netlify</a> ❤️</i></small></p>
+                </div>
                 <!--div class="video">
                 ${ ytId
                 ?   /*html*/`<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/${ ytId }" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`
