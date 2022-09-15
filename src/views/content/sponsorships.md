@@ -105,7 +105,7 @@ Sponsorships are broken down into tiers. No matter what your budget is, we have 
 
 ## Platinum Sponsorships ($25k)
 
-### Venue <span class="highlight success">1 AVAILABLE</span>
+### Venue <span class="highlight warning">SOLD OUT</span>
 
 ![Homestead conference venue](/images/sunriver/sunriver-homestead.jpg)
 
@@ -119,7 +119,7 @@ Your company is making it possible for the event to be at Sunriver Resort this y
 
 Choose from one of two options: **Booth** or **Workshop**.
 
-### Expo Hall Booth <span class="highlight success">1 AVAILABLE</span>
+### Expo Hall Booth <span class="highlight warning">SOLD OUT</span>
 
 <div class="sponsors-grid">
     <div class="sponsored tier">
@@ -165,7 +165,7 @@ We will work with you to design a workshop that our community would be excited t
 
 The Welcome Reception takes place the day before the conference, as folks are arriving and checking-in to Sunriver. It will take place outside on the Mt. Bachelor lawn and will feature drinks and light appetizers. 
 
-### Breakfast (Aug 31 + Sept 1) <span class="highlight success">1 AVAILABLE</span>
+### Breakfast (Aug 31 + Sept 1) <span class="highlight warning">SOLD OUT</span>
 
 ![Sunriver Great Hall](/images/sunriver/sunriver-great-hall.jpg)
 
@@ -181,7 +181,7 @@ Each morning (Aug 31 + Sept 1), breakfast will be served in the Great Hall, whic
 
 After the morning talks (Aug 31 + Sept 1), lunch will be served immediately outside the conference center on the Bessom Commons. You will have an opportunity to set-up banners and place items on tables. This covers lunch on both days.
 
-### Dinner (Aug 31 + Sept 1) <span class="highlight success">1 AVAILABLE</span>
+### Dinner (Aug 31 + Sept 1) <span class="highlight warning">SOLD OUT</span>
 
 ![Sunriver Mt. Bachelor lawn](/images/sunriver/sunriver-mt-bachelor.jpg)
 
@@ -202,7 +202,7 @@ Help us create an amazing end to each day by catering a delicious meal and setti
 
 Companies sponsoring an activity will get to select their activity of choice on a first-come first-served basis. They will have an opportunity to address all of the attendees who are participating in the activity, provide some swag and send them an email following the activity.
 
-### Startup Fair (Sept 1) <span class="highlight success">1 AVAILABLE</span>
+### Startup Fair (Sept 1) <span class="highlight warning">SOLD OUT</span>
 
 ![Moovweb at CascadiaJS 2019](/images/past/cjs14-party.jpg)
 
@@ -210,7 +210,7 @@ After dinner on Sept 1, we are putting on our first ever Startup Fair! We have o
 
 You can support this event (and these startups) by being a sponsor for this event. We will connect you to these early stage startups and acknowledge your support during the event. It will be a great opportunity to connect to some high-potential founders and a larger group of developers, some of whom may become founders.
 
-### Virtual Booth <span class="highlight success">4 AVAILABLE</span>
+### Virtual Booth <span class="highlight warning">SOLD OUT</span>
 
 ![CascadiaJS 2021 livestream](/images/past/cjs21-livestream.jpg)
 
@@ -250,13 +250,13 @@ For the last few years, we have worked with an amazing artist to create on-the-f
 
 Example: https://twitter.com/CascadiaJS/status/1458611171913703425
 
-### Karaoke Party 🎤 (Sept 1) <span class="highlight success">1 AVAILABLE</span>
+### Karaoke Party 🎤 (Sept 1) <span class="highlight warning">SOLD OUT</span>
 
 We close our EVERY CascadiaJS conference with a karaoke night! We have hired one of the [best karaoke DJ's](https://baby-ketten-klub.mailchimpsites.com/) in the Pacific NW to help us close the conference out right.
 
 Your company will receive full recognition for making this karaoke night possible. 
 
-### Farewell Brunch (Sept 2) <span class="highlight success">1 AVAILABLE</span>
+### Farewell Brunch (Sept 2) <span class="highlight warning">SOLD OUT</span>
 
 ![CascadiaJS 2016 lunch](/images/past/cjs16-lunch-outside.jpg)
 
@@ -264,11 +264,11 @@ On the morning of Sept 2, we will host a farewell brunch. You will have an oppor
 
 ## Community Sponsorships ($2500)
 
-### Airport Shuttle (Aug 30 + Sept 2) <span class="highlight success">1 AVAILABLE</span>
+### Airport Shuttle (Aug 30 + Sept 2) <span class="highlight warning">SOLD OUT</span>
 
 Help us offer our attendees a FREE airport shuttle that will run from the RDM airport to Sunriver Resort. Your company will be recognized for making this happen in communications to ALL our attendees, and this shuttle will make a big difference in terms of both cost and our event's environmental impact (fewer rented cars).
 
-### Job Posting <span class="highlight warning">1 SOLD, 5 AVAILABLE</span>
+### Job Posting <span class="highlight warning">SOLD OUT</span>
 
 ![CascadiaJS 2021 job posting](/images/past/cjs21-job-posting.jpg)
 
