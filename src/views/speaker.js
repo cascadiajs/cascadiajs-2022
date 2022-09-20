@@ -23,11 +23,11 @@ let Template = function(speaker) {
                     <img src="/images/graphic-recordings/${ key }.jpg" alt="talk illustration"/><br/>
                     <p><small><i>Illustrations made possible by our friends at <a href="https://netlify.com">Netlify</a> ❤️</i></small></p>
                 </div>
-                <!--div class="video">
+                <div class="video">
                 ${ ytId
                 ?   /*html*/`<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/${ ytId }" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`
                 :   /*html*/`<p>Video Recording Coming Soon!</p>`}
-                </div-->
+                </div>
                 <h2>About ${ name }</h2>
                 <div class="person-info"> 
                     <div class="person-photo"><img src="${ assetPath }/${ key }.jpg" alt="photo of ${ name }"/></div>
