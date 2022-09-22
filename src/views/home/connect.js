@@ -1,13 +1,18 @@
 let Layout = require('../layout/home')
 
-module.exports = async function({ ticket, connections }) {
+module.exports = async function({ ticket, connections, message }) {
+    let { auth_hash, conn_hash } = ticket
     let content = /*html*/`
         <div id=page>
             <div class=page-title><div><h1>Connect 🤝</h1></div></div>
             <div class=page-body class=narrow>
-            <div class="cta"><a id="copy-sharing-url-button" href="/home/connect?add_connection=${ c.conn_hash }">Copy Sharing URL 🔗➡️📋</a></div>
+            ${ message ? `<p><span class="highlight success">${ message }</span></p>` : ``}
             <h2>Make a Connection</h2>
-            <iframe id="retool-app" height="525" scrolling="no" allow="camera" style="border:none" src="https://retoolin.tryretool.com/embedded/public/3997468d-a0cf-4d2f-b18e-055db698b133?auth_hash=${ encodeURIComponent(ticket.auth_hash) }"></iframe>
+            <iframe id="retool-app" height="525" scrolling="no" allow="camera" style="border:none" src="https://retoolin.tryretool.com/embedded/public/3997468d-a0cf-4d2f-b18e-055db698b133?auth_hash=${ encodeURIComponent(auth_hash) }"></iframe>
+            <h2>Share Your Connection URL</h2>
+            <p>This is a public URL that you can share with people who you'd like to connect with via the CascadiaJS 2022 app.</p>
+            <input type="text" value="http://2022.cascadiajs.com/home/connect?add_connection=${ conn_hash }" size="62">
+            <i id="copy-sharing-url-button" class="fa-regular fa-copy" style="margin:-25px"></i>
             <h2>Your Connections</h2>
             ${ connections.map((c) => /*html*/`
                 <details>
@@ -31,7 +36,8 @@ module.exports = async function({ ticket, connections }) {
                 const copySharingUrlButton = document.getElementById("copy-sharing-url-button");
                 copySharingUrlButton.addEventListener('click', (e) => {
                     e.preventDefault();
-                    navigator.clipboard.writeText("https://2022.cascadiajs.com/home/connect?add_connection=${ c.conn_hash }")
+                    navigator.clipboard.writeText("https://2022.cascadiajs.com/home/connect?add_connection=${ conn_hash }")
+                    alert("URL copied to your clipboard")
                 })
             </script>
         </div>

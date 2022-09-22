@@ -1296,6 +1296,10 @@ a[target="_blank"]:after {
     margin-bottom: 8px;
 }
 
+#copy-sharing-url-button:hover {
+    cursor: grab;
+}
+
 @media only screen and (min-width: 768px) {
 
     #root {

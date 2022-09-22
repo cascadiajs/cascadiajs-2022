@@ -78,8 +78,11 @@ async function authenticated(req) {
     const connections = await connectedTicket.connections()
     const { csv, add_connection } = req.queryStringParameters
     if (add_connection) {
-      const connectToTicket = Ticket.fromConnectionHash(add_connection)
+      const connectToTicket = await Ticket.fromConnectionHash(add_connection)
       connectedTicket.addConnection(connectToTicket)
+      return {
+        location: `/home/connect?message=${encodeURIComponent("You are now connected to " + connectToTicket.full_name + "!")}`
+      }
     }
     if (csv) {
       return {
@@ -89,7 +92,7 @@ async function authenticated(req) {
       }
     }
     else {
-      return ConnectView({ ticket, connections })
+      return ConnectView({ ticket, connections, message })
     }
   }
   else if (view === 'wait') {
