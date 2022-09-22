@@ -34,9 +34,9 @@ module.exports = async function({ ticket, connections, message }) {
                 });
 
                 const copySharingUrlButton = document.getElementById("copy-sharing-url-button");
-                copySharingUrlButton.addEventListener('click', (e) => {
+                copySharingUrlButton.addEventListener('click', async (e) => {
                     e.preventDefault();
-                    navigator.clipboard.writeText("https://2022.cascadiajs.com/home/connect?add_connection=${ conn_hash }")
+                    await navigator.clipboard.writeText("https://2022.cascadiajs.com/home/connect?add_connection=${ conn_hash }")
                     alert("URL copied to your clipboard")
                 })
             </script>
