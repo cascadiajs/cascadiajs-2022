@@ -1,6 +1,6 @@
 ---
 title: Scavenger Hunt (Orienteering) Activity
-excerpt: Score orienteering: how can you get the most points around Sun River?
+excerpt: Score orienteering, how can you get the most points around Sun River?
 image: /images/sunriver/sunriver-boating.webp
 caption: Getting out on the water at Sunriver Resort
 ---
