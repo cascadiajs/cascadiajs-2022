@@ -5,6 +5,7 @@ module.exports = async function({ ticket, connections }) {
         <div id=page>
             <div class=page-title><div><h1>Connect 🤝</h1></div></div>
             <div class=page-body class=narrow>
+            <div class="cta"><a id="copy-sharing-url-button" href="/home/connect?add_connection=${ c.conn_hash }">Copy Sharing URL 🔗➡️📋</a></div>
             <h2>Make a Connection</h2>
             <iframe id="retool-app" height="525" scrolling="no" allow="camera" style="border:none" src="https://retoolin.tryretool.com/embedded/public/3997468d-a0cf-4d2f-b18e-055db698b133?auth_hash=${ encodeURIComponent(ticket.auth_hash) }"></iframe>
             <h2>Your Connections</h2>
@@ -26,6 +27,12 @@ module.exports = async function({ ticket, connections }) {
                 window.addEventListener('message', (event) => {
                     if (event.data === 'reload') window.location.reload();
                 });
+
+                const copySharingUrlButton = document.getElementById("copy-sharing-url-button");
+                copySharingUrlButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    navigator.clipboard.writeText("https://2022.cascadiajs.com/home/connect?add_connection=${ c.conn_hash }")
+                })
             </script>
         </div>
     `
