@@ -31,6 +31,8 @@ Our Activity Lead, Kelsey Breseman, loves to go Orienteering and has devised an 
 
 Our friends at [Begin](/sponsors/begin) will have some surprises in store as well, so don't miss out!
 
+<div class="cta secondary"><a href="/conference/scavenger-hunt">Scavenger Hunt Recap</div>
+
 <h2>Sunriver Bike Ride by <img src="/images/sponsors/web3-storage.png"/></h2>
 
 If you're looking for a guided ride, Christian Danielsen will lead a group from the Bike Barn for a mellow, 1-hour circuit around the resort. Beginner friendly, all abilities welcome! The perfect place for cruising with your new friends at CascadiaJS. 
