@@ -1,10 +1,11 @@
 let crypto = require('crypto')
 let data = require('@begin/data')
 let AWS = require('aws-sdk')
-let arc = require('@architect/functions')
+//let arc = require('@architect/functions')
 let screenshot = require('./screenshot')
 
-async function Social (req) {
+//async function Social (req) {
+exports.handler = async function (req) {
   const s3 = new AWS.S3()
   const { path, rebuild } = req.queryStringParameters
   //console.log(path, rebuild)
@@ -76,4 +77,4 @@ async function Social (req) {
   //}
 }
 
-exports.handler = arc.http.async(Social)
+//exports.handler = arc.http.async(Social)
