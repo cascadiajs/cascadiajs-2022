@@ -1,6 +1,6 @@
 let arc = require('@architect/functions')
-let screenshot = require('./screenshot')
-let AWS = require('aws-sdk')
+//let screenshot = require('./screenshot')
+/* let AWS = require('aws-sdk')
 
 function getBaseUrl() {
   let url
@@ -11,14 +11,16 @@ function getBaseUrl() {
       url = `https://${ process.env.NODE_ENV === 'staging' ? 'staging.' : '' }2022.cascadiajs.com`
   }
   return url
-}
+}*/
 
 async function ticketShared (event) {
   console.log(JSON.stringify(event, null, 2))
+  /* HOT FIX for Lambda/Puppeteer issue
   let number = event.number
   try {
     let url = `${ getBaseUrl() }/tickets/${ number }?social`
     let file = await screenshot({ url })
+    // remove this line when issue is fixed
     const s3 = new AWS.S3()
     let fileName = `ticket-${ number }.png`
     await s3
@@ -35,7 +37,7 @@ async function ticketShared (event) {
   catch (error) {
     console.log(error)
   }
-
+  END HOT FIX */
   return
 }
 
