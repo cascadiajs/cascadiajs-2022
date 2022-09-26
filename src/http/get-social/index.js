@@ -1,11 +1,10 @@
 let crypto = require('crypto')
 let data = require('@begin/data')
 let AWS = require('aws-sdk')
-//let arc = require('@architect/functions')
-let screenshot = require('./screenshot')
+let arc = require('@architect/functions')
+//let screenshot = require('./screenshot')
 
-//async function Social (req) {
-exports.handler = async function (req) {
+async function Social (req) {
   const s3 = new AWS.S3()
   const { path, rebuild } = req.queryStringParameters
   //console.log(path, rebuild)
@@ -26,6 +25,9 @@ exports.handler = async function (req) {
 
   // if it does not or we are triggering a rebuild, build and store the image
   if (!record || rebuild) {
+
+    /* BEGIN TEMP FIX TO SOLVE AWS DEPLOY ISSUES, COMMENTING OUT ALL PUPPETEER CODE
+
     //console.log('generating screen shot')
     try {
       // build the image
@@ -52,6 +54,12 @@ exports.handler = async function (req) {
         body: error.toString()
       }
     }
+
+    END TEMP FIX */
+
+    // remove this line when/if the Lambda/Puppeteer issue is fixed
+    fileName = `social-${ encodeURIComponent('VeXcp32Uirksh/mMjGaXJRT7Uig=') }.png`
+
   }
 
   // read and return image data from s3
@@ -77,4 +85,4 @@ exports.handler = async function (req) {
   //}
 }
 
-//exports.handler = arc.http.async(Social)
+exports.handler = arc.http.async(Social)
