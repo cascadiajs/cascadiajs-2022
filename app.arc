@@ -39,7 +39,7 @@ data
   ttl TTL
 
 @aws
-runtime nodejs14.x
+runtime nodejs20.x
 
 @events
 ticket-shared

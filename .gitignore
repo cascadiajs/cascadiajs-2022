@@ -9,3 +9,4 @@ src/shared/static.json
 .env
 .DS_Store
 prefs.arc
+pnpm-lock.yaml
