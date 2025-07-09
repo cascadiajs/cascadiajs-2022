@@ -4,6 +4,7 @@
   "description": "The web app for the CascadiaJS 2022 conference",
   "scripts": {
     "start": "ARC_TABLES_PORT=5001 npx sandbox",
+    "test": "echo add tests",
     "eslint": "eslint src --ignore-pattern node_modules --fix"
   },
   "devDependencies": {
